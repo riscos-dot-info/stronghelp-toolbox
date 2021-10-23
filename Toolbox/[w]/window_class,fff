@@ -1,0 +1,54 @@
+Window Class C Veneers
+#Parent !Root
+#include Style
+
+#Align left
+#Wrap on
+Ref:	Page 287 of the {/}User Interface Toolbox{/} manual.
+
+<Window SWIs=>window/m>
+<Window Gadgets=>gadgets>
+#Line
+<Window Data Types=>window_class_data_types>
+<Window Class Flags=>window_class_flags>
+
+#Align Centre
+{*}{/}Window SWIs{/}{*}
+#Align Left
+
+#Table columns 3
+<window_add_gadget>
+<window_add_keyboard_shortcuts>
+<window_extract_gadget_info>
+<window_force_redraw>
+<window_get_default_focus>
+<window_get_extent>
+<window_get_help_message>
+<window_get_menu>
+<window_get_pointer>
+<window_get_pointer_info>
+<window_get_title>
+<window_get_tool_bars>
+<window_get_wimp_handle>
+<window_remove_gadget>
+<window_remove_keyboard_shortcuts>
+<window_set_default_focus>
+<window_set_extent>
+<window_set_help_message>
+<window_set_menu>
+<window_set_pointer>
+<window_set_title>
+<window_set_tool_bars>
+<window_wimp_to_toolbox>
+#EndTable
+
+#Line
+#Align Centre
+{*}{/}Window Events{/}{*}
+#Align Left
+
+#Wrap off
+<Window_AboutToBeShown>
+<Window_HasBeenHidden>
+
+#Wrap

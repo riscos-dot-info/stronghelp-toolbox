@@ -1,0 +1,27 @@
+ProgInfo_GetWindowID
+#include Style
+#Background wimp 1
+Module:	<ProgInfo=>proginfo/m>
+#Line
+#Wrap off
+Syntax:	ProgInfo_GetWindowID
+Veneer:	<proginfo_get_window_id>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ProgInfo object ID
+r2 = 0
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = Window Object Id.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets window Id for the ProgInfo object.

@@ -1,0 +1,10 @@
+Iconbar_ShowSelectAtPointer
+#Wrap Off
+Defined in:	<iconbar.h=>ibar_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Iconbar_ShowSelectAtPointer 0x00000200
+#Indent
+{F}
+#Wrap On

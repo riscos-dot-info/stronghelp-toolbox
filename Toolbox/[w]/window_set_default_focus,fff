@@ -1,0 +1,19 @@
+window_set_default_focus
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_set_default_focus 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   focus
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets which gadget the cursor appears in when the window specified is open.  {/}focus{/} = -1 means no default focus, and {/}focus{/} = -2 means put the focus in the window.

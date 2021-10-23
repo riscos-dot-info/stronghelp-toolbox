@@ -1,0 +1,19 @@
+StringSet_AboutToBeShown 0x8288f
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	StringSet_AboutToBeShown 0x8288f
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} StringSetAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised just before the string set's menu is to be shown.

@@ -1,0 +1,20 @@
+button_set_validation
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *button_set_validation 
+(
+unsigned int  flags,
+<ObjectId>      window,
+<ComponentId>   button,
+char         *value
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the validation string (text or spritename) of the button.

@@ -1,0 +1,23 @@
+FontDboxAboutToBeShownEvent
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+
+  union
+  \{
+    <TopLeft>              pos;
+    <WindowShowObjectBlock> full;
+  } info;
+
+} FontDboxAboutToBeShownEvent;
+{F}
+#indent
+#Wrap

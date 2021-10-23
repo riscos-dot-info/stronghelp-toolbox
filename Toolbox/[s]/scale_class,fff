@@ -1,0 +1,30 @@
+Scale Dialogue Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Scale Dialogues{/}
+
+#Align left
+#Wrap on
+Ref:	Page 271 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>scale_class_data_types>
+<Flags=>scale_class_flags>
+
+#Table Columns 2
+<scale_get_bounds=>scale_get_bounds>
+<scale_get_title=>scale_get_title>
+<scale_get_value=>scale_get_value>
+<scale_get_window_id=>scale_get_window_id>
+<scale_set_bounds=>scale_set_bounds>
+<scale_set_title=>scale_set_title>
+<scale_set_value=>scale_set_value>
+#EndTable
+
+{/}Scale Dialogue Events{/}
+<Scale_AboutToBeShown=>Scale_AboutToBeShown>
+<Scale_ApplyFactor=>Scale_ApplyFactor>
+<Scale_DialogueCompleted=>Scale_DialogueCompleted>
+#Line
+Defined in Scale.H

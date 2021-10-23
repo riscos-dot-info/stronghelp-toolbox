@@ -1,0 +1,10 @@
+FontMenu_GenerateShowEvent
+#Wrap Off
+Defined in:	<fontmenu.h=>font_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define FontMenu_GenerateShowEvent 0x00000001
+#Indent
+{F}
+#Wrap On

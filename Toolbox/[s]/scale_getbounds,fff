@@ -1,0 +1,30 @@
+Scale_GetBounds
+#include Style
+#Background wimp 1
+Module:	<Scale=>scale/m>
+#Line
+#Wrap off
+Syntax:	Scale_GetBounds
+Veneer:	<scale_get_bounds>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0 - get lower bound.
+     bit 1 - get upper bound.
+     bit 2 - get step size.
+r1 = Scale object ID
+r2 = 4
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = lower bound value
+r1 = upper bound value
+r2 = step size value
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the bounds for the Scale object.

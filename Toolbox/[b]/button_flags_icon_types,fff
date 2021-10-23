@@ -1,0 +1,29 @@
+Button Flags Bits 12-15 (Icon types)
+#include Style
+#Background wimp 1
+Command:	<button_get_flags=>button_get_flags>
+#Line
+#Wrap off
+Bits:	
+#indent 6
+{FCode}12-15 - Meaning:
+#indent +10
+0     - Ignore everything (except menu).
+1     - Notify continuously while pointer is over icon.
+2     - Click (auto-repeat)
+3     - Click (no auto-repeat)
+4     - Click selects, move away deselects. Notify of release.
+5     - Click selects. Doubleclick notifies task.
+6     - 3 + Drag (*16).
+7     - 4 + Drag (*16). Moving away doesn't deselect.
+8     - 5 + Drag (*16).
+9     - 'menu' icon
+10    - Click (*256), Drag (*16), Doubleclick (*1)
+11    - Click selects (*1), Drag notifies (*16)
+12-13 - Reserved.
+14    - Click causes it to gain caret. Can also Drag
+15    - Click causes it to gain caret.
+{f}
+#indent
+#indent
+

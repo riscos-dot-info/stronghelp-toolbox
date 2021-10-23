@@ -1,0 +1,19 @@
+DCS_Discard 0x82a81
+#include Style
+#Background wimp 1
+Class:	<DCS Dialogue=>dcs_class>
+#Line
+#Wrap off
+Syntax:	DCS_Discard 0x82a81
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} DCSDiscardEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user clicks on the {/}Discard{/} button.

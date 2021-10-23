@@ -1,0 +1,11 @@
+Wimp_MFontChanged
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MFontChanged 0x400cf
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <FontChanged.=>Wimp:Msg_400cf>

@@ -1,0 +1,10 @@
+SaveAs_OnlySaveSelection
+#Wrap Off
+Defined in:	<saveas.h=>saveas_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define SaveAs_OnlySaveSelection 0x0000001
+#Indent
+{F}
+#Wrap On

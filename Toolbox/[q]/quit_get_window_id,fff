@@ -1,0 +1,19 @@
+quit_get_window_id
+#include Style
+#Background wimp 1
+Class:	<Quit Dialogue=>quit_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *quit_get_window_id 
+(
+  unsigned int  flags,
+  <ObjectId>      quit,
+  <ObjectId>     *window
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the window id of the underlying Window object.

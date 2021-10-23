@@ -1,0 +1,24 @@
+Iconbar_GetIconHandle
+#include Style
+#Background wimp 1
+Module:	<Iconbar=>iconbar/m>
+#Line
+#Wrap off
+Syntax:	Iconbar_GetIconHandle
+Veneer:	<iconbar_get_icon_handle>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Iconbar object ID
+r2 = 0
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = wimp icon handle.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the wimp id of the Iconbar Object.

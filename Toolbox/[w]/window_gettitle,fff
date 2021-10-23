@@ -1,0 +1,28 @@
+Window_GetTitle
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_GetTitle
+Veneer:	<window_get_title=>window_get_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 12
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0),
+     else buffer contains title text.
+{f}
+#indent
+#Wrap
+Purpose:	Method read the title text in a window's title bar.

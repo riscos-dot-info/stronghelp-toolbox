@@ -1,0 +1,19 @@
+ActionButton Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 339 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>actionbox_flags>
+
+<ActionButton_GetClickShow>
+<ActionButton_GetEvent>
+<ActionButton_GetText>
+<ActionButton_SetClickShow>
+<ActionButton_SetEvent>
+<ActionButton_SetText>
+
+{/}Action Button Events{/}
+<ActionButton_Selected=>actionbutton_selected>

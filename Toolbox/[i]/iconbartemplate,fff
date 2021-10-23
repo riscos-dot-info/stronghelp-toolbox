@@ -1,0 +1,28 @@
+IconBarTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<iconbar.h=>ibar_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  unsigned int  flags;
+  int           position;
+  int           priority;
+  char          *sprite_name;
+  int           max_sprite;
+  char          *text;
+  int           max_text_len;
+  char          *menu;
+  int           select_event;
+  int           adjust_event;
+  char          *select_show;
+  char          *adjust_show;
+  char          *help_message;
+  int           max_help;
+} IconbarTemplate;
+{f}
+#indent
+#Wrap

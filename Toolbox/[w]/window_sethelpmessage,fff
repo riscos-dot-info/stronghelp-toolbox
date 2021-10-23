@@ -1,0 +1,26 @@
+Window_SetHelpMessage
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_SetHelpMessage
+Veneer:	<window_set_help_message=>window_set_help_message>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 7
+r3 = pointer to message text
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the help text for the window.  If r3=0 current text is removed.

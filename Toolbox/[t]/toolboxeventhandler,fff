@@ -1,0 +1,19 @@
+ToolboxEventHandler
+#include Style
+#Background wimp 1
+Header:	<Event.H=>event_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef int (ToolboxEventHandler) 
+(
+  int           event_code,
+  <ToolboxEvent> *event,
+  <IdBlock>      *id_block,
+  void         *handle
+);
+
+{F}
+#indent
+#Wrap

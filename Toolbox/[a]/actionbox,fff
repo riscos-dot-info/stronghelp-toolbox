@@ -1,0 +1,26 @@
+Action Boxes
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of action boxes{/}
+
+#Align left
+#Wrap on
+Ref:	Page 339 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>actionbox_data_types>
+<Flags=>actionbox_flags>
+
+<actionbutton_get_click_show>
+<actionbutton_get_event>
+<actionbutton_get_text>
+<actionbutton_set_click_show>
+<actionbutton_set_event>
+<actionbutton_set_font>
+<actionbutton_set_text>
+
+{/}Action Button Events{/}
+<ActionButton_Selected>
+#Line
+Defined in <Gadgets.H=>gadgets>

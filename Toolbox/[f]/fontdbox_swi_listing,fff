@@ -1,0 +1,19 @@
+FontDbox SWI Listing
+#Parent !Root
+#include Style
+#Align Centre
+<FontDbox=>FontDbox/m>
+#Line
+#Align left
+
+00 - <FontDbox_GetWindowID>
+01 - <FontDbox_SetFont>
+02 - <FontDbox_GetFont>
+03 - <FontDbox_SetSize>
+04 - <FontDbox_GetSize>
+05 - <FontDbox_SetTryString>
+06 - <FontDbox_GetTryString>
+07 - <FontDbox_SetTitle>
+08 - <FontDbox_GetTitle>
+
+To be used with <Toolbox_ObjectMiscOp>.

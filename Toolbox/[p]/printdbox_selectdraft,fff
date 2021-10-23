@@ -1,0 +1,10 @@
+PrintDbox_SelectDraft
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define PrintDbox_SelectDraft 0x00001000
+#Indent
+{F}
+#Wrap On

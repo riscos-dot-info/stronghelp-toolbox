@@ -1,0 +1,22 @@
+WimpDataOpen Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+    int window_handle;
+    int padding1;
+    int x;
+    int y;
+    int padding2;
+    int file_type;
+    char path_name[212];
+} WimpDataOpen;
+{F}
+#indent
+#Wrap

@@ -1,0 +1,20 @@
+NumberRange_ValueChanged 0x8288d
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	NumberRange_ValueChanged 0x8288d
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader>  hdr;
+  int                 new_value;
+} NumberRangeValueChangedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This toolbox event is raised when the value of the number range has changed.

@@ -1,0 +1,24 @@
+Toolbox_TemplateLookup (0x44ed0)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_TemplateLookup
+Veneer:	<toolbox_template_lookup>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = pointer to template name
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0 = pointer to description block
+r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method returns a pointer to a block suitable to pass to <toolbox_create_object> or <window_extract_gadget_info>.

@@ -1,0 +1,10 @@
+Draggable_DragStarted_Ctrl
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Draggable_DragStarted_Ctrl 0x00000010
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,36 @@
+WimpWindow Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{Fcode}typedef struct
+\{  
+  <BBox> visible_area;  
+  int xscroll; 
+  int yscroll;
+  int behind;
+  unsigned int flags;
+  char title_fg;
+  char title_bg;
+  char work_fg;
+  char work_bg;
+  char scroll_outer;
+  char scroll_inner;
+  char highlight_bg;
+  char reserved;
+  <BBox> extent;
+  unsigned int title_flags;
+  unsigned int work_flags;
+  void *sprite_area;
+  short min_width;
+  short min_height;
+  <WimpIconData> title_data;
+  int nicons;
+} WimpWindow;
+{f}
+#indent
+#Wrap

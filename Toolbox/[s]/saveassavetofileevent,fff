@@ -1,0 +1,16 @@
+SaveAsSaveToFileEvent
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  char               filename [212];
+} SaveAsSaveToFileEvent;
+{F}
+#indent
+#Wrap

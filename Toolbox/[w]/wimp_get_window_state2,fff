@@ -1,0 +1,15 @@
+wimp_get_window_state2
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	_kernel_oserror *wimp_get_window_state2
+		(
+		<WimpGetWindowStateBlock> *state,
+		int *parent_handle,
+		unsigned int *flags
+		);
+
+Purpose:	C SWI veneer to <Wimp_GetWindowState.=>Wimp:Wimp_getwindowstate>

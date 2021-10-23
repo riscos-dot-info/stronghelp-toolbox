@@ -1,0 +1,25 @@
+Menu_GetSubMenuEvent
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_GetSubMenuEvent
+Veneer:	<menu_get_sub_menu_event>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 11
+r3 = component id of entry
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = toolbox event code
+{f}
+#indent
+#Wrap
+Purpose:		Method gets submenu event for an entry on a menu.

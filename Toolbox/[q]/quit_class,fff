@@ -1,0 +1,28 @@
+Quit Dialogue Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Quit Dialogue{/}
+
+#Align left
+#Wrap on
+Ref:	Page 233 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>quit_class_data_types>
+<Flags=>quit_class_flags>
+#Table Columns 2
+<quit_get_window_id>
+<quit_set_message>
+<quit_get_message>
+<quit_set_title>
+<quit_get_title>
+#EndTable
+
+{/}Quit Dialogue Events{/}
+<Quit_AboutToBeShown>
+<Quit_Cancel>
+<Quit_DialogueCompleted>
+<Quit_Quit>
+#Line
+Defined in Quit.H

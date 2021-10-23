@@ -1,0 +1,27 @@
+ScrollList_DeleteItems
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<scrolllist_delete_items>
+Syntax:	ScrollList_DeleteItems
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x401a + 3 (16413)
+r3 = gadget component Id
+r4 = start index
+r5 = end index
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method deletes an item from the scrolllist.

@@ -1,0 +1,26 @@
+PrintDbox_SetOrientation
+#include Style
+#Background wimp 1
+Module:	<PrintDbox=>printdbox/m>
+#Line
+#Wrap off
+Syntax:	PrintDbox_SetOrientation
+Veneer:	<printdbox_set_orientation>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = PrintDbox object ID
+r2 = 7
+r3 = non-zero: sideways
+     zero:     upright
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the orientation in the Print Dialogue.

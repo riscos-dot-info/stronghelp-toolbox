@@ -1,0 +1,26 @@
+Adjusters Flags
+#include Style
+#Background wimp 1
+Gadget:	<Adjusters=>adjusters>
+#Line
+#Wrap off
+Bits:	0	- Setting:
+#indent+8
+		Set means increment.
+		Clear means decrement.
+#indent
+	1	- Setting:
+#indent+8
+		Set means up/down pair.
+		Clear means left/right pair.
+#indent
+
+Constants:
+	<Adjuster_Increment>
+	<Adjuster_Decrement>
+	<Adjuster_UpDown>
+	<Adjuster_LeftRight>
+	<Adjuster_Clicked_Down>
+	<Adjuster_Clicked_Up>
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

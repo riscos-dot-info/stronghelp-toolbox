@@ -1,0 +1,25 @@
+Menu_RemoveEntry
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_RemoveEntry
+Veneer:	<menu_remove_entry>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 21
+r3 = component id of entry
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method removes an entry on the menu.

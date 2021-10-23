@@ -1,0 +1,17 @@
+event_initialise
+#include Style
+#Background wimp 1
+Header:	<Event.H=>event_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *event_initialise
+(
+  <IdBlock> *block
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	The IdBlock that was given to <toolbox_initialise> is passed to <event_initialise>.  It is then passed to Toolbox and Wimp handlers when they are called.

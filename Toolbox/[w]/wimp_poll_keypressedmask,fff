@@ -1,0 +1,10 @@
+Wimp_Poll_KeyPressedMask
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_Poll_KeyPressedMask             (1u << 8)
+#Indent
+{F}
+#Wrap On

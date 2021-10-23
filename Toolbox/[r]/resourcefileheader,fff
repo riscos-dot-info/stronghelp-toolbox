@@ -1,0 +1,17 @@
+ResourceFileHeader Data Type
+#include Style
+#Background wimp 1
+Defined In:	<toolbox.h=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int             file_id;
+  int             version_number;
+  int             object_offset;
+} ResourceFileHeader;
+#indent
+
+#Wrap

@@ -1,0 +1,15 @@
+wimp_open_window2
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	_kernel_oserror *wimp_open_window2
+		(
+		<WimpOpenWindowBlock> *show
+		int parent_handle,
+		unsigned int flags
+		);
+
+Purpose:	Open a Toolbox window nested within another window.  Requires Windowmanager 3.90 or above.

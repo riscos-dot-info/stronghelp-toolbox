@@ -1,0 +1,27 @@
+FileInfo_GetModified
+#include Style
+#Background wimp 1
+Module:	<FileInfo=>fileinfo/m>
+#Line
+#Wrap off
+Syntax:	FileInfo_GetModified
+Veneer:	<fileinfo_get_modified>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FileInfo object ID
+r2 = 2
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = flag
+     0  - Unmodified
+     >0 - Modified
+{f}
+#indent
+#Wrap
+Purpose:	Method gets whether the file is modified or not.

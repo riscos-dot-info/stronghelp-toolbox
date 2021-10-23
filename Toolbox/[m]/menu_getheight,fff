@@ -1,0 +1,24 @@
+Menu_GetHeight
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_GetHeight
+Veneer:	<menu_get_height>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 22
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = height of menu in OS units
+{f}
+#indent
+#Wrap
+Purpose:		Method returns height of the menu.

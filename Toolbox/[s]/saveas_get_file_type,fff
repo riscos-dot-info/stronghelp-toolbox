@@ -1,0 +1,19 @@
+saveas_get_file_type
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *saveas_get_file_type 
+(
+unsigned int  flags,
+<ObjectId>      saveas,
+int          *file_type
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the filetype for the SaveAs dialogue.

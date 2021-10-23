@@ -1,0 +1,11 @@
+Toolbox_ShowObject_Default
+#Wrap Off
+Defined in:	<toolbox.h=>tbox_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Toolbox_ShowObject_Default 0
+#Indent
+{F}
+#Wrap On
+Used with <toolbox_show_object>.

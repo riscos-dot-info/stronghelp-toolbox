@@ -1,0 +1,10 @@
+Slider_Draggable
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Slider_Draggable 0x00000010
+#Indent
+{F}
+#Wrap On

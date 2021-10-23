@@ -1,0 +1,27 @@
+Iconbar_GetHelpMessage
+#include Style
+#Background wimp 1
+Module:	<Iconbar=>iconbar/m>
+#Line
+#Wrap off
+Syntax:	Iconbar_GetHelpMessage
+Veneer:	<iconbar_get_help_message>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Iconbar object ID
+r2 = 8
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains help text.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the help text for the Iconbar Object.

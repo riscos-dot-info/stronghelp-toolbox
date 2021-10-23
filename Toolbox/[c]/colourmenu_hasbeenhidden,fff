@@ -1,0 +1,19 @@
+ColourMenu_HasBeenHidden 0x82981
+#include Style
+#Background wimp 1
+Class:	<Colour Menu=>col-m_class>
+#Line
+#Wrap off
+Syntax:	ColourMenu_HasBeenHidden 0x82981
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} ColourMenuHasBeenHiddenEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the Colour Menu is closed.

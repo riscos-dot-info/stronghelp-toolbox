@@ -1,0 +1,17 @@
+FontMenuSelectionEvent
+#include Style
+#Background wimp 1
+Class:	<Font Menu=>font_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  char               font_id[216];
+} FontMenuSelectionEvent;
+
+{F}
+#indent
+#Wrap

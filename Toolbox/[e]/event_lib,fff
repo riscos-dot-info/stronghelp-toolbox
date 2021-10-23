@@ -1,0 +1,47 @@
+Event.H
+#Parent !Root
+#include Style
+#Wrap off
+#Align centre
+{/}The sections below list functions available in the Event library{/}
+#Align left
+
+Ref:	Page 143 of the {/}Acorn C/C++{/} manual.
+#Line
+<Data Types=>event_lib_data_types>
+
+#Align Centre
+{/}{*} Initialisation {*}{/}
+#Align Left
+
+<event_get_mask>
+<event_initialise>
+<event_set_mask>
+#Line
+#Align Centre
+{/}{*}Polling{*}{/}
+#Align Left
+
+<event_poll>
+<event_poll_idle>
+#Line
+#Align Centre
+{/}{*}Registering Handlers{*}{/}
+#Align Left
+
+#Table Columns 2
+<event_register_message_handler>
+<event_register_toolbox_handler>
+<event_register_wimp_handler>
+<event_deregister_message_handler>
+<event_deregister_toolbox_handler>
+<event_deregister_wimp_handler>
+#EndTable
+#Line
+#Align Centre
+{/}{*}Handlers{*}{/}
+#Align Left
+
+<ToolboxEventHandler>
+<WimpEventHandler>
+<WimpMessageHandler>

@@ -1,0 +1,21 @@
+toolaction_set_ident
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<Toolaction.H=>toolaction>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern void toolaction_set_ident 
+(
+  <toolaction_flags> flags,
+  <toolbox_o>        obj,
+  <toolbox_c>        cmp,
+  const char      *ident
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the ident string for off or on, depending on the flags.

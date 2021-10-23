@@ -1,0 +1,19 @@
+window_set_extent
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_set_extent
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <BBox>         *extent
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the size of the specified window.

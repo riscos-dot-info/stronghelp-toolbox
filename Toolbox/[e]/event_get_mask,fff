@@ -1,0 +1,17 @@
+event_get_mask
+#include Style
+#Background wimp 1
+Header:	<Event.H=>event_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *event_get_mask 
+(
+  unsigned int *mask
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Mask should be the address of an integer where the current mask is to be stored.

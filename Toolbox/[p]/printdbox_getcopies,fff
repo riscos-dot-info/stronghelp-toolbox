@@ -1,0 +1,24 @@
+PrintDbox_GetCopies
+#include Style
+#Background wimp 1
+Module:	<PrintDbox=>printdbox/m>
+#Line
+#Wrap off
+Syntax:	PrintDbox_GetCopies
+Veneer:	<printdbox_get_copies>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = PrintDbox object ID
+r2 = 4
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = number of copies.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the number of copies in the Print Dialogue.

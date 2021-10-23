@@ -1,0 +1,7 @@
+menu_add_entry Flags
+#include Style
+#Background wimp 1
+Command:	<menu_add_entry=>menu_add_entry>
+#Line
+#Wrap off
+Bits:	0	- Set means add the entry before the specified entry.

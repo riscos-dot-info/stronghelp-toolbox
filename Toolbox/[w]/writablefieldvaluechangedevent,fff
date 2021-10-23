@@ -1,0 +1,17 @@
+WritableFieldValueChangedEvent
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  char               string[ sizeof(<ToolboxEvent>) - 
+                             sizeof(<ToolboxEventHeader>)
+                           ];
+} WritableFieldValueChangedEvent;
+{F}
+#indent

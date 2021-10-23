@@ -1,0 +1,21 @@
+menu_get_help_message
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_get_help_message 
+(
+  unsigned int  flags,
+  <ObjectId>      menu,
+  char         *buffer,
+  int           buff_size,
+  int          *nbytes
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the standard Risc OS help message for that menu.

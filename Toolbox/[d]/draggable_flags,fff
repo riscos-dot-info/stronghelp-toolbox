@@ -1,0 +1,35 @@
+Draggable Flags
+#include Style
+#Background wimp 1
+Gadget:	<Draggable=>draggable>
+#Line
+#Wrap off
+Bits:	0	- Set means warn of drag start using <Draggable_DragStarted.=>Draggable_DragStarted>
+	1	- Set means draggable containg a sprite.
+	2	- Set means draggable containg text.
+	3-5	- Draggable type:
+#indent +8
+		0 - Drag only.
+		1 - Click, drag, doubleclick.
+		2 - Click selects, doubleclick, drag.
+#indent
+	6	- Set means deliver drag ended events as Toolbox id's.
+	7	- Set means dragged object has a drop shadow (if solid).
+	8	- Set means dragged object is not dithered (if solid).
+
+Constants:
+	<Draggable_GenerateDragStarted>
+	<Draggable_Sprite>
+	<Draggable_Text>
+	<Draggable_TypeMask>
+	<Draggable_TypeShift>
+	<Draggable_ToolboxIds>
+	<Draggable_HasDropShadow>
+	<Draggable_NotDithered>
+	<Draggable_DragStarted_Adjust>
+	<Draggable_DragStarted_Select>
+	<Draggable_DragStarted_Shift>
+	<Draggable_DragStarted_Ctrl>
+	<Draggable_DragEndedOnToolboxWindow>
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

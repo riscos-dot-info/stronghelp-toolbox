@@ -1,0 +1,20 @@
+iconbar_get_event
+#include Style
+#Background wimp 1
+Class:	<Iconbar=>ibar_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *iconbar_get_event 
+(
+  unsigned int  <flags,=>iconbar_get_event_flags>
+  <ObjectId>      iconbar,
+  int          *select_event,
+  int          *adjust_event
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the Toolbox event to be raised when select is clicked on the iconbar.

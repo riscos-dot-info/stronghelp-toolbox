@@ -1,0 +1,26 @@
+Toolbox Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Toolbox Data Types{/}
+#Align left
+
+<ComponentId>
+<EventInterest>
+<IdBlock>
+<MessagesFD>
+<ObjectClass>
+<ObjectId>
+<ObjectTemplateHeader>
+<Relocation>
+<RelocationTable>
+<ResourceFileHeader>
+<ResourceFileObjectTemplateHeader>
+<ToolboxEventHeader>
+<ToolboxEvent>
+<ToolboxMsgEvent>
+<ToolboxErrorEvent>
+<ToolboxObjectAutoCreatedEvent>
+<ToolboxObjectDeletedEvent>
+<TopLeft>

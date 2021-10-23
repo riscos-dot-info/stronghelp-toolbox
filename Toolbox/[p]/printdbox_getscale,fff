@@ -1,0 +1,24 @@
+PrintDbox_GetScale
+#include Style
+#Background wimp 1
+Module:	<PrintDbox=>printdbox/m>
+#Line
+#Wrap off
+Syntax:	PrintDbox_GetScale
+Veneer:	<printdbox_get_scale>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = PrintDbox object ID
+r2 = 6
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = scale.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the scale value in the Print Dialogue.

@@ -1,0 +1,11 @@
+Gadget Flags
+#include Style
+#Background wimp 1
+Note:	The following flags are generic to all gadgets.
+#Line
+#Wrap off
+Bits:	30	- When set, gadget is at the back, i.e. created first.
+	31	- When set, gadget is faded (also declared as Gadget_Faded constant).
+#indent
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags> and <Gadget_Get_Flags=>Gadget_Get_Flags>

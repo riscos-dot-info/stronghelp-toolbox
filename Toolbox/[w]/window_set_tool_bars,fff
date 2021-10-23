@@ -1,0 +1,22 @@
+window_set_tool_bars
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_set_tool_bars 
+(
+  unsigned int  <flags,=>window_set_tool_bars_flags>
+  <ObjectId>      window,
+  <ObjectId>      ibl,
+  <ObjectId>      itl,
+  <ObjectId>      ebl,
+  <ObjectId>      etl
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the ObjectId's of the toolbars that are attached to a particular window object.

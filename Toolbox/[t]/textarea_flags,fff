@@ -1,0 +1,15 @@
+TextArea Flags
+#include Style
+#Background wimp 1
+Gadget:	<TextArea>
+#Line
+#Wrap off
+Bits:	0	- Gadget has vertical scrollbar.
+	1 	- Gadget has a horizontal scrollbar.
+	2  	- Gadget has word wrap.
+
+Constants:
+	<TextArea_Scrollbar_Vertical>
+	<TextArea_Scrollbar_Horizontal>
+#Line
+To be used with <textarea_set_state>

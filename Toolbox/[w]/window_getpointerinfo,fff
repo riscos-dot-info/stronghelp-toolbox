@@ -1,0 +1,29 @@
+Window_GetPointerInfo (0x82883)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_GetPointerInfo
+Veneer:	<window_get_pointer_info=>window_get_pointer_info>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = x position
+r1 = y position
+r2 = buttons:
+     bit 0 - adjust
+     bit 1 - menu
+     bit 2 - select
+     bit 8 - not a toolbox window
+{f}
+#indent
+#Wrap
+Purpose:	Method is analogous to <Wimp_GetPointerInfo=>Wimp:Wimp_GetPointerInfo>

@@ -1,0 +1,16 @@
+DCSSaveEvent
+#include Style
+#Background wimp 1
+Class:	<DCS Dialogue=>dcs_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} DCSSaveEvent;
+
+{F}
+#indent
+#Wrap

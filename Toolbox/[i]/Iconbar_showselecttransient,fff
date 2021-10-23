@@ -1,0 +1,10 @@
+Iconbar_ShowSelectTransient
+#Wrap Off
+Defined in:	<iconbar.h=>ibar_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Iconbar_ShowSelectTransient 0x00000004
+#Indent
+{F}
+#Wrap On

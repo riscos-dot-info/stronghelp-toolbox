@@ -1,0 +1,20 @@
+menu_get_fade
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_get_fade 
+(
+  unsigned int  flags,
+  <ObjectId>      menu,
+  <ComponentId>   entry,
+  int          *fade
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the fade state of the menu entry {/}fade{/} = 0 is unfaded, and non-zero is faded.

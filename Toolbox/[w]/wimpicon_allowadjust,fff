@@ -1,0 +1,10 @@
+WimpIcon_AllowAdjust
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpIcon_AllowAdjust (1u << 10)
+#Indent
+{F}
+#Wrap On

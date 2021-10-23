@@ -1,0 +1,11 @@
+Wimp_MShutdown
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MShutdown 0xe
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <Shutdown.=>Wimp:Msg_E>

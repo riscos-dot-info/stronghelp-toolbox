@@ -1,0 +1,23 @@
+Toolbox_DeleteObject (0x44ec1)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_DeleteObject
+Veneer:	<toolbox_delete_object>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = object Id
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method deletes the specified object.

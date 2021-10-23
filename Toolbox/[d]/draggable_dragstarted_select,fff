@@ -1,0 +1,10 @@
+Draggable_DragStarted_Select
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Draggable_DragStarted_Select 0x00000004
+#Indent
+{F}
+#Wrap On

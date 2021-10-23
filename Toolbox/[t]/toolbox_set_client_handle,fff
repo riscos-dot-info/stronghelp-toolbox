@@ -1,0 +1,19 @@
+toolbox_set_client_handle
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *toolbox_set_client_handle 
+(
+  unsigned int flags,
+  <ObjectId>     id
+  void        *client_handle
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the value of the client handle for this object.

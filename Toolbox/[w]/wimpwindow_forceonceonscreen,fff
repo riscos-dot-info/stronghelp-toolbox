@@ -1,0 +1,10 @@
+WimpWindow_ForceOnceOnScreen
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpWindow_ForceOnceOnScreen (1u << 21)
+#Indent
+{F}
+#Wrap On

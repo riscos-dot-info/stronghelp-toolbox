@@ -1,0 +1,26 @@
+ProgInfo_SetWebEvent
+#include Style
+#Background wimp 1
+Module:	<ProgInfo=>proginfo/m>
+#Line
+#Wrap off
+Syntax:	ProgInfo_SetWebEvent
+Veneer:	<proginfo_set_web_event>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ProgInfo object ID
+r2 = 10
+r3 = Event
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the event number for a click on the Web Page button.

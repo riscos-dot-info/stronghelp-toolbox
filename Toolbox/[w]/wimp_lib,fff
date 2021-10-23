@@ -1,0 +1,80 @@
+Wimp.H & WimpLib.H
+#Parent !Root
+#include Style
+#Background WIMP 1
+#Wrap off
+#Align centre
+#Wrap
+{/}The sections below list functions available in both the Wimp & WimpLib libraries.  To avoid duplication of effort the veneers below have further links to the SWI manual.{/}
+#Wrap Off
+#Align left
+
+Ref:	{/}Wimp.H{/} & {/}WimpLib.H{/} header files.
+#Line
+<Data Types=>wimp_data_types>
+<#Define Statements=>wimp_defines>
+<Wimp Message Numbers=>wimp_message_numbers>
+<Wimp Event Codes=>wimp_poll_event_codes>
+
+#Line
+#Align Centre
+{/}{*}C SWI Veneers{*}{/}
+#Align Left
+
+#Table Columns 4
+<wimp_base_of_sprites=>wimp_base_of_sprites>
+<wimp_block_copy=>wimp_block_copy>
+<wimp_close_down=>wimp_close_down>
+<wimp_close_template=>wimp_close_template>
+<wimp_close_window=>wimp_close_window>
+<wimp_command_window=>wimp_command_window>
+<wimp_create_icon=>wimp_create_icon>
+<wimp_create_menu=>wimp_create_menu>
+<wimp_create_submenu=>wimp_create_submenu>
+<wimp_create_window=>wimp_create_window>
+<wimp_decode_menu=>wimp_decode_menu>
+<wimp_delete_icon=>wimp_delete_icon>
+<wimp_delete_window=>wimp_delete_window>
+<wimp_drag_box=>wimp_drag_box>
+<wimp_force_redraw=>wimp_force_redraw>
+<wimp_force_title_redraw=>wimp_force_title_redraw>
+<wimp_get_caret_position=>wimp_get_caret_position>
+<wimp_get_icon_state=>wimp_get_icon_state>
+<wimp_get_menu_state=>wimp_get_menu_state>
+<wimp_get_pointer_info=>wimp_get_pointer_info>
+<wimp_get_rectangle=>wimp_get_rectangle>
+<wimp_get_window_info=>wimp_get_window_info>
+<wimp_get_window_outline=>wimp_get_window_outline>
+<wimp_get_window_state=>wimp_get_window_state>
+<wimp_get_window_state2=>wimp_get_window_state2>
+<wimp_initialise=>wimp_initialise>
+<wimp_load_template=>wimp_load_template>
+<wimp_open_template=>wimp_open_template>
+<wimp_open_window=>wimp_open_window>
+<wimp_open_window2=>wimp_open_window2>
+<wimp_plot_icon=>wimp_plot_icon>
+<wimp_poll=>wimp_poll>
+<wimp_pollidle=>wimp_pollidle>
+<wimp_process_key=>wimp_process_key>
+<wimp_read_palette=>wimp_read_palette>
+<wimp_read_sys_info=>wimp_read_sys_info>
+<wimp_redraw_window=>wimp_redraw_window>
+<wimp_report_error=>wimp_report_error>
+<wimp_send_message=>wimp_send_message>
+<wimp_set_caret_position=>wimp_set_caret_position>
+<wimp_set_colour=>wimp_set_colour>
+<wimp_set_extent=>wimp_set_extent>
+<wimp_set_font_colours=>wimp_set_font_colours>
+<wimp_set_icon_state=>wimp_set_icon_state>
+<wimp_set_mode=>wimp_set_mode>
+<wimp_set_palette=>wimp_set_palette>
+<wimp_set_pointer_shape=>wimp_set_pointer_shape>
+<wimp_slot_size=>wimp_slot_size>
+<wimp_sprite_op=>wimp_sprite_op>
+<wimp_start_task=>wimp_start_task>
+<wimp_text_colour=>wimp_text_colour>
+<wimp_transfer_block=>wimp_transfer_block>
+<wimp_update_window=>wimp_update_window>
+<wimp_which_icon=>wimp_which_icon>
+#EndTable
+

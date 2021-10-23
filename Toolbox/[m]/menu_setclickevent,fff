@@ -1,0 +1,26 @@
+Menu_SetClickEvent
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_SetClickEvent
+Veneer:	<menu_set_click_event>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 14
+r3 = component id of entry
+r4 = toolbox event to raise
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:		Method sets click event for an entry on a menu.

@@ -1,0 +1,26 @@
+Toolbox_GetTemplateName (0x44ecc)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_GetTemplateName
+Veneer:	<toolbox_get_template_name>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = object Id
+r2 = pointer to buffer for template name
+r3 = length of buffer
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r3 = length of buffer required (if r2=0)
+     else number of bytes written to the buffer.
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the name of the template used to create the object.

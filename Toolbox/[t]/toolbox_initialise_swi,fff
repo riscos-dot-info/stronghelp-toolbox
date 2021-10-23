@@ -1,0 +1,37 @@
+Toolbox_Initialise (0x44ecf)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_Initialise
+Veneer:	<toolbox_initialise>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = last wimp version known to task
+r2 = pointer to list of wimp messages which client
+     wishes to receive.
+r3 = pointer to list of toolbox event codes which
+     client wishes to receive.
+r4 = pointer to directory name in which to find
+     resources.
+r5 = pointer to messages file descriptor block.
+r6 = pointer to buffer to hold object Ids on
+     return from Wimp Poll.
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0 = current wimp version number.
+r1 = wimp task handle for client.
+r2 = pointer to sprite area used.
+
+Buffer pointed to by r5 is filled with a MessageTrans
+file descriptor.
+{f}
+#indent
+#Wrap
+Purpose:	Method is used to initialise a toolbox application.

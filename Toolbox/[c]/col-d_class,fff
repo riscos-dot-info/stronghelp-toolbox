@@ -1,0 +1,29 @@
+Colour Dialogue Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Colour Dialogues{/}
+
+#Align left
+#Wrap on
+Ref:	Page 65 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>col-d_class_data_types>
+<Flags=>col-d_class_flags>
+
+<colourdbox_get_colour>
+<colourdbox_get_colour_model>
+<colourdbox_get_dialogue_handle>
+<colourdbox_get_none_available>
+<colourdbox_get_wimp_handle>
+<colourdbox_set_colour>
+<colourdbox_set_colour_model>
+<colourdbox_set_none_available>
+
+{/}Colour Dialogue Events{/}
+<ColourDbox_AboutToBeShown>
+<ColourDbox_ColourSelected>
+<ColourDbox_DialogueCompleted>
+#Line
+Defined in ColourDbox.H

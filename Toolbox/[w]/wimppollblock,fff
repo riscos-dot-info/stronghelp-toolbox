@@ -1,0 +1,33 @@
+WimpPollBlock Data Type
+#Parent wimp_lib
+#include Style
+#Background Wimp 1
+Defined In:	<Wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef union
+\{               
+  int                             words[64];
+  char                            bytes[256];
+  <WimpRedrawWindowRequestEvent>    redraw_window_request;
+  <WimpOpenWindowRequestEvent>      open_window_request;
+  <WimpCloseWindowRequestEvent>     close_window_request;
+  <WimpPointerLeavingWindowEvent>   pointer_leaving_window;
+  <WimpPointerEnteringWindowEvent>  pointer_entering_window;
+  <WimpMouseClickEvent>             mouse_click;
+  <WimpUserDragBoxEvent>            user_drag_box;
+  <WimpKeyPressedEvent>             key_pressed;
+  <WimpMenuSelectionEvent>          menu_selection;
+  <WimpScrollRequestEvent>          scroll_request;
+  <WimpLoseCaretEvent>              lose_caret;
+  <WimpGainCaretEvent>              gain_caret;
+  <WimpPollWordNonZeroEvent>        poll_word_non_zero;
+  <WimpUserMessageEvent>            user_message;
+  <WimpUserMessageRecordedEvent>    user_message_recorded;
+  <WimpUserMessageAcknowledgeEvent> user_message_acknowledge;
+} WimpPollBlock;
+{F}
+#indent
+#Wrap

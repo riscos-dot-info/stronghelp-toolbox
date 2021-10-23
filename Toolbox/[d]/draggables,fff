@@ -1,0 +1,26 @@
+Draggable Gadgets
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of draggable objects{/}
+
+#Align left
+#Wrap on
+Ref:	Page 358 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>draggables_data_types>
+<Flags=>Draggable_flags>
+
+<draggable_set_sprite>
+<draggable_get_state>
+<draggable_get_text>
+<draggable_get_sprite>
+<draggable_set_state>
+<draggable_set_text>
+
+{/}Draggable Events{/}
+<Draggable_DragStarted>
+<Draggable_DragEnded>
+#Line
+Defined in <Gadgets.H=>gadgets>

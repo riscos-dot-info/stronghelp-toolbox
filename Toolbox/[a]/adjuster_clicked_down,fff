@@ -1,0 +1,10 @@
+Adjuster_Clicked_Down
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Adjuster_Clicked_Down 0x00000000
+#Indent
+{F}
+#Wrap On

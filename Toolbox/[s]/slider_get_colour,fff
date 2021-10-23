@@ -1,0 +1,21 @@
+slider_get_colour
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *slider_get_colour 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   slider,
+  int          *bar_colour,
+  int          *back_colour
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the colours of the of the slider bar and background.

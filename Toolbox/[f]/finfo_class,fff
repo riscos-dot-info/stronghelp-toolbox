@@ -1,0 +1,35 @@
+File Info Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the File Info Dialogues{/}
+
+#Align left
+#Wrap on
+Ref:	Page 103 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>finfo_class_data_types>
+<Flags=>finfo_class_flags>
+
+#Table Columns 3
+<fileinfo_get_date>
+<fileinfo_get_file_name>
+<fileinfo_get_file_size>
+<fileinfo_get_file_type>
+<fileinfo_get_modified>
+<fileinfo_get_title>
+<fileinfo_get_window_id>
+<fileinfo_set_date>
+<fileinfo_set_file_name>
+<fileinfo_set_file_type>
+<fileinfo_set_file_size>
+<fileinfo_set_modified>
+<fileinfo_set_title>
+#EndTable
+
+{/}File Info Events{/}
+<FileInfo_AboutToBeShown>
+<FileInfo_DialogueCompleted>
+#Line
+Defined in FileInfo.H

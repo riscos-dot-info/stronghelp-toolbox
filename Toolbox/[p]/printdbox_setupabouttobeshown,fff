@@ -1,0 +1,28 @@
+PrintDbox_SetupAboutToBeShown 0x82b02
+#include Style
+#Background wimp 1
+Class:	<Print Dialogue=>print_class>
+#Line
+#Wrap off
+Syntax:	PrintDbox_SetupAboutToBeShown 0x82b02
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  <ObjectId>           object_id;
+  int                show_type;
+
+  union
+  \{
+    <TopLeft>               pos;
+    <WindowShowObjectBlock> full;
+  } info;
+
+} PrintDboxSetUpAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised just before the window is opened.

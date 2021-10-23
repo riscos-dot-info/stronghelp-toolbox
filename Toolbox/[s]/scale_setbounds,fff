@@ -1,0 +1,31 @@
+Scale_SetBounds
+#include Style
+#Background wimp 1
+Module:	<Scale=>scale/m>
+#Line
+#Wrap off
+Syntax:	Scale_SetBounds
+Veneer:	<scale_set_bounds>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0 - set lower bound.
+     bit 1 - set upper bound.
+     bit 2 - set step size.
+r1 = Scale object ID
+r2 = 3
+r3 = lower bound value
+r4 = upper bound value
+r5 = step size value
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the bounds for the Scale object.

@@ -1,0 +1,12 @@
+toolbox_show_object Flags
+#include Style
+#Background wimp 1
+Command:	<toolbox_show_object>
+#Line
+#Wrap off
+Flags:	Toolbox_ShowObject_AsMenu
+	Toolbox_ShowObject_AsSubMenu
+	Toolbox_ShowObject_AsSubWindow
+
+#Wrap
+Purpose:	Flags show the various ways that an object can be shown on screen.  {/}SubWindow{/} is used for the nested wimp.

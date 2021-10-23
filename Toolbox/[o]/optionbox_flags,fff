@@ -1,0 +1,14 @@
+OptionButton Flags
+#include Style
+#Background wimp 1
+Gadget:	<OptionButton=>Optionbox>
+#Line
+#Wrap off
+Bits:	0	- Set means generate an <OptionButton_StateChanged=>OptionButton_StateChanged> when user clicks.
+	2	- Set means that the Option Button is on when first created.
+
+Constants:
+	<OptionButton_StateChanged_Adjust>
+	<OptionButton_StateChanged_Select>
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

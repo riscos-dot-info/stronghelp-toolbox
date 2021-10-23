@@ -1,0 +1,11 @@
+Wimp_MWillPrint
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MWillPrint 0x80141
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <WillPrint.=>Wimp:Msg_80141>

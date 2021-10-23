@@ -1,0 +1,10 @@
+Iconbar_GenerateAdjustAboutToBeShown
+#Wrap Off
+Defined in:	<iconbar.h=>ibar_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Iconbar_GenerateAdjustAboutToBeShown 0x00000002
+#Indent
+{F}
+#Wrap On

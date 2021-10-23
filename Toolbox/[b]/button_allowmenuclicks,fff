@@ -1,0 +1,10 @@
+Button_AllowMenuClicks
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Button_AllowMenuClicks 0x00000002
+#Indent
+{F}
+#Wrap On

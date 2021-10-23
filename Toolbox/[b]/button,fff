@@ -1,0 +1,19 @@
+Button Data Type
+#include Style
+#Background wimp 1
+Defined In:	<gadgets.h=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+        int           button_flags;
+        char          *value;
+        int           max_value;
+        char          *validation;
+        int           max_validation;
+} Button;
+#indent
+
+#Wrap

@@ -1,0 +1,19 @@
+Drawfile.H
+#Parent !Root
+#include Style
+#Wrap off
+#Align centre
+#Wrap
+{/}The sections below list functions available in DrawFile.H{/}
+#Wrap Off
+#Align left
+
+Ref:	{/}Drawfile.H{/} header file.
+#Line
+<Flags=>drawfile_flags>
+<Data Types=>drawfile_data_types>
+
+#Line
+<drawfile_render>
+<drawfile_bbox>
+<drawfile_declare_fonts>

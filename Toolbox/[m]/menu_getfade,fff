@@ -1,0 +1,26 @@
+Menu_GetFade
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_GetFade
+Veneer:	<menu_get_fade>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 3
+r3 = component id of entry
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = Non-Zero: fade
+     Zero: unfade
+{f}
+#indent
+#Wrap
+Purpose:		Method gets fade state of an entry on a menu.

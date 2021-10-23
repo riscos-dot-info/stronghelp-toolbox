@@ -1,0 +1,20 @@
+DCSTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<dcs.h=>dcs_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int   flags;
+  char *title;
+  int   max_title;
+  char *message;
+  int   max_message;
+  char *window;
+} DCSTemplate;
+{f}
+#indent
+#Wrap

@@ -1,0 +1,21 @@
+window_extract_gadget_info
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_extract_gadget_info
+(
+  unsigned int           flags,
+  <ObjectTemplateHeader>  *templ,
+  <ComponentId>            gadget,
+  void                 **desc,
+  int                   *size
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns a pointer to a block of memory suitable for passing to <window_add_gadget>.

@@ -1,0 +1,27 @@
+Menu Class Flags
+#include Style
+#Background wimp 1
+Gadget:	<Menu Class=>menu_class>
+#Line
+#Wrap off
+Bits:	0	- Set means entry is ticket.
+	1	- Set means entry has dotted line immediately below.
+	2-7	- Must be 0.
+	8	- Set means entry is faded.
+	9	- Set means entry is a sprite (text is default).
+	10	- Set means entry has submenu.
+	11	- Set means <Menu_Submenu=>menu_submenu> is raised when user traverses entry.
+	12	- Set means object to be shown from entry is shown with Wimp_CreateMenu semantics.
+
+Constants:
+	<Menu_GenerateShowEvent>
+	<Menu_GenerateHideEvent>
+	<Menu_Entry_Ticked>
+	<Menu_Entry_DottedLine>
+	<Menu_Entry_Faded>
+	<Menu_Entry_IsSprite>
+	<Menu_Entry_SubMenu>
+	<Menu_Entry_GenerateSubMenuEvent>
+	<Menu_Entry_ClickShowTransient>
+	<Menu_Entry_ClickShowCentred>
+	<Menu_Entry_ClickShowAtPointer>

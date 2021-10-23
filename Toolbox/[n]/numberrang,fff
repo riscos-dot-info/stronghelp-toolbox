@@ -1,0 +1,24 @@
+Number Ranges Gadgets
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of action boxes{/}
+
+#Align left
+#Wrap on
+Ref:	Page 368 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>numberrang_data_types>
+<Flags=>numberrang_flags>
+
+<numberrange_get_bounds>
+<numberrange_get_components>
+<numberrange_get_value>
+<numberrange_set_bounds>
+<numberrange_set_value>
+
+{/}NumberRange Events{/}
+<NumberRange_ValueChanged>
+#Line
+Defined in <Gadgets.H=>gadgets>

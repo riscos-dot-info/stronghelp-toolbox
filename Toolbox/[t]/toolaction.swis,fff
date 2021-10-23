@@ -1,0 +1,24 @@
+ToolAction Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the ToolAction Gadgets{/}
+
+#Align left
+#Wrap on
+Ref:	ToolAction.h
+#Wrap off
+#Line
+<ToolAction SWI names=>toolaction_swi_listing>
+<Flags=>toolaction_flags>
+
+#Table Columns 2
+<ToolAction_SetIdent>
+<ToolAction_GetIdent>
+<ToolAction_SetAction>
+<ToolAction_GetAction>
+<ToolAction_SetClickShow>
+<ToolAction_GetClickShow>
+<ToolAction_SetState>
+<ToolAction_GetState>
+#EndTable

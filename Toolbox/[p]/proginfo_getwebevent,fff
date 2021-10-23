@@ -1,0 +1,25 @@
+ProgInfo_GetWebEvent
+#include Style
+#Background wimp 1
+Module:	<ProgInfo=>proginfo/m>
+#Line
+#Wrap off
+Syntax:	ProgInfo_GetWebEvent
+Veneer:	<proginfo_get_web_event>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ProgInfo object ID
+r2 = 9
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = event number
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the event number for a click on the Web Page button.

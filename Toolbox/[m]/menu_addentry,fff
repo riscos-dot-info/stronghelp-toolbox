@@ -1,0 +1,28 @@
+Menu_AddEntry
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_AddEntry
+Veneer:	<menu_add_entry>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+            Bit 0: set - insert before r3
+r1 = Menu object ID
+r2 = 20
+r3 = component id of entry
+r4 = pointer to entry details
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = component id of new entry
+r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method adds a new entry on the menu.  R4 needs to be something similar to <MenuTemplateEntry>.

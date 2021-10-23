@@ -1,0 +1,10 @@
+Iconbar_Clicked_Select
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Iconbar_Clicked_Select 0x00000004
+#Indent
+{F}
+#Wrap On

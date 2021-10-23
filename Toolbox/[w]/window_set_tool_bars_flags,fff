@@ -1,0 +1,10 @@
+window_set_tool_bars Flags
+#include Style
+#Background wimp 1
+Command:	<window_set_tool_bars=>window_set_tool_bars>
+#Line
+#Wrap off
+Bits:	0	- Set means set internal bl toolbar.
+	1	- Set means set internal tl toolbar.
+	2	- Set means set external bl toolbar.
+	3	- Set means set external tl toolbar.

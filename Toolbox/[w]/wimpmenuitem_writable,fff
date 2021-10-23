@@ -1,0 +1,10 @@
+WimpMenuItem_Writable
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpMenuItem_Writable (1u << 2)
+#Indent
+{F}
+#Wrap On

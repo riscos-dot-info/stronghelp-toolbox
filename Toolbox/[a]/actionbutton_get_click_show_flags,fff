@@ -1,0 +1,10 @@
+actionbutton_get_click_show Flags
+#include Style
+#Background wimp 1
+Command:	<actionbutton_get_click_show=>actionbutton_get_click_show>
+#Line
+#Wrap off
+Bits:	0	- Show flags:
+#indent +8
+		If clear button shown persistently.
+		If set button shown transiently.

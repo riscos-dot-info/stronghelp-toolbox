@@ -1,0 +1,19 @@
+fileinfo_get_modified
+#include Style
+#Background wimp 1
+Class:	<File Info=>finfo_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *fileinfo_get_modified 
+(
+  unsigned int  flags,
+  <ObjectId>      fileinfo,
+  int          *modified
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the {/}modified{/} flag in the window.  If {/}modified{/} = 0 then file is unmodified, otherwise a non-zero indicates the file is modified.

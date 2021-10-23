@@ -1,0 +1,22 @@
+WritableField_ValueChanged 0x82885
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	WritableField_ValueChanged 0x82885
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  char               string[ sizeof(<ToolboxEvent>) - 
+                             sizeof(<ToolboxEventHeader>)
+                           ];
+} WritableFieldValueChangedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the value of a writable field is changed by the user.

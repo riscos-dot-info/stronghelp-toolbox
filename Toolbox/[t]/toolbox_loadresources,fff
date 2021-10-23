@@ -1,0 +1,23 @@
+Toolbox_LoadResources (0x44ed0)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_LoadResources
+Veneer:	<toolbox_load_resources>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = pointer to resource filename
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method loads the given resource file, and creates any objects that have the autocreate flag set.

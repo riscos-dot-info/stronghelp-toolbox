@@ -1,0 +1,10 @@
+WimpWindow_BackIcon
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpWindow_BackIcon (1u << 24)
+#Indent
+{F}
+#Wrap On

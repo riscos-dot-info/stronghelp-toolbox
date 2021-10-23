@@ -1,0 +1,26 @@
+FontDbox_GetSize
+#include Style
+#Background wimp 1
+Module:	<FontDbox=>fontdbox/m>
+#Line
+#Wrap off
+Syntax:	FontDbox_GetSize
+Veneer:	<fontdbox_get_size>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FontDbox object ID
+r2 = 4
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = height value.
+r1 = aspect ratio.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the font size for the Font Dialogue.

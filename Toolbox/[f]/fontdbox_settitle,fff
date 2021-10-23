@@ -1,0 +1,26 @@
+FontDbox_SetTitle
+#include Style
+#Background wimp 1
+Module:	<FontDbox=>fontdbox/m>
+#Line
+#Wrap off
+Syntax:	FontDbox_SetTitle
+Veneer:	<fontdbox_set_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FontDbox object ID
+r2 = 7
+r3 = pointer to title
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the title of the Font Dialogue.

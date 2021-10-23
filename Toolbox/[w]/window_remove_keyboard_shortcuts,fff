@@ -1,0 +1,19 @@
+window_remove_keyboard_shortcuts
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_remove_keyboard_shortcuts 
+(
+  unsigned int      flags,
+  <ObjectId>          window,
+  int               no_remove,
+  <KeyboardShortcut> *shortcuts
+);
+
+{F}
+#indent
+#wrap
+Purpose:	Function removes the keyboard shortcuts for the specified window.  If {/}shortcuts{/} = -1 then all shortcuts for the window are removed.

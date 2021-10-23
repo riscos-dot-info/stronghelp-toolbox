@@ -1,0 +1,10 @@
+Draggable_TypeMask
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Draggable_TypeMask 0x00000038
+#Indent
+{F}
+#Wrap On

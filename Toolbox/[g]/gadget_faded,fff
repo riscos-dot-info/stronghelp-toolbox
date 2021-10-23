@@ -1,0 +1,11 @@
+Gadget_Faded
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Gadget_Faded (1u<<31)
+#Indent
+{F}
+#Wrap On
+Used with <gadget_set_flags>.

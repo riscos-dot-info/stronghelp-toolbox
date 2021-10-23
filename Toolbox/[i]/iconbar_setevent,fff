@@ -1,0 +1,28 @@
+Iconbar_SetEvent
+#include Style
+#Background wimp 1
+Module:	<Iconbar=>iconbar/m>
+#Line
+#Wrap off
+Syntax:	Iconbar_SetEvent
+Veneer:	<iconbar_set_event>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     Bit 0: set means raise event in r3 for select.
+     Bit 1: set means raise event in r4 for adjust.
+r1 = Iconbar object ID
+r2 = 3
+r3 = toolbox event code to raise for select
+r4 = toolbox event code to raise for select
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the events associated with the Iconbar Object.

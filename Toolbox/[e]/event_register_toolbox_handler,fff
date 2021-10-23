@@ -1,0 +1,20 @@
+event_register_toolbox_handler
+#include Style
+#Background wimp 1
+Header:	<Event.H=>event_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *event_register_toolbox_handler 
+(
+  <ObjectId>             object_id, 
+  int                  event_code,
+  <ToolboxEventHandler> *handler, 
+  void                *handle
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function should be called when the given Toolbox event code occurs on the object.  The handle is a value that will be passed to the handler function.

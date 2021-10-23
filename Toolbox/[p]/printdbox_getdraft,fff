@@ -1,0 +1,25 @@
+PrintDbox_GetDraft
+#include Style
+#Background wimp 1
+Module:	<PrintDbox=>printdbox/m>
+#Line
+#Wrap off
+Syntax:	PrintDbox_GetDraft
+Veneer:	<printdbox_get_draft>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = PrintDbox object ID
+r2 = 11
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = non-zero: Draft selected.
+     zero = Draft deselected.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the draft setting in the Print Dialogue.

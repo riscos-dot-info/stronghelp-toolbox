@@ -1,0 +1,40 @@
+Toolbox.H
+#Parent !Root
+#background WIMP 1
+#include Style
+#Wrap off
+#Align centre
+{/}The sections below list functions available in the Toolbox library{/}
+#Align left
+
+Ref:	Page 21 of the {/}User Interface Toolbox{/} manual.
+#Line
+<Data Types=>toolbox_data_types>
+<Flags=>toolbox_flags>
+
+#Table Columns 3
+<toolbox_create_object=>toolbox_create_object>
+<toolbox_delete_object=>toolbox_delete_object>
+<toolbox_get_ancestor=>toolbox_get_ancestor>
+<toolbox_get_client_handle=>toolbox_get_client_handle>
+<toolbox_get_object_class=>toolbox_get_object_class>
+<toolbox_get_object_state=>toolbox_get_object_state>
+<toolbox_get_parent=>toolbox_get_parent>
+<toolbox_get_sys_info=>toolbox_get_sys_info>
+<toolbox_get_template_name=>toolbox_get_template_name>
+<toolbox_hide_object=>toolbox_hide_object>
+<toolbox_initialise=>toolbox_initialise>
+<toolbox_load_resources=>toolbox_load_resources>
+<toolbox_raise_toolbox_event=>toolbox_raise_toolbox_event>
+<toolbox_set_client_handle=>toolbox_set_client_handle>
+<toolbox_show_object=>toolbox_show_object>
+<toolbox_template_lookup=>toolbox_template_lookup>
+#EndTable
+#Line
+#Align Centre
+{/}{*}Toolbox Events{*}{/}
+#Align Left
+
+<Toolbox_Error>
+<Toolbox_ObjectAutoCreated>
+<Toolbox_ObjectDeleted>

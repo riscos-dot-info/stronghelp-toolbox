@@ -1,0 +1,21 @@
+scrolllist_make_visible
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<ScrollList.H=>scrolllist>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_make_visible
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  int           index, 
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	If the item listed in index is outside the visible area of the ScrollList, then scrolllist_make_visible will display that item at the top of the visible area.

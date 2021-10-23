@@ -1,0 +1,11 @@
+Wimp_EUserMessageRecorded
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_EUserMessageRecorded 18
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <UserMessageRecorded=>Wimp:Wimp_Poll18>

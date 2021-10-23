@@ -1,0 +1,21 @@
+FontMenu_AboutToBeShown 0x82a40
+#include Style
+#Background wimp 1
+Class:	<Font Menu=>font_class>
+#Line
+#Wrap off
+Syntax:	FontMenu_AboutToBeShown 0x82a40
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+  <TopLeft>            pos;
+} FontMenuAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised just before the Font Menu window is displayed.

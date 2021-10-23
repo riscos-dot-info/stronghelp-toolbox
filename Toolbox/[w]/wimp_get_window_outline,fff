@@ -1,0 +1,18 @@
+wimp_get_window_outline
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_get_window_outline 
+(
+  <WimpGetWindowOutlineBlock> *block
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_GetWindowOutline.=>Wimp:Wimp_getwindowoutline>

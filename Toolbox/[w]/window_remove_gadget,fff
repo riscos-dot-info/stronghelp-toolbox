@@ -1,0 +1,18 @@
+window_remove_gadget
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_remove_gadget 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   gadget
+);
+
+{F}
+#indent
+#wrap
+Purpose:	Function removes the gadget specified from the current list for the window.

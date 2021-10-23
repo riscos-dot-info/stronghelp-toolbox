@@ -1,0 +1,28 @@
+FileInfo_GetFileName
+#include Style
+#Background wimp 1
+Module:	<FileInfo=>fileinfo/m>
+#Line
+#Wrap off
+Syntax:	FileInfo_GetFileName
+Veneer:	<fileinfo_get_file_name>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FileInfo object ID
+r2 = 6
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer (if r3=0)
+     else buffer contains filename.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the filename in the FileInfo object.

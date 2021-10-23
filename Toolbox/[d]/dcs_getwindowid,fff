@@ -1,0 +1,25 @@
+DCS_GetWindowID
+#include Style
+#Background wimp 1
+Module:	<Quit=>quit/m>
+#Line
+#Wrap off
+Syntax:	DCS_GetWindowID
+Veneer:	<dcs_get_window_id>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = DCS object ID
+r2 = 0
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = Window object id.
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the id of the underlying Window object used.

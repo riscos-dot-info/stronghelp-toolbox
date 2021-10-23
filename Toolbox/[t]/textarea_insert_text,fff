@@ -1,0 +1,22 @@
+textarea_insert_text
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<TextArea.H=>textarea>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *textarea_insert_text
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  unsigned int  index,
+  const char   *text
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function inserts {/}text{/} at the position specified in {/}index{/}.

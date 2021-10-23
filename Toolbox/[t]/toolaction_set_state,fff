@@ -1,0 +1,21 @@
+toolaction_set_state
+#include Style
+#Background wimp 1
+#Parent toolaction
+Header:	<ToolAction.H=>toolaction>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern void toolaction_set_state
+(
+  <bits>      flags,
+  <toolbox_o> obj,
+  <toolbox_c> cmp,
+  <bool>      on
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Sets the state of the ToolAction gadget.

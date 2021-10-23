@@ -1,0 +1,24 @@
+Quit Dialogue Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Quit Dialogue{/}
+
+#Align left
+#Wrap on
+Ref:	Page 233 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Quit SWI Names=>quit_swi_listing>
+
+<Quit_GetWindowID>
+<Quit_SetMessage>
+<Quit_GetMessage>
+<Quit_SetTitle>
+<Quit_GetTitle>
+
+{/}Quit Dialogue Events{/}
+<Quit_AboutToBeShown>
+<Quit_Cancel>
+<Quit_DialogueCompleted>
+<Quit_Quit>

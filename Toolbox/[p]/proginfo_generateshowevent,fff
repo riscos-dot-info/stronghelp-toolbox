@@ -1,0 +1,10 @@
+ProgInfo_GenerateShowEvent
+#Wrap Off
+Defined in:	<proginfo.h=>proginfo_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ProgInfo_GenerateShowEvent 0x00000001
+#Indent
+{F}
+#Wrap On

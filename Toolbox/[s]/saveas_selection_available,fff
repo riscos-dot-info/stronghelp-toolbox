@@ -1,0 +1,19 @@
+saveas_selection_available
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *saveas_selection_available 
+(
+  unsigned int  flags,
+  <ObjectId>      saveas,
+  int           selection
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function indicates whether there is a current selection in existence.

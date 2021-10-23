@@ -1,0 +1,10 @@
+Slider Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Slider Data Types{/}
+#Align left
+
+<Slider>
+<SliderValueChangedEvent>

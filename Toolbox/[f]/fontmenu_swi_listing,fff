@@ -1,0 +1,12 @@
+FontMenu SWI Listing
+#Parent !Root
+#include Style
+#Align Centre
+<FontMenu=>FontMenu/m>
+#Line
+#Align left
+
+00 - <FontMenu_SetFont>
+01 - <FontMenu_GetFont>
+
+To be used with <Toolbox_ObjectMiscOp>.

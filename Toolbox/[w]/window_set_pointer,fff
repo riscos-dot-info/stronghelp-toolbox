@@ -1,0 +1,20 @@
+window_set_pointer
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_set_pointer 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  char         *sprite_name,
+  int           x_hot_spot,
+  int           y_hot_spot
+);
+
+{F}
+#indent
+#wrap
+Purpose:	Function sets the pointer shape in the specified window.  If {/}sprite_name{/} = 0 then the pointer for this window is detached.

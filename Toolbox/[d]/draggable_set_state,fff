@@ -1,0 +1,20 @@
+draggable_set_state
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *draggable_set_state 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   draggable,
+  int           state
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the draggable's state to either selected or deselected.  {/}state{/} should be 0 for deselected, or 1 for selected.

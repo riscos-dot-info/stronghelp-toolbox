@@ -1,0 +1,20 @@
+toolbox_get_ancestor
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *toolbox_get_ancestor 
+(
+  unsigned int  flags,
+  <ObjectId>      id
+  <ObjectId>     *ancestor
+  <ComponentId>  *ancestor_component
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the id of the Ancestor of the given object.

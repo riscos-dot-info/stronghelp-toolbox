@@ -1,0 +1,19 @@
+RadioButton Flags
+#include Style
+#Background wimp 1
+Gadget:	<RadioButton=>radio>
+#Line
+#Wrap off
+Bits:
+	0	- Set means generate a <RadioButton_StateChanged> when user clicks.
+	2	- Set means that the radio button is on when first created.
+
+Constants:
+	<RadioButton_GenerateUserStateChanged>
+	<RadioButton_GenerateSetStateChanged>
+	<RadioButton_On>
+	<RadioButton_StateChanged_Adjust>
+	<RadioButton_StateChanged_Select>
+
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

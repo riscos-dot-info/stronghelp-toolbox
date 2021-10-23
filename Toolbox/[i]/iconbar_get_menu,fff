@@ -1,0 +1,19 @@
+iconbar_get_menu
+#include Style
+#Background wimp 1
+Class:	<Iconbar=>ibar_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *iconbar_get_menu 
+(
+  unsigned int  flags,
+  <ObjectId>      iconbar,
+  <ObjectId>     *menu_id
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the menu to be used on the iconbar icon.

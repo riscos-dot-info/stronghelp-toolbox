@@ -1,0 +1,24 @@
+ToolAction Gadget
+#Parent !root
+#include Style
+#Align centre
+{/}These functions allow manipulation of ToolActions.{/}
+
+#Align left
+#Wrap on
+Ref:	Renaissance Source Tree & Dylan.
+#Wrap off
+#Line
+<Toolaction Flags=>toolaction_flags>
+
+<toolaction_set_ident>
+<toolaction_get_ident>
+<toolaction_set_action>
+<toolaction_get_action>
+<toolaction_set_click_show>
+<toolaction_get_click_show>
+<toolaction_set_state>
+<toolaction_get_state>
+
+#Line
+Defined in <ToolAction.H=>toolaction>

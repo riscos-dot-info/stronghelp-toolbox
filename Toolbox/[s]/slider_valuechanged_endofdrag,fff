@@ -1,0 +1,10 @@
+Slider_ValueChanged_EndOfDrag
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Slider_ValueChanged_EndOfDrag 1
+#Indent
+{F}
+#Wrap On

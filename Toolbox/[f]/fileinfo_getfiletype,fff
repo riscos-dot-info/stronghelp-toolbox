@@ -1,0 +1,25 @@
+FileInfo_GetFileType
+#include Style
+#Background wimp 1
+Module:	<FileInfo=>fileinfo/m>
+#Line
+#Wrap off
+Syntax:	FileInfo_GetFileType
+Veneer:	<fileinfo_get_file_type>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FileInfo object ID
+r2 = 4
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = filetype
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the filetype icon in the FileInfo object.

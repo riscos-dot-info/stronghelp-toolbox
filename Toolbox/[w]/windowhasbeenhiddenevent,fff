@@ -1,0 +1,15 @@
+WindowHasBeenHiddenEvent Data Type
+#Parent window_class
+#include Style
+#Background wimp 1
+Defined In:	<window.h=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{  
+  <ToolboxEventHeader>        hdr;
+} WindowHasBeenHiddenEvent;
+#indent
+#Wrap

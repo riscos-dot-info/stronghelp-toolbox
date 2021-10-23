@@ -1,0 +1,10 @@
+WimpIcon_ESG
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpIcon_ESG (1u << 16)
+#Indent
+{F}
+#Wrap On

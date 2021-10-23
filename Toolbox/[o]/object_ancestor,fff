@@ -1,0 +1,10 @@
+Object_Ancestor
+#Wrap Off
+Defined in:	<toolbox.h=>tbox_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Object_Ancestor 0x00000008
+#Indent
+{F}
+#Wrap On

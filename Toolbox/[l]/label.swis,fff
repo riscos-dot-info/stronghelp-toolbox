@@ -1,0 +1,9 @@
+Label Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 366 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>labels_flags>

@@ -1,0 +1,12 @@
+Scale Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Scale Data Types{/}
+#Align left
+
+<ScaleTemplate>
+<ScaleAboutToBeShownEvent>
+<ScaleDialogueCompletedEvent>
+<ScaleApplyFactorEvent>

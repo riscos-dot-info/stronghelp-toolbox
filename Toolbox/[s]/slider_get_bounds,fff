@@ -1,0 +1,22 @@
+slider_get_bounds
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *slider_get_bounds 
+(
+  unsigned int  <flags,=>slider_get_bounds_flags>
+  <ObjectId>      window,
+  <ComponentId>   slider,
+  int          *upper_bound,
+  int          *lower_bound,
+  int          *step_size
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the bounds and step of the slider bar.

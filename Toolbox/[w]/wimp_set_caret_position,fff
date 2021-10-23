@@ -1,0 +1,23 @@
+wimp_set_caret_position
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_set_caret_position
+(
+  int window_handle,
+  int icon_handle,
+  int xoffset,
+  int yoffset,
+  int height,
+  int index
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_SetCaretPosition.=>Wimp:Wimp_SetCaretPosition>

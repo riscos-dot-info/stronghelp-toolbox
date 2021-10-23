@@ -1,0 +1,22 @@
+wimp_force_redraw
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_force_redraw
+(
+  int window_handle,
+  int xmin,
+  int ymin,
+  int xmax,
+  int ymax
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_ForceRedraw.=>Wimp:Wimp_forceredraw>

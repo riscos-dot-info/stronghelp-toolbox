@@ -1,0 +1,378 @@
+Toolbox_ObjectMiscOp Codes
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+#Align Centre
+{*}{/}Objects{/}{*}
+#Align Left
+
+{*}Colour Menu:{*}
+#Indent 6
+00 - <ColourMenu_SetColour>
+01 - <ColourMenu_GetColour>
+02 - <ColourMenu_SetNoneAvailable>
+03 - <ColourMenu_GetNoneAvailable>
+04 - <ColourMenu_SetTitle>
+05 - <ColourMenu_GetTitle>
+#Indent
+
+{*}Colour Menu:{*}
+#Indent 6
+00 - <ColourDbox_GetWimpHandle>
+01 - <ColourDbox_GetDialogueHandle>
+02 - <ColourDbox_SetColour>
+03 - <ColourDbox_GetColour>
+04 - <ColourDbox_SetColourModel>
+05 - <ColourDbox_GetColourModel>
+06 - <ColourDbox_SetNoneAvailable>
+07 - <ColourDbox_GetNoneAvailable>
+#Indent
+
+{*}Discard/Cancel/Save:{*}
+#Indent 6
+00 - <DCS_GetWindowID>
+01 - <DCS_SetMessage>
+02 - <DCS_GetMessage>
+03 - <DCS_SetTitle>
+04 - <DCS_GetTitle>
+#Indent
+
+{*}FileInfo:{*}
+#Indent 6
+00 - <FileInfo_GetWindowID>
+01 - <FileInfo_SetModified>
+02 - <FileInfo_GetModified>
+03 - <FileInfo_SetFileType>
+04 - <FileInfo_GetFileType>
+05 - <FileInfo_SetFileName>
+06 - <FileInfo_GetFileName>
+07 - <FileInfo_SetFileSize>
+08 - <FileInfo_GetFileSize>
+09 - <FileInfo_SetDate>
+10 - <FileInfo_GetDate>
+11 - <FileInfo_SetTitle>
+12 - <FileInfo_GetTitle>
+#Indent
+
+{*}FontDbox:{*}
+#Indent 6
+00 - <FontDbox_GetWindowID>
+01 - <FontDbox_SetFont>
+02 - <FontDbox_GetFont>
+03 - <FontDbox_SetSize>
+04 - <FontDbox_GetSize>
+05 - <FontDbox_SetTryString>
+06 - <FontDbox_GetTryString>
+07 - <FontDbox_SetTitle>
+08 - <FontDbox_GetTitle>
+#Indent
+
+{*}FontMenu:{*}
+#Indent 6
+00 - <FontMenu_SetFont>
+01 - <FontMenu_GetFont>
+#Indent
+
+{*}Iconbar:{*}
+#Indent 6
+00 - <Iconbar_GetIconHandle>
+01 - <Iconbar_SetMenu>
+02 - <Iconbar_GetMenu>
+03 - <Iconbar_SetEvent>
+04 - <Iconbar_GetEvent>
+05 - <Iconbar_SetShow>
+06 - <Iconbar_GetShow>
+07 - <Iconbar_SetHelpMessage>
+08 - <Iconbar_GetHelpMessage>
+09 - <Iconbar_SetText>
+10 - <Iconbar_GetText>
+11 - <Iconbar_SetSprite>
+12 - <Iconbar_GetSprite>
+#Indent
+
+{*}Menu:{*}
+#Indent 6
+00 - <Menu_SetTick>
+01 - <Menu_GetTick>
+02 - <Menu_SetFade>
+03 - <Menu_GetFade>
+04 - <Menu_SetEntryText>
+05 - <Menu_GetEntryText>
+06 - <Menu_SetEntrySprite>
+07 - <Menu_GetEntrySprite>
+08 - <Menu_SetSubMenuShow>
+09 - <Menu_GetSubMenuShow>
+10 - <Menu_SetSubMenuEvent>
+11 - <Menu_GetSubMenuEvent>
+12 - <Menu_SetClickShow>
+13 - <Menu_GetClickShow>
+14 - <Menu_SetClickEvent>
+15 - <Menu_GetClickEvent>
+16 - <Menu_SetHelpMessage>
+17 - <Menu_GetHelpMessage>
+18 - <Menu_SetEntryHelpMessage>
+19 - <Menu_GetEntryHelpMessage>
+20 - <Menu_AddEntry>
+21 - <Menu_RemoveEntry>
+22 - <Menu_GetHeight>
+23 - <Menu_GetWidth>
+24 - <Menu_GetTitle>
+25 - <Menu_SetTitle>
+#Indent
+
+{*}PrintDbox:{*}
+#Indent 6
+00 - <PrintDbox_GetWindowID>
+01 - <PrintDbox_SetPageRange>
+02 - <PrintDbox_GetPageRange>
+03 - <PrintDbox_SetCopies>
+04 - <PrintDbox_GetCopies>
+05 - <PrintDbox_SetScale>
+06 - <PrintDbox_GetScale>
+07 - <PrintDbox_SetOrientation>
+08 - <PrintDbox_GetOrientation>
+09 - <PrintDbox_GetTitle>
+10 - <PrintDbox_SetDraft>
+11 - <PrintDbox_GetDraft>
+#Indent
+
+{*}ProgInfo:{*}
+#Indent 6
+00 - <ProgInfo_GetWindowID>
+01 - <ProgInfo_SetVersion>
+02 - <ProgInfo_GetVersion>
+03 - <ProgInfo_SetLicenceType>
+04 - <ProgInfo_GetLicenceType>
+05 - <ProgInfo_SetTitle>
+06 - <ProgInfo_GetTitle>
+07 - <ProgInfo_SetUri>
+08 - <ProgInfo_GetUri>
+09 - <ProgInfo_SetWebEvent>
+10 - <ProgInfo_GetWebEvent>
+#Indent
+
+{*}Quit:{*}
+#Indent 6
+00 - <Quit_GetWindowID>
+01 - <Quit_SetMessage>
+02 - <Quit_GetMessage>
+03 - <Quit_SetTitle>
+04 - <Quit_GetTitle>
+#Indent
+
+{*}SaveAs:{*}
+#Indent 6
+00 - <SaveAs_GetWindowID>
+01 - <SaveAs_SetTitle>
+02 - <SaveAs_GetTitle>
+03 - <SaveAs_SetFileName>
+04 - <SaveAs_GetFileName>
+05 - <SaveAs_SetFileType>
+06 - <SaveAs_GetFileType>
+07 - <SaveAs_SetFileSize>
+08 - <SaveAs_GetFileSize>
+09 - <SaveAs_SelectionAvailable>
+10 - <SaveAs_SetDataAddress>
+11 - <SaveAs_BufferFilled>
+12 - <SaveAs_FileSaveCompleted>
+#Indent
+
+{*}Scale:{*}
+#Indent 6
+00 - <Scale_GetWindowID>
+01 - <Scale_SetValue>
+02 - <Scale_GetValue>
+03 - <Scale_SetBounds>
+04 - <Scale_GetBounds>
+05 - <Scale_SetTitle>
+06 - <Scale_GetTitle>
+#Indent
+
+{*}Window:{*}
+#Indent 6
+01 - <Window_AddGadget>
+02 - <Window_RemoveGadget>
+03 - <Window_SetMenu>
+04 - <Window_GetMenu>
+05 - <Window_SetPointer>
+06 - <Window_GetPointer>
+07 - <Window_SetHelpMessage>
+08 - <Window_GetHelpMessage>
+09 - <Window_AddKeyboardShortcuts>
+10 - <Window_RemoveKeyboardShortcuts>
+11 - <Window_SetTitle>
+12 - <Window_GetTitle>
+13 - <Window_SetDefaultFocus>
+14 - <Window_GetDefaultFocus>
+15 - <Window_SetExtent>
+16 - <Window_GetExtent>
+17 - <Window_ForceRedraw>
+18 - <Window_SetToolBars>
+19 - <Window_GetToolBars>
+#indent
+
+#Line
+#Align Centre
+{*}{/}Gadgets{/}{*}
+#Align Left
+
+{*}General:{*}
+#Indent 6
+64 - <Gadget_GetFlags>
+65 - <Gadget_SetFlags>
+66 - <Gadget_SetHelpMessage>
+67 - <Gadget_GetHelpMessage>
+68 - <Gadget_GetIconList>
+69 - <Gadget_SetFocus>
+70 - <Gadget_GetType>
+71 - <Gadget_MoveGadget>
+72 - <Gadget_GetBBox>
+#Indent
+
+{*}ActionButton{*}
+#Indent 6
+128 - <ActionButton_SetText>
+129 - <ActionButton_GetText>
+130 - <ActionButton_SetEvent>
+131 - <ActionButton_GetEvent>
+132 - <ActionButton_SetClickShow>
+133 - <ActionButton_GetClickShow>
+#indent
+
+{*}Button:{*}
+#indent 6
+960 - <Button_GetFlags>
+961 - <Button_SetFlags>
+962 - <Button_SetValue>
+963 - <Button_GetValue>
+964 - <Button_SetValidation>
+965 - <Button_GetValidation>
+965 - <Button_SetFont>
+#indent
+
+{*}DisplayField{*}
+#indent 6
+448 - <DisplayField_SetValue>
+450 - <DisplayField_GetValue>
+451 - <DisplayField_SetFont>
+#indent
+
+{*}Draggable{*}
+#indent 6
+640 - <Draggable_SetSprite>
+641 - <Draggable_GetSprite>
+642 - <Draggable_SetText>
+643 - <Draggable_GetText>
+644 - <Draggable_SetState>
+645 - <Draggable_GetState>
+#indent
+
+{*}NumberRange{*}
+#indent 6
+832 - <NumberRange_SetValue>
+833 - <NumberRange_GetValue>
+834 - <NumberRange_SetBounds>
+835 - <NumberRange_GetBounds>
+832 - <NumberRange_GetComponents>
+#indent
+
+{*}OptionButton{*}
+#indent 6
+192 - <OptionButton_SetLabel>
+193 - <OptionButton_GetLabel>
+194 - <OptionButton_SetEvent>
+195 - <OptionButton_GetEvent>
+196 - <OptionButton_SetState>
+197 - <OptionButton_GetState>
+198 - <OptionButton_SetFont>
+#indent
+
+{*}Popup{*}
+#indent 6
+704 - <PopUp_SetMenu>
+705 - <PopUp_GetMenu>
+#indent
+
+{*}RadioButton{*}
+#indent 6
+384 - <RadioButton_SetLabel>
+385 - <RadioButton_GetLabel>
+386 - <RadioButton_SetEvent>
+387 - <RadioButton_GetEvent>
+388 - <RadioButton_SetState>
+389 - <RadioButton_GetState>
+390 - <RadioButton_SetFont>
+#indent
+
+{*}ScrollList{*}
+#indent 6
+00 - <ScrollList_GetState>
+01 - <ScrollList_SetState>
+02 - <ScrollList_AddItem>
+03 - <ScrollList_DeleteItems>
+04 - <ScrollList_SelectItem>
+05 - <ScrollList_DeselectItem>
+06 - <ScrollList_GetSelected>
+07 - <ScrollList_MakeVisible>
+08 - <ScrollList_SetColour>
+09 - <ScrollList_GetColour>
+10 - <ScrollList_SetFont>
+11 - <ScrollList_GetItemText>
+#Indent
+
+{*}Slider{*}
+#indent 6
+576 - <Slider_SetValue>
+577 - <Slider_Get_Value>
+578 - <Slider_SetBounds>
+579 - <Slider_GetBounds>
+580 - <Slider_SetColour>
+581 - <Slider_GetColour>
+#indent
+
+{*}StringSet{*}
+#indent 6
+896 - <StringSet_SetAvailable>
+898 - <StringSet_SetSelected>
+899 - <StringSet_GetSelected>
+900 - <StringSet_SetAllowable>
+902 - <StringSet_GetComponents>
+#indent
+
+{*}TextArea{*}
+#indent 6
+00 - <TextArea_GetState>
+01 - <TextArea_SetState>
+02 - <TextArea_SetText>
+03 - <TextArea_GetText>
+04 - <TextArea_InsertText>
+05 - <TextArea_ReplaceText>
+06 - <TextArea_GetSelection>
+07 - <TextArea_SetSelection>
+08 - <TextArea_SetFont>
+09 - <TextArea_SetColour>
+10 - <TextArea_GetColour>
+11 - <TextArea_SetTextBorder>
+#Indent
+
+{*}ToolAction{*}
+#indent 6
+00 - <ToolAction_SetIdent>
+01 - <ToolAction_GetIdent>
+02 - <ToolAction_SetAction>
+03 - <ToolAction_GetAction>
+04 - <ToolAction_SetClickShow>
+05 - <ToolAction_GetClickShow>
+06 - <ToolAction_SetState>
+07 - <ToolAction_GetState>
+#Indent
+
+{*}WritableField{*}
+#indent 6
+512 - <WritableField_SetValue>
+513 - <WritableField_GetValue>
+514 - <WritableField_SetAllowable>
+516 - <WritableField_SetFont>
+#indent

@@ -1,0 +1,19 @@
+colourdbox_get_none_available
+#include Style
+#Background wimp 1
+Class:	<Colour Dialogue=>col-d_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *colourdbox_get_none_available 
+(
+  unsigned int  flags,
+  <ObjectId>      colourdbox,
+  int          *out_flags
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns whether a {/}none{/} option appears in the Colour Dialogue.

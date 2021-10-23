@@ -1,0 +1,22 @@
+IdBlock
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct                 
+\{
+  <ObjectId>    ancestor_id;
+  <ComponentId> ancestor_component;
+  <ObjectId>    parent_id;
+  <ComponentId> parent_component;
+  <ObjectId>    self_id;
+  <ComponentId> self_component;
+} IdBlock;
+{F}
+#indent
+#Wrap
+
+Purpose:	Block filled in by the toolbox on WimpPoll.

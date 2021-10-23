@@ -1,0 +1,10 @@
+StringSet_NoDisplay
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define StringSet_NoDisplay 0x00000010
+#Indent
+{F}
+#Wrap On

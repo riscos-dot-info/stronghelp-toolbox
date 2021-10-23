@@ -1,0 +1,10 @@
+WimpMenuItem_DottedLine
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpMenuItem_DottedLine (1u << 1)
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,10 @@
+Menu_Entry_GenerateSubMenuEvent
+#Wrap Off
+Defined in:	<menu.h=>menu_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Menu_Entry_GenerateSubMenuEvent 0x00000400
+#Indent
+{F}
+#Wrap On

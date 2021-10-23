@@ -1,0 +1,26 @@
+Window_SetTitle
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_SetTitle
+Veneer:	<window_set_title=>window_set_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 11
+r3 = pointer to new title text
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method changes the title text in a window's title bar.

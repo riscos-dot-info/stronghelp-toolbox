@@ -1,0 +1,26 @@
+Window_SetDefaultFocus
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_SetDefaultFocus
+Veneer:	<window_set_default_focus=>window_set_default_focus>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 13
+r3 = component ID
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets default focus for the window.  -1 means no focus, -2 means "invisible caret."

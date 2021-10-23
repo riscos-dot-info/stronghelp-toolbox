@@ -1,0 +1,25 @@
+Toolbox_GetAncestor (0x44ecb)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_GetAncestor
+Veneer:	<toolbox_get_ancestor>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = object Id
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0 = ancestor object Id
+r1 = ancestor component Id
+r2-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the value of the object Id of the ancestor object.

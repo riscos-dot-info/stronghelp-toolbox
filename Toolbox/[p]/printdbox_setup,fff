@@ -1,0 +1,19 @@
+PrintDbox_Setup 0x82b04
+#include Style
+#Background wimp 1
+Class:	<Print Dialogue=>print_class>
+#Line
+#Wrap off
+Syntax:	PrintDbox_Setup 0x82b04
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} PrintDboxSetUpEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user clicks on {/}Setup{/}.

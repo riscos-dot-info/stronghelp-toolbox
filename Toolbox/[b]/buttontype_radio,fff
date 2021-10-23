@@ -1,0 +1,10 @@
+ButtonType_Radio
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ButtonType_Radio 11
+#Indent
+{F}
+#Wrap On

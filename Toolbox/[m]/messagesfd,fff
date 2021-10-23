@@ -1,0 +1,17 @@
+MessagesFD
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+  int data [4];
+} MessagesFD;                         
+
+{F}
+#indent
+#Wrap
+Purpose:	MessageTrans file descriptor.

@@ -1,0 +1,10 @@
+Quit_GenerateAboutToBeShown
+#Wrap Off
+Defined in:	<quit.h=>quit_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Quit_GenerateAboutToBeShown 0x00000001
+#Indent
+{F}
+#Wrap On

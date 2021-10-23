@@ -1,0 +1,22 @@
+toolbox_show_object
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:		
+#indent 6
+{FCode}extern _kernel_oserror *toolbox_show_object 
+(
+  unsigned int  <flags=>toolbox_show_object_flags>,
+  <ObjectId>      id
+  int           <show_type=>toolbox_show_object_type>,
+  void         <*type=>windowshowobjectblock>,
+  <ObjectId>      parent,
+  <ComponentId>   parent_component
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function shows the given object on screen.

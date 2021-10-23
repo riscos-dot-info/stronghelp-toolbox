@@ -1,0 +1,20 @@
+WritableField Data Type
+#include Style
+#Background wimp 1
+Defined In:	<gadgets.h=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  char            *text;
+  int             max_text_len;
+  char            *allowable;
+  int             max_allowable_len ;
+  <ComponentId>     before;
+  <ComponentId>     after;
+} WritableField;
+#indent
+
+#Wrap

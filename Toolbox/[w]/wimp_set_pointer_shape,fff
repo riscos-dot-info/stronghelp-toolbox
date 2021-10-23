@@ -1,0 +1,23 @@
+wimp_set_pointer_shape
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_set_pointer_shape 
+(
+  int   shape,
+  void *data,
+  int   width,
+  int   height,
+  int   activex,
+  int   activey
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_SetPointerShape.=>Wimp:Wimp_setpointershape>

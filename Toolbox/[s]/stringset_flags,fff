@@ -1,0 +1,30 @@
+StringSet Flags
+#include Style
+#Background wimp 1
+Gadget:	<StringSet=>stringsets>
+#Line
+#Wrap off
+Bits:	0	- Inform client of changes using <StringSet_ValueChanged=>stringset_valuechanged>.
+	1	- Writable field (default is display field).
+	3	- Inform client just before showing menu using <StringSet_AboutToBeShown=>stringset_abouttobeshown>.
+	4	- No display or writable field.
+	5-6	- justification:
+#indent +8
+			0 - left.
+			1 - right.
+			2 - centred.
+#indent
+
+Constants:
+	<StringSet_GenerateUserValueChanged>
+	<StringSet_GenerateSetValueChanged>
+	<StringSet_Writable>
+	<StringSet_GenerateAboutToBeShown>
+	<StringSet_NoDisplay>
+	<StringSet_GetComponents_ReturnAlphaNumericField>
+	<StringSet_GetComponents_ReturnPopUpMenu>
+	<StringSet_IndexedSelection>
+	<StringSet_ValueChanged_TooLong>
+
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

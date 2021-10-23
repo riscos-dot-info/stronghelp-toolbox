@@ -1,0 +1,18 @@
+Slider Data Type
+#include Style
+#Background wimp 1
+Defined In:	<gadgets.h=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int           lower_bound,
+  int           upper_bound,
+  int           step_size,
+  int           initial_value;
+} Slider;
+#indent
+
+#Wrap

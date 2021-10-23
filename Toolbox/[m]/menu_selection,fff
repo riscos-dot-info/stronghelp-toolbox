@@ -1,0 +1,19 @@
+Menu_Selection 0x828c3
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	Menu_Selection 0x828c3
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} MenuSelectionEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user makes a selection of a menu object.

@@ -1,0 +1,24 @@
+wimp_block_copy
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_block_copy
+(
+  int handle,
+  int sxmin,
+  int symin,
+  int sxmax,
+  int symax,      
+  int dxmin,
+  int dymin
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	C SWI veneer to <Wimp_BlockCopy.=>Wimp:wimp_blockcopy>

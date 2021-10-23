@@ -1,0 +1,20 @@
+Adjuster_Clicked 0x8288c
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	Adjuster_Clicked 0x8288c
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader>  hdr;
+  int                 direction;
+} AdjusterClickedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This Toolbox event is raised when the user clicks the mouse on an adjuster arrow.

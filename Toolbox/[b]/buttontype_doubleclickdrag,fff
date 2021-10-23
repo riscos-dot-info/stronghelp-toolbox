@@ -1,0 +1,10 @@
+ButtonType_DoubleClickDrag
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ButtonType_DoubleClickDrag 10
+#Indent
+{F}
+#Wrap On

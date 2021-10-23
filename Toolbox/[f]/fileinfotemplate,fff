@@ -1,0 +1,23 @@
+FileInfoTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<fileinfo.h=>finfo_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int           flags;
+  char          *title;
+  int           max_title;
+  int           modified;
+  int           filetype;
+  char          *filename;
+  int           filesize;
+  char          utc[5];
+  char          *window;
+} FileInfoTemplate;
+{f}
+#indent
+#Wrap

@@ -1,0 +1,18 @@
+ColourMenuTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<colourmenu.h=>col-m_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int           flags;
+  char          *title;
+  int           max_title;
+  int           colour;
+} ColourMenuTemplate;
+{f}
+#indent
+#Wrap

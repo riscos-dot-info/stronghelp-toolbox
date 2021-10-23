@@ -1,0 +1,10 @@
+ColourDbox_ColourNoneSelected
+#Wrap Off
+Defined in:	<colourdbox.h=>col-d_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ColourDbox_ColourNoneSelected 0x00000001
+#Indent
+{F}
+#Wrap On

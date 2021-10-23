@@ -1,0 +1,11 @@
+Wimp_EPollWordNonZero
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_EPollWordNonZero 13
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <PollWordNonZero=>Wimp:Wimp_Poll13>

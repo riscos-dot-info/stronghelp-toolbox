@@ -1,0 +1,13 @@
+ObjectClass Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<toolbox.h=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef int ObjectClass;
+{F}
+#indent
+#Wrap

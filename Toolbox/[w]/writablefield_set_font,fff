@@ -1,0 +1,21 @@
+writablefield_set_font
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+Class:	<Writable Fields=>writables>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *writablefield_set_font 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   writable,
+  char         *font_name,
+  int           width,
+  int           height
+);
+
+{F}
+#indent
+Purpose:	Function makes the writable field specified in ComponentId use the anti-aliased font specified in {/}font_name{/}.  If the field is set to NULL, then the system font is used.

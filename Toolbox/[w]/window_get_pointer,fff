@@ -1,0 +1,21 @@
+window_get_pointer
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_get_pointer 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  char         *buffer,
+  int           buff_size,
+  int          *nbytes,
+  int          *x_hot_spot,
+  int          *y_hot_spot
+);
+
+{F}
+#indent
+Purpose:	Function returns the name of the pointer sprite to be used in the specified window.

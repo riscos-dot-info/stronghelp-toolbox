@@ -1,0 +1,10 @@
+window_get_pointer_info Buttons
+#include Style
+#Background wimp 1
+Command:	<window_get_pointer_info=>window_get_pointer_info>
+#Line
+#Wrap off
+Bits:	0	- adjust.
+	1	- menu.
+	2	- select.
+	8	- not over a toolbox window.

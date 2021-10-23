@@ -1,0 +1,26 @@
+Radio Buttons
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of Radio Buttons{/}
+
+#Align left
+#Wrap on
+Ref:	Page 387 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>radio_data_types>
+<Flags=>radio_flags>
+
+<radiobutton_get_event>
+<radiobutton_get_label>
+<radiobutton_get_state>
+<radiobutton_set_event>
+<radiobutton_set_font>
+<radiobutton_set_label>
+<radiobutton_set_state>
+
+{/}RadioButton Events{/}
+<RadioButton_StateChanged>
+#Line
+Defined in <Gadgets.H=>gadgets>

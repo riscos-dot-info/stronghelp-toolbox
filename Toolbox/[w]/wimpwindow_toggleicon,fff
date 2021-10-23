@@ -1,0 +1,10 @@
+WimpWindow_ToggleIcon
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpWindow_ToggleIcon (1u << 27)
+#Indent
+{F}
+#Wrap On

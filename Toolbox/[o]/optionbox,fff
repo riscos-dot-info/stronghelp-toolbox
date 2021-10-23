@@ -1,0 +1,26 @@
+Option Buttons
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of option buttons{/}
+
+#Align left
+#Wrap on
+Ref:	Page 376 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>optionbox_data_types>
+<Flags=>optionbox_flags>
+
+<optionbutton_get_event>
+<optionbutton_get_label>
+<optionbutton_get_state>
+<optionbutton_set_event>
+<optionbutton_set_font>
+<optionbutton_set_label>
+<optionbutton_set_state>
+
+{/}OptionButton Events{/}
+<OptionButton_StateChanged>
+#Line
+Defined in <Gadgets.H=>gadgets>

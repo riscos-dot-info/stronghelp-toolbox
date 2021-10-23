@@ -1,0 +1,28 @@
+FontMenu_GetFont
+#include Style
+#Background wimp 1
+Module:	<FontMenu=>fontmenu/m>
+#Line
+#Wrap off
+Syntax:	FontMenu_GetFont
+Veneer:	<fontmenu_get_font>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FontMenu object ID
+r2 = 1
+r3 = pointer to buffer
+r4 = buffer size for font id
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains font id.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the selected font.

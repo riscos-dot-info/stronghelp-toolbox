@@ -1,0 +1,21 @@
+actionbutton_get_click_show
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+SWI:	<actionbutton_getclickshow>
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *actionbutton_get_click_show 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   action_button,
+  <ObjectId>     *object,
+  unsigned int <*show_flags=>actionbutton_get_click_show_flags>
+);
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the ObjectId of the object to shown when the user clicks on the <action button=>actionbox>.

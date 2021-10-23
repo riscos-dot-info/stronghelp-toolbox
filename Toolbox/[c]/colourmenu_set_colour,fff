@@ -1,0 +1,19 @@
+colourmenu_set_colour
+#include Style
+#Background wimp 1
+Class:	<Colour Menu=>col-m_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *colourmenu_set_colour 
+(
+  unsigned int  flags,
+  <ObjectId>      colourmenu,
+  int           wimp_colour
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the currently selected colour on the Colour Menu..co

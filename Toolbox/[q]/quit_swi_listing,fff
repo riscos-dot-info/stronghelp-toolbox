@@ -1,0 +1,15 @@
+Quit SWI Listing
+#Parent !Root
+#include Style
+#Align Centre
+<Quit=>Quit/m>
+#Line
+#Align left
+
+00 - <Quit_GetWindowID>
+01 - <Quit_SetMessage>
+02 - <Quit_GetMessage>
+03 - <Quit_SetTitle>
+04 - <Quit_GetTitle>
+
+To be used with <Toolbox_ObjectMiscOp>.

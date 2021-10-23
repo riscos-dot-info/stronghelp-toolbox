@@ -1,0 +1,19 @@
+fileinfo_set_date
+#include Style
+#Background wimp 1
+Class:	<File Info=>finfo_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *fileinfo_set_date 
+(
+  unsigned int  flags,
+  <ObjectId>      fileinfo,
+  int          *UTC
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the date string to be displayed in the FileInfo dialogue.

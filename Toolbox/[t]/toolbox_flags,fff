@@ -1,0 +1,21 @@
+Toolbox Flags
+#include Style
+#Parent saveas_class
+#Background wimp 1
+Class:	<Toolbox=>tbox_lib>
+#Line
+#Wrap off
+
+Constants:
+<Object_CreateOnLoad>
+<Object_ShowOnCreate>
+<Object_Shared>
+<Object_Ancestor>
+<Toolbox_ShowObject_AsMenu>
+<Toolbox_ShowObject_AsSubMenu>
+<Toolbox_ShowObject_AsSubWindow>
+<Toolbox_ShowObject_Default>
+<Toolbox_ShowObject_FullSpec>
+<Toolbox_ShowObject_TopLeft>
+<Toolbox_ShowObject_Centre>
+<Toolbox_ShowObject_AtPointer>

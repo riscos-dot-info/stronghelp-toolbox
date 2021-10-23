@@ -1,0 +1,17 @@
+SrollListSelectionEvent
+#include Style
+#Background wimp 1
+Defined In:	<scrolllist.h=>scrolllist_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+    <ToolboxEventHeader> hdr;
+    unsigned int       <flags;=>scrolllist_selection_flags>
+    int                item;
+} ScrollListSelectionEvent;
+{f}
+#indent
+#Wrap

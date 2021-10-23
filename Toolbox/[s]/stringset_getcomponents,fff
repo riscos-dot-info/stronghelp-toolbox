@@ -1,0 +1,28 @@
+StringSet_GetComponents
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<stringset_get_components>
+Syntax:	StringSet_GetComponents
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0 - return the alphanumerical field
+     bit 1 - return the popup menu
+r1 = window object Id
+r2 = 902
+r3 = gadget component Id
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = alphanumeric field
+r1 = popup id
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the wimp icon numbers for the icons making up the stringset.

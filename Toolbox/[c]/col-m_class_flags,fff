@@ -1,0 +1,16 @@
+Colour Menu Class Flags
+#include Style
+#Parent col-m_class
+#Background wimp 1
+Class:	<ColourMenu=>col-m_class>
+#Line
+#Wrap off
+Bits:	0	- Set indicates that a <ColourMenu_AboutToBeShown> should be called when displaying object.
+	1	- Set indicates a <ColourMenu_HasBeenHidden> should be raised when the object is closed.
+	2	- Set indicates include a None entry in the menu.
+
+Constants:
+<ColourMenu_GenerateAboutToBeShownEvent>
+<ColourMenu_GenerateHasBeenHiddenEvent>
+<ColourMenu_NoneEntry>
+<ColourMenu_ColourNone>

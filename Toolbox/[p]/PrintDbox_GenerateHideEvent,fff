@@ -1,0 +1,10 @@
+PrintDbox_GenerateHideEvent
+#Wrap Off
+Defined in:	<printdbox.h=>print_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define PrintDbox_GenerateHideEvent 0x00000002
+#Indent
+{F}
+#Wrap On

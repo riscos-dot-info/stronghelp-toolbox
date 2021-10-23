@@ -1,0 +1,19 @@
+saveas_file_save_completed
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *saveas_file_save_completed 
+(
+  unsigned int  flags,
+  <ObjectId>      saveas,
+  char         *filename
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function is used by the client to report whether an attempt to save data to a file was successful or not.

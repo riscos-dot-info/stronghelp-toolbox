@@ -1,0 +1,20 @@
+wimp_poll
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}_kernel_oserror *wimp_poll
+(
+  int           <mask,=>Wimp:Wimp_PollMask>
+  <WimpPollBlock> *block,
+  int           *pollword,
+  int           <*event_code=>wimp_poll_event_codes>
+);
+{F}
+#indent
+
+Purpose:	C SWI veneer to <Wimp_Poll.=>Wimp:Wimp_poll>

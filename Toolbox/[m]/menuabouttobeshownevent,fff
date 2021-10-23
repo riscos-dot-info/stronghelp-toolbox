@@ -1,0 +1,17 @@
+MenuAboutToBeShownEvent
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+  <TopLeft>            pos;
+} MenuAboutToBeShownEvent;
+{F}
+#indent
+#Wrap

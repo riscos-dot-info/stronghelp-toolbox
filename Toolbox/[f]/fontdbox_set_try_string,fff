@@ -1,0 +1,19 @@
+fontdbox_set_try_string
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *fontdbox_set_try_string 
+(
+  unsigned int  flags,
+  <ObjectId>      fontdbox,
+  char         *try_string
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the string for the {/}Try{/} writable field in the Font Dialogue.  It must not exceed {*}64 characters{*}.

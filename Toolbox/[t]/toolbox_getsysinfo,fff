@@ -1,0 +1,41 @@
+Toolbox_GetSysInfo (0x44ece)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_GetSysInfo
+Veneer:	<toolbox_get_sys_info>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0 - return task name
+     bit 1 - return messages file descriptor
+     bit 2 - return directory passed in 
+             <Toolbox_Initialise>
+     bit 3 - return task's Wimp task handle
+     bit 4 - return pointer to sprite area
+             used.
+r1 + r2 depend on bits set in r0 (see below)
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0: On Entry - On Exit
+         0   - r2 holds size of buffer (if r1=0)
+               else buffer pointed at by r1 holds
+               task name.
+         1   - buffer pointed at by r1 contains
+               messages file descriptor.
+         2   - r2 holds size of buffer (if r1=0)
+               else buffer pointed at by r1 holds
+               directory name.
+         3   - r0 contains task handle.
+         4   - r0 contains sprite area pointer.
+               used.
+{f}
+#indent
+#Wrap
+Purpose:	Method used to get information about the task.

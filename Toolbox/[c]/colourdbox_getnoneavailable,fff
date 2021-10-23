@@ -1,0 +1,25 @@
+ColourDbox_GetNoneAvailable
+#include Style
+#Background wimp 1
+Module:	<ColourDbox=>colourdbox/m>
+#Line
+#Wrap off
+Syntax:	ColourDbox_GetNoneAvailable
+Veneer:	<colourdbox_get_none_available>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourDbox object ID
+r2 = 7
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = bit 0 set means none available.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets whether the None option is available in the Colour Dialogue.

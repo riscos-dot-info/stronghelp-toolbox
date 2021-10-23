@@ -1,0 +1,20 @@
+optionbutton_get_state
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *optionbutton_get_state 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   option_button,
+  int            *state
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function reads the state of the specified option box.  {/}state{/} should be 0 for off, and 1 for on.

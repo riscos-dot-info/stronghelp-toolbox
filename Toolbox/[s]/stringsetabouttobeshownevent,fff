@@ -1,0 +1,15 @@
+StringSetAboutToBeShownEvent
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} StringSetAboutToBeShownEvent;
+{F}
+#indent
+#Wrap

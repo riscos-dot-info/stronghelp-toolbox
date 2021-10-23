@@ -1,0 +1,15 @@
+WimpMouseClickEvent Buttons
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Buttons:
+#indent 6
+{FCode}Wimp_MouseButtonAdjust          0x001
+Wimp_MouseButtonMenu            0x002
+Wimp_MouseButtonSelect          0x004
+{F}
+#indent
+#Wrap

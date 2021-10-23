@@ -1,0 +1,26 @@
+Menu_SetSubMenuShow
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_SetSubMenuShow
+Veneer:	<menu_set_sub_menu_show>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 8
+r3 = component id of entry
+r4 = object id of submenu
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets submenu for an entry on a menu.

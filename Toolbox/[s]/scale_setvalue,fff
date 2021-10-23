@@ -1,0 +1,26 @@
+Scale_SetValue
+#include Style
+#Background wimp 1
+Module:	<Scale=>scale/m>
+#Line
+#Wrap off
+Syntax:	Scale_SetValue
+Veneer:	<scale_set_value>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Scale object ID
+r2 = 1
+r3 = value
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the value displayed in the writable field of the object.

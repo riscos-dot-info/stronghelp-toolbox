@@ -1,0 +1,22 @@
+Stringset Data Type
+#include Style
+#Background wimp 1
+Defined In:	<gadgets.h=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  char              *string_set;
+  char              *title;
+  char              *initial_selected_string;
+  int               max_selected_string_len;
+  char              *allowable;
+  int               max_allowable_len;
+  <ComponentId>       before;
+  <ComponentId>       after;
+} StringSet;
+#indent
+
+#Wrap

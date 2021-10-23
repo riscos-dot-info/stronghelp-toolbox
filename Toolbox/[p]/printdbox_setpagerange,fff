@@ -1,0 +1,26 @@
+PrintDbox_SetPageRange
+#include Style
+#Background wimp 1
+Module:	<PrintDbox=>printdbox/m>
+#Line
+#Wrap off
+Syntax:	PrintDbox_SetPageRange
+Veneer:	<printdbox_set_page_range>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = PrintDbox object ID
+r2 = 1
+r3 = start of page range
+r4 = end of page range
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the print range in the Print Dialogue.

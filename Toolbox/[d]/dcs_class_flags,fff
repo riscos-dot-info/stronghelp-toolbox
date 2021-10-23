@@ -1,0 +1,13 @@
+Discard/Cancel/Save Class Flags
+#include Style
+#Parent dcs_class
+#Background wimp 1
+Class:	<D/C/S=>dcs_class>
+#Line
+#Wrap off
+Bits:	0	- Set indicates that a <DCS_AboutToBeShown> should be called when displaying object.
+	1	- Set indicates a <DCS_DialogueCompleted> should be raised when the object is closed.
+
+Constants:
+<DCS_GenerateAboutToBeShown>
+<DCS_GenerateDialogueCompleted>

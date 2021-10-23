@@ -1,0 +1,10 @@
+WimpIcon_Deleted
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpIcon_Deleted (1u << 23)
+#Indent
+{F}
+#Wrap On

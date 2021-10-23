@@ -1,0 +1,10 @@
+Iconbar_ShowAdjustTransient
+#Wrap Off
+Defined in:	<iconbar.h=>ibar_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Iconbar_ShowAdjustTransient 0x00000008
+#Indent
+{F}
+#Wrap On

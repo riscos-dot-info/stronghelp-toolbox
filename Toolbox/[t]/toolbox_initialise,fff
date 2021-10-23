@@ -1,0 +1,27 @@
+toolbox_initialise
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+SWI:	<Toolbox_Initialise=>toolbox_initialise_swi>
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *toolbox_initialise 
+(
+  unsigned int  flags,
+  int           wimp_version,
+  int          *wimp_messages,
+  int          *toolbox_events,
+  char         *directory,
+  <MessagesFD>   *mfd,
+  <IdBlock>      *idb,
+  int          *current_wimp_version,
+  int          *task,
+  void         *sprite_area
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function is used by the client application before any other SWIs.  It registers the client application with the Toolbox.

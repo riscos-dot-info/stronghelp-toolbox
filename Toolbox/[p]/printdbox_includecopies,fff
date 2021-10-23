@@ -1,0 +1,10 @@
+PrintDbox_IncludeCopies
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define PrintDbox_IncludeCopies 0x00000010
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,27 @@
+ActionButton_SetText
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<actionbutton_set_text>
+Syntax:	ActionButton_SetText
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 128
+r3 = gadget component Id
+r4 = pointer to text to appear in button
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the text which will be displayed in the actionbutton.

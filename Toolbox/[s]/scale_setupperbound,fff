@@ -1,0 +1,10 @@
+Scale_SetUpperBound
+#Wrap Off
+Defined in:	<scale.h=>scale_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Scale_SetUpperBound 0x00000002
+#Indent
+{F}
+#Wrap On

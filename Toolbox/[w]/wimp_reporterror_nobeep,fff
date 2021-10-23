@@ -1,0 +1,10 @@
+Wimp_ReportError_NoBeep
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_ReportError_NoBeep (1u << 7)
+#Indent
+{F}
+#Wrap On

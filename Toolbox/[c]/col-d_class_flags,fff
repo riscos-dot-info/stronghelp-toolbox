@@ -1,0 +1,18 @@
+Colour Dialogue Class Flags
+#include Style
+#Parent col-d_class
+#Background wimp 1
+Class:	<ColourDialogue=>col-d_class>
+#Line
+#Wrap off
+Bits:	0	- Set indicates that a <ColourDbox_AboutToBeShown> should be called when displaying object.
+	1	- Set indicates a <ColourDbox_DialogueCompleted> should be raised when the object is closed.
+	2	- Set indicates include a None button in the dialogue.
+	3	- Set means select the None button when the dialogue is created.
+
+Constants:
+	<ColourDbox_GenerateShowEvent>
+	<ColourDbox_GenerateHideEvent>
+	<ColourDbox_IncludeNoneButton>
+	<ColourDbox_SelectNoneButton>
+	<ColourDbox_ColourNoneSelected>

@@ -1,0 +1,28 @@
+FileInfo_GetTitle
+#include Style
+#Background wimp 1
+Module:	<FileInfo=>fileinfo/m>
+#Line
+#Wrap off
+Syntax:	FileInfo_GetTitle
+Veneer:	<fileinfo_get_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FileInfo object ID
+r2 = 12
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer (if r3=0)
+     else buffer contains title.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the title string in the FileInfo object.

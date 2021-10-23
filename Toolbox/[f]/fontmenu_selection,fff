@@ -1,0 +1,20 @@
+FontMenu_Selection 0x82a42
+#include Style
+#Background wimp 1
+Class:	<Font Menu=>font_class>
+#Line
+#Wrap off
+Syntax:	FontMenu_Selection 0x82a42
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  char               font_id[216];
+} FontMenuSelectionEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user selects a font.

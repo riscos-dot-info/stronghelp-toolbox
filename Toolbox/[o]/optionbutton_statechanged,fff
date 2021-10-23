@@ -1,0 +1,20 @@
+OptionButton_StateChanged 0x82882
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	OptionButton_StateChanged 0x82882
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                new_state;
+} OptionButtonStateChangedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This toolbox event is raised when the state of an option box changes, and the client application has not specified an event to be associated with this change.

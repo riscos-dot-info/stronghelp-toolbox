@@ -1,0 +1,19 @@
+Scale_DialogueCompleted 0x82c01
+#include Style
+#Background wimp 1
+Class:	<Scale Dialogue=>scale_class>
+#Line
+#Wrap off
+Syntax:	Scale_DialogueCompleted 0x82c01
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} ScaleDialogueCompletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised after the Scale dialogue is hidden.

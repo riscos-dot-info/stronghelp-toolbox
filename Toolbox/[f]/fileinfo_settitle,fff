@@ -1,0 +1,26 @@
+FileInfo_SetTitle
+#include Style
+#Background wimp 1
+Module:	<FileInfo=>fileinfo/m>
+#Line
+#Wrap off
+Syntax:	FileInfo_SetTitle
+Veneer:	<fileinfo_set_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FileInfo object ID
+r2 = 11
+r3 = pointer to string
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the title string in the FileInfo object.

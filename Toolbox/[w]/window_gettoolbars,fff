@@ -1,0 +1,33 @@
+Window_GetToolBars
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_GetToolBars
+Veneer:	<window_get_tool_bars=>window_get_tool_bars>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = mask:
+     bit 0 - returns internal bl toolbar
+     bit 1 - returns internal tl toolbar
+     bit 2 - returns external bl toolbar
+     bit 3 - returns external tl toolbar
+r1 = window object ID
+r2 = 19
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = object ID of internal bl toolbar
+r1 = object ID of internal tl toolbar
+r2 = object ID of external bl toolbar
+r3 = object ID of external tl toolbar
+
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the object IDs of the toolbars for the window object.

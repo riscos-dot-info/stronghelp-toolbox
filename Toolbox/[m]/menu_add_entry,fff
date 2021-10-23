@@ -1,0 +1,21 @@
+menu_add_entry
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_add_entry 
+(
+  unsigned int  <flags,=>menu_add_entry_flags>
+  <ObjectId>      menu,
+  <ComponentId>   at_entry,
+  char         *entry_description,
+  <ComponentId>  *new_entry,
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function adds a new menu entry.  Entry is added below {/}at_entry{/} by default.  {/}entry_description{/} is a cast to a <MenuTemplateEntry> struct.

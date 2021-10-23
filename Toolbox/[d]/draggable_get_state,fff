@@ -1,0 +1,20 @@
+draggable_get_state
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *draggable_get_state 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   draggable,
+  int          *state
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the draggable's state.  {/}state{/} should be 0 for deselected, or 1 for selected.

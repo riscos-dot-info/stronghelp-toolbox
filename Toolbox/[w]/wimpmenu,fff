@@ -1,0 +1,25 @@
+WimpMenu Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+    char         title[12];
+    char         title_fg;
+    char         title_bg;
+    char         work_fg;
+    char         work_bg;
+    int          item_width;
+    int          item_height;
+    int          gap;
+
+    <WimpMenuItem> items[1];
+} WimpMenu;   
+{F}
+#indent
+#Wrap

@@ -1,0 +1,27 @@
+ProgInfo_AboutToBeShown 0x82b40
+#include Style
+#Background wimp 1
+Class:	<Program Info Dialogue=>proginfo_class>
+#Line
+#Wrap off
+Syntax:	ProgInfo_AboutToBeShown 0x82b40
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+
+  union
+  \{
+    <TopLeft>               pos;
+    <WindowShowObjectBlock> full;
+  } info;
+
+} ProgInfoAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised just before the Prog Info window is displayed.

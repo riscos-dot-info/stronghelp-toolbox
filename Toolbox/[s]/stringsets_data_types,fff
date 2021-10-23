@@ -1,0 +1,11 @@
+StringSet Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}StringSet Data Types{/}
+#Align left
+
+<StringSet>
+<StringSetValueChangedEvent>
+<StringSetAboutToBeShownEvent>

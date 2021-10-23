@@ -1,0 +1,16 @@
+WimpMessageHandler
+#include Style
+#Background wimp 1
+Header:	<Event.H=>event_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef int (WimpMessageHandler) 
+(
+  <WimpMessage> *message,
+  void        *handle
+);
+{F}
+#indent
+#wrap

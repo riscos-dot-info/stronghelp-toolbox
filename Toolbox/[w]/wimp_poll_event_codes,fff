@@ -1,0 +1,31 @@
+Wimp Event Codes
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Numbers:
+#indent 6
+{FCode}<Wimp_ENull>
+<Wimp_ERedrawWindow>
+<Wimp_EOpenWindow>
+<Wimp_ECloseWindow>
+<Wimp_EPointerLeavingWindow>
+<Wimp_EPointerEnteringWindow>
+<Wimp_EMouseClick>
+<Wimp_EUserDrag>
+<Wimp_EKeyPressed>
+<Wimp_EMenuSelection>
+<Wimp_EScrollRequest>
+<Wimp_ELoseCaret>
+<Wimp_EGainCaret>
+<Wimp_EPollWordNonZero>
+<Wimp_EUserMessage>
+<Wimp_EUserMessageRecorded>
+<Wimp_EUserMessageAcknowledge>
+<Wimp_EToolboxEvent>
+{F}
+#indent
+#Wrap
+See <wimp_poll>

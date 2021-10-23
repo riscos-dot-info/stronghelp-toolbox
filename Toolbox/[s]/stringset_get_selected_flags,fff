@@ -1,0 +1,7 @@
+stringset_get_selected Flags
+#include Style
+#Background wimp 1
+Command:	<stringset_get_selected=>stringset_get_selected>
+#Line
+#Wrap off
+Bits:	0	- Set returns the index of the string; unset returns the string.

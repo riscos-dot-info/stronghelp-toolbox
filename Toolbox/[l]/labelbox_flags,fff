@@ -1,0 +1,10 @@
+Labelled Flags
+#include Style
+#Background wimp 1
+Gadget:	<Labelled Box=>labelbox>
+#Line
+#Wrap off
+<LabelledBox_Sprite>
+<LabelledBox_SpriteIsFilled>
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

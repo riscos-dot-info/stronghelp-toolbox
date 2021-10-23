@@ -1,0 +1,27 @@
+TextArea_SetSelection
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<textarea_set_selection>
+Syntax:	TextArea_SetSelection
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x4018 + 7 (16415)
+r3 = gadget component Id
+r4 = index start
+r5 = index end
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the selected text in the TextArea.

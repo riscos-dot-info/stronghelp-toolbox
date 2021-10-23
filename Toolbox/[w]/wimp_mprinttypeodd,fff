@@ -1,0 +1,11 @@
+Wimp_MPrintTypeOdd
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MPrintTypeOdd 0x80145
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <PrintTypeOdd.=>Wimp:Msg_80145>

@@ -1,0 +1,20 @@
+fontdbox_get_size
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *fontdbox_get_size 
+(
+  unsigned int  flags,
+  <ObjectId>      fontdbox,
+  int          *height,
+  int          *aspect_ratio
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the size for the currently selected font for the Font Dialogue.

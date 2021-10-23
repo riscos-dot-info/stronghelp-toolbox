@@ -1,0 +1,36 @@
+Iconbar Icon Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Iconbar Icon{/}
+
+#Align left
+#Wrap on
+Ref:	Page 145 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>ibar_class_data_types>
+<Flags=>ibar_class_flags>
+
+#Table Columns 2
+<iconbar_get_event>
+<iconbar_get_help_message>
+<iconbar_get_icon_handle>
+<iconbar_get_menu>
+<iconbar_get_show>
+<iconbar_get_sprite>
+<iconbar_get_text>
+<iconbar_set_event>
+<iconbar_set_help_message>
+<iconbar_set_menu>
+<iconbar_set_show>
+<iconbar_set_sprite>
+<iconbar_set_text>
+#EndTable
+
+{/}Iconbar Icon Events{/}
+<Iconbar_AdjustAboutToBeShown>
+<Iconbar_Clicked>
+<Iconbar_SelectAboutToBeShown>
+#Line
+Defined in Iconbar.H

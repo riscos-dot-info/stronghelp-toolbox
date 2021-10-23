@@ -1,0 +1,21 @@
+drawfile_declare_fonts
+#Parent drawfile_lib
+#include Style
+#Background wimp 1
+Header:	<Drawfile.H=>drawfile_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *drawfile_declare_fonts
+(
+  unsigned int  flags,
+  void         *data,
+  int           size
+);
+
+
+{F}
+#indent
+#wrap
+Purpose:	Declares the fonts for printing a drawfile.

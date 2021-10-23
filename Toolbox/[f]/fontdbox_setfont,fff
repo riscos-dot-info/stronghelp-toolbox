@@ -1,0 +1,26 @@
+FontDbox_SetFont
+#include Style
+#Background wimp 1
+Module:	<FontDbox=>fontdbox/m>
+#Line
+#Wrap off
+Syntax:	FontDbox_SetFont
+Veneer:	<fontdbox_set_font>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FontDbox object ID
+r2 = 1
+r3 = pointer to font id
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the selected font in the Font Dialogue.

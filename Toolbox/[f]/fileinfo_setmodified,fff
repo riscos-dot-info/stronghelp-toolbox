@@ -1,0 +1,28 @@
+FileInfo_SetModified
+#include Style
+#Background wimp 1
+Module:	<FileInfo=>fileinfo/m>
+#Line
+#Wrap off
+Syntax:	FileInfo_SetModified
+Veneer:	<fileinfo_set_modified>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FileInfo object ID
+r2 = 1
+r3 = value
+     0  - Unmodified
+     >0 - Modified
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets whether the file is modified or not.

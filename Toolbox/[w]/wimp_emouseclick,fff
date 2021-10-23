@@ -1,0 +1,11 @@
+Wimp_EMouseClick
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_EMouseClick 6
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <MouseClick=>Wimp:Wimp_Poll6>

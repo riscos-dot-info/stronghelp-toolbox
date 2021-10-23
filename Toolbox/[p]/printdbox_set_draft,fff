@@ -1,0 +1,19 @@
+printdbox_set_draft
+#include Style
+#Background wimp 1
+Class:	<Printer Dialogue=>print_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *printdbox_set_draft 
+(
+  unsigned int  flags,
+  <ObjectId>      printdbox,
+  int           draft
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the draft printing mode on or off.  {/}draft{/} should be set to 0 for non-draft, and non-zero for draft printing.

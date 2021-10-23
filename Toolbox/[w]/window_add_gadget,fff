@@ -1,0 +1,19 @@
+window_add_gadget
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_add_gadget 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <Gadget>       *gadget,
+  <ComponentId>  *gadget_component
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function adds a gadget to the list of gadgets for this window object.  If {/}flags{/} = -1 then the Toolbox will allocate an unused <Component Id.=>componentid>

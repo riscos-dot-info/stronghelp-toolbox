@@ -1,0 +1,28 @@
+Iconbar_SetShow
+#include Style
+#Background wimp 1
+Module:	<Iconbar=>iconbar/m>
+#Line
+#Wrap off
+Syntax:	Iconbar_SetShow
+Veneer:	<iconbar_set_show>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     Bit 0: set means show object in r3 for select.
+     Bit 1: set means show object in r4 for adjust.
+r1 = Iconbar object ID
+r2 = 5
+r3 = object id for select.
+r4 = object id for adjust.
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the objects associated with the Iconbar Object.

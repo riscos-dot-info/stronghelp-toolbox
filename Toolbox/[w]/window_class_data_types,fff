@@ -1,0 +1,17 @@
+Window Class Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Window Data Types{/}
+#Align left
+
+<Gadget>
+<GadgetHeader>
+
+<KeyboardShortcut>
+<KeyboardShortcut_ShowAsTransient>
+<WindowABoutToBeShownEvent>
+<WindowHasBeenHiddenEvent>
+<WindowShowObjectBlock>
+<WindowTemplate>

@@ -1,0 +1,28 @@
+ColourMenu_GetTitle
+#include Style
+#Background wimp 1
+Module:	<ColourMenu=>colourmenu/m>
+#Line
+#Wrap off
+Syntax:	ColourMenu_GetTitle
+Veneer:	<colourmenu_get_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourMenu object ID
+r2 = 5
+r4 = pointer to buffer
+r5 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer (if r3=0)
+     else buffer contains title.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the title of the ColourMenu.

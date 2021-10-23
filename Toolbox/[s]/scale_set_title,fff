@@ -1,0 +1,19 @@
+scale_set_title
+#include Style
+#Background wimp 1
+Class:	<Scale Dialogue=>scale_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scale_set_title 
+(
+  unsigned int  flags,
+  <ObjectId>      scale,
+  char         *title
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets title of the Scale dialogue.

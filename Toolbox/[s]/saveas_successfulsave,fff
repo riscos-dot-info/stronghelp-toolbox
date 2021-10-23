@@ -1,0 +1,10 @@
+SaveAs_SuccessfulSave
+#Wrap Off
+Defined in:	<saveas.h=>saveas_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define SaveAs_SuccessfulSave 0x0000001
+#Indent
+{F}
+#Wrap On

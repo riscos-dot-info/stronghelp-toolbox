@@ -1,0 +1,25 @@
+SaveAs_FileSaveCompleted
+#include Style
+#Background wimp 1
+Module:	<SaveAs=>saveas/m>
+#Line
+#Wrap off
+Syntax:	SaveAs_FileSaveCompleted
+Veneer:	<saveas_file_save_completed>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = SaveAs object ID
+r2 = 12
+r3 = filename
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method is used by the client to report if a save was successful or not.

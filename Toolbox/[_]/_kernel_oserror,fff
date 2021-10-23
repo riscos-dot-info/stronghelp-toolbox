@@ -1,0 +1,16 @@
+_kernel_oserror
+#include Style
+#Background wimp 1
+Defined In:	<kernel.h=>C:kernel>
+#Line
+
+Syntax:	
+#indent 6
+{FCode}\{
+  int errnum;
+  char errmess[252];
+}
+
+{F}
+#indent
+Purpose:	Structure holds a standard RiscOS error block.

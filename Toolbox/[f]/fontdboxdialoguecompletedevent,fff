@@ -1,0 +1,15 @@
+FontDboxDialogueCompletedEvent
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} FontDboxDialogueCompletedEvent;
+{F}
+#indent
+#Wrap

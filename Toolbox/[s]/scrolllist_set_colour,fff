@@ -1,0 +1,22 @@
+scrolllist_set_colour
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<ScrollList.H=>scrolllist>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern _kernel_oserror *scrolllist_set_colour
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  unsigned int  foreground,
+  unsigned int  background
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function will set the foreground and background colours for the specified ScrollList.  Not Style-Guide compliant, for use with Java only ;-)

@@ -1,0 +1,10 @@
+SaveAs_Directory
+#Wrap Off
+Defined in:	<saveas.h=>saveas_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define SaveAs_Directory 0x1000
+#Indent
+{F}
+#Wrap On

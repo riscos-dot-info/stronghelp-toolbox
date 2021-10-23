@@ -1,0 +1,11 @@
+Scrolling List Gadget Flags
+#include Style
+#Background wimp 1
+Gadget:	<ScrollList>
+#Line
+#Wrap off
+Bits:	0 	- Gadget can have multiple selected items when set.
+
+Constants:
+	<ScrollList_SingleSelections>
+	<ScrollList_MultipleSelections>

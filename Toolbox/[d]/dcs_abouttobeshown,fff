@@ -1,0 +1,27 @@
+DCS_AboutToBeShown 0x82a80
+#include Style
+#Background wimp 1
+Class:	<DCS Dialogue=>dcs_class>
+#Line
+#Wrap off
+Syntax:	DCS_AboutToBeShown 0x82a80
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+
+  union
+  \{
+    <TopLeft>               pos;
+    <WindowShowObjectBlock> full;
+  } info;
+
+} DCSAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised just before the DCS window is opened.

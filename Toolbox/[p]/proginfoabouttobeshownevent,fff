@@ -1,0 +1,23 @@
+ProgInfoAboutToBeShownEvent
+#include Style
+#Background wimp 1
+Class:	<Program Info Dialogue=>proginfo_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+
+  union
+  \{
+    <TopLeft>               pos;
+    <WindowShowObjectBlock> full;
+  } info;
+
+} ProgInfoAboutToBeShownEvent;
+{F}
+#indent
+#Wrap

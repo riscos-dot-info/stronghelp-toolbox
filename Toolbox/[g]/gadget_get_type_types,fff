@@ -1,0 +1,26 @@
+gadget_get_type Types
+#include Style
+#Background wimp 1
+Function:	<gadget_get_type>
+#Line
+#Wrap off
+Types:
+#indent 6
+{fCode}ActionButton_Base   128
+AdjusterArrow_Base  768
+Button_Base         960
+DisplayField_Base   448
+Draggable_Base      640
+Label_Base          320
+LabelledBox_Base    256
+NumberRange_Base    832
+OptionButton_Base   192
+PopUp_Base          704
+RadioButton_Base    384
+ScrollList_Base     16410
+Slider_Base         576
+StringSet_Base      896
+TextArea_Base       16408
+WritableField_Base  512
+{F}
+#indent

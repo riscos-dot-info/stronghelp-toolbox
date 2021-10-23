@@ -1,0 +1,21 @@
+wimp_report_error
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}int wimp_report_error
+(
+  <_kernel_oserror> *er,
+  int              flags,
+  char            *name, 
+  ...
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_ReportError.=>Wimp:Wimp_ReportError>

@@ -1,0 +1,29 @@
+Gadget_GetIconList
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Gadget_GetIconList
+Veneer:	<gadget_get_icon_list=>gadget_get_icon_list>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 68
+r3 = gadget component Id
+r4 = pointer to buffer
+r5 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r5 = size of buffer required (if r4=0)
+     or list of wimp icon numbers for the gadget.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets returns the list of wimp icons making up the gadget.

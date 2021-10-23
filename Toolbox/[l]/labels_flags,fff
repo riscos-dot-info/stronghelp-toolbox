@@ -1,0 +1,22 @@
+Label Flags
+#include Style
+#Background wimp 1
+Gadget:	<Label=>labels>
+#Line
+#Wrap off
+Bits:	0	- Set means omit bounding box.
+	1-2	- Justification:
+#Indent 14
+0 - Left.
+1 - Right.
+2 - Centred.
+#Indent
+
+Constants:
+	<Label_NoBox>
+	<Label_LeftJustify>
+	<Label_RightJustify>
+	<Label_Centred>
+#indent
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

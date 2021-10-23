@@ -1,0 +1,27 @@
+Iconbar_GetEvent
+#include Style
+#Background wimp 1
+Module:	<Iconbar=>iconbar/m>
+#Line
+#Wrap off
+Syntax:	Iconbar_GetEvent
+Veneer:	<iconbar_get_event>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     Bit 0: set means return event in r0 for select.
+     Bit 1: set means return event in r1 for adjust.
+r1 = Iconbar object ID
+r2 = 4
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = toolbox event code for select
+r1 = toolbox event code for adjust
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the events associated with the Iconbar Object.

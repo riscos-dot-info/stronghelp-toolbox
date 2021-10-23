@@ -1,0 +1,10 @@
+Menu_Entry_Faded
+#Wrap Off
+Defined in:	<menu.h=>menu_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Menu_Entry_Faded 0x00000100
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,20 @@
+Draggable Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 358 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>draggable_flags>
+
+<Draggable_GetState>
+<Draggable_GetSprite>
+<Draggable_GetText>
+<Draggable_SetState>
+<Draggable_SetSprite>
+<Draggable_SetText>
+
+{/}Draggable Events{/}
+<Draggable_DragStarted>
+<Draggable_DragEnded>

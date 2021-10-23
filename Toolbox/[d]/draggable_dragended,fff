@@ -1,0 +1,23 @@
+Draggable_DragEnded 0x82888
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	Draggable_DragEnded 0x82888
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader>  hdr;
+  int                 window_handle;
+  int                 icon_handle;
+  int                 x;
+  int                 y;
+} DraggableDragEndedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user finishes a drag of a draggable object.

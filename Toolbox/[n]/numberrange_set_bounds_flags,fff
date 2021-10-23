@@ -1,0 +1,10 @@
+numberrange_set_bounds Flags
+#include Style
+#Background wimp 1
+Command:	<numberrange_set_bounds=>numberrange_set_bounds>
+#Line
+#Wrap off
+Bits:	0	- Set means change the lower bound.
+	1	- Set means change the upper bound.
+	2	- Set means change the step size.
+	3	- Set means change the precision.

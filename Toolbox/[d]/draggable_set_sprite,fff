@@ -1,0 +1,20 @@
+draggable_set_sprite
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *draggable_set_sprite 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   draggable,
+  char         *sprite_name
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the name of the sprite which will be used for this draggable object.

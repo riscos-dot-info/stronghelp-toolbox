@@ -1,0 +1,21 @@
+Font Menu Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Font Menus{/}
+
+#Align left
+#Wrap on
+Ref:	Page 137 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<FontMenu SWI Names=>fontmenu_swi_listing>
+<Flags=>font_class_flags>
+
+<FontMenu_GetFont>
+<FontMenu_SetFont>
+
+{/}Font Menu Events{/}
+<FontMenu_AboutToBeShown>
+<FontMenu_Selection>
+<FontMenu_HasBeenHidden>

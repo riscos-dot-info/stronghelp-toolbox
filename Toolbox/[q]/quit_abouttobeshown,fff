@@ -1,0 +1,27 @@
+Quit_AboutToBeShown 0x82a90
+#include Style
+#Background wimp 1
+Class:	<Quit Dialogue=>quit_class>
+#Line
+#Wrap off
+Syntax:	Quit_AboutToBeShown 0x82a90
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+
+  union
+  \{
+    <TopLeft>               pos;
+    <WindowShowObjectBlock> full;
+  } info;
+
+} QuitAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the Quit Dialogue is about to be shown to the user.

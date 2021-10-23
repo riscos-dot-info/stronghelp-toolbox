@@ -1,0 +1,19 @@
+writablefield_set_value
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+Class:	<Writable Fields=>writables>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *writablefield_set_value 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   writable,
+  char         *text
+);
+
+{F}
+#indent
+Purpose:	Function changes the value of the writable icon declared in ComponentId within window ObjectId to the value of {/}text{/}.  If the parent window is on screen, then the change is shown immediately.

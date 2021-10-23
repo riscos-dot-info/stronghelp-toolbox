@@ -1,0 +1,21 @@
+DisplayField Flags
+#include Style
+#Background wimp 1
+Gadget:	<DisplayField=>displayfld>
+#Line
+#Wrap off
+Bits:	1-2	- Justification:
+#indent 14
+0 - Left.
+1 - Right.
+2 - Centred.
+#Indent
+
+Constants:
+	<DisplayField_GenerateValueChanged>
+	<DisplayField_LeftJustify>
+	<DisplayField_RightJustify>
+	<DisplayField_Centred>
+	<DisplayField_Justification>
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

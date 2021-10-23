@@ -1,0 +1,20 @@
+stringset_set_selected
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *stringset_set_selected 
+(
+  unsigned int  <flags,=>stringset_set_selected_flags>
+  <ObjectId>      window,
+  <ComponentId>   string_set,
+  char         *string_to_select
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets which string in the string set is selected.

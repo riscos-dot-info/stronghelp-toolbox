@@ -1,0 +1,27 @@
+SaveAs_AboutToBeShown 0x82bc0
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	SaveAs_AboutToBeShown 0x82bc0
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+
+  union
+  \{
+    <TopLeft>               pos;
+    <WindowShowObjectBlock> full;
+  } info;
+
+} SaveAsAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised just before the SaveAs dialogue is displayed.

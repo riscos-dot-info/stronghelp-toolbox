@@ -1,0 +1,21 @@
+stringset_get_components
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *stringset_get_components 
+(
+  unsigned int  <flags,=>stringset_get_components_flags>
+  <ObjectId>      window,
+  <ComponentId>   string_set,
+  <ComponentId>  *alphanumeric_field,
+  <ComponentId>  *popup_menu
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the ComponentId's of the gadgets that make up the string set.

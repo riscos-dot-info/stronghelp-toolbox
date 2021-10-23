@@ -1,0 +1,16 @@
+RelocationTable Data Type
+#include Style
+#Background wimp 1
+Defined In:	<toolbox.h=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int             num_relocations,
+  int             relocations
+} RelocationTable;
+#indent
+
+#Wrap

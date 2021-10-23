@@ -1,0 +1,19 @@
+saveas_set_file_size
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *saveas_set_file_size 
+(
+  unsigned int  flags,
+  <ObjectId>      saveas,
+  int           file_size
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the estimated file size in bytes for the SaveAs dialogue.

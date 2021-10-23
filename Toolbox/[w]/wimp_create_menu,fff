@@ -1,0 +1,20 @@
+wimp_create_menu
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_create_menu
+(
+  void *handle,
+  int   x,
+  int   y
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_CreateMenu.=>Wimp:wimp_createmenu>

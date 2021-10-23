@@ -1,0 +1,10 @@
+Iconbar_SelectAboutToBeShown 0x82901
+#include Style
+#Background wimp 1
+Class:	<Iconbar=>ibar_class>
+#Line
+#Wrap off
+Syntax:	Iconbar_SelectAboutToBeShown 0x82901
+
+#Wrap
+Purpose:	Event is raised before <Toolbox_ShowObject=>toolbox_show_object> is exectued on a select click on the iconbar.

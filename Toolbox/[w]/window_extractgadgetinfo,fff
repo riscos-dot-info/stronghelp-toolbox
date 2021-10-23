@@ -1,0 +1,26 @@
+Window_ExtractGadgetInfo (0x82884)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_ExtractGadgetInfo
+Veneer:	<window_extract_gadget_info=>window_extract_gadget_info>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = pointer to window template
+r2 = component ID to match
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = pointer to gadget
+r1 = size of gadget
+{f}
+#indent
+#Wrap
+Purpose:	Method returns a pointer to a block of memory suitable for use with <Window_AddGadget>.

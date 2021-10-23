@@ -1,0 +1,19 @@
+ColourDbox_DialogueCompleted 0x829c1
+#include Style
+#Background wimp 1
+Class:	<Colour Dialogue=>col-d_class>
+#Line
+#Wrap off
+Syntax:	ColourDbox_DialogueCompleted 0x829c1
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} ColourDboxDialogueCompletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised after the Colour Dialogue Box is hidden.

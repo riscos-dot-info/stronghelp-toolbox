@@ -1,0 +1,10 @@
+PrintDbox_IncludeOrientation
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define PrintDbox_IncludeOrientation 0x00000040
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,27 @@
+Button_GetFlags
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<button_get_flags>
+Syntax:	Button_GetFlags
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 960
+r3 = gadget component Id
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = icon <flags=>button_get_flags_flags>
+r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the flags of the given button gadget.

@@ -1,0 +1,10 @@
+Slider_ValueChanged_DuringDrag
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Slider_ValueChanged_DuringDrag 2
+#Indent
+{F}
+#Wrap On

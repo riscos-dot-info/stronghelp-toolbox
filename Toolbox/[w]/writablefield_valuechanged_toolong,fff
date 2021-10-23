@@ -1,0 +1,10 @@
+WritableField_ValueChangedTooLong
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WritableField_ValueChangedTooLong 0x00000001
+#Indent
+{F}
+#Wrap On

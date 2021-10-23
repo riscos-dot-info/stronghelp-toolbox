@@ -1,0 +1,19 @@
+Palette Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  unsigned int colours[16];
+  unsigned int border;
+  unsigned int pointer1;
+  unsigned int pointer2;
+  unsigned int pointer3;
+} Palette;
+{f}
+#Wrap

@@ -1,0 +1,10 @@
+ProgInfo_GenerateHideEvent
+#Wrap Off
+Defined in:	<proginfo.h=>proginfo_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ProgInfo_GenerateHideEvent 0x00000002
+#Indent
+{F}
+#Wrap On

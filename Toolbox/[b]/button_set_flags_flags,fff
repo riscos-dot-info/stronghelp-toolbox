@@ -1,0 +1,29 @@
+button_set_flags Flags
+#include Style
+#Background wimp 1
+Command:	<button_set_flags=>button_set_flags>
+#Line
+#Wrap off
+Bits:
+#indent 6
+{FCode}0     - Icon contains text.
+1     - Icon contains a sprite.
+2     - Icon has a border.
+3     - Contents centered horizontally.
+4     - Contents centered vertically.
+5     - Icon has a filled backgrund.
+6     - Text is anti aliased font.
+7     - Icon requires task's help to redraw.
+8     - Icon data is indirected.
+9     - Text is right-justified.
+10    - If selected with adjust, don't cancel others.
+11    - Display sprite at half size.
+12-15 - <Icon button type=>button_flags_icon_types>
+16-20 - Exclusive Selection Group.
+21    - Icon is selected by user, and is inverted.
+22    - Icon is un-selectable (shaded)
+23    - Icon is deleted.
+24-27 - Foreground colour  \\  If bit 6 = 1 then this
+28-31 - Background colour  /   is the fonthandle.
+{F}
+#indent

@@ -1,0 +1,19 @@
+Menu_HasBeenHidden 0x828c1
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax: Menu_HasBeenHidden 0x828c1
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} MenuHasBeenHiddenEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised due to a call to <ToolBox HideObject=>toolbox_hide_object> on a menu.

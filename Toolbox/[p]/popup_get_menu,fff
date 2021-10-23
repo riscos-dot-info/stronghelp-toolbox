@@ -1,0 +1,20 @@
+popup_get_menu
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *popup_get_menu 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   popup,
+  <ObjectId>     *menu
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the ObjectId of the menu to be shown when the popup button is clicked.

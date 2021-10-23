@@ -1,0 +1,10 @@
+ColourDbox_IncludeNoneButton
+#Wrap Off
+Defined in:	<colourdbox.h=>col-d_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ColourDbox_IncludeNoneButton 0x00000004
+#Indent
+{F}
+#Wrap On

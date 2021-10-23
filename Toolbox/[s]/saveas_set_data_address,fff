@@ -1,0 +1,22 @@
+saveas_set_data_address
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern _kernel_oserror *saveas_set_data_address 
+(
+  unsigned int  flags,
+  <ObjectId>      saveas,
+  void         *data,
+  int           data_size,
+  void         *selection,
+  int           selection_size
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function indicates the address of a contiguous block of memory containing the data to be saved.

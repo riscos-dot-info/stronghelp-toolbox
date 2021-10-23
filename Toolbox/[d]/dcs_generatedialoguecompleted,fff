@@ -1,0 +1,10 @@
+DCS_GenerateDialogueCompleted
+#Wrap Off
+Defined in:	<dcs.h=>dcs_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define DCS_GenerateDialogueCompleted 0x00000002
+#Indent
+{F}
+#Wrap On

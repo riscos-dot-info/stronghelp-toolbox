@@ -1,0 +1,8 @@
+fontdbox_set_size Flags
+#include Style
+#Background wimp 1
+Command:	<fontdbox_set_size>
+#Line
+#Wrap off
+Bits:	0	- Set means change the height value.
+	1	- Set means change the aspect ratio.

@@ -1,0 +1,10 @@
+ProgInfo_IncludeLicenceType
+#Wrap Off
+Defined in:	<proginfo.h=>proginfo_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ProgInfo_IncludeLicenceType 0x00000004
+#Indent
+{F}
+#Wrap On

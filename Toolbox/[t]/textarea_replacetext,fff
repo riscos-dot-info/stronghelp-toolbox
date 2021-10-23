@@ -1,0 +1,28 @@
+TextArea_ReplaceText
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<textarea_replace_text>
+Syntax:	TextArea_ReplaceText
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x4018 + 5 (16413)
+r3 = gadget component Id
+r4 = index start
+r5 = index end
+r6 = text
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method replaces text at the specified position in the TextArea.

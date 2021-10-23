@@ -1,0 +1,47 @@
+NumberRange Flags
+#include Style
+#Background wimp 1
+Gadget:	<NumberRange=>numberrang>
+#Line
+#Wrap off
+Bits:	0	- Set means inform client of changes using <NumberRange_ValueChanged=>NumberRange_ValueChanged>
+	2	- Set means writable field (unset is display).
+	3	- Set means no display area.
+	4	- Set means has adjuster arrows.
+	5-7	- Slider type:
+#indent +8
+		0 - No slier.
+		1 - Slider to right of display.
+		2 - Slider to left of display.
+#indent
+	8-9	- Justification:
+#indent +8
+		0 - Left.
+		1 - Right.
+		2 - Centred.
+#indent
+	12-15	- Desktop colour of slider bar.
+	16-19	- Desktop colour of slider background.
+
+Constants:
+	<NumberRange_GenerateUserValueChanged>
+	<NumberRange_GenerateSetValueChanged>
+	<NumberRange_Writable>
+	<NumberRange_HasNumericalDisplay>
+	<NumberRange_Adjusters>
+	<NumberRange_NoSlider>
+	<NumberRange_SliderType>
+	<NumberRange_SliderRight>
+	<NumberRange_SliderLeft>
+	<NumberRange_SliderColour>
+	<NumberRange_SliderTypeMask>
+	<NumberRange_GetComponents_ReturnNumericalField>
+	<NumberRange_GetComponents_ReturnLeftAdjuster>
+	<NumberRange_GetComponents_ReturnRightAdjuster>
+	<NumberRange_GetComponents_ReturnSlider>
+	<NumberRange_LowerBound>
+	<NumberRange_UpperBound>
+	<NumberRange_StepSize>
+	<NumberRange_Precision>
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

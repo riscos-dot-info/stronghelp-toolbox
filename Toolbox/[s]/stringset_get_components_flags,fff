@@ -1,0 +1,9 @@
+stringset_get_components Flags
+#include Style
+#Background wimp 1
+Command:	<stringset_get_components=>stringset_get_components>
+#Line
+#Wrap off
+Bits:	0	- Set returns the alphanumerical field.
+	1	- Set returns the popup menu.
+

@@ -1,0 +1,19 @@
+fileinfo_set_file_type
+#include Style
+#Background wimp 1
+Class:	<File Info=>finfo_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *fileinfo_set_file_type 
+(
+  unsigned int  flags,
+  <ObjectId>      fileinfo,
+  int           file_type
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the filetype of the icon in the FileInfo dialogue.

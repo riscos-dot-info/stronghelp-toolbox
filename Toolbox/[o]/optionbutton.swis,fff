@@ -1,0 +1,20 @@
+OptionButton Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 376 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>optionbox_flags>
+
+<OptionButton_GetEvent>
+<OptionButton_GetLabel>
+<OptionButton_GetState>
+<OptionButton_SetEvent>
+<OptionButton_SetFont>
+<OptionButton_SetLabel>
+<OptionButton_SetState>
+
+{/}Option Button Events{/}
+<OptionButton_StateChanged>

@@ -1,0 +1,29 @@
+Button_GetValue
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<button_get_value>
+Syntax:	Button_GetValue
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 963
+r3 = gadget component Id
+r4 = pointer to buffer
+r5 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r5 = size of buffer required (if r4=0)
+     else buffer pointed to by r4 holds data
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the value of the button gadget.

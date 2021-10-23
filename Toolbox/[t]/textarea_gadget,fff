@@ -1,0 +1,32 @@
+TextArea Gadget
+#Parent !root
+#background wimp 1
+#include Style
+#Align centre
+{/}These functions allow manipulation of TextAreas.{/}
+
+#Align left
+#Wrap on
+Ref:	Renaissance Source Tree.
+#Wrap off
+#Line
+<Data Types=>textarea_gadget_data_types>
+<Flags=>textarea_flags>
+
+<textarea_get_colour>
+<textarea_get_cursor_position>
+<textarea_get_selection_points>
+<textarea_get_selection_text>
+<textarea_get_state>
+<textarea_get_text>
+<textarea_insert_text>
+<textarea_replace_text>
+<textarea_set_colour>
+<textarea_set_cursor_position>
+<textarea_set_font>
+<textarea_set_selection>
+<textarea_set_state>
+<textarea_set_text>
+<textarea_set_text_border>
+#Line
+Defined in <TextArea.H=>textarea>

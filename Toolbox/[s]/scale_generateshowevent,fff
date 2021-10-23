@@ -1,0 +1,10 @@
+Scale_GenerateShowEvent
+#Wrap Off
+Defined in:	<scale.h=>scale_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Scale_GenerateShowEvent 0x00000001
+#Indent
+{F}
+#Wrap On

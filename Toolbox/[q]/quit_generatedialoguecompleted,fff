@@ -1,0 +1,10 @@
+Quit_GenerateDialogueCompleted
+#Wrap Off
+Defined in:	<quit.h=>quit_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Quit_GenerateDialogueCompleted 0x00000002
+#Indent
+{F}
+#Wrap On

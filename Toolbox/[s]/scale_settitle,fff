@@ -1,0 +1,26 @@
+Scale_SetTitle
+#include Style
+#Background wimp 1
+Module:	<Scale=>scale/m>
+#Line
+#Wrap off
+Syntax:	Scale_SetTitle
+Veneer:	<scale_set_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Scale object ID
+r2 = 5
+r3 = pointer to title text
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the title for the Scale object.

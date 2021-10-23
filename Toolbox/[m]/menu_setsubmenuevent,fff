@@ -1,0 +1,26 @@
+Menu_SetSubMenuEvent
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_SetSubMenuEvent
+Veneer:	<menu_set_sub_menu_event>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 10
+r3 = component id of entry
+r4 = toolbox event to raise
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:		Method sets submenu event for an entry on a menu.

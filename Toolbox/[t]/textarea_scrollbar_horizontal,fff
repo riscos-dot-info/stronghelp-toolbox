@@ -1,0 +1,10 @@
+TextArea_Scrollbar_Horizontal 
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_Scrollbar_Horizontal (1<<1)
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,15 @@
+DCS SWI Listing
+#Parent !Root
+#include Style
+#Align Centre
+<DCS=>DCS/m>
+#Line
+#Align left
+
+00 - <DCS_GetWindowID>
+01 - <DCS_SetMessage>
+02 - <DCS_GetMessage>
+03 - <DCS_SetTitle>
+04 - <DCS_GetTitle>
+
+To be used with <Toolbox_ObjectMiscOp>.

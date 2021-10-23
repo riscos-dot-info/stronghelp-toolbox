@@ -1,0 +1,21 @@
+RadioButton_StageChanged 0x82883
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	RadioButton_StageChanged 0x82883
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                state;
+  <ComponentId>        old_on_button;
+} RadioButtonStateChangedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This toolbox event is raised when the state of the radio button changes.

@@ -1,0 +1,15 @@
+MenuSelectionEvent
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} MenuSelectionEvent;
+{F}
+#indent
+#Wrap

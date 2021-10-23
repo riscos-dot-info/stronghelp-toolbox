@@ -1,0 +1,21 @@
+ColourMenu_AboutToBeShown 0x82980
+#include Style
+#Background wimp 1
+Class:	<Colour Menu=>col-m_class>
+#Line
+#Wrap off
+Syntax:	ColourMenu_AboutToBeShown 0x82980
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+  <TopLeft>            pos;
+} ColourMenuAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised just before the Colour Menu is displayed.

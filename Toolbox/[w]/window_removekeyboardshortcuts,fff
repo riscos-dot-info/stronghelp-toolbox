@@ -1,0 +1,28 @@
+Window_RemoveKeyboardShortcuts
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_RemoveKeyboardShortcuts
+Veneer:	<window_remove_keyboard_shortcuts=>window_remove_keyboard_shortcuts>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 10
+r3 = number of shortcuts to remove (-1 for all)
+r4 = pointer to memory block containing an array of
+     description blocks for the shortcuts to be 
+     removed.
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method removes a number of keyboard shortcuts from a window.

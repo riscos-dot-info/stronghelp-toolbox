@@ -1,0 +1,17 @@
+wimp_initialise
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	_kernel_oserror *wimp_initialise
+		(
+		int version,
+		char *name,
+		int *messages,
+		int *cversion,
+		int *task
+		);
+
+Purpose:	C SWI veneer to <Wimp_Initialise.=>Wimp:Wimp_Initialise>

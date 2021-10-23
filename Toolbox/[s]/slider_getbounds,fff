@@ -1,0 +1,30 @@
+Slider_GetBounds
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<slider_get_bounds>
+Syntax:	Slider_GetBounds
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0 - return lower bound
+     bit 1 - return upper bound
+     bit 2 - return step size
+r1 = window object Id
+r2 = 579
+r3 = gadget component Id
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = lower bound
+r1 = upper bound
+r2 = step size
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the bounding values of the slider.

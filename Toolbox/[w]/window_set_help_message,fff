@@ -1,0 +1,19 @@
+window_set_help_message
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_set_help_message
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  char         *message_text
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the standard Risc OS help message for the window object.  If {/}message_text{/} = NULL then the help message for the window is removed.

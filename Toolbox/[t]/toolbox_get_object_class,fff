@@ -1,0 +1,19 @@
+toolbox_get_object_class
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *toolbox_get_object_class 
+(
+  unsigned int  flags,
+  <ObjectId>      id
+  ObjectClass  *object_class
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the value of the client handle for this object.

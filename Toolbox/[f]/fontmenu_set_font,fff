@@ -1,0 +1,19 @@
+fontmenu_set_font
+#include Style
+#Background wimp 1
+Class:	<Font Menu=>font_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *fontmenu_set_font 
+(
+  unsigned int  flags,
+  <ObjectId>      fontmenu,
+  char         *font_id
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function selects a font as being currently selected, and places a tick beside it.

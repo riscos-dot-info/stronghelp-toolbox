@@ -1,0 +1,25 @@
+Iconbar_SetSprite
+#include Style
+#Background wimp 1
+Module:	<Iconbar=>iconbar/m>
+#Line
+#Wrap off
+Syntax:	Iconbar_SetSprite
+Veneer:	<iconbar_set_sprite>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Iconbar object ID
+r2 = 11
+r3 = pointer to sprite name
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the icon for the Iconbar Object.

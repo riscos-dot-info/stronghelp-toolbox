@@ -1,0 +1,29 @@
+Sliders Flags
+#include Style
+#Background wimp 1
+Gadget:	<Sliders=>sliders>
+#Line
+#Wrap off
+Bits:	0	- If set then deliver value changes as user clicks/drags.
+	1	- If set then deliver value changes constantly, otherwise just at start/end.
+	3	- If set then slider is vertical.
+	4	- If set slider is clickable/draggable.
+	12-15 	- Desktop colour of the bar.
+	12-15 	- Desktop colour of the background.
+
+Constants:
+	<Slider_GenerateValueChangedEndOfDrag>
+	<Slider_GenerateValueChangedDuringDrag>
+	<Slider_GenerateSetValueChanged>
+	<Slider_Vertical>
+	<Slider_Draggable>
+	<Slider_BarColour>
+	<Slider_BarColourShift>
+	<Slider_BackgroundColour>
+	<Slider_BackgroundColourShift>
+	<Slider_ValueChanged_EndOfDrag>
+	<Slider_ValueChanged_DuringDrag>
+	<Slider_LowerBound>
+	<Slider_UpperBound>
+	<Slider_StepSize>
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

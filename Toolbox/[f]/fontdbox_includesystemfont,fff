@@ -1,0 +1,10 @@
+FontDbox_IncludeSystemFont
+#Wrap Off
+Defined in:	<fontdbox.h=>fontd_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define  FontDbox_IncludeSystemFont 0x00000004
+#Indent
+{F}
+#Wrap On

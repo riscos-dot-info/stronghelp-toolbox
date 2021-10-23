@@ -1,0 +1,19 @@
+saveas_set_file_name
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *saveas_set_file_name 
+(
+  unsigned int  flags,
+  <ObjectId>      saveas,
+  char         *file_name
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the filename to be used in the SaveAs dialogue's writable field.

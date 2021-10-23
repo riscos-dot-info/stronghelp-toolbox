@@ -1,0 +1,25 @@
+PrintDbox_GetOrientation
+#include Style
+#Background wimp 1
+Module:	<PrintDbox=>printdbox/m>
+#Line
+#Wrap off
+Syntax:	PrintDbox_GetOrientation
+Veneer:	<printdbox_get_orientation>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = PrintDbox object ID
+r2 = 8
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = non-zero: sideways
+     zero:     upright
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the orientation in the Print Dialogue.

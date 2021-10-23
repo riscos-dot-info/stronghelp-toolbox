@@ -1,0 +1,11 @@
+Wimp_MMenuWarning
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MMenuWarning 0x400c0
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <MenuWarning.=>Wimp:Msg_400C0>

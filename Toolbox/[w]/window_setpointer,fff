@@ -1,0 +1,28 @@
+Window_SetPointer
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_SetPointer
+Veneer:	<window_set_pointer=>window_set_pointer>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 5
+r3 = pointer to sprite name for pointer
+r4 = x hot spot
+r5 = y hot spot
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets pointer shape for the window.

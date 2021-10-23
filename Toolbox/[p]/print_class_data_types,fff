@@ -1,0 +1,10 @@
+Print Dialogue Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Print Dialogue Data Types{/}
+#Align left
+
+<PrintDboxTemplate>
+

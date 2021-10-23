@@ -1,0 +1,10 @@
+ButtonType_MenuIcon
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ButtonType_MenuIcon 9
+#Indent
+{F}
+#Wrap On

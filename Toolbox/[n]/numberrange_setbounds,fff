@@ -1,0 +1,34 @@
+NumberRange_SetBounds
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<numberrange_set_bounds>
+Syntax:	NumberRange_SetBounds
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0 - change lower bound
+     bit 1 - change upper bound
+     bit 2 - change set size
+     bit 3 - change precision
+r1 = window object Id
+r2 = 834
+r3 = gadget component Id
+r4 = new lower bound
+r5 = new upper bound
+r6 = new step size
+r7 = precision
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the ranges in the numberrange.

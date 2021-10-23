@@ -1,0 +1,19 @@
+quit_set_title
+#include Style
+#Background wimp 1
+Class:	<Quit Dialogue=>quit_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *quit_set_title 
+(
+  unsigned int  flags,
+  <ObjectId>      quit,
+  char         *title
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the title for the Quit Dialogue.

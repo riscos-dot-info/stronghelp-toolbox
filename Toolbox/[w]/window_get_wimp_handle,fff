@@ -1,0 +1,19 @@
+window_get_wimp_handle
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_get_wimp_handle
+(
+  unsigned int flags,
+  <ObjectId=>objectid> window,
+  int *window_handle
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the handle of the underlying Wimp window used to implement the window object.

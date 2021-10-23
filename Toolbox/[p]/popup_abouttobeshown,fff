@@ -1,0 +1,22 @@
+Popup_AboutToBeShown 0x8288b
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	Popup_AboutToBeShown 0x8288b
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader>  hdr;
+  <ObjectId>            menu_id;
+  int                 show_type;
+  <TopLeft>             pos;
+}PopUpAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This toolbox event is raised when the user clicks on the pop-up button.

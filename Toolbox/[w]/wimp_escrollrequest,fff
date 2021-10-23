@@ -1,0 +1,11 @@
+Wimp_EScrollRequest
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_EScrollRequest 10
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <ScrollRequest=>Wimp:Wimp_Poll10>

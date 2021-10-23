@@ -1,0 +1,10 @@
+Iconbar_ShowSelectCentred
+#Wrap Off
+Defined in:	<iconbar.h=>ibar_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Iconbar_ShowSelectCentred 0x00000080
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,18 @@
+DisplayField Gadget
+#include Style
+#Align centre
+{/}These functions allow manipulation of display fields{/}
+
+#Align left
+#Wrap on
+Ref:	Page 355 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>displayfld_data_types>
+<Flags=>displayfld_flags>
+
+<displayfield_get_value>
+<displayfield_set_font>
+<displayfield_set_value>
+#Line
+Defined in <Gadgets.H=>gadgets>

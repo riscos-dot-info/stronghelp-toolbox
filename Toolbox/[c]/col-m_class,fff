@@ -1,0 +1,27 @@
+Colour Menu Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Colour Menus{/}
+
+#Align left
+#Wrap on
+Ref:	Page 79 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>col-m_class_data_types>
+<Flags=>col-m_class_flags>
+
+<colourmenu_get_colour>
+<colourmenu_get_title>
+<colourmenu_get_none_available>
+<colourmenu_set_colour>
+<colourmenu_set_none_available>
+<colourmenu_set_title>
+
+{/}Colour Dialogue Events{/}
+<ColourMenu_AboutToBeShown>
+<ColourMenu_HasBeenHidden>
+<ColourMenu_Selection>
+#Line
+Defined in ColourMenu.H

@@ -1,0 +1,26 @@
+Window_GetDefaultFocus
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_GetDefaultFocus
+Veneer:	<window_get_default_focus=>window_get_default_focus>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 14
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = component ID
+r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the default focus for the window.

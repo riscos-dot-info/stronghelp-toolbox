@@ -1,0 +1,20 @@
+Scale_ApplyFactor 0x82c02
+#include Style
+#Background wimp 1
+Class:	<Scale Dialogue=>scale_class>
+#Line
+#Wrap off
+Syntax:	Scale_ApplyFactor 0x82c02
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  unsigned int       factor;
+} ScaleApplyFactorEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user clicks on the {/}Scale{/} or {/}Scale To Fit{/} buttons, or presses return

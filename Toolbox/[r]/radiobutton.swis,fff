@@ -1,0 +1,20 @@
+RadioButton Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 387 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>radio_flags>
+
+<RadioButton_GetEvent>
+<RadioButton_GetLabel>
+<RadioButton_GetState>
+<RadioButton_SetEvent>
+<RadioButton_SetFont>
+<RadioButton_SetLabel>
+<RadioButton_SetState>
+
+{/}RadioButton Events{/}
+<RadioButton_StateChanged>

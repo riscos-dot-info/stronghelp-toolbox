@@ -1,0 +1,10 @@
+window_get_tool_bars Flags
+#include Style
+#Background wimp 1
+Command:	<window_get_tool_bars=>window_get_tool_bars>
+#Line
+#Wrap off
+Bits:	0	- return means return internal bl toolbar.
+	1	- return means return internal tl toolbar.
+	2	- return means return external bl toolbar.
+	3	- return means return external tl toolbar.

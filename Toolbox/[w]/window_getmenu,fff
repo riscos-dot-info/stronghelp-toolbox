@@ -1,0 +1,26 @@
+Window_GetMenu
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_GetMenu
+Veneer:	<window_get_menu=>window_get_menu>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 4
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = menu component ID
+r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the component ID of the menu is assigned to the window object.

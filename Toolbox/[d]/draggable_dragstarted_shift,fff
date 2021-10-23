@@ -1,0 +1,10 @@
+Draggable_DragStarted_Shift
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Draggable_DragStarted_Shift 0x00000008
+#Indent
+{F}
+#Wrap On

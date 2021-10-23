@@ -1,0 +1,27 @@
+Iconbar_GetText
+#include Style
+#Background wimp 1
+Module:	<Iconbar=>iconbar/m>
+#Line
+#Wrap off
+Syntax:	Iconbar_GetText
+Veneer:	<iconbar_get_text>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Iconbar object ID
+r2 = 10
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains text.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the below icon text for the Iconbar Object.

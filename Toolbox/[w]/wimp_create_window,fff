@@ -1,0 +1,19 @@
+wimp_create_window
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_create_window
+(
+  <WimpWindow> *defn,
+  int        *handle
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_CreateWindow.=>Wimp:wimp_createwindow>

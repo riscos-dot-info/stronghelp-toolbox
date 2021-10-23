@@ -1,0 +1,30 @@
+Font Dialogue Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Font Dialogues{/}
+
+#Align left
+#Wrap on
+Ref:	Page 119 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<FontDbox SWI names=>fontdbox_swi_listing>
+<Flags=>fontd_class_flags>
+
+#Table Columns 2
+<FontDbox_GetFont>
+<FontDbox_GetSize>
+<FontDbox_GetTitle>
+<FontDbox_GetTryString>
+<FontDbox_GetWindowId>
+<FontDbox_SetFont>
+<FontDbox_SetSize>
+<FontDbox_SetTitle>
+<FontDbox_SetTryString>
+#EndTable
+
+{/}Font Menu Events{/}
+<FontDbox_AboutToBeShown>
+<FontDbox_ApplyFont>
+<FontDbox_DialogueCompleted>

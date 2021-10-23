@@ -1,0 +1,10 @@
+WimpWindow_IgnoreYExtent
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpWindow_IgnoreYExtent (1u << 15)
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,34 @@
+stringset_get_selected
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+
+#Wrap
+Note:	This function's parameters vary quite a lot depending on the <flags=>stringset_get_selected_flags> settings.
+#Line
+#Wrap off
+flags=0:
+#indent 6
+{FCode}extern <_kernel_oserror> *stringset_get_selected 
+(
+  unsigned int  <flags,=>stringset_get_selected_flags>
+  <ObjectId>      window,
+  <ComponentId>   string_set,
+  char         *selected,
+  sizeof(selected),
+  int          *nbytes
+);
+{F}
+#indent
+
+flags=1:
+#indent 6
+{FCode}extern <_kernel_oserror> *stringset_get_selected 
+(
+  unsigned int  <flags,=>stringset_get_selected_flags>
+  <ObjectId>      window,
+  <ComponentId>   string_set,
+  ...   
+);
+{F}
+#indent

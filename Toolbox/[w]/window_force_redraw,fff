@@ -1,0 +1,19 @@
+window_force_redraw
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_force_redraw
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <BBox>         *redraw_box
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function forces a redraw of the area of the window given in {/}redraw_box{/}.

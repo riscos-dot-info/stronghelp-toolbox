@@ -1,0 +1,18 @@
+wimp_plot_icon
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_plot_icon
+(
+  <WimpPlotIconBlock> *block
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_PlotIcon.=>Wimp:Wimp_ploticon>

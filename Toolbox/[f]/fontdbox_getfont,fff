@@ -1,0 +1,28 @@
+FontDbox_GetFont
+#include Style
+#Background wimp 1
+Module:	<FontDbox=>fontdbox/m>
+#Line
+#Wrap off
+Syntax:	FontDbox_GetFont
+Veneer:	<fontdbox_get_font>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FontDbox object ID
+r2 = 2
+r3 = pointer to buffer
+r4 = buffer size
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains font id
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the selected font in the Font Dialogue.

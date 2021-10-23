@@ -1,0 +1,10 @@
+Slider_BackgroundColourShift
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Slider_BackgroundColourShift 16
+#Indent
+{F}
+#Wrap On

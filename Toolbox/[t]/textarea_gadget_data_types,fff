@@ -1,0 +1,9 @@
+TextArea Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}TextArea Data Types{/}
+#Align left
+
+<TextArea>

@@ -1,0 +1,21 @@
+textarea_set_state
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<TextArea.H=>textarea>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *textarea_set_state
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  unsigned int  <state=>textarea_flags>
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the state of the specified TextArea gadget.

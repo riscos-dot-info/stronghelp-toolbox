@@ -1,0 +1,19 @@
+fontdbox_get_window_id
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *fontdbox_get_window_id  
+(
+  unsigned int  flags,
+  <ObjectId>      fontdbox,
+  <ObjectId>     *window
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the id of the underlying Wimp window for the FontDbox dialogue.

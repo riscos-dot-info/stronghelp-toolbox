@@ -1,0 +1,23 @@
+Toolbox_ObjectAutoCreated 0x44ec1
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  char template_name [ 256 - 
+                       20 -
+                       sizeof(ToolboxEventHeader) -
+                       sizeof(<ObjectId>) -
+                       sizeof(<ComponentId>)
+                     ];
+} ToolboxObjectAutoCreatedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This event is raised after the Toolbox creates objects that have their {/}auto-created{/} attribute set.

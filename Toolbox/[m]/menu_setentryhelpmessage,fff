@@ -1,0 +1,26 @@
+Menu_SetEntryHelpMessage
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_SetEntryHelpMessage
+Veneer:	<menu_set_entry_help_message>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 18
+r3 = component id of entry
+r4 = pointer to help text
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:		Method sets help text for entry on the menu.

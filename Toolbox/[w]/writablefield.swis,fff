@@ -1,0 +1,17 @@
+WritableField Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 395 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>writables_flags>
+
+<WritableField_GetValue>
+<WritableField_SetAllowable>
+<WritableField_SetFont>
+<WritableField_SetValue>
+
+{/}Writable Events{/}
+<WritableField_ValueChanged>

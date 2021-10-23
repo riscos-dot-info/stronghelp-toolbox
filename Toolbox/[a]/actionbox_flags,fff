@@ -1,0 +1,31 @@
+ActionButton Flags
+#include Style
+#Background wimp 1
+Gadget:	<ActionButton=>actionbox>
+#Line
+#Wrap off
+Bits:	0	- Set means this is the Default action button.
+	1	- Set means this is the Cancel action button.
+	2	- Set means this is a local action button.
+	3	- Set means that 'click show' object will be shown transiently.
+
+Constants:
+	<ActionButton_IsDefault>
+	<ActionButton_IsCancel>
+	<ActionButton_IsLocal>
+	<ActionButton_ClickShowTransient>
+	<ActionButton_ClickShowCentred>
+	<ActionButton_ClickShowAtPointer>
+	<ActionButton_Selected_Adjust>
+	<ActionButton_Selected_Select>
+	<ActionButton_Selected_Default>
+	<ActionButton_Selected_Cancel>
+	<ActionButton_Selected_Local>
+	<ActionButton_SetClickShow_Transient>
+	<ActionButton_SetClickShow_Centred>
+	<ActionButton_SetClickShow_AtPointer>
+	<ActionButton_GetClickShow_Transient>
+	<ActionButton_GetClickShow_Centred>
+	<ActionButton_GetClickShow_AtPointer>
+#Line
+To be used with <gadget_set_flags> & <gadget_get_flags>.

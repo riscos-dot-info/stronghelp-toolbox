@@ -1,0 +1,10 @@
+WimpIcon_Indirected
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpIcon_Indirected (1u << 8)
+#Indent
+{F}
+#Wrap On

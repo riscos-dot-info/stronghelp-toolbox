@@ -1,0 +1,15 @@
+DraggableDragStartedEvent
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader>    hdr;
+} DraggableDragStartedEvent;
+{F}
+#indent
+#Wrap

@@ -1,0 +1,10 @@
+WritableField_Justification
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WritableField_Justification 0x0000000C
+#Indent
+{F}
+#Wrap On

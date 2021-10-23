@@ -1,0 +1,22 @@
+WimpDataLoadMessage Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+    int  destination_window;
+    int  destination_icon;
+    int  destination_x;
+    int  destination_y;
+    int  estimated_size;
+    int  file_type;
+    char leaf_name [212];
+} WimpDataLoadMessage;
+{F}
+#indent
+#Wrap

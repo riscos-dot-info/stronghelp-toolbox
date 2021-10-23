@@ -1,0 +1,22 @@
+scrolllist_delete_items
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<ScrollList.H=>scrolllist>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_delete_items
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  int           start_index,
+  int           end_index
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function delets items from the specified ScrollList.  To delete item 'n' only, set start_index and end_index to 'n'.  To delete all items, set start_index to 0, and end_index to -1.

@@ -1,0 +1,10 @@
+NumberRange_SliderTypeMask
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define NumberRange_SliderTypeMask 0x000000E0
+#Indent
+{F}
+#Wrap On

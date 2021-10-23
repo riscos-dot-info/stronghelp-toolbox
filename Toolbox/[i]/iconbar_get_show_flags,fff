@@ -1,0 +1,8 @@
+iconbar_get_show Flags
+#include Style
+#Background wimp 1
+Command:	<iconbar_get_show>
+#Line
+#Wrap off
+Bits:	0	- Set means return the Id of the object which will be shown when Select is clicked.
+	1	- Set means return the Id of the object which will be shown when Adjust is clicked.

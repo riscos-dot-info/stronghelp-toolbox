@@ -1,0 +1,18 @@
+WimpKeyPressedEvent Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{  
+    <WimpCaret> caret;
+    int       key_code;
+
+} WimpKeyPressedEvent;
+{F}
+#indent
+#Wrap

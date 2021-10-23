@@ -1,0 +1,20 @@
+actionbutton_set_text
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *actionbutton_set_text 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   action_button,
+  char         *text
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the text to be displayed in the action button.

@@ -1,0 +1,16 @@
+_kernel_swi_regs
+#include Style
+#Background wimp 1
+Defined In:	<kernel.h=>C:kernel>
+#Line
+
+Syntax:	
+#indent 6
+{FCode}\{
+  int r[10];
+};
+
+{F}
+#indent
+#Wrap
+Purpose:	Structure holds register values for use with a SWI.

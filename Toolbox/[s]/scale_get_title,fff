@@ -1,0 +1,21 @@
+scale_get_title
+#include Style
+#Background wimp 1
+Class:	<Scale Dialogue=>scale_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scale_get_title 
+(
+  unsigned int  flags,
+  <ObjectId>      scale,
+  char         *buffer,
+  int           buff_size,
+  int          *nbytes
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns title of the Scale dialogue.

@@ -1,0 +1,21 @@
+window_get_pointer_info
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_get_pointer_info 
+(
+  unsigned int  flags,
+  int          *x_pos,
+  int          *y_pos,
+  int          <*buttons,=>window_get_pointer_info_buttons>
+  <ObjectId>      window,
+  <ComponentId>  *component
+);
+
+{F}
+#indent
+#wrap
+Purpose:	Function returns ObjectId's and ComponentId's if the pointer is over a Toolbox window.

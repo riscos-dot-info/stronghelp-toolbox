@@ -1,0 +1,26 @@
+PopUp_SetMenu
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<popup_set_menu>
+Syntax:	PopUp_SetMenu
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 704
+r3 = gadget component Id
+r4 = menu object Id
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the menu to be displayed when the popup is clicked.

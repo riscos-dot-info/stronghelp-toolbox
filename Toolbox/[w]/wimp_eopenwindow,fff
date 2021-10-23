@@ -1,0 +1,11 @@
+Wimp_EOpenWindow
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_EOpenWindow 2
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <OpenWindow=>Wimp:Wimp_Poll2>

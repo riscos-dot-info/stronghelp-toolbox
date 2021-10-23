@@ -1,0 +1,21 @@
+SaveAs_SaveCompleted 0x82bc4
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	SaveAs_SaveCompleted 0x82bc4
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                wimp_message_no;
+  char               filename [208];
+} SaveAsSaveCompletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the save is successfully completed.

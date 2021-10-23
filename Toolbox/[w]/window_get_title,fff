@@ -1,0 +1,21 @@
+window_get_title
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_get_title 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  char         *buffer,
+  int           buffer_size,
+  int          *nbytes
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the title of the specified window.

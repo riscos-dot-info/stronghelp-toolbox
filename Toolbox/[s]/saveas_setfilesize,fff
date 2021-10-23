@@ -1,0 +1,25 @@
+SaveAs_SetFileSize
+#include Style
+#Background wimp 1
+Module:	<SaveAs=>saveas/m>
+#Line
+#Wrap off
+Syntax:	SaveAs_SetFileSize
+Veneer:	<saveas_set_file_size>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = SaveAs object ID
+r2 = 7
+r3 = file size in bytes
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the file size in the SaveAs Object.

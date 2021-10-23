@@ -1,0 +1,23 @@
+ObjectTemplateHeader Data Type
+#include Style
+#Background wimp 1
+Defined In:	toolbox.h
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ObjectClass>         object_class;
+  int                 flags;
+  int                 version;
+  char                name[MAX_OBJECT_NAME];
+  int                 total_size;
+  void                *body;
+  int                 body_size;
+} ObjectTemplateHeader;
+
+{F}
+#indent
+#Wrap
+Notes:	{/}MAX_OBJECT_NAME{/} is #defined as 12 in toolbox.h.  {/}ObjectClass{/} is typedef'd as an int in toolbox.h.

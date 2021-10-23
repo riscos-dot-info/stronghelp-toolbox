@@ -1,0 +1,15 @@
+Menu Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Menu Data Types{/}
+#Align left
+
+<MenuTemplate>
+<MenuTemplateEntry>
+<MenuTemplateHeader>
+<MenuAboutToBeShownEvent>
+<MenuHasBeenHiddenEvent>
+<MenuSubMenuEvent>
+<MenuSelectionEvent>

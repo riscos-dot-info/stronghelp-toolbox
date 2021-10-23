@@ -1,0 +1,31 @@
+Toolbox_ShowObject (0x44ec3)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_ShowObject
+Veneer:	<toolbox_show_object>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0 - set means use semantics of
+             <Wimp_CreateMenu=>SWI:Wimp_CreateMenu>
+     bit 1 - set means use semantics of
+             <Wimp_CreateSubMenu=>SWI:Wimp_CreateSubMenu>
+r1 = object Id
+r2 = show <type=>toolbox_show_object_type>
+r3 = 0
+r4 = parent object Id
+r5 = parent component Id
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method shows the given object on screen.

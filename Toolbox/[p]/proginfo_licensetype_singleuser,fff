@@ -1,0 +1,10 @@
+ProgInfo_LicenseType_SingleUser
+#Wrap Off
+Defined in:	<proginfo.h=>proginfo_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ProgInfo_LicenseType_SingleUser 1
+#Indent
+{F}
+#Wrap On

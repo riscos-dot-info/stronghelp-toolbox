@@ -1,0 +1,28 @@
+StringSet_SetSelected
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<stringset_set_selected>
+Syntax:	StringSet_SetSelected
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = <flags=>stringset_set_selected_flags>
+r1 = window object Id
+r2 = 898
+r3 = gadget component Id
+r4 = pointer to string to be selected
+     or index of item to be selected
+     (dependant on <flags=>stringset_set_selected_flags>).
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets which string is selected for the StringSet.

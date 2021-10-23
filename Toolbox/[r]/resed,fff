@@ -1,0 +1,19 @@
+Resource Editor
+#Parent !Root
+#Background wimp 1
+#include Style
+#Sprite 16,16 !resed
+#Wrap Off
+#Indent 10
+
+{*}{/} The Resource Editor{/}{*}
+#Below
+#Indent 0
+#Line
+#Wrap on
+!ResEd is used to create all the windows and menus required for the program
+as well as the Iconbar and InfoBox needed.
+
+Your resource file can be tested with {*}!ResTest{*} which will open all windows
+and menus in exactly the same way as your program should.  This is useful for testing your User Interface before actually having to code anything.
+#Wrap off

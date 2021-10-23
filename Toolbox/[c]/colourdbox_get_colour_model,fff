@@ -1,0 +1,24 @@
+colourdbox_get_colour_model
+#include Style
+#Background wimp 1
+Class:	<Colour Dialogue=>col-d_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *colourdbox_get_colour_model
+(
+  unsigned int  flags,
+  <ObjectId>      colourdbox,
+  int          *buffer,
+  int           buff_size,
+  int          *nbytes
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the colour model currently used in the Colour Dialogue.  {/}buffer{/} will be set to one of the following:
+	è 0 = RGB
+	è 1 = CMYK
+	è 2 = RGB

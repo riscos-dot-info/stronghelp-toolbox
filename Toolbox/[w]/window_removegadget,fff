@@ -1,0 +1,25 @@
+Window_RemoveGadget
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_RemoveGadget
+Veneer:	<window_remove_gadget=>window_remove_gadget>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 2
+r3 = component ID
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method removes a gadget from a window object.

@@ -1,0 +1,35 @@
+Toolbox module
+#Parent !Root
+#include Style
+#Align centre
+{/}These SWIs make up the Toolbox module of the Toolbox{/}
+
+#Align left
+#Line
+
+#Table Columns 2
+<Toolbox_CreateObject>
+<Toolbox_DeleteObject>
+<Toolbox_GetAncestor>
+<Toolbox_GetClientHandle>
+<Toolbox_GetObjectClass>
+<Toolbox_GetObjectInfo>
+<Toolbox_GetParent>
+<Toolbox_GetSysInfo>
+<Toolbox_GetTemplateName>
+<Toolbox_GetWimpHandle>
+<Toolbox_HideObject>
+<Toolbox_Initialise=>toolbox_initialise_swi>
+<Toolbox_LoadResources>
+<Toolbox_ObjectMiscOp>
+<Toolbox_RaiseToolboxEvent>
+<Toolbox_SetClientHandle>
+<Toolbox_ShowObject>
+<Toolbox_TemplateLookup>
+#EnDTable
+#Line
+
+{/}{*}Toolbox Events{*}{/}
+<Toolbox_Error>
+<Toolbox_ObjectAutoCreated>
+<Toolbox_ObjectDeleted>

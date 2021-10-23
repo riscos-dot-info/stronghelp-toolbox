@@ -1,0 +1,10 @@
+SaveAs_SelectionBeingSaved
+#Wrap Off
+Defined in:	<saveas.h=>saveas_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define SaveAs_SelectionBeingSaved 0x00000001
+#Indent
+{F}
+#Wrap On

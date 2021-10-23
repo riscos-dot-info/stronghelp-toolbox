@@ -1,0 +1,29 @@
+ProgInfo Class Flags
+#include Style
+#Parent proginfo_class
+#Background wimp 1
+Class:	<ProgInfo=>proginfo_class>
+#Line
+#Wrap off
+Bits:
+#Indent 6
+{FCode}0 - Set indicates that <ProgInfo_AboutToBeShown> 
+    should be raised before object is opened.
+1 - Set indicates that <ProgInfo_DialogueCompleted> 
+    should be raised when the object is closed.
+2 - When set include a Licence type field in the dialogue.
+3 - When set include a WebPage button.
+4 - When set generate an event for when WebPage is clicked.
+#Indent
+{F}
+
+Constants:
+<ProgInfo_GenerateShowEvent>
+<ProgInfo_GenerateHideEvent>
+<ProgInfo_IncludeLicenceType>
+<ProgInfo_LicenseType_PublicDomain>
+<ProgInfo_LicenseType_SingleUser>
+<ProgInfo_LicenseType_SingleMachine>
+<ProgInfo_LicenseType_Site>
+<ProgInfo_LicenseType_Network>
+<ProgInfo_LicenseType_Authority>

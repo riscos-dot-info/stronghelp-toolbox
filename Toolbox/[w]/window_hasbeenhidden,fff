@@ -1,0 +1,19 @@
+Window_HasBeenHidden 0x82890
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	Window_HasBeenHidden 0x82890
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader>  hdr;
+} WindowHasBeenHiddenEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This event is raised by the Toolbox when <toolbox_hide_object>> is called on a window which has the 'Deliver Event Before Hiding' attribute set in <!ResEd=>resed>.

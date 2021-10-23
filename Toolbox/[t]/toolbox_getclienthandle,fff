@@ -1,0 +1,24 @@
+Toolbox_GetClientHandle (0x44ec8)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_GetClientHandle
+Veneer:	<toolbox_get_client_handle>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = object Id
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0 = client handle for object
+r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the value of the client handle for the specified object.

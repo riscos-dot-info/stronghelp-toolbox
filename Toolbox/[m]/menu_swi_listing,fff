@@ -1,0 +1,36 @@
+Menu SWI Listing
+#Parent !Root
+#include Style
+#Align Centre
+<Menu=>Menu/m>
+#Line
+#Align left
+
+00 - <Menu_SetTick>
+01 - <Menu_GetTick>
+02 - <Menu_SetFade>
+03 - <Menu_GetFade>
+04 - <Menu_SetEntryText>
+05 - <Menu_GetEntryText>
+06 - <Menu_SetEntrySprite>
+07 - <Menu_GetEntrySprite>
+08 - <Menu_SetSubMenuShow>
+09 - <Menu_GetSubMenuShow>
+10 - <Menu_SetSubMenuEvent>
+11 - <Menu_GetSubMenuEvent>
+12 - <Menu_SetClickShow>
+13 - <Menu_GetClickShow>
+14 - <Menu_SetClickEvent>
+15 - <Menu_GetClickEvent>
+16 - <Menu_SetHelpMessage>
+17 - <Menu_GetHelpMessage>
+18 - <Menu_SetEntryHelpMessage>
+19 - <Menu_GetEntryHelpMessage>
+20 - <Menu_AddEntry>
+21 - <Menu_RemoveEntry>
+22 - <Menu_GetHeight>
+23 - <Menu_GetWidth>
+24 - <Menu_GetTitle>
+25 - <Menu_SetTitle>
+
+To be used with <Toolbox_ObjectMiscOp>.

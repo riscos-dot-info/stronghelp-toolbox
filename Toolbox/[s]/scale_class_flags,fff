@@ -1,0 +1,18 @@
+Scale Class Flags
+#include Style
+#Parent scale_class
+#Background wimp 1
+Class:	<Scale Box=>scale_class>
+#Line
+#Wrap off
+Bits:	0	- Set indicates that a <Scale_AboutToBeShown> should be called when displaying dialogue.
+	1	- Set indicates a <Scale_DialogueCompleted> should be raised when the dialogue is closed.
+	2	- When set, the dialogue has a Scale To Fit button.
+
+Constants:
+<Scale_GenerateShowEvent>
+<Scale_GenerateHideEvent>
+<Scale_IncludeScaleToFit>
+<Scale_SetLowerBound>
+<Scale_SetUpperBound>
+<Scale_SetStepSize>

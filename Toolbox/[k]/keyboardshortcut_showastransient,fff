@@ -1,0 +1,12 @@
+KeyboardShortcut_ShowAsTransient
+#include Style
+#Background wimp 1
+Defined In:	<window.h=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}#define KeyboardShortcut_ShowAsTransient 0x00000001
+#indent
+
+#Wrap

@@ -1,0 +1,20 @@
+event_register_wimp_handler
+#include Style
+#Background wimp 1
+Header:	<Event.H=>event_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *event_register_wimp_handler 
+(
+  <ObjectId>          object_id, 
+  int               event_code, 
+  <WimpEventHandler> *handler, 
+  void             *handle
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function should be called when the given Wimp event code occurs on the object.  The handle is a value that will be passed to the handler function.

@@ -1,0 +1,10 @@
+NumberRange_GetComponents_ReturnNumericalField
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define NumberRange_GetComponents_ReturnNumericalField 0x00000001
+#Indent
+{F}
+#Wrap On

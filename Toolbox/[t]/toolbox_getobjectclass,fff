@@ -1,0 +1,24 @@
+Toolbox_GetObjectClass (0x44ec9)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_GetObjectClass
+Veneer:	<toolbox_get_object_class>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = object Id
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0 = objecr class
+r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the class of the object - value is 32bit integer.

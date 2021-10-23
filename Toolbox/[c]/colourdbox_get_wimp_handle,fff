@@ -1,0 +1,19 @@
+colourdbox_get_wimp_handle
+#include Style
+#Background wimp 1
+Class:	<Colour Dialogue=>col-d_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *colourdbox_get_wimp_handle 
+(
+  unsigned int  flags,
+  <ObjectId>      colourdbox,
+  int          *wimp_handle
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the Wimp window handle of the window used by the Colour Picker module.

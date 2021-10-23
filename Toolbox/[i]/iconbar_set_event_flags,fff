@@ -1,0 +1,8 @@
+iconbar_set_event Flags
+#include Style
+#Background wimp 1
+Command:	<iconbar_set_event>
+#Line
+#Wrap off
+Bits:	0	- Set means raise the event code in {/}select_event{/} when Select is clicked.
+	1	- Set means raise the event code in {/}adjust_event{/} when Adjust is clicked.

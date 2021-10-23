@@ -1,0 +1,20 @@
+menu_get_tick
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_get_tick 
+(
+  unsigned int  flags,
+  <ObjectId>      menu,
+  <ComponentId>   entry,
+  int          *ticked
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the tick state of the menu entry. {/}ticked{/} = 0 means unticked, a non-zero value means ticked.

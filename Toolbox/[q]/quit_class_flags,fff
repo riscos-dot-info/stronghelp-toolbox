@@ -1,0 +1,11 @@
+Quit Class Flags
+#include Style
+#Parent proginfo_class
+#Background wimp 1
+Class:	<Quit=>quit_class>
+#Line
+#Wrap off
+
+Constants:
+<Quit_GenerateAboutToBeShown>
+<Quit_GenerateDialogueCompleted>

@@ -1,0 +1,10 @@
+Drawfile_RenderBoundingBoxes
+#Wrap Off
+Defined in:	<drawfile.h=>drawfile_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Drawfile_RenderBoundingBoxes 0x00000001
+#Indent
+{F}
+#Wrap On

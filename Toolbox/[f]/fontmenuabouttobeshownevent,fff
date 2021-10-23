@@ -1,0 +1,17 @@
+FontMenuAboutToBeShownEvent
+#include Style
+#Background wimp 1
+Class:	<Font Menu=>font_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+  <TopLeft>            pos;
+} FontMenuAboutToBeShownEvent;
+{F}
+#indent
+#Wrap

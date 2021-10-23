@@ -1,0 +1,12 @@
+PopupMenu Flags
+#include Style
+#Background wimp 1
+Gadget:	<PopupMenu=>popupmenu>
+#Line
+#Wrap off
+Bits:	0	- Set means issue an <Popup_AboutToBeShown> when user clicks.
+
+Constants:
+	<PopUp_GenerateAboutToBeShown>
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

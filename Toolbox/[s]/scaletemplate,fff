@@ -1,0 +1,22 @@
+ScaleTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<scale.h=>scale_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  unsigned int   flags;
+  int            max_value;
+  int            min_value;
+  int            step_size;
+  char           *title;
+  int            max_title;
+  char           *window;
+  int            std_value[4];
+} ScaleTemplate;
+{f}
+#indent
+#Wrap

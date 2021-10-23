@@ -1,0 +1,11 @@
+Wimp_MTaskStarted
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MTaskStarted 0x400c8
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <TaskStarted.=>Wimp:Msg_400c8>

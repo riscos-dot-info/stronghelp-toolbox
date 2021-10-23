@@ -1,0 +1,21 @@
+radiobutton_get_state
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *radiobutton_get_state 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   radio_button,
+  int          *state
+  <ComponentId>  *selected
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the state of the radio button.  {/}state{/} = 1 is selected, and = 0 is not selected.  {/}selected{/} returns the ComponentId of the currently selected radio icon.

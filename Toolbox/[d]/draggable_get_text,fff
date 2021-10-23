@@ -1,0 +1,22 @@
+draggable_get_text
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *draggable_get_text 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   draggable,
+  char         *buffer,
+  int           buff_size,
+  int          *nbytes
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the text being displayed in the draggable object.

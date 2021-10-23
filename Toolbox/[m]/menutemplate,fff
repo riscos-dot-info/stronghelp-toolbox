@@ -1,0 +1,15 @@
+MenuTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<menu.h=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  <MenuTemplateHeader> hdr;
+} MenuTemplate;
+{f}
+#indent
+#Wrap

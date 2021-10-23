@@ -1,0 +1,19 @@
+colourdbox_set_colour
+#include Style
+#Background wimp 1
+Class:	<Colour Dialogue=>col-d_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *colourdbox_set_colour
+(
+  unsigned int  <flags,=>colourdbox_set_colour_flags>
+  <ObjectId>      colourdbox,
+  int          *colour_block
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the colour displayed in the Colour Dialogue.

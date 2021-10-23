@@ -1,0 +1,21 @@
+scrolllist_set_state
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<ScrollList.H=>scrolllist>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern _kernel_oserror *scrolllist_set_state
+(
+  unsigned int  flags,
+  <ObjectId>      object_id,
+  <ComponentId>   component_id,
+  unsigned int  state
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets state of the specified ScrollList.  Setting bit 0 of state indicates gadget can have multiple selected items.

@@ -1,0 +1,10 @@
+FontDbox_GenerateShowEvent
+#Wrap Off
+Defined in:	<fontdbox.h=>fontd_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define  FontDbox_GenerateShowEvent 0x00000001
+#Indent
+{F}
+#Wrap On

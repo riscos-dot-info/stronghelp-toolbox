@@ -1,0 +1,10 @@
+ColourMenu_ColourNone
+#Wrap Off
+Defined in:	<colourmenu.h=>col-m_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ColourMenu_ColourNone 16
+#Indent
+{F}
+#Wrap On

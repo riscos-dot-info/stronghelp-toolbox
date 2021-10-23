@@ -1,0 +1,12 @@
+Colour Menu Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Colour Menu Data Types{/}
+#Align left
+
+<ColourMenuTemplate>
+<ColourMenuAboutToBeShownEvent>
+<ColourMenuHasBeenHiddenEvent>
+<ColourMenuSelectionEvent>

@@ -1,0 +1,10 @@
+CancelDrag
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define CancelDrag 0
+#Indent
+{F}
+#Wrap On

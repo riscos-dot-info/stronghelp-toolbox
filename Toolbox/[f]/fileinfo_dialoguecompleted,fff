@@ -1,0 +1,19 @@
+FileInfo_DialogueCompleted 0x82ac1
+#include Style
+#Background wimp 1
+Class:	<File Info=>finfo_class>
+#Line
+#Wrap off
+Syntax:	FileInfo_DialogueCompleted 0x82ac1
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} FileInfoDialogueCompletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised after the FileInfo window is hidden.

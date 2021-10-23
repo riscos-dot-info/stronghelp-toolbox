@@ -1,0 +1,21 @@
+button_set_flags
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *button_set_flags
+(
+  unsigned int flags,
+  <ObjectId>     window,
+  <ComponentId>  button,
+  int          <clear_word,=>button_set_flags_flags>
+  int          <EOR_word=>button_set_flags_flags>
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the flags of the specified button gadget.

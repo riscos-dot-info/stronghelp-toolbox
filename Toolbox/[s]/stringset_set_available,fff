@@ -1,0 +1,20 @@
+stringset_set_available
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *stringset_set_available 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   string_set,
+  char         *strings
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the available list of strings in a string set, allowing a pop-up menu to be built dynamically.

@@ -1,0 +1,10 @@
+Menu_Entry_DottedLine
+#Wrap Off
+Defined in:	<menu.h=>menu_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Menu_Entry_DottedLine 0x00000002
+#Indent
+{F}
+#Wrap On

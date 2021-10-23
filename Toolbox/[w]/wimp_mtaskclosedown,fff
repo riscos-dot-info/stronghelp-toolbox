@@ -1,0 +1,11 @@
+Wimp_MTaskCloseDown
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MTaskCloseDown 0x400c3
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <TaskCloseDown.=>Wimp:Msg_400c3>

@@ -1,0 +1,17 @@
+window_get_menu
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_get_menu 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ObjectId>      menu_id
+);
+
+{F}
+#indent
+Purpose:	Function gets the id of menu that will be displayed when the menu button is pressed over the window.

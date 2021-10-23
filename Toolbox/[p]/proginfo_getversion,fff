@@ -1,0 +1,28 @@
+ProgInfo_GetVersion
+#include Style
+#Background wimp 1
+Module:	<ProgInfo=>proginfo/m>
+#Line
+#Wrap off
+Syntax:	ProgInfo_GetVersion
+Veneer:	<proginfo_get_version>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ProgInfo object ID
+r2 = 2
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains version string.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the version string of a ProgInfo object.

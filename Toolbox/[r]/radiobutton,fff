@@ -1,0 +1,18 @@
+RadioButton Data Type
+#include Style
+#Background wimp 1
+Defined In:	<gadgets.h=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int         group_number;
+  char        *label;
+  int         max_label_len;
+  int         event;
+} RadioButton;
+#indent
+
+#Wrap

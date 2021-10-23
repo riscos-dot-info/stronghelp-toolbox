@@ -1,0 +1,20 @@
+optionbutton_set_event
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *optionbutton_set_event
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   option_button,
+  int           event
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the Toolbox event that will be raised when the state of the button is toggled.

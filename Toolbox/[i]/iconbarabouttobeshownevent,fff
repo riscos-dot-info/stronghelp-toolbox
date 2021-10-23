@@ -1,0 +1,16 @@
+IconbarAboutToBeShownEvent
+#include Style
+#Background wimp 1
+Class:	<Iconbar=>ibar_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  <ObjectId>           id;
+} IconbarAboutToBeShownEvent;
+{F}
+#indent
+#Wrap

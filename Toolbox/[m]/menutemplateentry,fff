@@ -1,0 +1,24 @@
+MenuTemplateEntry Data Type
+#include Style
+#Background wimp 1
+Defined In:	<menu.h=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int           flags;
+  <ComponentId>   component_id;
+  char          *text;
+  int           max_text;
+  char          *click_show;
+  char          *submenu_show;
+  int           submenu_event;
+  int           click_event;
+  char          *help_message;
+  int           max_entry_help;
+} MenuTemplateEntry;
+{f}
+#indent
+#Wrap

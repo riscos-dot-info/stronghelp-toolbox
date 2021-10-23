@@ -1,0 +1,18 @@
+ToolboxMsgEvent
+#Parent tbox_lib
+#include Style
+#Background wimp 1
+Defined In:	<toolbox.h=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{  
+  <ObjectId>        self;
+  <ComponentId>     component;
+  <ToolboxEvent>    event;
+} ToolboxMsgEvent;
+{F}
+#indent
+#Wrap

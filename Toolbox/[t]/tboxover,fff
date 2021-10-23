@@ -1,0 +1,6 @@
+Toolbox Overview
+#Parent !Root
+#include Style
+#Wrap on
+The Toolbox provides an easier way of programming the WIMP than standard templates etc.  A lot of the code that had to be written in the past is done automatically by the Toolbox libraries.  The Toolbox is interfaced to by SWI calls from the client application.  When each toolbox application registers itself with the toolbox it is assigned a unique identifier number which is then used by the application to interface to the toolbox, and when a user does something in a toolbox window that has been registered in the client application the toolbox returns a code to allow the client application to do something.
+#Wrap off

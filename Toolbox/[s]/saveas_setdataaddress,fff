@@ -1,0 +1,29 @@
+SaveAs_SetDataAddress
+#include Style
+#Background wimp 1
+Module:	<SaveAs=>saveas/m>
+#Line
+#Wrap off
+Syntax:	SaveAs_SetDataAddress
+Veneer:	<saveas_set_data_address>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = SaveAs object ID
+r2 = 10
+r3 = address of contiguous data block
+r4 = size of data block
+r5 = address of contiguous data block
+     (selection)
+r6 = size of selection
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the data address in the SaveAs Object.

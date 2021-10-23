@@ -1,0 +1,21 @@
+Pop-Up Menu Gadgets
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of pop-up menus{/}
+
+#Align left
+#Wrap on
+Ref:	Page 383 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>popupmenu_data_types>
+<Flags=>popupmenu_flags>
+
+<popup_get_menu>
+<popup_set_menu>
+
+{/}PopupMenu Events{/}
+<Popup_AboutToBeShown>
+#Line
+Defined in <Gadgets.H=>gadgets>

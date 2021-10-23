@@ -1,0 +1,19 @@
+proginfo_set_version
+#include Style
+#Background wimp 1
+Class:	<Program Info Dialogue=>proginfo_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *proginfo_set_version 
+(
+  unsigned int  flags,
+  <ObjectId>      proginfo,
+  char         *version_string
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the version string to be used in the ProgInfo object.

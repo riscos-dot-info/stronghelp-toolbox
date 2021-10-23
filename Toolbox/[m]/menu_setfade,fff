@@ -1,0 +1,27 @@
+Menu_SetFade
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_SetFade
+Veneer:	<menu_set_fade>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 2
+r3 = component id of entry
+r4 = Non-Zero: fade
+     Zero: unfade
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets fade state of an entry on a menu.

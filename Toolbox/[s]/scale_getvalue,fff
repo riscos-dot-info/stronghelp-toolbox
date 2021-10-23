@@ -1,0 +1,25 @@
+Scale_GetValue
+#include Style
+#Background wimp 1
+Module:	<Scale=>scale/m>
+#Line
+#Wrap off
+Syntax:	Scale_GetValue
+Veneer:	<scale_get_value>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Scale object ID
+r2 = 2
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = value.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the value displayed in the writable field of the object.

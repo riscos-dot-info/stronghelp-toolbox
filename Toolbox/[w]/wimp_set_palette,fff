@@ -1,0 +1,18 @@
+wimp_set_palette
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_set_palette
+(
+  <Palette> *palette
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_SetPalette.=>Wimp:Wimp_setpalette>

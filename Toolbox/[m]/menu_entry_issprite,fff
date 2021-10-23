@@ -1,0 +1,10 @@
+Menu_Entry_IsSprite
+#Wrap Off
+Defined in:	<menu.h=>menu_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Menu_Entry_IsSprite 0x00000200
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,32 @@
+Window_GadgetGetIconList (0x82880+11)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_GadgetGetIconList
+Veneer:	No Veneer provided
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Wimp window handle
+r2 = gadget component id
+r3 = pointer to buffer or 0.
+r4 = size of buffer, or unused if r3=0
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}If r3 on entry was 0:
+    r4 = size of buffer required to hold icon list.
+Else:
+    Buffer pointed to by r3 holds list of Wimp
+    icon number for this gadget, and r4 holds number
+    of bytes written to buffer.
+r4 = -1 if r1 isn't a toolbox window.
+{f}
+#indent
+#Wrap
+Purpose:	Provides the Icon numbers that make up the gadget pointer to in r2.

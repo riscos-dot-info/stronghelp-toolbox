@@ -1,0 +1,10 @@
+ButtonType_ClickDrag
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ButtonType_ClickDrag 6
+#Indent
+{F}
+#Wrap On

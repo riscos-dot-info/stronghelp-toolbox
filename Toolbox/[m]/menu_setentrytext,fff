@@ -1,0 +1,26 @@
+Menu_SetEntryText
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_SetEntryText
+Veneer:	<menu_set_entry_text>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 4
+r3 = component id of entry
+r4 = pointer to string
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets text of an entry on a menu.

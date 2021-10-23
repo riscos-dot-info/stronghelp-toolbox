@@ -1,0 +1,18 @@
+wimp_open_window
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_open_window
+(
+  <WimpOpenWindowBlock> *show
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_OpenWindow.=>Wimp:Wimp_openwindow>

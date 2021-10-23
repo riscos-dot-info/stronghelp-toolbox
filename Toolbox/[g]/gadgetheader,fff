@@ -1,0 +1,20 @@
+GadgetHeader Data Type
+#include Style
+#Background wimp 1
+Defined In:	<window.h=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  unsigned int    flags;
+  int             type;
+  <BBox>            box;
+  <ComponentId>     component_id;
+  char            *help_message;
+  int             max_help;
+} GadgetHeader;
+#indent
+
+#Wrap

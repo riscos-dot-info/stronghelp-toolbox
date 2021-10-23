@@ -1,0 +1,10 @@
+Adjuster_LeftRight
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Adjuster_LeftRight 0x00000000
+#Indent
+{F}
+#Wrap On

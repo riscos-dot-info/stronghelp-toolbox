@@ -1,0 +1,20 @@
+stringset_set_allowable
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *stringset_set_allowable 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   string_set,
+  char         *allowable
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets list of allowable characters which can be typed into a writable string set.

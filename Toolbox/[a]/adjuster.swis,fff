@@ -1,0 +1,11 @@
+Adjuster Arrows
+#Parent gadgets
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 347 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>adjusters_flags>
+
+<Adjuster_Clicked=>adjuster_clicked>

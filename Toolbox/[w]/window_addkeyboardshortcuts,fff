@@ -1,0 +1,28 @@
+Window_AddKeyboardShortcuts
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_AddKeyboardShortcuts
+Veneer:	<window_add_keyboard_shortcuts=>window_add_keyboard_shortcuts>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 9
+r3 = number of shortcuts to add
+r4 = pointer to memory block containing an array of
+     description blocks for the shortcuts.  See 
+     page 317 for more details.
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method adds a number of keyboard shortcuts to a window.

@@ -1,0 +1,11 @@
+Wimp_MPrintError
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MPrintError 0x80144
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <PrintError.=>Wimp:Msg_80144>

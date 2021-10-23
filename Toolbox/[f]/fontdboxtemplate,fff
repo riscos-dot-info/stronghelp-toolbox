@@ -1,0 +1,22 @@
+FontDboxTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<fontdbox.h=>fontd_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int           flags;
+  char          *title;
+  int           max_title;
+  char          *initial_font;
+  int           initial_height;
+  int           initial_aspect;
+  char          *try_string;
+  char          *window;
+} FontDboxTemplate;
+{f}
+#indent
+#Wrap

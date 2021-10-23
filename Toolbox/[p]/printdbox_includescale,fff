@@ -1,0 +1,10 @@
+PrintDbox_IncludeScale
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define PrintDbox_IncludeScale 0x00000020
+#Indent
+{F}
+#Wrap On

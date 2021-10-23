@@ -1,0 +1,22 @@
+toolaction_set_click_show
+#include Style
+#Background wimp 1
+#Parent toolaction
+Header:	<ToolAction.H=>toolaction>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern void toolaction_set_click_show
+(
+  <bits>       flags,
+  <toolbox_o>  obj,
+  <toolbox_c>  cmp,
+  <toolbox_o> *select_show_obj
+  <toolbox_c> *adjust_show_obj
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Sets the objects to be shown when the gadget is clicked.

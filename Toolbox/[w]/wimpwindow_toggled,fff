@@ -1,0 +1,10 @@
+WimpWindow_Toggled
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpWindow_Toggled (1u << 19)
+#Indent
+{F}
+#Wrap On

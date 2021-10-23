@@ -1,0 +1,10 @@
+FontMenu_SystemFont
+#Wrap Off
+Defined in:	<fontmenu.h=>font_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define FontMenu_SystemFont 0x00000004
+#Indent
+{F}
+#Wrap On

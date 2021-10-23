@@ -1,0 +1,58 @@
+Menu Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of menus{/}
+
+#Align left
+Ref:	Page 165 of the {/}User Interface Toolbox{/} manual.
+#Line
+<Data Types=>menu_class_data_types>
+<Flags=>menu_class_flags>
+
+#Wrap on
+#Align Centre
+{*}{/}Menu SWIs{/}{*}
+#Align Left
+
+#Table columns 3
+<menu_add_entry>
+<menu_get_click_event>
+<menu_get_click_show>
+<menu_get_entry_help_message>
+<menu_get_entry_sprite>
+<menu_get_entry_text>
+<menu_get_fade>
+<menu_get_height>
+<menu_get_help_message>
+<menu_get_sub_menu_event>
+<menu_get_sub_menu_show>
+<menu_get_tick>
+<menu_get_title>
+<menu_get_width>
+<menu_remove_entry>
+<menu_set_click_event>
+<menu_set_click_show>
+<menu_set_entry_help_message>
+<menu_set_entry_sprite>
+<menu_set_entry_text>
+<menu_set_fade>
+<menu_set_help_message>
+<menu_set_sub_menu_event>
+<menu_set_sub_menu_show>
+<menu_set_tick>
+<menu_set_title>
+#EndTable
+
+#Line
+#Align Centre
+{*}{/}Menu Events{/}{*}
+#Align Left
+
+#Wrap off
+<Menu_AboutToBeShown>
+<Menu_HasBeenHidden>
+<Menu_SubMenu>
+<Menu_Selection>
+
+#Wrap

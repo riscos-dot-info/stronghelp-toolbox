@@ -1,0 +1,17 @@
+ActionButtonSelectedEvent
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} ActionButtonSelectedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This toolbox event is raised when the user clicks on an action button, and the client has not specified their own event to be associated with this event.

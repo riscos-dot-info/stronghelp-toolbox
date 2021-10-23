@@ -1,0 +1,21 @@
+textarea_set_cursor_position
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<TextArea.H=>textarea>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *textarea_cursor_position
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  unsigned int *index,
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function gets the position of the caret in the TextArea.

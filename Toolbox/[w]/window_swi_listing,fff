@@ -1,0 +1,35 @@
+Window SWI Listing
+#Parent !Root
+#include Style
+#Align Centre
+<Window=>Window/m>
+#Line
+#Align left
+
+#Table Columns 3
+<Window_EnumerateGadgets>
+<Window_GadgetGetIconList>
+<Window_GetWimpHandle>
+<Window_AddGadget>
+<Window_RemoveGadget>
+<Window_SetMenu>
+<Window_GetMenu>
+<Window_SetPointer>
+<Window_GetPointer>
+<Window_SetHelpMessage>
+<Window_GetHelpMessage>
+<Window_AddKeyboardShortcuts>
+<Window_RemoveKeyboardShortcuts>
+<Window_SetTitle>
+<Window_GetTitle>
+<Window_SetDefaultFocus>
+<Window_GetDefaultFocus>
+<Window_SetExtent>
+<Window_GetExtent>
+<Window_ForceRedraw>
+<Window_SetToolBars>
+<Window_GettoolBars>
+<Window_GetPointerInfo>
+<Window_WimpToToolbox>
+<Window_ExtractGadgetInfo>
+#EndTable

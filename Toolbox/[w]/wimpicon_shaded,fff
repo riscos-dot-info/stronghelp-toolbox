@@ -1,0 +1,10 @@
+WimpIcon_Shaded
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpIcon_Shaded (1u << 22)
+#Indent
+{F}
+#Wrap On

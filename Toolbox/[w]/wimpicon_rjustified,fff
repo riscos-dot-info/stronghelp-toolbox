@@ -1,0 +1,10 @@
+WimpIcon_RJustified
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpIcon_RJustified (1u << 9)
+#Indent
+{F}
+#Wrap On

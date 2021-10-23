@@ -1,0 +1,10 @@
+WimpIcon_FGColour
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpIcon_FGColour (1u << 24)
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,26 @@
+ColourMenu_SetTitle
+#include Style
+#Background wimp 1
+Module:	<ColourMenu=>colourmenu/m>
+#Line
+#Wrap off
+Syntax:	ColourMenu_SetTitle
+Veneer:	<colourmenu_set_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourMenu object ID
+r2 = 4
+r4 = pointer to string
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the title of the ColourMenu.

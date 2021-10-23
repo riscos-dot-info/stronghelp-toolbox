@@ -1,0 +1,13 @@
+ComponentId
+#include Style
+#Background wimp 1
+#Wrap on
+
+Syntax:	typedef int ComponentId;
+#Line
+The ComponentId of a gadget is the code that the toolbox will provide when an action has been carried out on the gadget by the user.  This allows the program to 'know' when an action has been carried, e.g. an action button has been clicked.  The ComponentId can also be used directly by the program, to clear display fields etc.
+
+ComponentId's are declared in <!ResEd=>resed>  Each component in a program can have a specified id defined as a hex number.  These can then have names assigned to them to make reading code easier:
+
+{/} A writable icon has a ComponentId of 0x100.  It can then be named as{/} #define writable_icon 0x100 {/}in your C program.{/}
+#Wrap off

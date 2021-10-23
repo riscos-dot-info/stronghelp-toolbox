@@ -1,0 +1,10 @@
+PrintDbox_IncludeSave
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define PrintDbox_IncludeSave 0x00000080
+#Indent
+{F}
+#Wrap On

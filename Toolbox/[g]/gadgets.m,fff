@@ -1,0 +1,24 @@
+Window Module Gadgets
+#Parent !Root
+#include Style
+#Align centre
+{*}{/}Gadgets{*}{/}
+#Align Left
+
+<ActionButton=>actionbutton/swis>
+<Adjuster=>adjuster/swis>
+<Button=>button/swis>
+<DisplayField=>displayfield/swis>
+<Draggable=>draggable/swis>
+<Label=>label/swis>
+<LabelledBox=>labelledbox/swis>
+<NumberRange=>numberrange/swis>
+<OptionButton=>optionbutton/swis>
+<PopupMenu=>popup/swis>
+<RadioButton=>radiobutton/swis>
+<ScrollList=>scrolllist/swis>
+<Slider=>slider/swis>
+<StringSet=>stringset/swis>
+<TextArea=>textarea/swis>
+<ToolAction=>toolaction/swis>
+<WritableField=>writablefield/swis>

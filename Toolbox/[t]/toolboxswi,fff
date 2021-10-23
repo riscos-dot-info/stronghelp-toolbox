@@ -1,0 +1,28 @@
+Toolbox SWIs
+#Include Style
+#Align centre
+{/}{*}Toolbox Modules{*}{/}
+#Align Left
+
+#Table Columns 3
+<ColourMenu=>colourmenu/m>
+<ColourPicker=>colourdbox/m>
+<DCS=>dcs/m>
+<FileInfo=>fileinfo/m>
+<FontDbox=>fontdbox/m>
+<FontMenu=>fontmenu/m>
+<IconBar=>iconbar/m>
+<Menu=>menu/m>
+<Print=>printdbox/m>
+<ProgInfo=>proginfo/m>
+<Quit=>quit/m>
+<SaveAs=>saveas/m>
+<Scale=>scale/m>
+<Toolbox=>toolbox/m>
+<Window=>window/m>
+#EndTable
+#Wrap
+
+#Line
+<Gadgets=>gadgets/m>
+<MiscOp Codes=>toolbox_objectmiscop_codes>

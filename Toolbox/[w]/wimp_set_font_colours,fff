@@ -1,0 +1,19 @@
+wimp_set_font_colours
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}_kernel_oserror *wimp_set_font_colours
+(
+  int fore,
+  int back
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_SetFontColours.=>Wimp:Wimp_SetFontColours>

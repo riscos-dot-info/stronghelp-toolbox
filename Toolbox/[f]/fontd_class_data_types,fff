@@ -1,0 +1,12 @@
+Font Dialogue Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Font Dialogue Data Types{/}
+#Align left
+
+<FontDboxTemplate>
+<FontDboxAboutToBeShownEvent>
+<FontDboxApplyFontEvent>
+<FontDboxDialogueCompletedEvent>

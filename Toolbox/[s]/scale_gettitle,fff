@@ -1,0 +1,28 @@
+Scale_GetTitle
+#include Style
+#Background wimp 1
+Module:	<Scale=>scale/m>
+#Line
+#Wrap off
+Syntax:	Scale_GetTitle
+Veneer:	<scale_get_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Scale object ID
+r2 = 6
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains title text.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the title for the Scale object.

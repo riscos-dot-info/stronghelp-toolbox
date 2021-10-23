@@ -1,0 +1,22 @@
+wimp_transfer_block
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_transfer_block
+(
+  int   sh,
+  void *sbuf,
+  int   dh,
+  void *dbuf,
+  int   size
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_TransferBlock.=>Wimp:Wimp_transferblock>

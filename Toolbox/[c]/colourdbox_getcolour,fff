@@ -1,0 +1,29 @@
+ColourDbox_GetColour
+#include Style
+#Background wimp 1
+Module:	<ColourDbox=>colourdbox/m>
+#Line
+#Wrap off
+Syntax:	ColourDbox_GetColour
+Veneer:	<colourdbox_get_colour>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0: select None option.
+r1 = ColourDbox object ID
+r2 = 3
+r3 = pointer to buffer for colour block
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains colour block.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the colour selected in the dialogue.

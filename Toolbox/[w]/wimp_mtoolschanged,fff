@@ -1,0 +1,11 @@
+Wimp_MToolsChanged
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MToolsChanged 0x400ce
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <ToolsChanged.=>Wimp:Msg_400ce>

@@ -1,0 +1,25 @@
+Toolbox_GetParent (0x44eca)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_GetParent
+Veneer:	<toolbox_get_parent>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = object Id
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0 = parent object Id
+r1 = parent component Id
+r2-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the value of the object Id of the parent object.

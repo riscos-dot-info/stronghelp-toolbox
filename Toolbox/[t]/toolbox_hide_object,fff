@@ -1,0 +1,18 @@
+toolbox_hide_object
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *toolbox_hide_object 
+(
+  unsigned int  flags,
+  <ObjectId>      id
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function hides the given object.

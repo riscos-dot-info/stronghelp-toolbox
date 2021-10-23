@@ -1,0 +1,10 @@
+FileInfo_GenerateShowEvent
+#Wrap Off
+Defined in:	<fileinfo.h=>finfo_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define FileInfo_GenerateShowEvent 0x00000001
+#Indent
+{F}
+#Wrap On

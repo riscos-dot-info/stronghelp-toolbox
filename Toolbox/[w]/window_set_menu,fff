@@ -1,0 +1,18 @@
+window_set_menu
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_set_menu 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ObjectId>      menu_id
+);
+
+#wrap
+{F}
+#indent
+Purpose:	Function sets the menu that will be displayed when the menu button is pressed over the window.  If {/}menu_id{/} = 0 then the menu for the window is detached.

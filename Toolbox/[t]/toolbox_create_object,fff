@@ -1,0 +1,19 @@
+toolbox_create_object
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *toolbox_create_object 
+(
+  unsigned int  flags,
+  void         *name_or_template,
+  <ObjectId>     *id
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function creates an object, either from a named template in a res file, or from a template description block in memory.

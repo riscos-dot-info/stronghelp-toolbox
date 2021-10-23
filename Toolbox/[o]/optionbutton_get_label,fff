@@ -1,0 +1,22 @@
+optionbutton_get_label
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *optionbutton_get_label 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   option_button,
+  char         *buffer,
+  int           buff_size,
+  int          *nbytes
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the label of the option box specified.

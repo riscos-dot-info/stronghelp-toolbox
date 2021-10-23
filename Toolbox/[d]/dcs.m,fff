@@ -1,0 +1,28 @@
+Discard/Cancel/Save Class
+#Parent !Root
+#include Style
+#Align centre
+#Wrap On
+{/}These functions allow manipulation of DCS Objects{/}
+
+#Align left
+Ref:	Page 89 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<DCS SWI Names=>dcs_swi_listing>
+<Flags=>dcs_class_flags>
+
+#Table Columns 2
+<DCS_GetMessage>
+<DCS_GetTitle>
+<DCS_GetWindowID>
+<DCS_SetMessage>
+<DCS_SetTitle>
+#EndTable
+
+{/}DCS Dialogue Events{/}
+<DCS_AboutToBeShown>
+<DCS_Cancel>
+<DCS_DialogueCompleted>
+<DCS_Discard>
+<DCS_Save>

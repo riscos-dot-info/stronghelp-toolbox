@@ -1,0 +1,25 @@
+Sliders
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of Sliders{/}
+
+#Align left
+#Wrap on
+Ref:	Page 395 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>sliders_data_types>
+<Flags=>sliders_flags>
+
+<slider_set_value>
+<slider_get_value>
+<slider_set_bounds>
+<slider_get_bounds>
+<slider_set_colour>
+<slider_get_colour>
+
+{/}Slider Events{/}
+<Slider_ValueChanged>
+#Line
+Defined in <Gadgets.H=>gadgets>

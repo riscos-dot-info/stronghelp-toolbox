@@ -1,0 +1,22 @@
+FontDbox_ApplyFont
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Syntax:	FontDbox_ApplyFont
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  unsigned int       height;
+  unsigned int       aspect;
+  char               font[208];
+} FontDboxApplyFontEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised immediately after the Font Dialogue window is hidden.

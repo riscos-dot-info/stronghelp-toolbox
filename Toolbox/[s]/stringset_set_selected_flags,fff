@@ -1,0 +1,9 @@
+stringset_set_selected Flags
+#include Style
+#Background wimp 1
+C Veneer:	<stringset_set_selected=>stringset_set_selected>
+SWI:		<StringSet_SetSelected>
+
+#Line
+#Wrap off
+Bits:	0	- Set is index of string as supplied in R4; clear is the string itself.

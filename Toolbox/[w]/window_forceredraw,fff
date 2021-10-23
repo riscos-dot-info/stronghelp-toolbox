@@ -1,0 +1,30 @@
+Window_ForceRedraw
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_ForceRedraw
+Veneer:	<window_force_redraw=>window_force_redraw>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 17
+r3 = pointer to area to redraw:
+     +0  minimum x co-ordinate
+     +4  minimum y co-ordinate
+     +8  maximum x co-ordinate
+     +12 maximum y co-ordinate
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method forces a redraw on the area of the window area specified.

@@ -1,0 +1,20 @@
+Menu_SubMenu 0x828c2
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	Menu_SubMenu 0x828c2
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  <TopLeft>            pos;
+} MenuSubMenuEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user moves the mouse over a sub-menu's arrow icon.

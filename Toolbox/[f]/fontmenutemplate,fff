@@ -1,0 +1,16 @@
+FontMenuTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<FontMenu.h=>font_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  unsigned int flags;
+  char        *ticked_font;
+} FontMenuTemplate;
+{f}
+#indent
+#Wrap

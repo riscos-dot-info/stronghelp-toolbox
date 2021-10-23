@@ -1,0 +1,28 @@
+ProgInfo_GetUri
+#include Style
+#Background wimp 1
+Module:	<ProgInfo=>proginfo/m>
+#Line
+#Wrap off
+Syntax:	ProgInfo_GetUri
+Veneer:	<proginfo_get_uri>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ProgInfo object ID
+r2 = 8
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains Uri.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the Uri to be executed after a click on the Web Page button.

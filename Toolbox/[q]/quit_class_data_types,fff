@@ -1,0 +1,13 @@
+Quit Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Quit Data Types{/}
+#Align left
+
+<QuitTemplate>
+<QuitAboutToBeShownEvent>
+<QuitQuitEvent>
+<QuitDialogueCompletedEvent>
+<QuitCancelEvent>

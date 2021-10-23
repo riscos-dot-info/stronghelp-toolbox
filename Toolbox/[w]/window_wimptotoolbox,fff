@@ -1,0 +1,26 @@
+Window_WimpToToolbox (0x82884)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_WimpToToolbox
+Veneer:	<window_wimp_to_toolbox=>window_wimp_to_toolbox>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = wimp window handle
+r2 = icon handle
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = object ID for window
+r1 = component ID
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the ObjectID and ComponentID for the wimp icons passed in.

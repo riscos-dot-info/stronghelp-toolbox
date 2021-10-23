@@ -1,0 +1,19 @@
+window_get_help_message
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_get_help_message
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  char         *buffer,
+  int           buffer_length,
+  int          *nbytes
+);
+
+{F}
+#indent
+Purpose:	Function returns the standard Risc OS help message for the window object.

@@ -1,0 +1,22 @@
+wimp_slot_size
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_slot_size
+(
+  int  current,
+  int  next,
+  int *current,
+  int *next,
+  int *free
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_SlotSize.=>Wimp:Wimp_slotsize>

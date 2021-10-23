@@ -1,0 +1,24 @@
+PrintDbox_GetWindowID
+#include Style
+#Background wimp 1
+Module:	<PrintDbox=>printdbox/m>
+#Line
+#Wrap off
+Syntax:	PrintDbox_GetWindowID
+Veneer:	<printdbox_get_window_id>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = PrintDbox object ID
+r2 = 0
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = window object id.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets underlying window object used in the Print Dialogue.

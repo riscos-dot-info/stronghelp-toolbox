@@ -1,0 +1,25 @@
+Menu_GetClickEvent
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_GetClickEvent
+Veneer:	<menu_get_click_event>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 15
+r3 = component id of entry
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r4 = toolbox event code
+{f}
+#indent
+#Wrap
+Purpose:		Method gets click event for an entry on a menu.

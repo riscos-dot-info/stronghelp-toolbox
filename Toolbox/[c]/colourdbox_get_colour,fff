@@ -1,0 +1,22 @@
+colourdbox_get_colour
+#include Style
+#Background wimp 1
+Class:	<Colour Dialogue=>col-d_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *colourdbox_get_colour
+(
+  unsigned int  flags,
+  <ObjectId>      colourdbox,
+  int          *buffer,
+  int           buff_size,
+  int          *outflags,
+  int          *nbytes
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the colour displayed in the Colour Dialogue.  If {/}flags{/} is set then None is selected in the dialogue.

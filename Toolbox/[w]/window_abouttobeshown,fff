@@ -1,0 +1,26 @@
+Window_AboutToBeShown 0x82880
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	Window_AboutToBeShown 0x82880
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader>  hdr;
+  int                 show_type;
+
+  union
+  \{
+    <TopLeft>                 top_left;
+    <WindowShowObjectBlock>   full_spec;
+  } info;
+} WindowAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This event is raised by the Toolbox when <toolbox_show_object> is called on a window which has the 'Deliver Event Before Showing' attribute set in <!ResEd=>resed>.

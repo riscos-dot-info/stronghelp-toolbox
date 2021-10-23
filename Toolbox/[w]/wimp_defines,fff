@@ -1,0 +1,137 @@
+Wimp.H & WimpLib.H #define's
+#Parent !Root
+#include Style
+
+Ref:	{/}Wimp.H{/} & {/}WimpLib{/} header files.
+#Line
+
+#Align Centre
+{/}{*} Wimp.H #define's {*}{/}
+#Align Left
+
+<Wimp_Poll>{*} r0 flags:{*}
+
+#indent 6
+{FCode}<Wimp_Poll_NullMask>
+<Wimp_Poll_RedrawWindowRequestMask>
+<Wimp_Poll_PointerLeavingWindowMask>
+<Wimp_Poll_PointerEnteringWindowMask>
+<Wimp_Poll_MouseClickMask>
+<Wimp_Poll_KeyPressedMask>
+<Wimp_Poll_LoseCaretMask>
+<Wimp_Poll_GainCaretMask>
+<Wimp_Poll_PollWordNonZeroMask>
+<Wimp_Poll_UserMessageMask>
+<Wimp_Poll_UserMessageRecordedMask>
+<Wimp_Poll_UserMessageAcknowledgeMask>
+<Wimp_Poll_PollWord>
+<Wimp_Poll_PollWordHighPriority>
+<Wimp_Poll_SaveFPRegs>
+{F}
+#indent
+<Wimp_Report_Error>{*} r1 flags:{*}
+#indent 6
+{FCode}<Wimp_ReportError_OK>
+<Wimp_ReportError_Cancel>
+<Wimp_ReportError_HighlightCancel>
+<Wimp_ReportError_NoPrompt>
+<Wimp_ReportError_NoAppName>
+<Wimp_ReportError_LeaveOpen>
+<Wimp_ReportError_Close>
+<Wimp_ReportError_NoBeep>
+{F}
+#indent
+{*}Icon description flags:{*}
+#indent 6
+{FCode}<WimpIcon_Text>
+<WimpIcon_Sprite>
+<WimpIcon_Border>
+<WimpIcon_HCentred>
+<WimpIcon_VCentred>
+<WimpIcon_Filled>
+<WimpIcon_AntiAliased>
+<WimpIcon_NeedsHelp>
+<WimpIcon_Indirected>
+<WimpIcon_RJustified>
+<WimpIcon_AllowAdjust>
+<WimpIcon_HalfSize>
+<WimpIcon_ButtonType>
+<WimpIcon_ESG>
+<WimpIcon_Selected>
+<WimpIcon_Shaded>
+<WimpIcon_Deleted>
+<WimpIcon_FGColour>
+<WimpIcon_BGColour>
+<WimpIcon_FontHandle>
+{F}
+#indent
+<Wimp_Drag_Box>{*} flags{*}
+#indent 6
+{FCode}<Wimp_DragBox_DragWindow>
+<Wimp_DragBox_DragSize>
+<Wimp_DragBox_DragHorizontal>
+<Wimp_DragBox_DragVertical>
+<Wimp_DragBox_DragFixedDash>
+<Wimp_DragBox_DragRubberDash>
+<Wimp_DragBox_DragPoint>
+<Wimp_DragBox_DragFixedUserBox>
+<Wimp_DragBox_DragRubberUserBox>
+<Wimp_DragBox_DragBoth>
+<Wimp_DragBox_DontCancel>
+{F}
+#indent
+{*}Window flags{*}
+#indent 6
+{FCode}<WimpWindow_Moveable>
+<WimpWindow_AutoRedraw>
+<WimpWindow_Pane>
+<WimpWindow_NoBounds>
+<WimpWindow_ScrollRepeat>
+<WimpWindow_Scroll>
+<WimpWindow_RealColours>
+<WimpWindow_Back>
+<WimpWindow_HotKeys>
+<WimpWindow_StayOnScreen>
+<WimpWindow_IgnoreXExtent>
+<WimpWindow_IgnoreYExtent>
+<WimpWindow_Open>
+<WimpWindow_NotCovered>
+<WimpWindow_FullSize>
+<WimpWindow_Toggled>
+<WimpWindow_HasInputFocus>
+<WimpWindow_ForceOnceOnScreen>
+<WimpWindow_BackIcon>
+<WimpWindow_CloseIcon>
+<WimpWindow_TitleIcon>
+<WimpWindow_ToggleIcon>
+<WimpWindow_VScroll>
+<WimpWindow_SizeIcon>
+<WimpWindow_HScroll>
+<WimpWindow_NewFormat>
+<WimpWindow_Background>
+<WimpWindow_Iconbar>
+<WimpWindow_Top>
+<WimpWindow_Bottom>
+{F}
+#indent
+{*}Menu flags{*}
+#indent 6
+{FCode}<WimpMenuItem_Ticked>
+<WimpMenuItem_DottedLine>
+<WimpMenuItem_Writable>
+<WimpMenuItem_GenerateSubWimpMenuWarning>
+<WimpMenuItem_AllowWhenGreyedOut>
+<WimpMenuItem_Last>
+<WimpMenuItem_IndirectedTitle>
+{F}
+#indent
+#Line
+#Align Centre
+{/}{*} WimpLib.H #define's {*}{/}
+#Align Left
+#indent 6
+{FCode}<CancelDrag>
+<CancelMenu>
+<Wimp_BackgroundColour>
+{F}
+#indent

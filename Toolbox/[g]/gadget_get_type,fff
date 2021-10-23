@@ -1,0 +1,16 @@
+gadget_get_type
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	extern _kernel_oserror *gadget_get_type
+		(
+		unsigned int flags,
+		<ObjectId=>objectid> window,
+		<ComponentId=>componentid> gadget,
+		int <*type=>gadget_get_type_types>
+		);
+
+#Wrap
+Purpose:	Function returns the type of the given gadget.

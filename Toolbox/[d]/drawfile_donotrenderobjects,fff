@@ -1,0 +1,10 @@
+Drawfile_DoNotRenderObjects
+#Wrap Off
+Defined in:	<drawfile.h=>drawfile_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Drawfile_DoNotRenderObjects 0x00000002
+#Indent
+{F}
+#Wrap On

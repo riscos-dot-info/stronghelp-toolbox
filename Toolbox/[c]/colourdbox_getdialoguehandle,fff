@@ -1,0 +1,25 @@
+ColourDbox_GetDialogueHandle
+#include Style
+#Background wimp 1
+Module:	<ColourDbox=>colourdbox/m>
+#Line
+#Wrap off
+Syntax:	ColourDbox_GetDialogueHandle
+Veneer:	<colourdbox_get_dialogue_handle>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourDbox object ID
+r2 = 1
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = handle of underlying wimp dialogue.
+{f}
+#indent
+#Wrap
+Purpose:		Method returns the handle of the dialogue box used by the Colour Picker module.

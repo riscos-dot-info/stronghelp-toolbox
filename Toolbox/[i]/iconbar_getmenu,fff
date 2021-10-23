@@ -1,0 +1,24 @@
+Iconbar_GetMenu
+#include Style
+#Background wimp 1
+Module:	<Iconbar=>iconbar/m>
+#Line
+#Wrap off
+Syntax:	Iconbar_GetMenu
+Veneer:	<iconbar_get_menu>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Iconbar object ID
+r2 = 2
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = menu id
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the menu associated with the Iconbar Object.

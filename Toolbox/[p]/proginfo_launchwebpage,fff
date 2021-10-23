@@ -1,0 +1,19 @@
+ProgInfo_LaunchWebPage 0x82b42
+#include Style
+#Background wimp 1
+Class:	<Program Info Dialogue=>proginfo_class>
+#Line
+#Wrap off
+Syntax:	ProgInfo_LaunchWebPage 0x82b42
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+   <ToolboxEventHeader> hdr;
+} ProgInfoLaunchWebPageEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised after the Prog Info Launch Web Page action button is clicked.

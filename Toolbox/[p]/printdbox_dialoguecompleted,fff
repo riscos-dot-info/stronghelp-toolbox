@@ -1,0 +1,19 @@
+PrintDbox_DialogueCompleted 0x82b01
+#include Style
+#Background wimp 1
+Class:	<Print Dialogue=>print_class>
+#Line
+#Wrap off
+Syntax:	PrintDbox_DialogueCompleted 0x82b01
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} PrintDboxDialogueCompletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised after the Print window has been hidden.

@@ -1,0 +1,12 @@
+toolbox_o Data Type
+#Parent toolaction
+#include Style
+#Background wimp 1
+Defined In:	Toolbox.H
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct toolbox_o_ *toolbox_o;
+{F}
+#indent

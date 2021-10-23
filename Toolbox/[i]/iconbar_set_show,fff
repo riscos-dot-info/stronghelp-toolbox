@@ -1,0 +1,20 @@
+iconbar_set_show
+#include Style
+#Background wimp 1
+Class:	<Iconbar=>ibar_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *iconbar_set_show 
+(
+  unsigned int  <flags,=>iconbar_set_show_flags>
+  <ObjectId>      iconbar,
+  <ObjectId>      select,
+  <ObjectId>      adjust
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the objects to be shown when select/adjust is clicked on the iconbar.  If {/}select{/} or {/}adjust{/} = 0 then no object will be specified.

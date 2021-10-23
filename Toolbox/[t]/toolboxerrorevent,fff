@@ -1,0 +1,21 @@
+ToolboxErrorEvent
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                errnum;
+  char errmess [ 256-20-sizeof(<ToolboxEventHeader>) -
+                 sizeof(<ObjectId>) -
+                 sizeof(<ComponentId>) -
+                 sizeof(int)
+               ];
+} ToolboxErrorEvent;
+{F}
+#indent
+#Wrap

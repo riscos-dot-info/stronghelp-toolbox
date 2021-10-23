@@ -1,0 +1,20 @@
+writablefield_set_allowable
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+Class:	<Writable Fields=>writables>
+#Line
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *writablefield_set_allowable 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   writable,
+  char         *allowed
+);
+
+
+{F}
+#indent
+Purpose:	Function defines the set of values (declared in {/}allowable{/}) that can be input into the writable icon specified in ComponentId.  If the string is NULL then all characters are allowed.  This functionality can be set in the writable field's attributes in <!ResEd=>resed>.

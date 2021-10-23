@@ -1,0 +1,19 @@
+scale_get_value
+#include Style
+#Background wimp 1
+Class:	<Scale Dialogue=>scale_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scale_get_value 
+(
+  unsigned int  flags,
+  <ObjectId>      scale,
+  int          *value
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the value of the writable field of the Scale Dialogue.

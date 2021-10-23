@@ -1,0 +1,33 @@
+Window_SetToolBars
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_SetToolBars
+Veneer:	<window_set_tool_bars=>window_set_tool_bars>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = mask:
+     bit 0 - set internal bl toolbar
+     bit 1 - set internal tl toolbar
+     bit 2 - set external bl toolbar
+     bit 3 - set external tl toolbar
+r1 = window object ID
+r2 = 18
+r3 = object ID of internal bl toolbar
+r4 = object ID of internal tl toolbar
+r5 = object ID of external bl toolbar
+r6 = object ID of external tl toolbar
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the object IDs of the toolbars for the window object.

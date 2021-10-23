@@ -1,0 +1,23 @@
+PrintDbox_Print 0x82b05
+#include Style
+#Background wimp 1
+Class:	<Print Dialogue=>print_class>
+#Line
+#Wrap off
+Syntax:	PrintDbox_Print 0x82b05
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                start_page;
+  int                finish_page;
+  int                copies;
+  int                scale_factor;
+} PrintDboxPrintEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user clicks on {/}Print{/}.

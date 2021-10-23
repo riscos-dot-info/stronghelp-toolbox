@@ -1,0 +1,36 @@
+Print Dialogue Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Printer Dialogues{/}
+
+#Align left
+#Wrap on
+Ref:	Page 201 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<PrintDbox SWI names=>printdbox_swi_listing>
+<Flags=>print_class_flags>
+
+#Table Columns 2
+<PrintDbox_GetCopies>
+<PrintDbox_GetDraft>
+<PrintDbox_GetOrientation>
+<PrintDbox_GetPageRange>
+<PrintDbox_GetScale>
+<PrintDbox_GetTitle>
+<PrintDbox_GetWindowId>
+<PrintDbox_SetCopies>
+<PrintDbox_SetDraft>
+<PrintDbox_SetOrientation>
+<PrintDbox_SetPageRange>
+<PrintDbox_SetScale>
+#EndTable
+
+{/}Print Dialogue Events{/}
+<PrintDbox_AboutToBeShown>
+<PrintDbox_DialogueCompleted>
+<PrintDbox_Print>
+<PrintDbox_Save>
+<PrintDbox_Setup>
+<PrintDbox_SetupAboutToBeShown>

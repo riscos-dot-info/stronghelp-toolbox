@@ -1,0 +1,18 @@
+Label Gadgets
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of labels{/}
+
+#Align left
+#Wrap on
+Ref:	Page 366 of the {/}User Interface Toolbox{/} manual.
+#Wrap on
+#Line
+<Data Types=>labels_data_types>
+<Flags=>labels_flags>
+
+Labels are used to provide descriptions of writable fields and display boxes in windows.  If the text has to be changed during execution, it is better to use <Buttons=>buttons>.
+#wrap Off
+#Line
+Defined in <Gadgets.H=>gadgets>

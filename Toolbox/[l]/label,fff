@@ -1,0 +1,15 @@
+Label Data Type
+#include Style
+#Background wimp 1
+Defined In:	<gadgets.h=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  char        *label;
+} Label;
+#indent
+
+#Wrap

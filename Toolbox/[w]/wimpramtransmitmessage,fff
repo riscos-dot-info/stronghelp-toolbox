@@ -1,0 +1,17 @@
+WimpRAMTransmitMessage Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+    void *buffer;
+    int  nbytes;
+} WimpRAMTransmitMessage;
+{F}
+#indent
+#Wrap

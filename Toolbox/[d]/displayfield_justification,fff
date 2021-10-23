@@ -1,0 +1,10 @@
+DisplayField_Justification
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define DisplayField_Justification 0x00000006
+#Indent
+{F}
+#Wrap On

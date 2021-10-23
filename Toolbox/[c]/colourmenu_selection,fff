@@ -1,0 +1,20 @@
+ColourMenu_Selection 0x82982
+#include Style
+#Background wimp 1
+Class:	<Colour Menu=>col-m_class>
+#Line
+#Wrap off
+Syntax:	ColourMenu_Selection 0x82982
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                colour;
+} ColourMenuSelectionEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user select's a colour from the menu.

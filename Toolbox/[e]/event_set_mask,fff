@@ -1,0 +1,17 @@
+event_set_mask
+#include Style
+#Background wimp 1
+Header:	<Event.H=>event_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *event_set_mask
+(
+  unsigned int mask
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Mask is an integer defining what events are to be returned.  By default this masks out null events.

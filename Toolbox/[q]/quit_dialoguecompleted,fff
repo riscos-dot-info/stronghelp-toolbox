@@ -1,0 +1,19 @@
+Quit_DialogueCompleted 0x82a92
+#include Style
+#Background wimp 1
+Class:	<Quit Dialogue=>quit_class>
+#Line
+#Wrap off
+Syntax:	Quit_DialogueCompleted 0x82a92
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} QuitDialogueCompletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised after the Quit object has been closed.

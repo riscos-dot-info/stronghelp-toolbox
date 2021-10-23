@@ -1,0 +1,34 @@
+Program Information Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the ProgInfo Window{/}
+
+#Align left
+#Wrap on
+Ref:	Page 221 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>proginfo_class_data_types>
+<Flags=>proginfo_class_flags>
+
+#Table Columns 2
+<proginfo_get_licence_type>
+<proginfo_get_title>
+<proginfo_get_uri>
+<proginfo_get_version>
+<proginfo_get_web_event>
+<proginfo_get_window_id>
+<proginfo_set_licence_type>
+<proginfo_set_title>
+<proginfo_set_uri>
+<proginfo_set_version>
+<proginfo_set_web_event>
+#EndTable
+
+{/}ProgramInfo Events{/}
+<ProgInfo_AboutToBeShown>
+<ProgInfo_DialogueCompleted>
+<ProgInfo_LaunchWebPage>
+#Line
+Defined in ProgInfo.H

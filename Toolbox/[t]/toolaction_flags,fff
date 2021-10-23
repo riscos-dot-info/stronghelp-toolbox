@@ -1,0 +1,30 @@
+ToolAction Flags
+#include Style
+#Background wimp 1
+Gadget:	<ToolAction>
+#Line
+#Wrap off
+
+{fcode}
+\#define error_TOOL_ACTION_OUT_OF_MEMORY         0x80E920u
+\#define error_TOOL_ACTION_CANT_CREATE_ICON      0x80E921u
+\#define error_TOOL_ACTION_CANT_CREATE_OBJECT    0x80E922u
+\#define toolaction_GENERATE_SELECTED_EVENT      ((gadget_flags) 0x1u)
+\#define toolaction_IS_TEXT                      ((gadget_flags) 0x2u)
+\#define toolaction_ON                           ((gadget_flags) 0x4u)
+\#define toolaction_AUTO_TOGGLE                  ((gadget_flags) 0x8u)
+\#define toolaction_NO_PRESSED_SPRITE            ((gadget_flags) 0x10u)
+\#define toolaction_AUTO_REPEAT                  ((gadget_flags) 0x20u)
+\#define toolaction_SHOW_TRANSIENT               ((gadget_flags) 0x40u)
+\#define toolaction_SHOW_AS_POP_UP               ((gadget_flags) 0x80u)
+\#define toolaction_HAS_FADE_SPRITE              ((gadget_flags) 0x100u)
+
+\#define class_TOOL_ACTION                       ((toolbox_class) 0x4014u)
+\#define action_TOOL_ACTION_SELECTED             0x140140u
+\#define toolaction_SELECTED_ADJUST              0x1u
+\#define toolaction_SELECTED_SELECT              0x4u
+\#define toolaction_SET_IDENT_OFF                0
+\#define toolaction_SET_IDENT_ON                 1
+\#define toolaction_SET_IDENT_FADE               2
+\#define toolaction_SET_IDENT_WHICH              ((toolaction_set_ident_flags) 0xFu)
+{f}

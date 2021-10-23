@@ -1,0 +1,18 @@
+DraggableDragEndedEvent
+#include Style
+#Background wimp 1
+Defined In:	<gadgets.h=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  ToolboxEventHeader  hdr;
+  int                 window_handle;
+  int                 icon_handle;
+  int                 x;
+  int                 y;
+} DraggableDragEndedEvent;
+#indent
+#Wrap

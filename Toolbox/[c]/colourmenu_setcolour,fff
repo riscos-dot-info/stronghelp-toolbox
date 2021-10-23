@@ -1,0 +1,29 @@
+ColourMenu_SetColour
+#include Style
+#Background wimp 1
+Module:	<ColourMenu=>colourmenu/m>
+#Line
+#Wrap off
+Syntax:	ColourMenu_SetColour
+Veneer:	<colourmenu_set_colour>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourMenu object ID
+r2 = 0
+r3 = Wimp Colour
+      0-15 - Colours
+      16   - None
+     -1    - Nothing Selected
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the selected colour.

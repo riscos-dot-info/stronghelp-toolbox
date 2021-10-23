@@ -1,0 +1,10 @@
+Object_ShowOnCreate
+#Wrap Off
+Defined in:	<toolbox.h=>tbox_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Object_ShowOnCreate 0x00000002
+#Indent
+{F}
+#Wrap On

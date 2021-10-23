@@ -1,0 +1,40 @@
+WimpMessage Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+    struct 
+    \{
+        int size;
+        int sender;
+        int my_ref;
+        int your_ref;
+        int action_code;
+    } hdr;
+
+    union
+    \{
+        int                    words[59];
+        char                   bytes[236];
+        <WimpDataSaveMessage>    data_save;
+        <WimpDataSaveAckMessage> data_save_ack;
+        <WimpDataLoadMessage>    data_load;
+        <WimpDataLoadAckMessage> data_load_ack;
+        <WimpDataOpen>           data_open;
+        <WimpHelpRequestMessage> help_request;
+        <WimpHelpReplyMessage>   help_reply;
+        <WimpRAMFetchMessage>    ram_fetch;
+        <WimpRAMTransmitMessage> ram_transmit;
+        <WimpSaveDesktopMessage> save_desktop;
+        <WimpShutdownMessage>    shutdown;
+    } data;
+} WimpMessage;
+{F}
+#indent
+#Wrap

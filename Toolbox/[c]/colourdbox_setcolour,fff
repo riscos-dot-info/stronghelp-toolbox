@@ -1,0 +1,27 @@
+ColourDbox_SetColour
+#include Style
+#Background wimp 1
+Module:	<ColourDbox=>colourdbox/m>
+#Line
+#Wrap off
+Syntax:	ColourDbox_SetColour
+Veneer:	<colourdbox_set_colour>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0: select None option.
+r1 = ColourDbox object ID
+r2 = 2
+r3 = pointer to colour block
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the colour selected in the dialogue.

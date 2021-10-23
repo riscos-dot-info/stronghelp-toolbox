@@ -1,0 +1,11 @@
+ProgInfo Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}ProgInfo Data Types{/}
+#Align left
+
+<ProgInfoTemplate>
+<ProgInfoAboutToBeShownEvent>
+<ProgInfoDialogueCompletedEvent>

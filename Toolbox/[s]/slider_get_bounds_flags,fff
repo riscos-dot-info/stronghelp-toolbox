@@ -1,0 +1,9 @@
+slider_get_bounds Flags
+#include Style
+#Background wimp 1
+Command:	<slider_get_bounds=>slider_get_bounds>
+#Line
+#Wrap off
+Bits:	0	- Set means return upper bound.
+	1	- Set means return lower bound.
+	2	- Set means return step size.

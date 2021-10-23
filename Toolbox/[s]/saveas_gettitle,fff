@@ -1,0 +1,27 @@
+SaveAs_GetTitle
+#include Style
+#Background wimp 1
+Module:	<SaveAs=>saveas/m>
+#Line
+#Wrap off
+Syntax:	SaveAs_GetTitle
+Veneer:	<saveas_get_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = SaveAs object ID
+r2 = 2
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r4 = size of bufffer required (if r3=0)
+     else buffer contains title.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the title of the SaveAs Object.

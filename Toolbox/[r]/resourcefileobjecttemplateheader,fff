@@ -1,0 +1,18 @@
+ResourceFileObjectTemplateHeader Data Type
+#include Style
+#Background wimp 1
+Defined In:	<toolbox.h=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int                  string_table_offset;
+  int                  message_table_offset;
+  int                  relocation_table_offset;
+  ObjectTemplateHeader hdr;
+} ResourceFileObjectTemplateHeader;
+#indent
+
+#Wrap

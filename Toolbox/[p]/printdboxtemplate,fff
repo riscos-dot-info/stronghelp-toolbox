@@ -1,0 +1,21 @@
+PrintDboxTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<printdbox.h=>print_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int         flags;
+  int         from;
+  int         to;
+  int         copies;
+  int         scale;
+  char        *further_options;
+  char        *window;
+} PrintDboxTemplate;
+{f}
+#indent
+#Wrap

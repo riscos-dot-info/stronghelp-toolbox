@@ -1,0 +1,28 @@
+FontDbox_GetTryString
+#include Style
+#Background wimp 1
+Module:	<FontDbox=>fontdbox/m>
+#Line
+#Wrap off
+Syntax:	FontDbox_GetTryString
+Veneer:	<fontdbox_get_try_string>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FontDbox object ID
+r2 = 6
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains string.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the text used in the try field of the Font Dialogue.

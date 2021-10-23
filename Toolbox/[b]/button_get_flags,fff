@@ -1,0 +1,20 @@
+button_get_flags
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *button_get_flags
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   button,
+  int          <*icon_flags=>button_get_flags_flags>
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the flags of the specified button gadget.

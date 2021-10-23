@@ -1,0 +1,15 @@
+Font Menu Class Flags
+#include Style
+#Parent font_class
+#Background wimp 1
+Class:	<Font Menu=>font_class>
+#Line
+#Wrap off
+Bits:	0	- Set indicates that a <FontMenu_AboutToBeShown> should be called when displaying object.
+	1	- Set indicates a <FontMenu_HasBeenHidden> should be raised when the object is closed.
+	2	- Set indicates include a System Font entry in the menu.
+
+Constants:
+<FontMenu_GenerateShowEvent>
+<FontMenu_GenerateHideEvent>
+<FontMenu_SystemFont>

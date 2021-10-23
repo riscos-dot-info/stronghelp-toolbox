@@ -1,0 +1,20 @@
+ColourDbox_ColourSelected 0x829c2
+#include Style
+#Background wimp 1
+Class:	<Colour Dialogue=>col-d_class>
+#Line
+#Wrap off
+Syntax:	ColourDbox_ColourSelected 0x829c2
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  unsigned int       colour_block[(212/4)];
+} ColourDboxColourSelectedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user clicks OK in the dialogue box.

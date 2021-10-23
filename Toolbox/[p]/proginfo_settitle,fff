@@ -1,0 +1,26 @@
+ProgInfo_SetLicenceType
+#include Style
+#Background wimp 1
+Module:	<ProgInfo=>proginfo/m>
+#Line
+#Wrap off
+Syntax:	ProgInfo_SetLicenceType
+Veneer:	<proginfo_set_licence_type>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ProgInfo object ID
+r2 = 5
+r3 = pointer to title string
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the title of a ProgInfo object.

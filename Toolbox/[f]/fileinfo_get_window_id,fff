@@ -1,0 +1,19 @@
+fileinfo_get_window_id
+#include Style
+#Background wimp 1
+Class:	<File Info=>finfo_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *fileinfo_get_window_id 
+(
+  unsigned int  flags,
+  <ObjectId>      fileinfo,
+  <ObjectId>     *window
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the id of the underlying Wimp window for the FileInfo dialogue.

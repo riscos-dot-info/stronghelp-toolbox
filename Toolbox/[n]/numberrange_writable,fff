@@ -1,0 +1,10 @@
+NumberRange_HasNumericalDisplay
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define NumberRange_HasNumericalDisplay 0x00000008
+#Indent
+{F}
+#Wrap On

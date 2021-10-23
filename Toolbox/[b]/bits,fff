@@ -1,0 +1,8 @@
+bits Data Type
+#Parent toolaction
+#include Style
+#Background wimp 1
+Defined In:	<Types.H=>OSLib:types>
+#Line
+#Wrap off
+Syntax:	typedef unsigned int bits;

@@ -1,0 +1,19 @@
+DCS_Cancel 0x82a84
+#include Style
+#Background wimp 1
+Class:	<DCS Dialogue=>dcs_class>
+#Line
+#Wrap off
+Syntax:	DCS_Cancel 0x82a84
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} DCSCancelEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user clicks on the {/}Cancel{/} button.

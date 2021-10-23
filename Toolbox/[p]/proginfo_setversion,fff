@@ -1,0 +1,27 @@
+ProgInfo_SetVersion
+#include Style
+#Background wimp 1
+Module:	<ProgInfo=>proginfo/m>
+#Line
+#Wrap off
+Syntax:	ProgInfo_SetVersion
+Veneer:	<proginfo_set_version>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ProgInfo object ID
+r2 = 1
+r3 = pointer to version string 
+     (Ctrl-terminated)
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the version string of a ProgInfo object.

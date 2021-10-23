@@ -1,0 +1,21 @@
+scale_set_bounds
+#include Style
+#Background wimp 1
+Class:	<Scale Dialogue=>scale_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern _kernel_oserror *scale_set_bounds 
+(
+  unsigned int  <flags,=>scale_set_bounds_flags>
+  <ObjectId>      scale,
+  int           lower_bound,
+  int           upper_bound,
+  int           step_size
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the lower & upper bounds and step size of the writable field in the Scale dialogue.

@@ -1,0 +1,15 @@
+Font Dialogue Class Flags
+#include Style
+#Parent fontd_class
+#Background wimp 1
+Class:	<FontDialogue=>fontd_class>
+#Line
+#Wrap off
+Bits:	0	- Set indicates that a <FontDbox_AboutToBeShown> should be called when displaying object.
+	1	- Set indicates a <FontDbox_DialogueCompleted> should be raised when the object is closed.
+	2	- Set means include a System Font entry in the list of fonts.
+
+Constants:
+<FontDbox_GenerateShowEvent>
+<FontDbox_GenerateHideEvent>
+<FontDbox_IncludeSystemFont>

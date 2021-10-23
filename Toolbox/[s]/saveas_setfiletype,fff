@@ -1,0 +1,25 @@
+SaveAs_SetFileType
+#include Style
+#Background wimp 1
+Module:	<SaveAs=>saveas/m>
+#Line
+#Wrap off
+Syntax:	SaveAs_SetFileType
+Veneer:	<saveas_set_file_type>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = SaveAs object ID
+r2 = 5
+r3 = filetype
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the filetype in the SaveAs Object.

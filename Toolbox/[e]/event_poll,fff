@@ -1,0 +1,19 @@
+event_poll
+#include Style
+#Background wimp 1
+Header:	<Event.H=>event_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *event_poll
+(
+  int           *event_code, 
+  <WimpPollBlock> *poll_block, 
+  void          *poll_word
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function calls <Wimp_Poll=>Wimp:Wimp_Poll>.

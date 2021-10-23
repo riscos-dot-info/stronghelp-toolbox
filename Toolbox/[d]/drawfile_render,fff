@@ -1,0 +1,23 @@
+drawfile_render
+#Parent drawfile_lib
+#include Style
+#Background wimp 1
+Header:	<Drawfile.H=>drawfile_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *drawfile_render
+(
+  unsigned int  flags,
+  void         *data, 
+  int           size, 
+  <Transform>    *trfm,
+  <BBox>         *clip,
+  int           flatness
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Renders a Drawfile from memory.

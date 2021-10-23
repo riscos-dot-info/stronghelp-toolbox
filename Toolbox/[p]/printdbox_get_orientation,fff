@@ -1,0 +1,19 @@
+printdbox_get_orientation
+#include Style
+#Background wimp 1
+Class:	<Printer Dialogue=>print_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *printdbox_get_orientation 
+(
+  unsigned int  flags,
+  <ObjectId>      printdbox,
+  int          *orientation
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the page orientation for the Print Dialogue.  {/}orientation{/} = 0 means upright, non-zero means sideways.

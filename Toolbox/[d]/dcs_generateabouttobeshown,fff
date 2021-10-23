@@ -1,0 +1,10 @@
+DCS_GenerateAboutToBeShown
+#Wrap Off
+Defined in:	<dcs.h=>dcs_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define DCS_GenerateAboutToBeShown 0x00000001
+#Indent
+{F}
+#Wrap On

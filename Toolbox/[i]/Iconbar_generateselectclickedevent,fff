@@ -1,0 +1,10 @@
+Iconbar_GenerateSelectClickedEvent
+#Wrap Off
+Defined in:	<iconbar.h=>ibar_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Iconbar_GenerateSelectClickedEvent 0x00000020
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,27 @@
+textarea_set_font
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<TextArea.H=>textarea>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *textarea_set_font
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  const char   *font,
+  unsigned int  width,
+  unsigned int  height
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function set the outline font to be used in the TextArea.  The following constants are defined:
+{FCode}TextArea_DefaultFont   "Corpus.Medium"
+TextArea_DefaultHeight (12 * 16)
+TextArea_DefaultWidth  (12 * 16)
+{F}

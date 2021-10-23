@@ -1,0 +1,18 @@
+FontDboxApplyFontEvent
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  unsigned int       height;
+  unsigned int       aspect;
+  char               font[208];
+} FontDboxApplyFontEvent;
+{F}
+#indent
+#Wrap

@@ -1,0 +1,32 @@
+Gadget Data Type
+#include Style
+#Background wimp 1
+Defined In:	<window.h=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  <GadgetHeader> hdr;
+  union
+  \{
+    <ActionButton>      action_button;
+    <OptionButton>      option_button;
+    <LabelledBox>       labelled_box;
+    <Label>             label;
+    <RadioButton>       radio_button;
+    <DisplayField>      display_field;
+    <WritableField>     writable_field;
+    <Slider>            slider;
+    <Draggable>         draggable;
+    <PopUp>             popup;
+    <Adjuster>          adjuster;
+    <NumberRange>       number_range;
+    <StringSet>         string_set;
+    <Button>            button;
+  } data;
+} Gadget;
+#indent
+
+#Wrap

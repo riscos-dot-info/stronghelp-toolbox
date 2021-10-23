@@ -1,0 +1,23 @@
+textarea_replace_text
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<TextArea.H=>textarea>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *textarea_replace_text
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  unsigned int  index_start,
+  unsigned int  index_end,
+  const char   *text
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function replaces the text in the TextArea gadget with {/}text{/} between {/}index_start{/} and {/}index_end{/}.

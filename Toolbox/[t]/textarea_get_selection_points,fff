@@ -1,0 +1,22 @@
+textarea_get_selection_points
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<TextArea.H=>textarea>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *textarea_get_selection_points
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  unsigned int *index_start,
+  unsigned int *index_end
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the start and end index points for any text highlighted in the TextArea.

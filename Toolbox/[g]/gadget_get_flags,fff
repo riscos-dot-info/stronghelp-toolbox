@@ -1,0 +1,20 @@
+gadget_get_flags
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *gadget_get_flags 
+(
+  unsigned int  <flags,=>gadget_generic_flags>
+  <ObjectId>      window,
+  <ComponentId>   gadget,
+  unsigned int <*flags_settings=>gadgets_constants>
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the flags word for the given gadget.  To see what the return values mean see the relevant gadget page, and follow the Flag link.  There are also two <generic flags=>gadget_generic_flags>

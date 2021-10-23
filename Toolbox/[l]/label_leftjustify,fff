@@ -1,0 +1,10 @@
+Label_LeftJustify
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Label_LeftJustify 0x00000001
+#Indent
+{F}
+#Wrap On

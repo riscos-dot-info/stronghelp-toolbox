@@ -1,0 +1,15 @@
+PopUp Menu Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 383 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>popupmenu_flags>
+
+<PopUp_GetMenu>
+<PopUp_SetMenu>
+
+{/}PopupMenu Events{/}
+<Popup_AboutToBeShown>

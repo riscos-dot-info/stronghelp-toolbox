@@ -1,0 +1,20 @@
+menu_get_sub_menu_show
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_get_sub_menu_show 
+(
+  unsigned int  flags,
+  <ObjectId>      menu,
+  <ComponentId>   entry,
+  <ObjectId>     *sub_menu
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the ObjectId of the object that will be shown when the user enters a submenu.

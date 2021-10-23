@@ -1,0 +1,22 @@
+toolaction_set_action
+#include Style
+#Background wimp 1
+#Parent toolaction
+Header:	<ToolAction.H=>toolaction>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern void toolaction_set_action
+(
+  <bits>      flags,
+  <toolbox_o> obj,
+  <toolbox_c> cmp,
+  <bits>      select_action_no,
+  <bits>      adjust_action_no
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Sets the actions to be raised when the gadget is clicked.

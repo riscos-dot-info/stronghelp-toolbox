@@ -1,0 +1,27 @@
+ScrollList_GetState
+#include Style
+#Background wimp 1
+Module:	<ScrollList=>scrolllist/swis>
+#Line
+#Wrap off
+Syntax:	ScrollList_GetState
+Veneer:	<scrolllist_get_state>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = SaveAs object ID
+r2 = 4
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r4 = size of bufffer required (if r3=0)
+     else buffer contains filename.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the filename in the SaveAs Object.

@@ -1,0 +1,10 @@
+Scale_SetStepSize
+#Wrap Off
+Defined in:	<scale.h=>scale_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Scale_SetStepSize 0x00000004
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,11 @@
+Wimp_MHelpRequest
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MHelpRequest 0x80148
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <HelpRequest.=>Wimp:Msg_80148>

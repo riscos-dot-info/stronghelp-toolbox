@@ -1,0 +1,19 @@
+SaveAs_DialogueCompleted 0x82bc1
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	SaveAs_DialogueCompleted 0x82bc1
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader>  hdr;
+} SaveAsDialogueCompletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised after the SaveAs object has been hidden.

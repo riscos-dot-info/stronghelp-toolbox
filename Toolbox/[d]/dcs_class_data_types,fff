@@ -1,0 +1,14 @@
+DCS Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}DCS Data Types{/}
+#Align left
+
+<DCSTemplate>
+<DCSAboutToBeShownEvent>
+<DCSCancelEvent>
+<DCSDialogueCompletedEvent>
+<DCSDiscardEvent>
+<DCSSaveEvent>

@@ -1,0 +1,19 @@
+wimp_read_sys_info
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_read_sys_info
+(
+  int          reason,
+  <WimpSysInfo> *results
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_ReadSysInfo.=>Wimp:Wimp_readsysinfo>

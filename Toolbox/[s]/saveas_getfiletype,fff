@@ -1,0 +1,24 @@
+SaveAs_GetFileType
+#include Style
+#Background wimp 1
+Module:	<SaveAs=>saveas/m>
+#Line
+#Wrap off
+Syntax:	SaveAs_GetFileType
+Veneer:	<saveas_get_file_type>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = SaveAs object ID
+r2 = 6
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = filetype
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the filetype in the SaveAs Object.

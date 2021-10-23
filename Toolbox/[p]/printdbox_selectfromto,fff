@@ -1,0 +1,10 @@
+PrintDbox_SelectFromTo
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define PrintDbox_SelectFromTo 0x00000400
+#Indent
+{F}
+#Wrap On

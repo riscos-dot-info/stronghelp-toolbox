@@ -1,0 +1,26 @@
+SaveAs_SelectionAvailable
+#include Style
+#Background wimp 1
+Module:	<SaveAs=>saveas/m>
+#Line
+#Wrap off
+Syntax:	SaveAs_SelectionAvailable
+Veneer:	<saveas_selection_available>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = SaveAs object ID
+r2 = 9
+r3 = non-zero: Selection
+     zero:     No Selection
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the selection flag in the SaveAs Object.

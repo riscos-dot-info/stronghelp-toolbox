@@ -1,0 +1,10 @@
+Slider_BarColourShift
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Slider_BarColourShift 12
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,10 @@
+NumberRange Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}NumberRange Data Types{/}
+#Align left
+
+<NumberRange>
+<NumberRangeValueChangedEvent>

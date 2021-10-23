@@ -1,0 +1,10 @@
+ColourMenu_GenerateHasBeenHiddenEvent
+#Wrap Off
+Defined in:	<colourmenu.h=>col-m_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ColourMenu_GenerateHasBeenHiddenEvent 0x00000002
+#Indent
+{F}
+#Wrap On

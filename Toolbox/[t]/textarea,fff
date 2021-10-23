@@ -1,0 +1,20 @@
+TextArea Data Type
+#include Style
+#Background wimp 1
+Defined In:	<textarea.h=>textarea_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+    <GadgetHeader> hdr;
+    int          type;
+    int          event;
+    char         *text;
+    unsigned int foreground;
+    unsigned int background;
+} TextArea;
+{f}
+#indent
+#Wrap

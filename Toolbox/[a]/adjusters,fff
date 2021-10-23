@@ -1,0 +1,18 @@
+Adjuster Arrows
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of adjuster arrows{/}
+
+#Align left
+#Wrap on
+Ref:	Page 347 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>adjusters_data_types>
+<Flags=>adjusters_flags>
+
+{/}Adjuster Events{/}
+<Adjuster_Clicked=>adjuster_clicked>
+#Line
+Defined in <Gadgets.H=>gadgets>

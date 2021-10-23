@@ -1,0 +1,11 @@
+Wimp_MPrintTypeKnown
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MPrintTypeKnown 0x80146
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <PrinTypeKnown.=>Wimp:Msg_80146>

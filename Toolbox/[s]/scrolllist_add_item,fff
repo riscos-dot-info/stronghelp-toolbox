@@ -1,0 +1,24 @@
+scrolllist_add_item
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<ScrollList.H=>scrolllist>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_add_item
+(
+  unsigned int  <flags=>scrolllist_add_item_flags>,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  const char   *text, 
+  const char   *sprite_area,
+  const void   *sprite_name, 
+  int           index
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the state of the specified ScrollList.  Bit 0 of state set indicates gadget can have multiple selected items.

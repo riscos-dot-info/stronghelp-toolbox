@@ -1,0 +1,27 @@
+PrintDbox_AboutToBeShown 0x82b00
+#include Style
+#Background wimp 1
+Class:	<Print Dialogue=>print_class>
+#Line
+#Wrap off
+Syntax:	PrintDbox_AboutToBeShown 0x82b00
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+
+  union
+  \{
+    <TopLeft>               pos;
+    <WindowShowObjectBlock> full;
+  } info;
+
+} PrintDboxAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised just before the Print window is displayed.

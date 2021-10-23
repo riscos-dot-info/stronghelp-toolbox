@@ -1,0 +1,10 @@
+numberrange_get_components Flags
+#include Style
+#Background wimp 1
+Command:	<numberrange_get_components=>numberrange_get_components>
+#Line
+#Wrap off
+Bits:	0	- Set returns the numerical field.
+	1	- Set returns the left adjuster.
+	2	- Set returns the right adjuster.
+	3	- Set returns the slider.

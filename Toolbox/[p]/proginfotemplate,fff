@@ -1,0 +1,22 @@
+ProgInfoTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<proginfo.h=>proginfo_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  unsigned int  flags;
+  char          *title;
+  int           max_title;
+  char          *purpose;
+  char          *author;
+  int           licence_type;
+  char          *version;
+  char          *window;
+} ProgInfoTemplate;
+{f}
+#indent
+#Wrap

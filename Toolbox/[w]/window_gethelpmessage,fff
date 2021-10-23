@@ -1,0 +1,28 @@
+Window_GetHelpMessage
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_GetHelpMessage
+Veneer:	<window_get_help_message=>window_get_help_message>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 8
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required for message text 
+     (if r3=0), else the buffer holds the text.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the help text for the window.

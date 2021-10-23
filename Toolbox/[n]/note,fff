@@ -1,0 +1,47 @@
+A Note On This Manual
+#Parent !Root
+#include Style
+#Draw 10, 0 Acorn
+#Indent 10
+#Align centre
+
+This manual was produced by {/}Neil Bingham{/}
+for {/}Acorn Computers Ltd{/}
+#Align Left
+#Below
+#Indent 0
+#Line
+The manual provides keyword help on the {/}User Interface Toolbox{/} commands
+and libraries.  Also available is <C-Version 5=>C-Version5:!Root> which documents AcornC/C++ CLib 5.  
+The manual supports keyword lookup from <Zap=>zapnote> and StrongEd.
+#Line
+#Align Centre
+{/}Updates to this manual will be available from me on my HomePage{/}
+#Line
+#Align Left
+{*}Ways of contacting me:{*}
+        è <mailto:nbingham@acorn.com=>#url>
+        è <http://www.binghams.demon.co.uk/stronghelp/=>#url>
+#Align Centre
+(These links only work with Stronghelp 2.10b or later)
+#Align Left
+#Line
+{*}My Thanks To:{*}
+        è Alun Rogers of {/}Desktop Projects{/} for testing the SWI pages.
+        è Piers for fixing the Toolbox and giving us ScrollList (and Java).
+        è Dave Walker.
+        è Stewart Brodie, Andrew Hodgkinson & Kevin Bracey.
+        è Henry Morgan of {/}Carlton Software{/}.
+        è Paul Corke of {/}I.M.S.{/}.
+        è Gerph.
+#Line
+{*}History:{*}
+        è Versions after 0.19 document the Nested WIMP.
+        è Versions after 0.19 document the ScrollList, TextArea & ToolAction gadgets.
+        è Versions after 1.00 document SWIs as well as C Veneers.
+        è Versions after 1.15 document C Constants for Wimp Messages.
+#Align Centre
+#Line
+Please Report Errors, Omissions and Broken Links To My Email Address
+{*}© Neil Bingham 1996, 97{*}.
+#Align Left

@@ -1,0 +1,29 @@
+Window_GetPointer
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_GetPointer
+Veneer:	<window_get_pointer=>window_get_pointer>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 6
+r3 = pointer to buffer
+r4 = size of buffer for sprite name
+r5 = x hot spot
+r6 = y hot spot
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required for sprite name (if r3 = 0)
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the name of the pointer shape for the window.

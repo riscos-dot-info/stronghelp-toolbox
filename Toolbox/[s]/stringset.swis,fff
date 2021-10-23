@@ -1,0 +1,19 @@
+StringSet Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 403 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>stringset_flags>
+
+<StringSet_GetComponents>
+<StringSet_GetSelected>
+<StringSet_SetAllowable>
+<StringSet_SetAvailable>
+<StringSet_SetSelected>
+
+{/}String Sets Events{/}
+<StringSet_ValueChanged>
+<StringSet_AboutToBeShown>

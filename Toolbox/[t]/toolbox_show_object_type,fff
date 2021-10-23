@@ -1,0 +1,18 @@
+toolbox_show_object ShowType
+#include Style
+#Background wimp 1
+Command:	<toolbox_show_object>
+#Line
+#Wrap off
+show_type Flags:
+#indent 6
+{FCode}Toolbox_ShowObject_Default   0
+Toolbox_ShowObject_FullSpec  1
+Toolbox_ShowObject_TopLeft   2
+Toolbox_ShowObject_Centre    3
+Toolbox_ShowObject_AtPointer 4
+
+{F}
+#indent
+#Wrap
+Purpose:	Flags show the various ways that an object can be shown on screen.

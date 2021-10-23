@@ -1,0 +1,23 @@
+numberrange_get_components
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *numberrange_get_components 
+(
+  unsigned int  <flags,=>numberrange_get_components_flags>
+  <ObjectId>      window,
+  <ComponentId>   number_range,
+  <ComponentId>   numeric_field,
+  <ComponentId>   left_adjustor,
+  <ComponentId>   right_adjustor,
+  <ComponentId>   slider
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the ComponentId's of the objects that make up the number range.

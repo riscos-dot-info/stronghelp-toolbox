@@ -1,0 +1,20 @@
+radiobutton_get_event
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *radiobutton_get_event 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   radio_button,
+  int          *event
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the event to be called when the radio button is toggled.

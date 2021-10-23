@@ -1,0 +1,53 @@
+Gadgets.H
+#Parent window_class
+#include Style
+#Wrap off
+#Align centre
+{/}The sections listed below explain the syntax of all the window
+gadgets in the window class of the Toolbox{/}
+#Align left
+
+Ref:	Page 325 of the {/}User Interface Toolbox{/} manual.
+#Line
+<Generic Flags=>gadget_generic_flags>
+<Gadget Constants=>gadgets_constants>
+
+#Align Centre
+{/}{*} Window Gadgets {*}{/}
+#Align Left
+
+#Table columns 2
+<Action Buttons=>actionbox>
+<Adjustor Arrows=>adjusters>
+<Buttons=>buttons>
+<Display Fields=>displayfld>
+<Draggable Gadgets=>draggables>
+<Labels=>labels>
+<Labelled Boxes=>labelbox>
+<Number Ranges=>numberrang>
+<Option Buttons=>optionbox>
+<Pop-Up Menus=>popupmenu>
+<Radio Buttons=>radio>
+<ScrollList=>scrolllist_gadget>
+<Sliders=>sliders>
+<String Sets=>stringsets>
+<TextArea=>textarea_gadget>
+<ToolAction=>toolaction>
+<Writable Fields=>writables>
+#EndTable
+#Line
+#Align Centre
+{/}{*}Generic Gadget Methods{*}{/}
+#Align Left
+
+#Table columns 2
+<gadget_get_bbox=>gadget_get_bbox>
+<gadget_get_flags=>gadget_get_flags>
+<gadget_get_help_message=>gadget_get_help_message>
+<gadget_get_icon_list=>gadget_get_icon_list>
+<gadget_get_type=>gadget_get_type>
+<gadget_move_gadget=>gadget_move_gadget>
+<gadget_set_help_message=>gadget_set_help_message>
+<gadget_set_flags=>gadget_set_flags>
+<gadget_set_focus=>gadget_set_focus>
+#EndTable

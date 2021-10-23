@@ -1,0 +1,13 @@
+scrolllist_add_item Flags
+#include Style
+#Background wimp 1
+Gadget:	<ScrollList>
+#Line
+#Wrap off
+Bits:	0 & 1	- Behave similarly to <OS_SpriteOP=>SWI:os_spriteop>.
+
+	0 0	- Use WimpSprite Pool, with sprite_name as pointer to sprite name.
+	0 1	- Pointer to sprite area, with sprite_name as pointer to sprite name.
+	1 0	- Pointer to sprite area, with sprite_name as pointer to sprite.
+#Line
+To be used with <scrolllist_add_item>

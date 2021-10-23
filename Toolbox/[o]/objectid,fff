@@ -1,0 +1,41 @@
+ObjectId
+#include Style
+#Background wimp 1
+#Wrap on
+
+Syntax:	typedef int ObjectId;
+#Line
+Each object in a resource file, i.e. windows, menus etc. has an ObjectId.  This is so they can be uniquely distinquished internally in a program, but also when the Toolbox passes events back to the client program, the program then knows what the user has done.  ObjectId's are dynamically assigned by the Toolbox when an object (usually the iconbar icon) is autocreated at startup.  You can also assign unique names to the Object Id's.  The following example shows how to assign ObjectId's in a function that is called by <toolBox_initialise=>toolbox_initialise> to allow the setting up of handlers:
+
+int attach_handlers(int event_code,ToolboxEvent *event,IdBlock *id_block, void *handle)
+{
+  /* This function has been called as a result of an object being
+   * auto-created. For this example that means the iconbar object
+   * so we can now register all our other handlers for the rest
+   * of our objects
+   */
+
+  _kernel_oserror *er;
+  ToolboxObjectAutoCreatedEvent *created_event=(ToolboxObjectAutoCreatedEvent *) event;
+  ObjectId Main_WindowHandle; /* Handle for main window */
+
+  /* Deal with all events on the main window
+   *
+   * The next line compares the name of the object being created to the name of the
+   * resource file object main_win.  If they match a handle can be assigned to allow
+   * that object to be referred to by name.
+   */
+  if (strcmp(created_event->template_name, "main_win")==0)
+  {
+    /* Define handle */
+    Main_WindowHandle = id_block->self_id;
+
+    /* Action Button */
+    er = event_register_toolbox_handler(id_block->self_id, change_log, log_action, NULL);
+    E_CHECK(er)
+  }
+  /* More handles can be set from here 
+   */
+  else.....
+}
+#Wrap off

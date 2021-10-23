@@ -1,0 +1,17 @@
+ColourMenuSelectionEvent
+#include Style
+#Background wimp 1
+Class:	<Colour Menu=>col-m_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                colour;
+} ColourMenuSelectionEvent;
+
+{F}
+#indent
+#Wrap

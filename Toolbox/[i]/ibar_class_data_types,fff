@@ -1,0 +1,12 @@
+IconBar Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Iconbar Data Types{/}
+#Align left
+
+<IconbarTemplate>
+<IconbarClickedEvent>
+<IconbarAboutToBeShownEvent>
+<IconbarClickedEvent>

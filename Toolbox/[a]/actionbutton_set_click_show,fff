@@ -1,0 +1,21 @@
+actionbutton_set_click_show
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *actionbutton_set_click_show 
+(
+  unsigned      int flags,
+  <ObjectId>      window,
+  <ComponentId>   action_button,
+  <ObjectId>      object,
+  unsigned int  <show_flags=>actionbutton_set_click_show_flags>
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function allows the client to specify the object to show when the user clicks on the <action button=>actionbox>.

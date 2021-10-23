@@ -1,0 +1,26 @@
+ColourDbox_SGetNoneAvailable
+#include Style
+#Background wimp 1
+Module:	<ColourDbox=>colourdbox/m>
+#Line
+#Wrap off
+Syntax:	ColourDbox_SetNoneAvailable
+Veneer:	<colourdbox_set_none_available>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourDbox object ID
+r2 = 6
+r3 = non-zero means None available.
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets whether the None option is available in the Colour Dialogue.

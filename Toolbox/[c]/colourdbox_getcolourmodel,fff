@@ -1,0 +1,28 @@
+ColourDbox_GetColourModel
+#include Style
+#Background wimp 1
+Module:	<ColourDbox=>colourdbox/m>
+#Line
+#Wrap off
+Syntax:	ColourDbox_GetColourModel
+Veneer:	<colourdbox_get_colour_model>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourDbox object ID
+r2 = 5
+r3 = pointer to buffer for colour block
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer required (if r3=0)
+     else buffer contains model info.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the colour model currently used in the Colour Dialogue.

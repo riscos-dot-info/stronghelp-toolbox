@@ -1,0 +1,20 @@
+gadget_set_help_message
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *gadget_set_help_message 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   gadget,
+  char         *message_text
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the help message that the user would see using !Help.

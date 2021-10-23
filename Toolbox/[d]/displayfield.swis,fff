@@ -1,0 +1,13 @@
+DisplayField Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 355 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>displayfld_flags>
+
+<DisplayField_GetValue>
+<DisplayField_SetFont>
+<DisplayField_SetValue>

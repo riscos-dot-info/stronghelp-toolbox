@@ -1,0 +1,11 @@
+Window Class Flags
+#include Style
+#Background wimp 1
+Class:	<Window Class=>window_class>
+#Line
+#Wrap off
+Bits:	0	- Set means generate a <Window_AboutToBeShown=>window_abouttobeshown> before showing window.
+	1	- Set means automatically open the window when Wimp_OpenWindowRequest is received.
+	2	- Set means automatically close the window when Wimp_CloseWindowRequest is received.
+	3	- Set means generate a <Window_HasBeenHidden=>window_hasbeenhidden> after hiding window.
+	4	- Set indicates that this template is of a toolbar.

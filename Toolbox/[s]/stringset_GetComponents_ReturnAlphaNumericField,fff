@@ -1,0 +1,10 @@
+StringSet_GetComponents_ReturnAlphaNumericField
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define StringSet_GetComponents_ReturnAlphaNumericField 0x00000001
+#Indent
+{F}
+#Wrap On

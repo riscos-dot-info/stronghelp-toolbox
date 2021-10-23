@@ -1,0 +1,18 @@
+ColourDbox SWI Listing
+#Parent !Root
+#include Style
+#Align Centre
+<ColourDbox=>ColourDbox/m>
+#Line
+#Align left
+
+00 - <ColourDbox_GetWimpHandle>
+01 - <ColourDbox_GetDialogueHandle>
+02 - <ColourDbox_SetColour>
+03 - <ColourDbox_GetColour>
+04 - <ColourDbox_SetColourModel>
+05 - <ColourDbox_GetColourModel>
+06 - <ColourDbox_SetNoneAvailable>
+07 - <ColourDbox_GetNoneAvailable>
+
+To be used with <Toolbox_ObjectMiscOp>.

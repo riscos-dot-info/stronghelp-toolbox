@@ -1,0 +1,20 @@
+draggable_set_text
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *draggable_set_text 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   draggable,
+  char         *text
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the text that will be displayed in the draggable object.

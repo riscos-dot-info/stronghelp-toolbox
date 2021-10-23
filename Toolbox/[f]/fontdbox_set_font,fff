@@ -1,0 +1,19 @@
+fontdbox_set_font
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *fontdbox_set_font 
+(
+  unsigned int  flags,
+  <ObjectId>      fontdbox,
+  char         *font_id
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the currently selected font for the Font Dialogue.

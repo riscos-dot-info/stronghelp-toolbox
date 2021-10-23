@@ -1,0 +1,20 @@
+slider_set_value
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *slider_set_value 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   slider,
+  int           value
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the value of the slider bar.

@@ -1,0 +1,20 @@
+window_add_keyboard_shortcuts
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_add_keyboard_shortcuts 
+(
+  unsigned int      flags,
+  <ObjectId>          window,
+  int               no_shortcuts,
+  <KeyboardShortcut> *shortcuts
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function adds keyboard shortcuts to the list held for the specified window.  These shortcuts can also be specified in the window's attributes in <!ResEd=>resed>.  If any of the shortcuts are already defined they will be replaced by the new values set by this function.

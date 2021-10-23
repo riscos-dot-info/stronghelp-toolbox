@@ -1,0 +1,34 @@
+WindowTemplate Data Type
+#include Style
+#Background wimp 1
+Defined In:	<window.h=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  unsigned int        flags;
+  char                *help_message;
+  int                 max_help;
+  char                *pointer_shape;
+  int                 max_pointer_shape;
+  int                 pointer_x_hot;
+  int                 pointer_y_hot;
+  char                *menu;
+  int                 num_keyboard_shortcuts;
+  <KeyboardShortcut>    *keyboard_shortcuts;
+  int                 num_gadgets;
+  <Gadget>              *gadgets;
+  <ComponentId>         default_focus;
+  int                 show_event;
+  int                 hide_event;
+  char                *toolbar_ibl;
+  char                *toolbar_itl;
+  char                *toolbar_ebl;
+  char                *toolbar_etl;
+  <WimpWindow>          window;
+} WindowTemplate;
+#indent
+
+#Wrap

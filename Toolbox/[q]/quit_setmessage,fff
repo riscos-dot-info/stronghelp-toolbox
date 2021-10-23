@@ -1,0 +1,26 @@
+Quit_SetMessage
+#include Style
+#Background wimp 1
+Module:	<Quit=>quit/m>
+#Line
+#Wrap off
+Syntax:	Quit_SetMessage
+Veneer:	<quit_set_message>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Quit object ID
+r2 = 1
+r3 = pointer to buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the quit message.

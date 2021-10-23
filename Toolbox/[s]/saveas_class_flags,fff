@@ -1,0 +1,26 @@
+SaveAs Class Flags
+#include Style
+#Parent saveas_class
+#Background wimp 1
+Class:	<SaveAs=>saveas_class>
+#Line
+#Wrap off
+Bits:	0	- Set indicates that a <SaveAs_AboutToBeShown> should be called when displaying object.
+	1	- Set indicates a <SaveAs_DialogueCompleted> should be raised when the object is closed.
+	2	- Set indicates do {*}not{*} include the Selection object in the dialogue.
+	3	- Set means handle the SaveAs operation entirely in the SaveAs module using the buffer.
+	4	- Set indicates client is willing to support RAM transfers.
+
+Constants:
+<SaveAs_GenerateShowEvent>
+<SaveAs_GenerateHideEvent>
+<SaveAs_ExcludeSelectionButton>
+<SaveAs_AutomaticRAMTransfer>
+<SaveAs_ClientSupportsRAMTransfer>
+<SaveAs_Directory>
+<SaveAs_Application>
+<SaveAs_OnlySaveSelection>
+<SaveAs_SuccessfulSave>
+<SaveAs_SelectionBeingSaved>
+<SaveAs_SelectionSaved>
+<SaveAs_DestinationSafe>

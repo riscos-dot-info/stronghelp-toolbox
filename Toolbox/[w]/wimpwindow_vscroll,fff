@@ -1,0 +1,10 @@
+WimpWindow_VScroll
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpWindow_VScroll (1u << 28)
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,10 @@
+WimpIcon_NeedsHelp
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpIcon_NeedsHelp (1u << 7)
+#Indent
+{F}
+#Wrap On

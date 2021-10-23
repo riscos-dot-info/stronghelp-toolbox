@@ -1,0 +1,25 @@
+proginfo_get_licence_type
+#include Style
+#Background wimp 1
+Class:	<Program Info Dialogue=>proginfo_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *proginfo_get_licence_type 
+(
+  unsigned int  flags,
+  <ObjectId>      proginfo,
+  int          *licence_type
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the licence type used in the ProgInfo object. {/}licence_type{/} will be set as one of:
+	è 0 = Public Domain
+	è 1 = Single User
+	è 2 = Single Machine
+	è 3 = Site
+	è 4 = Network
+	è 5 = Authority

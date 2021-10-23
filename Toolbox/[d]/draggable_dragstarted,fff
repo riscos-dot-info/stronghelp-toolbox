@@ -1,0 +1,19 @@
+Draggable_DragStarted 0x82887
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	Draggable_DragStarted 0x82887
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader>    hdr;
+} DraggableDragStartedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the user starts a drag of a draggable object.

@@ -1,0 +1,10 @@
+Draggable_ToolboxIds
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Draggable_ToolboxIds 0x00000040
+#Indent
+{F}
+#Wrap On

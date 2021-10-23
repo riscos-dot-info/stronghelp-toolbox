@@ -1,0 +1,19 @@
+FontDbox_DialogueCompleted 0x82a01
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Syntax:	FontDbox_DialogueCompleted 0x82a01
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} FontDboxDialogueCompletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised immediately after the Font Dialogue window is hidden

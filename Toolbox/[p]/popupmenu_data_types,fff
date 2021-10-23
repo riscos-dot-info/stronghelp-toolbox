@@ -1,0 +1,10 @@
+PopupMenu Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}PopupMenu Data Types{/}
+#Align left
+
+<Popup>
+<PopupAboutToBeShownEvent>

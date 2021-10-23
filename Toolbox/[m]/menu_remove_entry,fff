@@ -1,0 +1,19 @@
+menu_remove_entry
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_remove_entry 
+(
+  unsigned int  flags,
+  <ObjectId>      menu,
+  <ComponentId>   entry,
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function removes an entry from the menu entry.

@@ -1,0 +1,36 @@
+Window_EnumerateGadgets (0x82880+10)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_EnumerateGadgets
+Veneer:	No Veneer provided
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Wimp window handle
+r2 = -1 to start from first gadget, otherwise value
+     returned from previous call
+r3 = pointer to buffer or 0 to get required size
+r4 = size of buffer, or unused if r3=0
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}If r3 on entry is 0:
+    r4 = required buffersize (-1 if r1 is not 
+         a toolbox window
+If r3 on entry is non-zero:
+    r2 = value to pass on to next call in r2.
+         0 if no more.
+    r4 = num bytes written to buffer (-1 if r1 is
+         not a toolbox window.
+All other registers preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Provides the Icon numbers for all Toolbox components and sub icons of one component.

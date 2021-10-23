@@ -1,0 +1,10 @@
+WimpIcon_Selected
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpIcon_Selected (1u << 21)
+#Indent
+{F}
+#Wrap On

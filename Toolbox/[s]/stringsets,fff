@@ -1,0 +1,25 @@
+String Sets
+#Parent gadgets
+#include Style
+#Align centre
+{/}These functions allow manipulation of String Sets{/}
+
+#Align left
+#Wrap on
+Ref:	Page 403 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>stringsets_data_types>
+<Flags=>stringset_flags>
+
+<stringset_get_components>
+<stringset_get_selected>
+<stringset_set_allowable>
+<stringset_set_available>
+<stringset_set_selected>
+
+{/}String Sets Events{/}
+<StringSet_ValueChanged>
+<StringSet_AboutToBeShown>
+#Line
+Defined in <Gadgets.H=>gadgets>

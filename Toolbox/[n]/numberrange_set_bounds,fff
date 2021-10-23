@@ -1,0 +1,23 @@
+numberrange_set_bounds
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *numberrange_set_bounds 
+(
+  unsigned int  <flags,=>numberrange_set_bounds_flags>
+  <ObjectId>      window,
+  <ComponentId>   number_range,
+  int           lower_bound,
+  int           upper_bound,
+  int           step_size,
+  int           precision
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the lower and upper bounds for the values in a number range.

@@ -1,0 +1,29 @@
+WindowShowObjectBlock Data Type
+#Parent !Root
+#include Style
+#Background wimp 1
+Defined In:	<window.h=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{  
+  <BBox>      visible_area,
+  int           xscroll,
+  int           yscroll,
+  int           behind,
+
+  /* The following can only be used with the 
+   * extended Toolbox_ShowObject method (when 
+   * Toolbox_ShowObject_AsSubWindow is set in 
+   * flags) */
+
+  unsigned      int window_flags;
+  int           parent_window_handle;
+  unsigned int  alignment_flags;
+} WindowShowObjectBlock;
+#indent
+#Wrap
+
+Purpose:	Used with <toolbox_show_object> for opening windows.  {/}xscroll{/} and {/}yscroll{/} are scroll offsets.  {/}behind{/} is the handle of a window to open behind (-1 for none).

@@ -1,0 +1,16 @@
+WimpHelpReplyMessage Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+    char text [236];
+} WimpHelpReplyMessage;
+{F}
+#indent
+#Wrap

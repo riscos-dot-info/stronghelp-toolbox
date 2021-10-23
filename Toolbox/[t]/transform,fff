@@ -1,0 +1,13 @@
+Transform Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<drawfile.h=>drawfile_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef int Transform [3][2];
+{F}
+#indent
+#Wrap

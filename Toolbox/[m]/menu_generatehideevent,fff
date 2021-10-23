@@ -1,0 +1,10 @@
+Menu_GenerateHideEvent
+#Wrap Off
+Defined in:	<menu.h=>menu_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Menu_GenerateHideEvent 0x00000002
+#Indent
+{F}
+#Wrap On

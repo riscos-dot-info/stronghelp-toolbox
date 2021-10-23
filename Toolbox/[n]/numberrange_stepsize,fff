@@ -1,0 +1,10 @@
+NumberRange_StepSize
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define NumberRange_StepSize 0x00000004
+#Indent
+{F}
+#Wrap On

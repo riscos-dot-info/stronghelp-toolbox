@@ -1,0 +1,26 @@
+ProgInfo_SetUri
+#include Style
+#Background wimp 1
+Module:	<ProgInfo=>proginfo/m>
+#Line
+#Wrap off
+Syntax:	ProgInfo_SetUri
+Veneer:	<proginfo_set_uri>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ProgInfo object ID
+r2 = 7
+r3 = pointer to Uri
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the Uri to be executed after a click on the Web Page button.

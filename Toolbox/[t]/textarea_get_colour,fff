@@ -1,0 +1,22 @@
+textarea_get_colour
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<TextArea.H=>textarea>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *textarea_get_colour
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  unsigned int *foreground,
+  unsigned int *background
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function gets the colours being used in the TextArea.  This is not Style-Guide compliant, and should only be used by Java ;-)

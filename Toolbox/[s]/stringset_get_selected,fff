@@ -1,0 +1,20 @@
+stringset_get_selected
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *stringset_get_selected 
+(
+  unsigned int  <flags,=>stringset_get_selected_flags>
+  <ObjectId>      window,
+  <ComponentId>   string_set,
+  <...=>stringset_get_selected_arguments>
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function gets the name of the string currently in the string set field.  See page 406 for more information.

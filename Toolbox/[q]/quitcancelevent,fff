@@ -1,0 +1,15 @@
+QuitCancelEvent
+#include Style
+#Background wimp 1
+Class:	<Quit Dialogue=>quit_class>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} QuitCancelEvent;
+{F}
+#indent
+#Wrap

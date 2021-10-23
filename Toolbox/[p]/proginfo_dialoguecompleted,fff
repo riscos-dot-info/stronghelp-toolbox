@@ -1,0 +1,19 @@
+ProgInfo_DialogueCompleted 0x82b41
+#include Style
+#Background wimp 1
+Class:	<Program Info Dialogue=>proginfo_class>
+#Line
+#Wrap off
+Syntax:	ProgInfo_DialogueCompleted 0x82b41
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} ProgInfoDialogueCompletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised after the Prog Info window has been hidden.

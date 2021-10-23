@@ -1,0 +1,10 @@
+SaveAs_GenerateHideEvent
+#Wrap Off
+Defined in:	<saveas.h=>saveas_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define SaveAs_GenerateHideEvent 0x00000002
+#Indent
+{F}
+#Wrap On

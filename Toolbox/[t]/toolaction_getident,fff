@@ -1,0 +1,25 @@
+ToolAction_GetIdent 
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<toolaction_get_ident>
+Syntax:	ToolAction_GetIdent
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x140140 + 1 (1311041)
+r3 = gadget component Id
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 - ident
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the ident string for the ToolAction.

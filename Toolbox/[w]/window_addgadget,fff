@@ -1,0 +1,26 @@
+Window_AddGadget
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_AddGadget
+Veneer:	<window_add_gadget=>window_add_gadget>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 1
+r3 = pointer to description block for gadget
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0 = component ID
+r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method adds a gadget to the list of gadgets for the window.

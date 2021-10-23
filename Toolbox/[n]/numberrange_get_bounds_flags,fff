@@ -1,0 +1,10 @@
+numberrange_get_bounds Flags
+#include Style
+#Background wimp 1
+Command:	<numberrange_get_bounds=>numberrange_get_bounds>
+#Line
+#Wrap off
+Bits:	0	- Set means return the lower bound.
+	1	- Set means return the upper bound.
+	2	- Set means return the step size.
+	3	- Set means return the precision.

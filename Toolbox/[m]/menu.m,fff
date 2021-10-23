@@ -1,0 +1,55 @@
+Menu Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of menus{/}
+
+#Align left
+#Wrap on
+Ref:	Page 165 of the {/}User Interface Toolbox{/} manual.
+#Line
+<Menu SWI names=>menu_swi_listing>
+
+<Flags=>menu_class_flags>
+
+#Align Centre
+{*}{/}Menu SWIs{/}{*}
+#Align Left
+
+#Table columns 3
+<Menu_AddEntry>
+<Menu_GetClickEvent>
+<Menu_GetClickShow>
+<Menu_GetEntryHelpMessage>
+<Menu_GetEntrySprite>
+<Menu_GetEntryText>
+<Menu_GetFade>
+<Menu_GetHeight>
+<Menu_GetHelpMessage>
+<Menu_GetSubMenuEvent>
+<Menu_GetSubMenuShow>
+<Menu_GetTick>
+<Menu_GetTitle>
+<Menu_GetWidth>
+<Menu_RemoveEntry>
+<Menu_SetClickEvent>
+<Menu_SetClickShow>
+<Menu_SetEntryHelpMessage>
+<Menu_SetEntrySprite>
+<Menu_SetEntryText>
+<Menu_SetFade>
+<Menu_SetHelpMessage>
+<Menu_SetSubMenuEvent>
+<Menu_SetSubMenuShow>
+<Menu_SetTick>
+<Menu_SetTitle>
+#EndTable
+#Line
+#Align Centre
+{*}{/}Menu Events{/}{*}
+#Align Left
+#Wrap off
+<Menu_AboutToBeShown>
+<Menu_HasBeenHidden>
+<Menu_SubMenu>
+<Menu_Selection>

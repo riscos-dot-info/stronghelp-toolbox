@@ -1,0 +1,9 @@
+scale_get_bounds Flags
+#include Style
+#Background wimp 1
+Command:	<scale_get_bounds>
+#Line
+#Wrap off
+Bits:	0	- returns means return lower bound.
+	1	- return means return the upper bound.
+	2	- return means return the step size.

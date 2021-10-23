@@ -1,0 +1,32 @@
+User Interface ToolBox Help
+#Include Style
+#Background Wimp 1
+#Draw 0, 0 BackGround
+
+#Indent 20
+#Align centre
+{/}This manual provides help for 
+the Acorn Toolbox modules.{/}
+#Align left
+#Below
+#Indent 0
+#Align centre
+#Line
+#Align left
+#Wrap off
+<ToolBox Overview=>tboxover>	How does it work?
+<!ResEd & !ResTest=>resed>	The Resource Editor
+
+#Line
+#Align Centre
+{/}{*}Toolbox Interfaces{*}{/}
+
+<C Veneers=>c-toolbox>
+<SWIs=>ToolboxSWI>
+
+#Line
+#Align Centre
+Version 1.20 (04.01.99) {*}© Neil Bingham.{*}
+A <Note=>note> About This Manual.
+#Align Left
+#Wrap

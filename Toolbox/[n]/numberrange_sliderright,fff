@@ -1,0 +1,10 @@
+NumberRange_SliderRight
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define NumberRange_SliderRight (NumberRange_SliderType *1)
+#Indent
+{F}
+#Wrap On

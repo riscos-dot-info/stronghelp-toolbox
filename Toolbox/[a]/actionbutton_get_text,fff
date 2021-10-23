@@ -1,0 +1,22 @@
+actionbutton_get_text
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *actionbutton_set_text 
+(
+  unsigned     int flags,
+  <ObjectId>     window,
+  <ComponentId>  action_button,
+  char        *buffer,
+  int          buff_size,
+  int         *nbytes
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function gets the text displayed in the action button.

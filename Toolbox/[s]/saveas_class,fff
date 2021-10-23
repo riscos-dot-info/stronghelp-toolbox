@@ -1,0 +1,38 @@
+Save As Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Save As Dialogues{/}
+
+#Align left
+#Wrap on
+Ref:	Page 245 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Data Types=>saveas_class_data_types>
+<Flags=>saveas_class_flags>
+
+#Table Columns 3
+<saveas_buffer_filled=>saveas_buffer_filled>
+<saveas_file_save_completed=>saveas_file_save_completed>
+<saveas_get_file_name=>saveas_get_file_name>
+<saveas_get_file_size=>saveas_get_file_size>
+<saveas_get_file_type=>saveas_get_file_type>
+<saveas_get_title=>saveas_get_title>
+<saveas_get_window_id=>saveas_get_window_id>
+<saveas_selection_available=>saveas_selection_available>
+<saveas_set_data_address=>saveas_set_data_address>
+<saveas_set_file_name=>saveas_set_file_name>
+<saveas_set_file_type=>saveas_set_file_type>
+<saveas_set_file_size=>saveas_set_file_size>
+<saveas_set_title=>saveas_set_title>
+#EndTable
+
+{/}SaveAs Dialogue Events{/}
+<SaveAs_AboutToBeShown=>saveas_abouttobeshown>
+<SaveAs_DialogueCompleted=>SaveAs_DialogueCompleted>
+<SaveAs_SaveToFile=>SaveAs_SaveToFile>
+<SaveAs_FillBuffer=>SaveAs_FillBuffer>
+<SaveAs_SaveCompleted=>SaveAs_SaveCompleted>
+#Line
+Defined in SaveAs.H

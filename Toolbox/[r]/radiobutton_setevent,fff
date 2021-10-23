@@ -1,0 +1,26 @@
+RadioButton_SetEvent
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<radiobutton_set_event>
+Syntax:	RadioButton_SetEvent
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 386
+r3 = gadget component Id
+r4 = toolbox event code
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the toolbox event for when a radiobutton is clicked.

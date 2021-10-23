@@ -1,0 +1,26 @@
+ColourDbox_SetColourModel
+#include Style
+#Background wimp 1
+Module:	<ColourDbox=>colourdbox/m>
+#Line
+#Wrap off
+Syntax:	ColourDbox_SetColourModel
+Veneer:	<colourdbox_set_colour_model>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourDbox object ID
+r2 = 4
+r3 = pointer to buffer for colour block
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:		Method sets the colour model currently used in the Colour Dialogue.

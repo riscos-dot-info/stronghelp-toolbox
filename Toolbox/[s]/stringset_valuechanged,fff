@@ -1,0 +1,22 @@
+StringSet_ValueChanged 0x8288e
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	StringSet_ValueChanged 0x8288e
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  char               string[ sizeof(<ToolboxEvent>) -
+                             sizeof(<ToolboxEventHeader>)
+                           ];
+} StringSetValueChangedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when the value of the string set is changed.

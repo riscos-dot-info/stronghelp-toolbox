@@ -1,0 +1,19 @@
+menu_get_width
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_get_width 
+(
+  unsigned int  flags,
+  <ObjectId>      menu,
+  int          *width
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the width of the work area of the given menu.

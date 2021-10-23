@@ -1,0 +1,16 @@
+TopLeft Data Type
+#Parent window_class
+#include Style
+#Background wimp 1
+Defined In:	<toolbox.h=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{  
+  int x,
+  int y
+} TopLeft;
+#indent
+#Wrap

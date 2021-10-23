@@ -1,0 +1,9 @@
+LabelledBox Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}LabelledBox Data Types{/}
+#Align left
+
+<LabelledBox>

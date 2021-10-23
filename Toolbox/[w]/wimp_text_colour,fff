@@ -1,0 +1,18 @@
+wimp_text_colour
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_text_colour
+(
+  int colour
+);
+
+{F}
+#indent
+#wrap
+Purpose:	C SWI veneer to <Wimp_TextColour.=>Wimp:Wimp_textcolour>

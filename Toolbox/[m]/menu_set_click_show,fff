@@ -1,0 +1,21 @@
+menu_set_click_show
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_set_click_show 
+(
+  unsigned int  flags,
+  <ObjectId>      menu,
+  <ComponentId>   entry,
+  <ObjectId>     object,
+  int           show_flags
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function specifies the ObjectId of the object to be shown when the user selects the menu event.

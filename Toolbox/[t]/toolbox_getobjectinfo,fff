@@ -1,0 +1,24 @@
+Toolbox_GetObjectInfo (0x44ec5)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_GetObjectInfo
+Veneer:	<toolbox_get_object_state>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = object Id
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0 = object state
+     bit 0 - set means object is currently showing
+{f}
+#indent
+#Wrap
+Purpose:	Method returns information regarding the object.

@@ -1,0 +1,21 @@
+Menu_AboutToBeShown 0x828c0
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	Menu_AboutToBeShown 0x828c0
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+  <TopLeft>            pos;
+} MenuAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised due to a call to <ToolBox ShowObject=>toolbox_show_object> on a menu.

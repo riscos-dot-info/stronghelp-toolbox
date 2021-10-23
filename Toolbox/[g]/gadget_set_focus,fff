@@ -1,0 +1,19 @@
+gadget_set_focus
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *gadget_set_focus 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   gadget,
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the input focus to the given component in the window.  THIS MUST BE A WRITABLE FIELD.

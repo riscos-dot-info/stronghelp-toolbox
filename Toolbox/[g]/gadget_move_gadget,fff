@@ -1,0 +1,20 @@
+gadget_move_gadget
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *gadget_move_gadget
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   gadget,
+  <BBox>         *new_bbox
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function moves an already created object within a window.

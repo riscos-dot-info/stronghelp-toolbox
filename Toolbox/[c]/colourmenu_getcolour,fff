@@ -1,0 +1,28 @@
+ColourMenu_GetColour
+#include Style
+#Background wimp 1
+Module:	<ColourMenu=>colourmenu/m>
+#Line
+#Wrap off
+Syntax:	ColourMenu_GetColour
+Veneer:	<colourmenu_get_colour>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourMenu object ID
+r2 = 1
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = Wimp Colour
+      0-15 - Colours
+      16   - None
+     -1    - Nothing Selected
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the selected colour.

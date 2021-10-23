@@ -1,0 +1,20 @@
+radiobutton_set_label
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *radiobutton_set_label 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   radio_button,
+  char         *label
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the label to be used with the radio button.

@@ -1,0 +1,22 @@
+actionbutton_set_font
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *actionbutton_set_font 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   actionbutton,
+  char         *font_name,
+  int           width,
+  int           height
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function makes the actionbutton use an anti-aliased font.  If the font_name is NULL then the system font is used.

@@ -1,0 +1,12 @@
+Font Menu Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Font Menu Data Types{/}
+#Align left
+
+<FontMenuTemplate>
+<FontMenuAboutToBeShownEvent>
+<FontMenuSelectionEvent>
+<FontMenuHasBeenHiddenEvent>

@@ -1,0 +1,21 @@
+scrolllist_deselect_item
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<ScrollList.H=>scrolllist>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_deselect_item
+(
+  unsigned int  flags,
+  <ObjectId>      object_id, 
+  <ComponentId>   component_id,
+  int           index
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function will deselect the item in the ScrollList specified by index.

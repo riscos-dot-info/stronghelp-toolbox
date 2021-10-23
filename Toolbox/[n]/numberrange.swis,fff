@@ -1,0 +1,18 @@
+NumberRange Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 368 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>numberrang_flags>
+
+<NumberRange_GetBounds>
+<NumberRange_GetComponents>
+<NumberRange_GetValue>
+<NumberRange_SetBounds>
+<NumberRange_SetValue>
+
+{/}NumberRange Events{/}
+<NumberRange_ValueChanged>

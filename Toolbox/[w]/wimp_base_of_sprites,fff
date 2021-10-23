@@ -1,0 +1,19 @@
+wimp_base_of_sprites
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Header:	<WimpLib.H=>wimp_lib>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}<_kernel_oserror> *wimp_base_of_sprites   
+(
+  void **rom,
+  void **ram
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	C SWI veneer to <Wimp_BaseOfSprites.=>Wimp:wimp_baseofsprites>

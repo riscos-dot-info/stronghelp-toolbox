@@ -1,0 +1,20 @@
+WimpDragBox Drag Types
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Types:	
+#indent 6
+{fcode}Wimp_DragBox_DragWindow         1
+Wimp_DragBox_DragSize           2
+Wimp_DragBox_DragHorizontal     3
+Wimp_DragBox_DragVertical       4
+Wimp_DragBox_DragFixedDash      5
+Wimp_DragBox_DragRubberDash     6
+Wimp_DragBox_DragPoint          7
+Wimp_DragBox_DragFixedUserBox   8
+Wimp_DragBox_DragRubberUserBox  9
+Wimp_DragBox_DragBoth           12
+#indent
+#Wrap

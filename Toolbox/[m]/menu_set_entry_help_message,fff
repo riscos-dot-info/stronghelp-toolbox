@@ -1,0 +1,20 @@
+menu_set_entry_help_message
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_set_entry_help_message 
+(
+  unsigned int  flags,
+  <ObjectId>      menu,
+  <ComponentId>   entry,
+  char         *help_message
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function specifies the standard Risc OS help message for that menu entry.

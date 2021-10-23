@@ -1,0 +1,25 @@
+Toolbox_CreateObject (0x44ec0)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_CreateObject
+Veneer:	<toolbox_create_object>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0 set = create from memory
+r1 = pointer to name of template
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r0 = ID of created object
+r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method creates an object from either a named template in the Res file, or from a description block.

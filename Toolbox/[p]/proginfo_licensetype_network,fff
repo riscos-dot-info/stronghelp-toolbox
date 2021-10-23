@@ -1,0 +1,10 @@
+ProgInfo_LicenseType_Network
+#Wrap Off
+Defined in:	<proginfo.h=>proginfo_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ProgInfo_LicenseType_Network 4
+#Indent
+{F}
+#Wrap On

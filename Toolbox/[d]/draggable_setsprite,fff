@@ -1,0 +1,27 @@
+Draggable_SetSprite
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<draggable_set_sprite>
+Syntax:	Draggable_SetSprite
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 640
+r3 = gadget component Id
+r4 = pointer to spritename
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the sprite in a draggable gagdet.

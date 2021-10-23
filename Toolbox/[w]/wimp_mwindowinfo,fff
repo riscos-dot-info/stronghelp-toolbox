@@ -1,0 +1,11 @@
+Wimp_MWindowInfo
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MWindowInfo 0x400cc
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <WindowInfo.=>Wimp:Msg_400cc>

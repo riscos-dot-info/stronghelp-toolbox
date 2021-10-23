@@ -1,0 +1,11 @@
+Wimp_MTaskNameRq
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MTaskNameRq 0x400c6
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <TaskNameRq.=>Wimp:Msg_400c6>

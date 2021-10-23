@@ -1,0 +1,11 @@
+Wimp_MDataRequest
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MDataRequest 0x10
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <DataRequest.=>Wimp:Msg_10>

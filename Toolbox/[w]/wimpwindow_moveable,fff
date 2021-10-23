@@ -1,0 +1,10 @@
+WimpWindow_Moveable
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WimpWindow_Moveable (1u << 1)
+#Indent
+{F}
+#Wrap On

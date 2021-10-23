@@ -1,0 +1,13 @@
+FileInfo Class Flags
+#include Style
+#Parent finfo_class
+#Background wimp 1
+Class:	<FileInfo=>finfo_class>
+#Line
+#Wrap off
+Bits:	0	- Set indicates that a <FileInfo_AboutToBeShown> should be called when displaying object.
+	1	- Set indicates a <FileInfo_DialogueCompleted> should be raised when the object is closed.
+
+Constants:
+	<FileInfo_GenerateShowEvent>
+	<FileInfo_GenerateHideEvent>

@@ -1,0 +1,11 @@
+Wimp_MDataSaved
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_MDataSaved 0xd
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <DataSaved.=>Wimp:Msg_D>

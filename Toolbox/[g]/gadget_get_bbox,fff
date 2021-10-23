@@ -1,0 +1,20 @@
+gadget_get_bbox
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *gadget_get_bbox
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   gadget,
+  <BBox>         *box
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function copies the bounding box of a gadget into the supplied buffer.

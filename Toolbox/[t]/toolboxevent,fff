@@ -1,0 +1,23 @@
+ToolboxEvent
+#Parent tbox_lib
+#include Style
+#Background wimp 1
+Defined In:	<toolbox.h=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{  
+  <ToolboxEventHeader> hdr;
+  union
+  \{
+    char          bytes [212];
+    int           words [53];
+  } data;
+} ToolboxEvent;
+
+{F}
+#indent
+#Wrap
+Purpose: Generic structure of a Toolbox event block.

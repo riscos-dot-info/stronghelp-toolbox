@@ -1,0 +1,27 @@
+ActionButton_GetClickShow
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<actionbutton_get_click_show>
+Syntax:	ActionButton_GetClickShow
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 133
+r3 = gadget component Id
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = id of object to be shown
+r1 = show flags
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the object to be shown when the actionnbutton is clicked on.

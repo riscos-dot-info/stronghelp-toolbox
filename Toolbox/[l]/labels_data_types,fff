@@ -1,0 +1,9 @@
+Label Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Label Data Types{/}
+#Align left
+
+<Label>

@@ -1,0 +1,26 @@
+FileInfo_GetDate
+#include Style
+#Background wimp 1
+Module:	<FileInfo=>fileinfo/m>
+#Line
+#Wrap off
+Syntax:	FileInfo_GetDate
+Veneer:	<fileinfo_get_date>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FileInfo object ID
+r2 = 10
+r3 = pointer to 5-byte UTC time buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the date string in the FileInfo object.

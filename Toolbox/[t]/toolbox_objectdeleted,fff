@@ -1,0 +1,17 @@
+ToolboxObjectDeletedEvent 0x44ec2
+#include Style
+#Background wimp 1
+Header:	<Toolbox.H=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+} ToolboxObjectDeletedEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	This event is raised if the Toolbox after it deletes an object.

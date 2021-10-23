@@ -1,0 +1,28 @@
+Menu_GetEntrySprite
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_GetEntrySprite
+Veneer:	<menu_get_entry_sprite>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 7
+r3 = component id of entry
+r4 = pointer to buffer
+r5 = size of buffer
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r5 = size of buffer required (if r4=0)
+     else buffer contains text
+{f}
+#indent
+#Wrap
+Purpose:		Method gets sprite of an entry on a menu.

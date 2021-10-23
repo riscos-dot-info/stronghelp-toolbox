@@ -1,0 +1,10 @@
+WritableField_RightJustify
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define WritableField_RightJustify 0x00000004
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,11 @@
+Wimp_EPointerEnteringWindow
+#Wrap Off
+Defined in:	<wimp.h=>wimp_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Wimp_EPointerEnteringWindow 5
+#Indent
+{F}
+#Wrap On
+Purpose:	C Declaration for <PointerEnteringWindow=>Wimp:Wimp_Poll5>

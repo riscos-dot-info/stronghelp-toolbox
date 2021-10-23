@@ -1,0 +1,10 @@
+Draggable_DragStarted_Adjust
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Draggable_DragStarted_Adjust 0x00000001
+#Indent
+{F}
+#Wrap On

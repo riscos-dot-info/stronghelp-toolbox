@@ -1,0 +1,10 @@
+ActionButton_ClickShowCentred
+#Wrap Off
+Defined in:	<gadget.h=>gadgets>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ActionButton_ClickShowCentred 0x00000010
+#Indent
+{F}
+#Wrap On

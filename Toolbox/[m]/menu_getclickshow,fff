@@ -1,0 +1,28 @@
+Menu_GetClickShow
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_GetClickShow
+Veneer:	<menu_get_click_show>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 13
+r3 = component id of entry
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = object id to show
+r1 = show flags: bit 0:
+       Set   - show transiently
+       Unset - show persistently
+{f}
+#indent
+#Wrap
+Purpose:		Method gets show event for an entry on a menu.

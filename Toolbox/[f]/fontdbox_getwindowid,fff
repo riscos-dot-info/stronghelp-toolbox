@@ -1,0 +1,25 @@
+FontDbox_GetWindowID
+#include Style
+#Background wimp 1
+Module:	<FontDbox=>fontdbox/m>
+#Line
+#Wrap off
+Syntax:	FontDbox_GetWindowID
+Veneer:	<fontdbox_get_window_id>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FontDbox object ID
+r2 = 0
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = window object Id for the object.
+{f}
+#indent
+#Wrap
+Purpose:		Method gets the id of the underlying wimp window for the Font Dialogue.

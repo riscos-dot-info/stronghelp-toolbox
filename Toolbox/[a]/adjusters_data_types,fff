@@ -1,0 +1,10 @@
+Adjuster Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}Adjuster Data Types{/}
+#Align left
+
+<Adjuster>
+<AdjusterClickedEvent>

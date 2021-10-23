@@ -1,0 +1,21 @@
+window_wimp_to_toolbox
+#include Style
+#Background wimp 1
+Class:	<Window=>window_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *window_wimp_to_toolbox 
+(
+  unsigned int  flags,
+  int           window_handle,
+  int           icon_handle,
+  <ObjectId>     *object,
+  <ComponentId>  *component
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function returns the ObjectId and ComponentId of the object that contains the icon specified in {/}icon_handle{/}.

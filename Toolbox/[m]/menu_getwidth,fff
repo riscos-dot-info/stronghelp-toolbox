@@ -1,0 +1,24 @@
+Menu_GetWidth
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_GetWidth
+Veneer:	<menu_get_width>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 23
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = width of menu in OS units
+{f}
+#indent
+#Wrap
+Purpose:		Method returns width of the menu.

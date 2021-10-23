@@ -1,0 +1,27 @@
+Colour Dialogue Class
+#Parent !Root
+#include Style
+#Align centre
+{/}These functions allow manipulation of the Colour Dialogues{/}
+
+#Align left
+#Wrap on
+Ref:	Page 65 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<ColourDbox SWI Names=>colourdbox_swi_listing>
+<Flags=>col-d_class_flags>
+
+<ColourDbox_GetColour>
+<ColourDbox_GetColourModel>
+<ColourDbox_GetDialogueHandle>
+<ColourDbox_GetNoneAvailable>
+<ColourDbox_GetWimpHandle>
+<ColourDbox_SetColour>
+<ColourDbox_SetColourModel>
+<ColourDbox_SetNoneAvailable>
+
+{/}Colour Dialogue Events{/}
+<ColourDbox_AboutToBeShown>
+<ColourDbox_ColourSelected>
+<ColourDbox_DialogueCompleted>

@@ -1,0 +1,20 @@
+WimpOpenWindowBlock Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef struct
+\{  
+  int window_handle;
+  <BBox> visible_area;
+  int xscroll;
+  int yscroll;
+  int behind;
+} WimpOpenWindowBlock;
+{F}
+#indent
+#Wrap

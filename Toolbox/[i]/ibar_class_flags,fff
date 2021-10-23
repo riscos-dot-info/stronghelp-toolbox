@@ -1,0 +1,32 @@
+IconBar Class Flags
+#include Style
+#Parent ibar_class
+#Background wimp 1
+Class:	<IconBar=>ibar_class>
+#Line
+#Wrap off
+Bits:	0	- Set indicates that a <IconBar_SelectAboutToBeShown> should be called when Select is used.
+	1	- Set indicates that a <IconBar_AdjustAboutToBeShown> should be called when Adjust is used.
+	2	- When set show the select_show object as a transient.
+	3	- When set show the adjust_show object as a transient.
+	4	- Reserved.
+	5	- When set, generate an <Iconbar_Clicked> event when Select is clicked.
+	6	- When set, generate an <Iconbar_Clicked> event when Adjust is clicked.
+
+Constants:
+	<Iconbar_GenerateSelectAboutToBeShown>
+	<Iconbar_GenerateAdjustAboutToBeShown>
+	<Iconbar_ShowSelectTransient>
+	<Iconbar_ShowAdjustTransient>
+	<Iconbar_GenerateSelectClickedEvent>
+	<Iconbar_GenerateAdjustClickedEvent>
+	<Iconbar_ShowSelectCentred>
+	<Iconbar_ShowAdjustCentred>
+	<Iconbar_ShowSelectAtPointer>
+	<Iconbar_ShowAdjustAtPointer>
+	<Iconbar_SetEvent_Select>
+	<Iconbar_SetEvent_Adjust>
+	<Iconbar_SetShow_Select>
+	<Iconbar_SetShow_Adjust>
+	<Iconbar_Clicked_Select>
+	<Iconbar_Clicked_Adjust>

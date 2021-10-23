@@ -1,0 +1,25 @@
+ColourMenu_GetNoneAvailable
+#include Style
+#Background wimp 1
+Module:	<ColourMenu=>colourmenu/m>
+#Line
+#Wrap off
+Syntax:	ColourMenu_GetNoneAvailable
+Veneer:	<colourmenu_get_none_available>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = ColourMenu object ID
+r2 = 3
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r3 = Non zero value for None field.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the None option setting.

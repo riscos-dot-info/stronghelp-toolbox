@@ -1,0 +1,27 @@
+FontDbox_AboutToBeShown 0x82a00
+#include Style
+#Background wimp 1
+Class:	<Font Dialogue=>fontd_class>
+#Line
+#Wrap off
+Syntax:	FontDbox_AboutToBeShown 0x82a00
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  int                show_type;
+
+  union
+  \{
+    <TopLeft>              pos;
+    <WindowShowObjectBlock> full;
+  } info;
+
+} FontDboxAboutToBeShownEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised just before the Font Dialogue window is displayed

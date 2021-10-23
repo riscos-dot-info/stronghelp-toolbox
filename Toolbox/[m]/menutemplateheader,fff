@@ -1,0 +1,22 @@
+MenuTemplateHeader Data Type
+#include Style
+#Background wimp 1
+Defined In:	<menu.h=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{
+  int           flags;
+  char          *title;
+  int           max_title;
+  char          *help_message;
+  int           max_help;
+  int           show_event;
+  int           hide_event;
+  int           num_entries;
+} MenuTemplateHeader;
+{f}
+#indent
+#Wrap

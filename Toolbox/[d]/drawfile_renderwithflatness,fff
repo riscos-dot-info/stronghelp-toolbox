@@ -1,0 +1,10 @@
+Drawfile_RenderWithFlatness
+#Wrap Off
+Defined in:	<drawfile.h=>drawfile_lib>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define Drawfile_RenderWithFlatness 0x00000004
+#Indent
+{F}
+#Wrap On

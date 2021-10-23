@@ -1,0 +1,40 @@
+WimpCreateIconData Data Type
+#Parent wimp_lib
+#include Style
+#Background wimp 1
+Defined In:	<wimp.h=>wimp_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}typedef union
+\{  
+   char t[12];
+   char s[12];
+   char st[12];
+
+   struct
+    \{  
+        char *buffer;
+        char *validation;
+        int   buffer_size;
+    } it;
+
+    struct
+    \{  
+        void *sprite;
+        void *sprite_area;
+        int   sprite_name_length;
+    } is;
+
+    struct
+    \{  
+        char *buffer;
+        char *validation;
+        int   buffer_size;
+    } ist;
+
+} WimpIconData;
+{F}
+#indent
+#Wrap

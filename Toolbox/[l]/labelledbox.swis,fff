@@ -1,0 +1,9 @@
+Labelled Box Gadget SWIs
+#Parent !Root
+#include Style
+#Align left
+#Wrap on
+Ref:	Page 367 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
+#Line
+<Flags=>labelbox_flags>

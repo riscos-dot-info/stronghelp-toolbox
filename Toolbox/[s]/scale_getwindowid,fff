@@ -1,0 +1,25 @@
+Scale_GetWindowID
+#include Style
+#Background wimp 1
+Module:	<Scale=>scale/m>
+#Line
+#Wrap off
+Syntax:	Scale_GetWindowID
+Veneer:	<scale_get_window_id>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Scale object ID
+r2 = 0
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r1 = Window object id.
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the id of the underlying Window object used.

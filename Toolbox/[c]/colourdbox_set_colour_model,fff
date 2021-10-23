@@ -1,0 +1,22 @@
+colourdbox_set_colour_model
+#include Style
+#Background wimp 1
+Class:	<Colour Dialogue=>col-d_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *colourdbox_set_colour_model
+(
+  unsigned int  flags,
+  <ObjectId>      colourdbox,
+  int          *colour_model_block
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the colour model currently used in the Colour Dialogue.  {/}colour_model_block{/} should be set to one of the following:
+	è 0 = RGB
+	è 1 = CMYK
+	è 2 = RGB

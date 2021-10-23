@@ -1,0 +1,18 @@
+ToolboxEventHeader
+#Parent tbox_lib
+#include Style
+#Background wimp 1
+Defined In:	<toolbox.h=>tbox_lib>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{fcode}typedef struct
+\{  
+  unsigned int    size,
+  int           reference_number,
+  unsigned int  event_code,
+  unsigned int  flags
+} ToolboxEventHeader;
+#indent
+#Wrap

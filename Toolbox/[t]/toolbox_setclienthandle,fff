@@ -1,0 +1,24 @@
+Toolbox_SetClientHandle (0x44ec7)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_SetClientHandle
+Veneer:	<toolbox_set_client_handle>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = object Id
+r2 = client handle
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the value of the client handle.

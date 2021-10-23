@@ -1,0 +1,20 @@
+menu_set_entry_text
+#include Style
+#Background wimp 1
+Classr:	<Menu=>menu_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *menu_set_entry_text 
+(
+  unsigned int  flags,
+  <ObjectId>      menu,
+  <ComponentId>   entry,
+  char         *text
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the text which is to be used in the named menu entry.

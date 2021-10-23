@@ -1,0 +1,25 @@
+Menu_GetSubMenuShow
+#include Style
+#Background wimp 1
+Module:	<Menu=>menu/m>
+#Line
+#Wrap off
+Syntax:	Menu_GetSubMenuShow
+Veneer:	<menu_get_sub_menu_show>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Menu object ID
+r2 = 9
+r3 = component id of entry
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = object id of submenu
+{f}
+#indent
+#Wrap
+Purpose:		Method gets submenu for an entry on a menu.

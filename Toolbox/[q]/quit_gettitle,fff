@@ -1,0 +1,28 @@
+Quit_GetTitle
+#include Style
+#Background wimp 1
+Module:	<Quit=>quit/m>
+#Line
+#Wrap off
+Syntax:	Quit_GetTitle
+Veneer:	<quit_get_title>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = Quit object ID
+r2 = 3
+r3 = pointer to buffer
+r4 = size of buffer
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r4 = size of buffer (if r3=0)
+     else buffer contains title
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the window title.

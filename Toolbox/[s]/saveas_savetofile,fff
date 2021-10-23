@@ -1,0 +1,20 @@
+SaveAs_SaveToFile 0x82bc2
+#include Style
+#Background wimp 1
+Class:	<SaveAs Dialogue=>saveas_class>
+#Line
+#Wrap off
+Syntax:	SaveAs_SaveToFile 0x82bc2
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  char               filename [212];
+} SaveAsSaveToFileEvent;
+
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised to request that the client should save its data to the given filename.

@@ -1,0 +1,31 @@
+Button Flags
+#include Style
+#Background wimp 1
+Gadget:	<Button=>buttons>
+#Line
+#Wrap off
+Bits:	0	- Set means use task's sprite area for sprite only buttons.
+#indent +2
+		- Clear means use Wimp sprite pool.
+#indent
+	1	- Set means return menu clicks.
+
+Constants:
+	<Button_TaskSpriteArea>
+	<Button_AllowMenuClicks>
+	<ButtonType_Never>
+	<ButtonType_Always>
+	<ButtonType_Repeat>
+	<ButtonType_Click>
+	<ButtonType_Release>
+	<ButtonType_DoubleClick>
+	<ButtonType_ClickDrag>
+	<ButtonType_ReleaseDrag>
+	<ButtonType_DoubleDrag>
+	<ButtonType_MenuIcon>
+	<ButtonType_DoubleClickDrag>
+	<ButtonType_Radio>
+	<ButtonType_WriteClickDrag>
+	<ButtonType_Writable>
+#Line
+To be used with <Gadget_Set_Flags>

@@ -1,0 +1,77 @@
+Toolbox Data Types
+#Parent !root
+#include Style
+#Wrap off
+#Align centre
+{/}The links below list the Data Types declared 
+by the Toolbox library{/}
+#Align left
+
+#Line
+<Bbox>
+<Bits>
+<Bool>
+<Palette>
+<SpriteParams>
+<WimpCaret>
+<WimpCloseWindowBlock>
+<WimpCreateIconBlock>
+<WimpCreateMenuBlock>
+<WimpCreateSubMenuBlock>
+<WimpCreateWindowBlock>
+<WimpDataLoadAckMessage>
+<WimpDataLoadMessage>
+<WimpDataOpen>
+<WimpDataSaveAckMessage>
+<WimpDataSaveMessage>
+<WimpDeleteIconBlock>
+<WimpDeleteWindowBlock>
+<WimpDragBox>
+<WimpForceRedrawBlock>
+<WimpGainCaretEvent>
+<WimpGetCaretPositionBlock>
+<WimpGetIconStateBlock>
+<WimpGetMenuSelections>
+<WimpGetMenuStateBlock>
+<WimpGetPointerInfoBlock>
+<WimpGetRectangleBlock>
+<WimpGetWindowInfoBlock>
+<WimpGetWindowOutlineBlock>
+<WimpGetWindowStateBlock>
+<WimpHelpReplyMessage>
+<WimpHelpRequestMessage>
+<WimpIconBlock>
+<WimpIconData>
+<WimpKeyPressedEvent>
+<WimpLoseCaretEvent>
+<WimpMenu>
+<WimpMenuItem>
+<WimpMenuSelectionEvent>
+<WimpMenuSelections>
+<WimpMessage>
+<WimpMessageHandler>
+<WimpMouseClickEvent>
+<WimpOpenWindowBlock>
+<WimpOpenWindowRequestEvent>
+<WimpPlotIconBlock>
+<WimpPointerEnteringWindowEvent>
+<WimpPointerLeavingWindowEvent>
+<WimpPollBlock>
+<WimpPollWordNonZeroEvent>
+<WimpRAMFetchMessage>
+<WimpRAMTransmitMessage>
+<WimpRedrawWindowRequestEvent>
+<WimpSaveDesktopMessage>
+<WimpScrollRequestEvent>
+<WimpSendMessageBlock>
+<WimpSetIconStateBlock>
+<WimpShutdownMessage>
+<WimpSysInfo>
+<WimpUpdateWindowBlock>
+<WimpUserDragBoxEvent>
+<WimpUserMessageAcknowledgeEvent>
+<WimpUserMessageEvent>
+<WimpUserMessageRecordedEvent>
+<WimpWindow>
+<_kernel_oserror>
+<_kernel_swi_regs>

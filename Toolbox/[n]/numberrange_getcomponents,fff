@@ -1,0 +1,33 @@
+NumberRange_GetComponents
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Veneer:	<numberrange_get_components>
+Syntax:	NumberRange_GetComponents
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+     bit 0 - return numerical field
+     bit 1 - return left adjuster
+     bit 2 - return right adjuster
+     bit 3 - return slider
+r1 = window object Id
+r2 = 836
+r3 = gadget component Id
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = numeric component id
+r1 = left adjuster component id
+r2 = right adjuster component id
+r3 = slider component id
+{f}
+#indent
+#Wrap
+Purpose:	Method gets wimp icons that make up the numberrange.

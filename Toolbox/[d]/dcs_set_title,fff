@@ -1,0 +1,19 @@
+dcs_set_title
+#include Style
+#Background wimp 1
+Class:	<DCS Dialogue=>dcs_class>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *dcs_set_title 
+(
+  unsigned int  flags,
+  <ObjectId>      dcs,
+  char         *title
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the title of the DCS dialogue.

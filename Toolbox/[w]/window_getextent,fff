@@ -1,0 +1,31 @@
+Window_GetExtent
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_GetExtent
+Veneer:	<window_get_extent=>window_get_extent>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object ID
+r2 = 16
+r3 = pointer to 4 word block to hold extent
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r3 = updated to:
+     +0  minimum x co-ordinate
+     +4  minimum y co-ordinate
+     +8  maximum x co-ordinate
+     +12 maximum y co-ordinate
+All other registers preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method returns the extent of the underlying wimp window.

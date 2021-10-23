@@ -1,0 +1,11 @@
+Discard/Cancel/Save Class Flags
+#include Style
+#Parent dcs_class
+#Background wimp 1
+Class:	<D/C/S=>dcs_class>
+#Line
+#Wrap off
+<Drawfile_RenderBoundingBoxes>
+<Drawfile_DoNotRenderObjects>
+<Drawfile_RenderWithFlatness>
+<Drawfile_DoNotDownloadFont>

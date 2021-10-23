@@ -1,0 +1,26 @@
+WritableField Flags
+#include Style
+#Background wimp 1
+Gadget:	<WritableField=>writables>
+#Line
+#Wrap off
+Bits:	0	- Inform client of changes using <WritableField_ValueChanged=>writablefield_valuechanged>.
+	2-3	- justification:
+#indent +8
+			0 - left.
+			1 - right.
+			2 - centred.
+#indent
+	4	- Do not display text, use '-' instead (Password Behaviour).
+
+Constants:
+	<WritableField_GenerateUserValueChanged>
+	<WritableField_GenerateSetValueChanged>
+	<WritableField_LeftJustify>
+	<WritableField_RightJustify>
+	<WritableField_Centred>
+	<WritableField_Justification>
+	<WritableField_Password>
+	<WritableField_ValueChanged_TooLong>
+#Line
+To be used with <Gadget_Set_Flags=>Gadget_Set_Flags>

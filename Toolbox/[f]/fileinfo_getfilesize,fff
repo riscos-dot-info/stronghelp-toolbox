@@ -1,0 +1,25 @@
+FileInfo_GetFileSize
+#include Style
+#Background wimp 1
+Module:	<FileInfo=>fileinfo/m>
+#Line
+#Wrap off
+Syntax:	FileInfo_GetFileSize
+Veneer:	<fileinfo_get_file_size>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = FileInfo object ID
+r2 = 8
+{f}
+#indent
+
+On exit:
+#indent 6
+{FCode}r0 = file size.
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the filesize in the FileInfo object.
