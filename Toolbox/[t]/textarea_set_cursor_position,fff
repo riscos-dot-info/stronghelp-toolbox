@@ -2,21 +2,21 @@ textarea_set_cursor_position
 #include Style
 #Background wimp 1
 #Parent textarea
-Header:	<TextArea.H=>textarea>
+Header:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	
 #indent 6
-{FCode}extern <_kernel_oserror> *textarea_cursor_position
+{FCode}extern <_kernel_oserror> *textarea_set_cursor_position
 (
-  unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
-  unsigned int  index,
-  unsigned int *new_index
+  unsigned int  <flags=>textarea_set_cursor_position_flags>,
+  <ObjectId>      window, 
+  <ComponentId>   textarea,
+  unsigned int  <index=>textarea_special_index_values>,
+  unsigned int *old_index
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	Function set the position for the caret in the TextArea.
+Purpose:	Function sets the cursor position within a text area to {/}index{/} and writes the previous position to {/}old_index{/} (requires <TextGadgets=>textgadgets/m> 0.22). If necessary the text is scrolled to reveal the new location. Flags bit 1 is of dubious value since the caret is automatically hidden in faded or display-only text areas.

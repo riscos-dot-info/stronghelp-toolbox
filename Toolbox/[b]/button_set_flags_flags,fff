@@ -1,4 +1,4 @@
-button_set_flags Flags
+button_set_flags flags
 #include Style
 #Background wimp 1
 Command:	<button_set_flags=>button_set_flags>

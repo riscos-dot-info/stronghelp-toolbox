@@ -8,13 +8,13 @@ Syntax:	Toolbox_TemplateLookup
 Veneer:	<toolbox_template_lookup>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = pointer to template name
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r0 = pointer to description block
 r1-r9 preserved.

@@ -5,10 +5,10 @@ Module:	<Window=>window/m>
 #Line
 #Wrap off
 Syntax:	Window_GadgetGetIconList
-Veneer:	No Veneer provided
+Veneer:	No veneer provided
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Wimp window handle
@@ -17,7 +17,7 @@ r3 = pointer to buffer or 0.
 r4 = size of buffer, or unused if r3=0
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}If r3 on entry was 0:
     r4 = size of buffer required to hold icon list.

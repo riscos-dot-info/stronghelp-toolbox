@@ -8,7 +8,7 @@ Syntax:	ColourDbox_GetWimpHandle
 Veneer:	<colourdbox_get_wimp_handle>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = ColourDbox object ID

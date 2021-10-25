@@ -1,9 +1,9 @@
-Colour Menu Data Types
+Colour Menu data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Colour Menu Data Types{/}
+{/}Colour Menu data types{/}
 #Align left
 
 <ColourMenuTemplate>

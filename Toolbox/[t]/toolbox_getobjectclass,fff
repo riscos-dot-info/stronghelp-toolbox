@@ -8,13 +8,13 @@ Syntax:	Toolbox_GetObjectClass
 Veneer:	<toolbox_get_object_class>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = object Id
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r0 = objecr class
 r1-r9 preserved.

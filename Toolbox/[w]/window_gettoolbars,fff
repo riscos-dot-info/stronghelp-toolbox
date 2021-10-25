@@ -8,7 +8,7 @@ Syntax:	Window_GetToolBars
 Veneer:	<window_get_tool_bars=>window_get_tool_bars>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = mask:
      bit 0 - returns internal bl toolbar

@@ -8,7 +8,7 @@ Syntax:	SaveAs_SelectionAvailable
 Veneer:	<saveas_selection_available>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = SaveAs object ID
@@ -23,4 +23,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method sets the selection flag in the SaveAs Object.
+Purpose:		Method sets the selection flag in the SaveAs object.

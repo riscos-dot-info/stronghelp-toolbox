@@ -1,0 +1,26 @@
+ScrollList_SetHeadingText
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<scrolllist_set_heading_text>
+Syntax:	ScrollList_SetHeadingText
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x401a + 14 (16424)
+r3 = gadget id
+r4 = pointer to heading text (or 0)
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets a heading to be displayed at the top of a scroll list that will remain visible even when the list is scrolled. The heading text in the buffer at R4 may contain tab characters to separate columns and must be zero terminated. A heading can be removed by calling with 0 in R4. Requires TextGadgets 0.29.

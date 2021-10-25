@@ -8,7 +8,7 @@ Syntax:	ProgInfo_GetWindowID
 Veneer:	<proginfo_get_window_id>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = ProgInfo object ID
@@ -20,7 +20,7 @@ r4 = size of buffer
 
 On exit:
 #indent 6
-{FCode}r0 = Window Object Id.
+{FCode}r0 = Window object Id.
 {f}
 #indent
 #Wrap

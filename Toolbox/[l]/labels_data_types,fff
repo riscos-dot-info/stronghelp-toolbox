@@ -1,9 +1,9 @@
-Label Data Types
+Label data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Label Data Types{/}
+{/}Label data types{/}
 #Align left
 
 <Label>

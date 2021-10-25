@@ -1,8 +1,8 @@
-Toolbox C Veneers
+Toolbox C veneers
 #Include Style
 
 #Align Centre
-{/}{*}Toolbox Classes{*}{/}
+{/}{*}Toolbox classes{*}{/}
 #Align Left
 
 <Colour Dialogue=>col-d_class>	<Colour Menu=>col-m_class>	<D/C/S Dialogue=>dcs_class>
@@ -12,7 +12,7 @@ Toolbox C Veneers
 <Scale Dialogue=>scale_class>	<Window=>window_class>
 #Line
 #Align Centre
-{/}{*}Toolbox Libraries{*}{/}
+{/}{*}Toolbox libraries{*}{/}
 #Align Left
 
 <DrawFile=>drawfile_lib>	<Events=>event_lib>	<Gadgets=>gadgets>

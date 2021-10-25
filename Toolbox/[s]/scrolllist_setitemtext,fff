@@ -1,0 +1,27 @@
+ScrollList_SetItemText
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<scrolllist_set_item_text>
+Syntax:	ScrollList_SetItemText
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x401a + 13 (16423)
+r3 = gadget id
+r4 = pointer to item text
+r5 = item index
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the text of a scroll list item specified by R5. The replacement text in the buffer at R4 must be zero terminated. Requires TextGadgets 0.19. Since version 0.26 the text of a list item may contain tab characters as field separators for a columned display.

@@ -1,15 +1,49 @@
-TextArea Flags
+Text area flags
 #include Style
 #Background wimp 1
-Gadget:	<TextArea>
+Gadget:	<Text area=>textarea_gadget>
 #Line
 #Wrap off
-Bits:	0	- Gadget has vertical scrollbar.
+Bits:	0	- Gadget has a vertical scrollbar.
 	1 	- Gadget has a horizontal scrollbar.
-	2  	- Gadget has word wrap.
+	2	- Text is word wrapped to gadget width.
+	3	- Allow user selection of text.
+	4	- Allow selected text to be exported by dragging.
+	5	- Insert any text files dropped on gadget.
+	6	- Allow global clipboard operations on text.	(TextGadgets 0.34)
+	7	- Reserved.
+	8	- Notify client of all key presses.	(TextGadgets 0.34)
+	9	- Display only, no user editing of text.	(TextGadgets 0.67)
+	10	- Align background sprite on left.	(TextGadgets 0.86)
+	11	- Align background sprite on right.	(ditto)
+	12	- Align background sprite on bottom.	(ditto)
+	13	- Align background sprite on top.	(ditto)
+	14	- Tile background sprite horizontally.	(ditto)
+	15	- Tile background sprite vertically.	(ditto)
 
 Constants:
 	<TextArea_Scrollbar_Vertical>
 	<TextArea_Scrollbar_Horizontal>
+	<TextArea_WordWrap>
+	<TextArea_AllowSelection>
+	<TextArea_AllowSave>
+	<TextArea_AllowLoad>
+	<TextArea_Clipboard>
+	<TextArea_AutoScroll>
+	<TextArea_KeyNotify>
+	<TextArea_DisplayOnly>
+	<TextArea_BgAlignH_Mask>
+	 	<TextArea_BgAlignH_Default>
+	 	<TextArea_BgAlignH_Left>
+	 	<TextArea_BgAlignH_Right>
+	 	<TextArea_BgAlignH_Centre>
+	<TextArea_BgAlignV_Mask>
+	 	<TextArea_BgAlignV_Default>
+	 	<TextArea_BgAlignV_Bottom>
+	 	<TextArea_BgAlignV_Top>
+	 	<TextArea_BgAlignV_Centre>
+	<TextArea_BgTileHorizontal>
+	<TextArea_BgTileVertical>
 #Line
-To be used with <textarea_set_state>
+#Wrap on
+To be used with <TextArea_SetState> & <TextArea_GetState>. If a pair of alignment bits (e.g. bits 10 and 11) are both set then the background sprite will be centred on that axis; if neither is set then default alignment will be used (either top or left).

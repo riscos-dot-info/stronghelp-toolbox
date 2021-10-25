@@ -1,4 +1,4 @@
-Font Dialogue Class Flags
+Font Dialogue class flags
 #include Style
 #Parent fontd_class
 #Background wimp 1

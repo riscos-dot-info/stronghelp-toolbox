@@ -1,4 +1,4 @@
-ActionButton Flags
+ActionButton flags
 #include Style
 #Background wimp 1
 Gadget:	<ActionButton=>actionbox>

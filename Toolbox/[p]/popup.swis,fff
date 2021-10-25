@@ -1,4 +1,4 @@
-PopUp Menu Gadget SWIs
+Pop-up menu gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,8 +8,10 @@ Ref:	Page 383 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>popupmenu_flags>
 
-<PopUp_GetMenu>
-<PopUp_SetMenu>
+{/}Pop-up menu methods{/}
+#include popup_methods
 
-{/}PopupMenu Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Pop-up menu events{/}
 <Popup_AboutToBeShown>

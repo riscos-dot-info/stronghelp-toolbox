@@ -1,4 +1,4 @@
-RadioButton Flags
+RadioButton flags
 #include Style
 #Background wimp 1
 Gadget:	<RadioButton=>radio>

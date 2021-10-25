@@ -1,9 +1,9 @@
-Draggable Data Types
+Draggable data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Draggable Data Types{/}
+{/}Draggable data types{/}
 #Align left
 
 <Draggable>

@@ -8,7 +8,7 @@ Syntax:	Gadget_GetIconList
 Veneer:	<gadget_get_icon_list=>gadget_get_icon_list>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object Id

@@ -1,7 +1,7 @@
-PrintDboxTemplate Data Type
+PrintDboxTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<printdbox.h=>print_class>
+Defined in:	<printdbox.h=>print_class>
 #Line
 #Wrap off
 Syntax:	
@@ -15,7 +15,9 @@ Syntax:
   int         scale;
   char        *further_options;
   char        *window;
+  int         last_page;
 } PrintDboxTemplate;
 {f}
 #indent
 #Wrap
+Note that the {/}last_page{/} field was introduced in PrintDbox 0.26 and it is optional (the module checks the body size stored in the <ObjectTemplateHeader>).

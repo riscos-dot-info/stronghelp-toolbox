@@ -2,21 +2,21 @@ scrolllist_delete_items
 #include Style
 #Background wimp 1
 #Parent scrolllist
-Header:	<ScrollList.H=>scrolllist>
+Header:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
 Syntax:	
 #indent 6
 {FCode}extern <_kernel_oserror> *scrolllist_delete_items
 (
-  unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
-  int           start_index,
-  int           end_index
+  unsigned int  <flags=>scrolllist_delete_items_flags>,
+  <ObjectId>      window, 
+  <ComponentId>   scrolllist,
+  unsigned int  start,
+  unsigned int  end
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	Function delets items from the specified ScrollList.  To delete item 'n' only, set start_index and end_index to 'n'.  To delete all items, set start_index to 0, and end_index to -1.
+Purpose:	Function deletes items from a scroll list between the specified {/}start{/} and {/}end{/} positions (inclusive). To delete all items, call with {/}start{/} == 0 and {/}end{/} == <UINT_MAX>. If {/}flags{/} bit 0 is set then a <ScrollList_Selection> event will be raised upon completion of this method; this will contain an item number of <UINT_MAX> and does not necessarily mean the selection has changed.

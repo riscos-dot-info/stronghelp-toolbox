@@ -1,0 +1,10 @@
+Text area special values
+#include Style
+#Background wimp 1
+#Wrap off
+Values:	0	Start of text
+	&FFFFFFFF	End of text
+
+Constants:
+	<TextArea_TextStart>
+	<TextArea_TextEnd>

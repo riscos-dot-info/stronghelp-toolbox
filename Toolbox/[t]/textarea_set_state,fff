@@ -2,7 +2,7 @@ textarea_set_state
 #include Style
 #Background wimp 1
 #Parent textarea
-Header:	<TextArea.H=>textarea>
+Header:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,12 +10,12 @@ Syntax:
 {FCode}extern <_kernel_oserror> *textarea_set_state
 (
   unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
+  <ObjectId>      window, 
+  <ComponentId>   textarea,
   unsigned int  <state=>textarea_flags>
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	Function sets the state of the specified TextArea gadget.
+Purpose:	Function updates the flags controlling a text area to the new value in {/}state{/}. This is distinct from the flags word accessible by method <gadget_set_flags>.

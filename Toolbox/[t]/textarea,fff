@@ -1,7 +1,7 @@
-TextArea Data Type
+TextArea data type
 #include Style
 #Background wimp 1
-Defined In:	<textarea.h=>textarea_gadget>
+Defined in:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	

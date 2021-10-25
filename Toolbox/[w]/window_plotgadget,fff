@@ -8,10 +8,10 @@ Syntax:	Window_PlotGadget
 Veneer:	glib_plot_gadget
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
-r1-> <Gadget decription=>GadGet>
+r1-> <Gadget decription=>Gadget>
 #indent
 
 On exit:
@@ -20,4 +20,4 @@ On exit:
 #indent
 #Wrap
 
-Purpose:	This SWI plots a gadget simular like <Wimp_PlotIcon=>Wimp:Wimp_PlotIcon>. (Maybe it may only be used from a Toolbox Module.)
+Purpose:	This SWI plots a gadget simular like <Wimp_PlotIcon=>Wimp:Wimp_PlotIcon>. (Maybe it may only be used from a Toolbox module.)

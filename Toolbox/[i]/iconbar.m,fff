@@ -1,34 +1,24 @@
-Iconbar Icon Class
+Iconbar module
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Iconbar Icon{/}
+{/}This module provides the Iconbar Icon class{/}
 
 #Align left
 #Wrap on
 Ref:	Page 145 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Iconbar SWI names=>iconbar_swi_listing>
 <Flags=>ibar_class_flags>
 
+{/}Iconbar Icon methods{/}
 #Table Columns 2
-<Iconbar_GetEvent>
-<Iconbar_GetHelpMessage>
-<Iconbar_GetIconHandle>
-<Iconbar_GetMenu>
-<Iconbar_GetShow>
-<Iconbar_GetSprite>
-<Iconbar_GetText>
-<Iconbar_SetEvent>
-<Iconbar_SetHelpMessage>
-<Iconbar_SetMenu>
-<Iconbar_SetShow>
-<Iconbar_SetSprite>
-<Iconbar_SetText>
+#include iconbar_methods
 #EndTable
 
-{/}Iconbar Icon Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Iconbar Icon events{/}
 <Iconbar_AdjustAboutToBeShown>
 <Iconbar_Clicked>
 <Iconbar_SelectAboutToBeShown>

@@ -1,4 +1,4 @@
-OptionButton Flags
+OptionButton flags
 #include Style
 #Background wimp 1
 Gadget:	<OptionButton=>Optionbox>

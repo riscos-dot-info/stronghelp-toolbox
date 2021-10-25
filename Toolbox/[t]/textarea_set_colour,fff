@@ -2,16 +2,16 @@ textarea_set_colour
 #include Style
 #Background wimp 1
 #Parent textarea
-Header:	<TextArea.H=>textarea>
+Header:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	
 #indent 6
 {FCode}extern <_kernel_oserror> *textarea_set_colour
 (
-  unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
+  unsigned int  <flags=>textarea_set_colour_flags>,
+  <ObjectId>      window, 
+  <ComponentId>   textarea,
   unsigned int  foreground,
   unsigned int  background
 );
@@ -19,4 +19,4 @@ Syntax:
 {F}
 #indent
 #Wrap
-Purpose:	Function sets the colours to be used in the TextArea.  This is not Style-Guide compliant, and should only be used by Java ;-)
+Purpose:	Function sets the colours of a text area to those specified by {/}foreground{/} and {/}background{/}. These may be 24-bit palette entries (0xBBGGRR00) or, if {/}flags{/} bit 0 is set, Wimp colour numbers (0-15).

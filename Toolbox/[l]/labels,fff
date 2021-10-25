@@ -1,4 +1,4 @@
-Label Gadgets
+Label gadgets
 #Parent gadgets
 #include Style
 #Align centre
@@ -9,7 +9,7 @@ Label Gadgets
 Ref:	Page 366 of the {/}User Interface Toolbox{/} manual.
 #Wrap on
 #Line
-<Data Types=>labels_data_types>
+<Data types=>labels_data_types>
 <Flags=>labels_flags>
 
 Labels are used to provide descriptions of writable fields and display boxes in windows.  If the text has to be changed during execution, it is better to use <Buttons=>buttons>.

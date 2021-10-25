@@ -9,10 +9,10 @@ Adjuster Arrows
 Ref:	Page 347 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>adjusters_data_types>
+<Data types=>adjusters_data_types>
 <Flags=>adjusters_flags>
 
-{/}Adjuster Events{/}
+{/}Adjuster events{/}
 <Adjuster_Clicked=>adjuster_clicked>
 #Line
 Defined in <Gadgets.H=>gadgets>

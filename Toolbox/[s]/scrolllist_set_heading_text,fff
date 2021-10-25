@@ -1,0 +1,20 @@
+scrolllist_set_heading_text
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<scrolllist.h=>scrolllist_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_set_heading_text
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   scrolllist,
+  const char   *new_text
+);              
+{F}
+#indent
+#Wrap
+Purpose:	Function sets a heading to be displayed at the top of a scroll list that will remain visible even when the list is scrolled. The string pointed to by {/}new_text{/} may contain tab characters to separate columns and must be NUL terminated. A heading can be removed by calling with {/}new_text{/} == NULL. Requires <TextGadgets=>textgadgets/m> 0.29.

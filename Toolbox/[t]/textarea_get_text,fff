@@ -2,7 +2,7 @@ textarea_get_text
 #include Style
 #Background wimp 1
 #Parent textarea
-Header:	<TextArea.H=>textarea>
+Header:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,8 +10,8 @@ Syntax:
 {FCode}extern <_kernel_oserror> *textarea_get_text
 (
   unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
+  <ObjectId>      window, 
+  <ComponentId>   textarea,
   char         *buffer,
   int           buff_size,
   int          *nbytes
@@ -20,4 +20,4 @@ Syntax:
 {F}
 #indent
 #Wrap
-Purpose:	Function gets the contents of the specified TextArea gadget.
+Purpose:	Function copies all text displayed in a text area to a {/}buffer{/} provided by the client or, if {/}buffer{/} is NULL, writes the required buffer size to {/}nbytes{/}. The output string is NUL terminated and may contain line feeds.

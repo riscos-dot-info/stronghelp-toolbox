@@ -1,4 +1,4 @@
-Slider Gadget SWIs
+Slider gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,12 +8,10 @@ Ref:	Page 395 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>sliders_flags>
 
-<Slider_GetBounds>
-<Slider_GetColour>
-<Slider_GetValue>
-<Slider_SetBounds>
-<Slider_SetColour>
-<Slider_SetValue>
+{/}Slider methods{/}
+#include slider_methods
 
-{/}Slider Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Slider events{/}
 <Slider_ValueChanged>

@@ -2,7 +2,7 @@ scrolllist_set_font
 #include Style
 #Background wimp 1
 #Parent scrolllist
-Header:	<ScrollList.H=>scrolllist>
+Header:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,9 +10,9 @@ Syntax:
 {FCode}extern <_kernel_oserror> *scrolllist_set_font
 (
   unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
-  const char   *font,
+  <ObjectId>      window, 
+  <ComponentId>   scrolllist,
+  const char   *font_name,
   unsigned int  width,
   unsigned int  height
 );
@@ -20,4 +20,4 @@ Syntax:
 {F}
 #indent
 #Wrap
-Purpose:	Function will set the outline font for the specified ScrollList.  Not Style-Guide compliant, for use with Java only ;-)
+Purpose:	Function sets the font and text size to be used in a scroll list. {/}font_name{/} must be a valid font identifier or NULL to use the current desktop font. The {/}width{/} and {/}height{/} values are in 1/16ths of a point; they are ignored if {/}font_name{/} is NULL.

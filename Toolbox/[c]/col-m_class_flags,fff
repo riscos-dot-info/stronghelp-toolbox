@@ -1,4 +1,4 @@
-Colour Menu Class Flags
+Colour Menu class flags
 #include Style
 #Parent col-m_class
 #Background wimp 1

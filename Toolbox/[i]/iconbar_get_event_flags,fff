@@ -1,4 +1,4 @@
-iconbar_get_event Flags
+iconbar_get_event flags
 #include Style
 #Background wimp 1
 Command:	<iconbar_get_event>

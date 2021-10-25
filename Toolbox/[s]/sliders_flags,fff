@@ -1,4 +1,4 @@
-Sliders Flags
+Sliders flags
 #include Style
 #Background wimp 1
 Gadget:	<Sliders=>sliders>

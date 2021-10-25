@@ -8,7 +8,7 @@ Syntax:	Window_GetMenu
 Veneer:	<window_get_menu=>window_get_menu>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object ID

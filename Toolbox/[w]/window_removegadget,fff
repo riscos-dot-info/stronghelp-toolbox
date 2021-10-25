@@ -8,7 +8,7 @@ Syntax:	Window_RemoveGadget
 Veneer:	<window_remove_gadget=>window_remove_gadget>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object ID
@@ -16,7 +16,7 @@ r2 = 2
 r3 = component ID
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved.
 {f}

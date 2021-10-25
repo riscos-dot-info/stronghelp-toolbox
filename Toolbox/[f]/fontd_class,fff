@@ -1,15 +1,15 @@
-Font Dialogue Class
+Font Dialogue class
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Font Dialogues{/}
+{/}A Font Dialogue object allows the user to set the font, weight, style, size and aspect ratio of some text.{/}
 
 #Align left
 #Wrap on
 Ref:	Page 119 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>fontd_class_data_types>
+<Data types=>fontd_class_data_types>
 <Flags=>fontd_class_flags>
 
 #Table Columns 2
@@ -24,9 +24,9 @@ Ref:	Page 119 of the {/}User Interface Toolbox{/} manual.
 <fontdbox_set_try_string>
 #EndTable
 
-{/}Font Menu Events{/}
+{/}Font Menu events{/}
 <FontDbox_AboutToBeShown>
 <FontDbox_ApplyFont>
 <FontDbox_DialogueCompleted>
 #Line
-Defined in FontDbox.H
+Defined in "fontdbox.h"

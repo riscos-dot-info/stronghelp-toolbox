@@ -1,4 +1,4 @@
-NumberRange Flags
+NumberRange flags
 #include Style
 #Background wimp 1
 Gadget:	<NumberRange=>numberrang>

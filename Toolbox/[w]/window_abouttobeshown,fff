@@ -23,4 +23,4 @@ Struct:
 {F}
 #indent
 #Wrap
-Purpose:	This event is raised by the Toolbox when <toolbox_show_object> is called on a window which has the 'Deliver Event Before Showing' attribute set in <!ResEd=>resed>.
+Purpose:	This event is raised by the Toolbox when <toolbox_show_object> is called on a window which has the 'Deliver event before showing' attribute set in <!ResEd=>resed>.

@@ -1,7 +1,7 @@
-QuitTemplate Data Type
+QuitTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<guit.h=>quit_class>
+Defined in:	<guit.h=>quit_class>
 #Line
 #Wrap off
 Syntax:	

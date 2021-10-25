@@ -1,15 +1,15 @@
-Colour Menu Class
+Colour Menu class
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Colour Menus{/}
+{/}A Colour Menu object is a menu which allows the user to select one of the standard 16 desktop colours (or an optional 'None' menu entry).{/}
 
 #Align left
 #Wrap on
 Ref:	Page 79 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>col-m_class_data_types>
+<Data types=>col-m_class_data_types>
 <Flags=>col-m_class_flags>
 
 <colourmenu_get_colour>
@@ -19,9 +19,9 @@ Ref:	Page 79 of the {/}User Interface Toolbox{/} manual.
 <colourmenu_set_none_available>
 <colourmenu_set_title>
 
-{/}Colour Dialogue Events{/}
+{/}Colour Dialogue events{/}
 <ColourMenu_AboutToBeShown>
 <ColourMenu_HasBeenHidden>
 <ColourMenu_Selection>
 #Line
-Defined in ColourMenu.H
+Defined in "colourmenu.h"

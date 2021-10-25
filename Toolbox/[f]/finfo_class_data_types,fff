@@ -1,9 +1,9 @@
-FileInfo Data Types
+FileInfo data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}FileInfo Data Types{/}
+{/}FileInfo data types{/}
 #Align left
 
 <FileInfoTemplate>

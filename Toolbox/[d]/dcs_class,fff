@@ -1,15 +1,15 @@
-Discard/Cancel/Save Class
+Discard/Cancel/Save class
 #Parent !Root
 #include Style
 #Align centre
 #Wrap on
-{/}These functions allow manipulation of DCS Objects{/}
+{/}These functions allow manipulation of DCS objects{/}
 
 #Align left
 Ref:	Page 89 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>dcs_class_data_types>
+<Data types=>dcs_class_data_types>
 <Flags=>dcs_class_flags>
 
 <dcs_get_message>
@@ -18,7 +18,7 @@ Ref:	Page 89 of the {/}User Interface Toolbox{/} manual.
 <dcs_set_message>
 <dcs_set_title>
 
-{/}DCS Dialogue Events{/}
+{/}DCS Dialogue events{/}
 <DCS_AboutToBeShown>
 <DCS_Cancel>
 <DCS_DialogueCompleted>

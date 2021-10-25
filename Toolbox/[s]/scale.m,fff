@@ -1,28 +1,24 @@
-Scale Dialogue Class
+Scale module
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Scale Dialogues{/}
+{/}This module provides the Scale Dialogue class{/}
 
 #Align left
 #Wrap on
 Ref:	Page 271 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Scale SWI Names=>scale_swi_listing>
 <Flags=>scale_class_flags>
 
+{/}Scale Dialogue methods{/}
 #Table Columns 2
-<Scale_GetBounds>
-<Scale_GetTitle>
-<Scale_GetValue>
-<Scale_GetWindowID>
-<Scale_SetBounds>
-<Scale_SetTitle>
-<Scale_SetValue>
+#Include scale_methods
 #EndTable
 
-{/}Scale Dialogue Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Scale Dialogue events{/}
 <Scale_AboutToBeShown>
 <Scale_ApplyFactor>
 <Scale_DialogueCompleted>

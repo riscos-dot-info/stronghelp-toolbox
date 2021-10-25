@@ -1,6 +1,6 @@
 PrintDbox_SelectSideways
 #Wrap Off
-Defined in:	<gadget.h=>gadgets>
+Defined in:	<printdbox.h=>print_class>
 #Line
 Syntax:
 #Indent 6

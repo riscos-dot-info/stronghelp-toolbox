@@ -1,0 +1,25 @@
+TextArea_GetWindowId
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<textarea_get_window_id>
+Syntax:	TextArea_GetWindowId
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x4018 + 15 (16423)
+r3 = gadget component Id
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = sub-window object id
+{f}
+#indent
+#Wrap
+Purpose:	Method returns in R0 the object id of the <Window=>window/m> used to implement a text area (requires TextGadgets 0.77).

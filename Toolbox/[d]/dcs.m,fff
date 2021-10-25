@@ -1,28 +1,43 @@
-Discard/Cancel/Save Class
+DCS module
 #Parent !Root
 #include Style
 #Align centre
 #Wrap On
-{/}These functions allow manipulation of DCS Objects{/}
+{/}This module provides the DCS Dialogue and Quit Dialogue classes{/}
 
 #Align left
-Ref:	Page 89 of the {/}User Interface Toolbox{/} manual.
+Ref:	Pages 89 and 233 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<DCS SWI Names=>dcs_swi_listing>
-<Flags=>dcs_class_flags>
+<DCS Dialogue flags=>dcs_class_flags>
 
+{/}DCS Dialogue methods{/}
 #Table Columns 2
-<DCS_GetMessage>
-<DCS_GetTitle>
-<DCS_GetWindowID>
-<DCS_SetMessage>
-<DCS_SetTitle>
+#include dcs_methods
 #EndTable
 
-{/}DCS Dialogue Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}DCS Dialogue events{/}
+#Table Columns 2
 <DCS_AboutToBeShown>
 <DCS_Cancel>
 <DCS_DialogueCompleted>
 <DCS_Discard>
 <DCS_Save>
+#EndTable
+#Line
+<Quit Dialogue flags=>quit_class_flags>
+
+{/}Quit Dialogue methods{/}
+#Table Columns 2
+#include quit_methods
+#EndTable
+
+{/}Quit Dialogue events{/}
+#Table Columns 2
+<Quit_AboutToBeShown>
+<Quit_Cancel>
+<Quit_DialogueCompleted>
+<Quit_Quit>
+#EndTable

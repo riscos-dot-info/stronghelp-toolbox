@@ -1,9 +1,9 @@
-Window Class Data Types
+Window class data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Window Data Types{/}
+{/}Window data types{/}
 #Align left
 
 <Gadget>

@@ -1,0 +1,15 @@
+16408 - <TextArea_GetState>
+16409 - <TextArea_SetState>
+16410 - <TextArea_SetText>
+16411 - <TextArea_GetText>
+16412 - <TextArea_InsertText>
+16413 - <TextArea_ReplaceText>
+16414 - <TextArea_GetSelection>
+16415 - <TextArea_SetSelection>
+16416 - <TextArea_SetFont>
+16417 - <TextArea_SetColour>
+16418 - <TextArea_GetColour>
+16419 - <TextArea_SetCursorPosition>
+16420 - <TextArea_GetCursorPosition>
+16421 - <TextArea_SetBackground>
+16423 - <TextArea_GetWindowId>

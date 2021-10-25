@@ -1,0 +1,20 @@
+scrolllist_count_items flags
+#include Style
+#Background wimp 1
+C veneer:	<scrolllist_count_items>
+SWI:		<ScrollList_CountItems>
+
+#Line
+#Wrap off
+Bits:	0-7	- Type of information requested (value 0-255):
+	 	 	0 - number of rows.
+	 	 	1 - number of columns (not yet implemented).
+	 	 	2 - width necessary to make all columns visible (TextGadgets 0.55).
+	 	 	3 - height necessary to make all rows visible (TextGadgets 0.55).
+
+Constants:
+	<ScrollList_CountItems_TypeMask>
+	 	<ScrollList_CountItems_Rows>
+	 	<ScrollList_CountItems_Columns>
+	 	<ScrollList_CountItems_FullWidth>
+	 	<ScrollList_CountItems_FullHeight>

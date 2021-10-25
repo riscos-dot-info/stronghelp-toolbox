@@ -8,7 +8,7 @@ Syntax:	ScrollList_GetState
 Veneer:	<scrolllist_get_state>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = SaveAs object ID
@@ -24,4 +24,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method gets the filename in the SaveAs Object.
+Purpose:		Method gets the filename in the SaveAs object.

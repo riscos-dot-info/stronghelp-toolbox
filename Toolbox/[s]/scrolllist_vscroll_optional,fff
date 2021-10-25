@@ -1,0 +1,10 @@
+ScrollList_VScroll_Optional
+#Wrap Off
+Defined in:	<scrolllist.h=>scrolllist_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ScrollList_VScroll_Optional (0<<3)
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,7 @@
+384 - <RadioButton_SetLabel>
+385 - <RadioButton_GetLabel>
+386 - <RadioButton_SetEvent>
+387 - <RadioButton_GetEvent>
+388 - <RadioButton_SetState>
+389 - <RadioButton_GetState>
+390 - <RadioButton_SetFont>

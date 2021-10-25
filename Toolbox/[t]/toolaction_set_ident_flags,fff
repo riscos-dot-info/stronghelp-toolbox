@@ -2,7 +2,7 @@ toolaction_set_ident_flags
 #Parent toolaction
 #include Style
 #Background wimp 1
-Defined In:	<ToolAction>
+Defined in:	<ToolAction>
 #Line
 #Wrap off
 Syntax:	

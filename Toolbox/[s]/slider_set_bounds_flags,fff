@@ -1,4 +1,4 @@
-slider_set_bounds Flags
+slider_set_bounds flags
 #include Style
 #Background wimp 1
 Command:	<slider_set_bounds=>slider_set_bounds>

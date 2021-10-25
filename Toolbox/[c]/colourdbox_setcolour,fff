@@ -8,10 +8,11 @@ Syntax:	ColourDbox_SetColour
 Veneer:	<colourdbox_set_colour>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
-     bit 0: select None option.
+     bit 0: select 'None' option.
+     bit 1: deselect 'None' option.
 r1 = ColourDbox object ID
 r2 = 2
 r3 = pointer to colour block

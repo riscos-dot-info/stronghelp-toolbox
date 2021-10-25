@@ -9,7 +9,7 @@ Writable Icons
 Ref:	Page 411 of the {/}User Interface Toolbox{/} manual.
 #Wrap Off
 #Line
-<Data Types=>writables_data_types>
+<Data types=>writables_data_types>
 <Flags=>writables_flags>
 
 <writablefield_get_value>
@@ -17,7 +17,7 @@ Ref:	Page 411 of the {/}User Interface Toolbox{/} manual.
 <writablefield_set_font>
 <writablefield_set_value>
 
-{/}WritableField Events{/}
+{/}WritableField events{/}
 <WritableField_ValueChanged>
 #Line
 Defined in <Gadgets.H=>gadgets>

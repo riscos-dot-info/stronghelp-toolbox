@@ -1,0 +1,13 @@
+UINT_MAX
+#Include Style
+#Background wimp 1
+Defined in:	<limits.h=>C-Version5:limits/h>
+#Line
+#Wrap Off
+Syntax:	
+#indent 6
+{FCode}#define UINT_MAX  0xffffffff
+{F}
+#Indent
+#Wrap
+Purpose:	Maximum value for an object of type unsigned int.

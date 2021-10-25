@@ -1,4 +1,4 @@
-stringset_get_components Flags
+stringset_get_components flags
 #include Style
 #Background wimp 1
 Command:	<stringset_get_components=>stringset_get_components>

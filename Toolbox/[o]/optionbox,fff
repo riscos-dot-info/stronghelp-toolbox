@@ -9,7 +9,7 @@ Option Buttons
 Ref:	Page 376 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>optionbox_data_types>
+<Data types=>optionbox_data_types>
 <Flags=>optionbox_flags>
 
 <optionbutton_get_event>
@@ -20,7 +20,7 @@ Ref:	Page 376 of the {/}User Interface Toolbox{/} manual.
 <optionbutton_set_label>
 <optionbutton_set_state>
 
-{/}OptionButton Events{/}
+{/}OptionButton events{/}
 <OptionButton_StateChanged>
 #Line
 Defined in <Gadgets.H=>gadgets>

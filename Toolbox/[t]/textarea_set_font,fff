@@ -2,7 +2,7 @@ textarea_set_font
 #include Style
 #Background wimp 1
 #Parent textarea
-Header:	<TextArea.H=>textarea>
+Header:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,9 +10,9 @@ Syntax:
 {FCode}extern <_kernel_oserror> *textarea_set_font
 (
   unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
-  const char   *font,
+  <ObjectId>      window, 
+  <ComponentId>   textarea,
+  const char   *font_name,
   unsigned int  width,
   unsigned int  height
 );
@@ -20,8 +20,4 @@ Syntax:
 {F}
 #indent
 #Wrap
-Purpose:	Function set the outline font to be used in the TextArea.  The following constants are defined:
-{FCode}TextArea_DefaultFont   "Corpus.Medium"
-TextArea_DefaultHeight (12 * 16)
-TextArea_DefaultWidth  (12 * 16)
-{F}
+Purpose:	Function sets the font and text size to be used in a text area. {/}font_name{/} must be a valid font identifier or NULL to use the system font (latter requires <TextGadgets=>textgadgets/m> 0.47). The {/}width{/} and {/}height{/} values are in 1/16ths of a point; they are ignored if {/}font_name{/} is NULL.

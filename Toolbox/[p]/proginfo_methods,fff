@@ -1,0 +1,11 @@
+00 - <ProgInfo_GetWindowID>
+01 - <ProgInfo_SetVersion>
+02 - <ProgInfo_GetVersion>
+03 - <ProgInfo_SetLicenceType>
+04 - <ProgInfo_GetLicenceType>
+05 - <ProgInfo_SetTitle>
+06 - <ProgInfo_GetTitle>
+07 - <ProgInfo_SetUri>
+08 - <ProgInfo_GetUri>
+09 - <ProgInfo_SetWebEvent>
+10 - <ProgInfo_GetWebEvent>

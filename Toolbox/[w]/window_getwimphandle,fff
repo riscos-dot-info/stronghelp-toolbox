@@ -8,14 +8,14 @@ Syntax:	Window_GetWimpHandle
 Veneer:	<window_get_wimp_handle=>window_get_wimp_handle>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object ID
 r2 = 0
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r0 = wimp window handle for this window.
 {f}

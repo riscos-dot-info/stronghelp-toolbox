@@ -1,22 +1,22 @@
 ScrollList_AddItem
 #include Style
 #Background wimp 1
-Module:	<Window=>window/m>
+Module:	<TextGadgets=>textgadgets/m>
 #Line
 #Wrap off
 Veneer:	<scrolllist_add_item>
 Syntax:	ScrollList_AddItem
 #indent
 
-On Entry:
+On entry:
 #indent 6
-{FCode}r0 = flags
+{FCode}r0 = <flags=>scrolllist_add_item_flags>
 r1 = window object Id
 r2 = 0x401a + 2 (16412)
 r3 = gadget component Id
 r4 = text
-r5 = sprite area
-r6 = sprite name
+r5 = pointer to sprite area
+r6 = pointer to sprite or sprite name
 r7 = index
 {f}
 #indent
@@ -26,4 +26,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:	Method adds an item to the scrolllist.
+Purpose:	Method adds a new item to a scroll list at the position specified by R7. The item text in the buffer at R4 must be zero terminated and since TextGadgets 0.26 may contain tab characters as field separators for a columned display. The interpretation of R5 and R6 is dependent on the flags in R0, and may be unreliable prior to version 0.30.

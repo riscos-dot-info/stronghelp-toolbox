@@ -1,0 +1,25 @@
+scrolllist_get_font
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<scrolllist.h=>scrolllist_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_get_font
+(
+  unsigned int   flags,
+  <ObjectId>       window,
+  <ComponentId>    scrolllist,
+  char          *buffer,
+  int            size,
+  unsigned int  *width,
+  unsigned int  *height,
+  int           *nbytes
+);
+{F}
+#indent
+#Wrap
+Purpose:	Function copies the identifier of the font used in a scroll list to a {/}buffer{/} provided by the client or, if {/}buffer{/} is NULL, writes the required buffer size to {/}nbytes{/}. The font width and height in 1/16ths of a point will be written to {/}width{/} and {/}height{/} unless no buffer was supplied. Requires <TextGadgets=>textgadgets/m> 0.45.
+	Current versions of TextGadgets (up to 0.92) ignore the buffer length passed in R5, which means a too-short buffer may be overrun.

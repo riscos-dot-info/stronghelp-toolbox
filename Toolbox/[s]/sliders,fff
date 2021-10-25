@@ -9,7 +9,7 @@ Sliders
 Ref:	Page 395 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>sliders_data_types>
+<Data types=>sliders_data_types>
 <Flags=>sliders_flags>
 
 <slider_set_value>
@@ -19,7 +19,7 @@ Ref:	Page 395 of the {/}User Interface Toolbox{/} manual.
 <slider_set_colour>
 <slider_get_colour>
 
-{/}Slider Events{/}
+{/}Slider events{/}
 <Slider_ValueChanged>
 #Line
 Defined in <Gadgets.H=>gadgets>

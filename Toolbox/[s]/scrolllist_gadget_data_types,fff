@@ -1,9 +1,9 @@
-ScrollList Data Types
+Scroll list data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}ScrollList Data Types{/}
+{/}Scroll list data types{/}
 #Align left
 
 <ScrollList>

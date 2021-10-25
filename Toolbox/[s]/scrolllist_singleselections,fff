@@ -1,6 +1,6 @@
 ScrollList_SingleSelections
 #Wrap Off
-Defined in:	<gadget.h=>gadgets>
+Defined in:	<scrolllist.h=>scrolllist_gadget>
 #Line
 Syntax:
 #Indent 6

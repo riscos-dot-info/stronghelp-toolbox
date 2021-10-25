@@ -8,7 +8,7 @@ Veneer:	<slider_set_bounds>
 Syntax:	Slider_SetBounds
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      bit 0 - set lower bound

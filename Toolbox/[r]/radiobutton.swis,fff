@@ -1,4 +1,4 @@
-RadioButton Gadget SWIs
+Radio button gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,13 +8,10 @@ Ref:	Page 387 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>radio_flags>
 
-<RadioButton_GetEvent>
-<RadioButton_GetLabel>
-<RadioButton_GetState>
-<RadioButton_SetEvent>
-<RadioButton_SetFont>
-<RadioButton_SetLabel>
-<RadioButton_SetState>
+{/}Radio button methods{/}
+#include radiobutton_methods
 
-{/}RadioButton Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Radio button events{/}
 <RadioButton_StateChanged>

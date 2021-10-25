@@ -8,13 +8,13 @@ Syntax:	Toolbox_LoadResources
 Veneer:	<toolbox_load_resources>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = pointer to resource filename
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved.
 {f}

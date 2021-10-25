@@ -1,7 +1,7 @@
-Window Class Flags
+Window class flags
 #include Style
 #Background wimp 1
-Class:	<Window Class=>window_class>
+Class:	<Window class=>window_class>
 #Line
 #Wrap off
 Bits:	0	- Set means generate a <Window_AboutToBeShown=>window_abouttobeshown> before showing window.

@@ -1,9 +1,9 @@
-Print Dialogue Data Types
+Print Dialogue data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Print Dialogue Data Types{/}
+{/}Print Dialogue data types{/}
 #Align left
 
 <PrintDboxTemplate>

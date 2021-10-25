@@ -1,0 +1,5 @@
+00 - <Quit_GetWindowID>
+01 - <Quit_SetMessage>
+02 - <Quit_GetMessage>
+03 - <Quit_SetTitle>
+04 - <Quit_GetTitle>

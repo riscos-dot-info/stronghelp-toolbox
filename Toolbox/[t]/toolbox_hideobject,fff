@@ -8,13 +8,13 @@ Syntax:	Toolbox_HideObject
 Veneer:	<toolbox_hide_object>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = object Id
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved.
 {f}

@@ -8,7 +8,7 @@ Syntax:	Window_GetHelpMessage
 Veneer:	<window_get_help_message=>window_get_help_message>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object ID

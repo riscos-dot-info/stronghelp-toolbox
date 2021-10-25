@@ -1,0 +1,24 @@
+PrintDbox_GetPageLimit
+#include Style
+#Background wimp 1
+Module:	<PrintDbox=>printdbox/m>
+#Line
+#Wrap off
+Syntax:	PrintDbox_GetPageLimit
+Veneer:	<printdbox_get_page_limit>
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = flags
+r1 = PrintDbox object ID
+r2 = 13
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = number of pages in document
+{f}
+#indent
+#Wrap
+Purpose:		Method returns in R0 the largest page number that is valid for a Print Dialogue. An error will be returned if an alternative window template is in use and components 5 & 6 are writable fields. Requires PrintDbox 0.26.

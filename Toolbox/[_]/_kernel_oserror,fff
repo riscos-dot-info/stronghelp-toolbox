@@ -1,7 +1,7 @@
 _kernel_oserror
 #include Style
 #Background wimp 1
-Defined In:	<kernel.h=>C:kernel>
+Defined in:	<kernel.h=>C-Version5:kernel>
 #Line
 
 Syntax:	
@@ -13,4 +13,4 @@ Syntax:
 
 {F}
 #indent
-Purpose:	Structure holds a standard RiscOS error block.
+Purpose:	Structure holds a standard RISC OS error block.

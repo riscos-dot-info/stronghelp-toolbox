@@ -8,7 +8,7 @@ Syntax:	Window_SetToolBars
 Veneer:	<window_set_tool_bars=>window_set_tool_bars>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = mask:
      bit 0 - set internal bl toolbar

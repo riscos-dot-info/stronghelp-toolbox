@@ -8,7 +8,7 @@ Syntax:	SaveAs_SetFileType
 Veneer:	<saveas_set_file_type>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = SaveAs object ID
@@ -22,4 +22,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method sets the filetype in the SaveAs Object.
+Purpose:		Method sets the filetype in the SaveAs object.

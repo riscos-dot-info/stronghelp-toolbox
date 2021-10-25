@@ -1,7 +1,7 @@
-IconBarTemplate Data Type
+IconBarTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<iconbar.h=>ibar_class>
+Defined in:	<iconbar.h=>ibar_class>
 #Line
 #Wrap off
 Syntax:	

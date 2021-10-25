@@ -1,32 +1,24 @@
-ProgInfo Class
+ProgInfo module
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the ProgInfo Window{/}
+{/}This module provides the Prog Info class{/}
 
 #Align left
 #Wrap on
 Ref:	Page 221 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<ProgInfo SWI Names=>proginfo_swi_listing>
 <Flags=>proginfo_class_flags>
 
+{/}Prog Info methods{/}
 #Table Columns 2
-<ProgInfo_GetLicenceType>
-<ProgInfo_GetTitle>
-<ProgInfo_GetUri>
-<ProgInfo_GetVersion>
-<ProgInfo_GetWebEvent>
-<ProgInfo_GetWindowID>
-<ProgInfo_SetLicenceType>
-<ProgInfo_SetTitle>
-<ProgInfo_SetUri>
-<ProgInfo_SetVersion>
-<ProgInfo_SetWebEvent>
+#include proginfo_methods
 #EndTable
 
-{/}ProgramInfo Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Prog Info events{/}
 <ProgInfo_AboutToBeShown>
 <ProgInfo_DialogueCompleted>
 <ProgInfo_LaunchWebPage>

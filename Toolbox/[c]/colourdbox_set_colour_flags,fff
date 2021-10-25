@@ -1,7 +1,8 @@
-colourdbox_set_colour Flags
+colourdbox_set_colour flags
 #include Style
 #Background wimp 1
 Command:	<colourdbox_set_colour>
 #Line
 #Wrap off
-Bits:	0	- Set means select the None option. (when bit 1 set)
+Bits:	0	- Set means select the 'None' option.
+	1	- Set means deselect the 'None' option.

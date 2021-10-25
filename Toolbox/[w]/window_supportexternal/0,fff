@@ -8,7 +8,7 @@ Syntax:
 Veneer:	glib_create_icon 
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r1 = 0 (CreateIcon)
 r2-> <Icon block=>Wimp:wimp_iconblock>

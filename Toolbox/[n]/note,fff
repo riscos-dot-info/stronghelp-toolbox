@@ -1,4 +1,4 @@
-A Note On This Manual
+A note on this manual
 #Parent !Root
 #include Style
 #Draw 10, 0 Acorn
@@ -25,12 +25,125 @@ For comments, suggestions and submissions for these, please mail Christian Ludla
         è Paul Corke of {/}I.M.S.{/}.
         è Gerph.
 #Line
-{*}History:{*}
-        è Versions after 0.19 document the Nested WIMP.
-        è Versions after 0.19 document the ScrollList, TextArea & ToolAction gadgets.
-        è Versions after 1.00 document SWIs as well as C Veneers.
-        è Versions after 1.15 document C Constants for Wimp Messages.
-#Align Centre
-#Line
-{*}© Neil Bingham 1996, 97{*}.
+<This page=>.hist130> gives the manual history.
+# Align Centre
+# Line
+# {*}© Neil Bingham 1996, 97{*}.
 #Align Left
+#subpage hist130
+History for Toolbox v1.30
+Many updates and corrections by Christopher Bazley:
+
+{fh4}Content changes{f}
+
+ è	Added information on extra field in Print Dialogue object template (since PrintDbox 0.26) to page about structure PrintDboxTemplate.
+
+ è	Corrected erroneous references to "gadget.h" header in pages on various #defined PrintDbox_... constants (actually defined in "printdbox.h").
+
+ è	Added information on flags bit 13 in Print Dialogue object template (new in PrintDbox 0.26) and associated C constant PrintDbox_AltWinNumberRange. Rewrote descriptions of other flags.
+
+ è	Added documentation on new methods PrintDbox_SetPageLimit and PrintDbox_GetPageLimit, along with associated C veneer functions.
+
+ è	Updated misleading links to 'Quit' module from pages on methods Quit_GetWindowID, Quit_GetMessage, Quit_GetTitle, Quit_SetMessage and Quit_SetTitle (no such module).
+
+ è	Added information on flags bit 5 in SaveAs Dialogue object template (new in SaveAs 0.28) and associated C constant SaveAs_AllowMultipleSaves. Rewrote descriptions of other flags.
+
+ è	Added information on extra fields in ScrollList_Selection event data (new in TextGadgets 0.78), to pages describing this event and the structure ScrollListSelectionEvent.
+
+ è	Added information on flags bits 2-3 in ScrollList_Selection event data and created pages for all C constants associated with this event.
+
+ è	Rewrote all existing documentation on methods for scroll list and text area gadgets. Has hopefully increased in usefulness as well as verbosity. Some was complete nonsense, e.g. stated purpose of veneer function scrolllist_add_item().
+
+ è	Added information on flags bits 2-7 for use with method ScrollList_AddItem, and created new pages for each of the associated C constants.
+
+ è	Added information on flags for use with methods ScrollList_DeleteItems, ScrollList_SetColour, ScrollList_GetColour, ScrollList_SelectItem and ScrollList_DeselectItem. Created pages for associated C constants.
+
+ è	Added documentation on methods ScrollList_CountItems (including flags), ScrollList_DecodePosition, ScrollList_SetItemText, ScrollList_SetHeadingText, ScrollList_GetHeadingText, ScrollList_GetFont and ScrollList_SetColumnProperties (including flags).
+
+ è	Added information on flags bits 1-6 of scroll list gadget state and created pages for associated C constants.
+
+ è	Corrected registers in which values are returned by method ScrollList_GetColour (had claimed R4,R5 - actually R0,R1).
+
+ è	Corrected description of register usage for method ScrollList_SetFont; R4 is a not a font handle, it points to a font identifier.
+
+ è	Clarified that the flags word accessible by methods ScrollList_SetState, ScrollList_GetState, TextArea_SetState and TextArea_GetState should be treated as completely separate from that accessible by generic methods Gadget_GetFlags and Gadget_SetFlags.
+
+ è	Added documentation on method StringSet_SetFont.
+
+ è	Added information on flags bits 3-15 of text area gadget state and created pages for associated C constants.
+
+ è	Added documentation on methods TextArea_GetWindowID and TextArea_SetBackground (including flags). Removed documentation on method TextArea_SetTextBorder (no longer exists, if it ever did).
+
+ è	Corrected and expanded documentation on methods TextArea_GetCursorPosition and TextArea_SetCursorPosition, for which only the C veneers were documented (and wrongly - as two functions both named 'textarea_cursor_position')
+
+ è	Added documentation on event TextArea_DataLoaded and associated C data structure TextAreaDataLoadedEvent.
+
+ è	Corrected module names on the 'Toolbox modules' index page; 'ColourPicker' exists but isn't a Toolbox module (should be 'ColourDbox'), and there is no module named 'Print' (should be 'PrintDbox') or 'Quit' (class is implemented by 'DCS' module).
+
+ è	Created pages to describe the modules 'ToolAction' and 'TextGadgets'. These new pages are now linked to from the main 'Toolbox modules' page and given equal precedence to the modules that implement object classes.
+
+ è	Various pages for scroll list, text area and tool action gadget methods (in the non-C half of the manual) were claiming untruthfully 'Module: Window'. Changed these to link instead to the page on the module that implements the gadget (either 'TextGadgets' or 'ToolAction').
+
+ è	Completely reorganised the page on the Window module to make clear the distinction between SWIs and methods; previously these were all lumped together which was very confusing since they share similar naming rules.
+
+ è	Added UIT paper manual references to the pages on Window and Toolbox modules, for consistency with others.
+
+ è	Added documentation on constant value 'UINT_MAX' (for use with C veneers for text area and scroll list gadgets).
+
+
+
+{fh4}Presentation changes{f}
+
+ è	Changed 'SWIs' link on front page to 'Modules' because that is what it lists, with a couple of exceptions.
+
+ è	Corrected references to 'Action Boxes' instead of 'Action button'
+
+ è	Amended page titles for individual gadget types in non-C half of manual, e.g. 'ActionButton Gadget SWIs' was misleading because it implies that the page lists SWIs rather than methods, whereas 'Action button gadget' is neutral.
+
+ è	Added note to all pages that list method names for an object class or gadget type, to say these are accessible via SWI Toolbox_ObjectMiscOp and are not SWIs in their own right (as had been implied).
+
+ è	Excised the individual lists of method names from pages on each object class and gadget type, since they duplicated others elsewhere and were a maintenance headache (many inconsistencies). Any page requiring a list of method names for an object class or gadget type now simply #includes the relevant listing.
+
+ è	A side effect of the above change is that all pages that list methods now include the method numbers too.
+
+ è	Added missing 'Adjuster events' heading to page adjuster/swis.
+
+ è	Corrected many of the C ToolboxLib header filenames quoted to lower case (e.g. now "colourdbox.h" rather than "ColourDbox.H".
+
+ è	Deleted all the so-called '...SWI listing' pages that were linked to from the non-C page on each object class. These duplicated existing information and were misleading because they listed not SWIs but methods.
+
+ è	Added information about the effect of flags bit 1 on method ColourDbox_SetColour.
+
+ è	Corrected erroneous heading 'Colour Dialogue Events' in page on ColourMenu module.
+
+ è	Corrected inappropriate link to 'Quit' module from page on method DCS_GetWindowID (should be 'DCS', obviously).
+
+ è	Amalgamated the non-C pages for the DCS and Quit classes, since these are both provided by the 'DCS' module. Previously there was a wealth of misinformation in the manual suggesting the existence of a 'Quit' module.
+
+ è	Renamed the non-C pages on object classes according to module names (e.g. 'PrintDbox module' instead of 'Print Dialogue Class'). This makes sense since you reach them by following links from an index page headed 'Toolbox Modules' or via a 'Module:' link from the individual method pages.
+
+ è	Substituted useful information on what object class/gadget types each module provides instead of banal 'These functions allow manipulation of the XXX' headings.
+
+ è	Corrected size of 'font' member of the FontDboxApplyFontEvent structure (was supposedly 208, yet this exceeds the 256 byte limit on size of Toolbox event data.)
+
+ è	Renamed page entitled 'Window Module Gadgets' (a list of gadget types for non-C half of manual) as 'Gadget types'. Various gadgets listed are not provided by the Window module; there is now a separate list of those that are on the page for that module.
+
+ è	Bit 0 of menu entry flags means entry is ticked, not 'ticket'!
+
+ è	Fixed links to 'C Version 5' manual from pages on C types _kernel_oserror and _kernel_swi_regs.
+
+ è	General effort to reduce the OverZealous Use Of Capital Letters in the ToolBox Manual (one of my pet hates).
+
+
+#line
+<Previous history=>.hist115>
+#subpage hist115
+History for older versions
+#wrap off
+ è Versions after 0.19 document the Nested WIMP.
+ è Versions after 0.19 document the ScrollList, TextArea & ToolAction gadgets.
+ è Versions after 1.00 document SWIs as well as C veneers.
+ è Versions after 1.15 document C Constants for Wimp messages.
+
+#line
+<Next history=>.hist122>

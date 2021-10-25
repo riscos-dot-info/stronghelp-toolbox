@@ -1,10 +1,10 @@
-Menu Class Flags
+Menu class flags
 #include Style
 #Background wimp 1
-Gadget:	<Menu Class=>menu_class>
+Gadget:	<Menu class=>menu_class>
 #Line
 #Wrap off
-Bits:	0	- Set means entry is ticket.
+Bits:	0	- Set means entry is ticked.
 	1	- Set means entry has dotted line immediately below.
 	2-7	- Must be 0.
 	8	- Set means entry is faded.

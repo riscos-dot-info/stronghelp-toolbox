@@ -1,0 +1,25 @@
+TextArea_GetCursorPosition
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<textarea_get_cursor_position>
+Syntax:	TextArea_GetCursorPosition
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x4018 + 12 (16420)
+r3 = gadget component Id
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r4 = cursor index
+{f}
+#indent
+#Wrap
+Purpose:	Method gets the cursor position within a text area (requires TextGadgets 0.22).

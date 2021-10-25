@@ -1,4 +1,4 @@
-numberrange_get_bounds Flags
+numberrange_get_bounds flags
 #include Style
 #Background wimp 1
 Command:	<numberrange_get_bounds=>numberrange_get_bounds>

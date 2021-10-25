@@ -8,7 +8,7 @@ Veneer:	<slider_set_colour>
 Syntax:	Slider_SetColour
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object Id

@@ -1,0 +1,10 @@
+ScrollList_IconSelection
+#Wrap Off
+Defined in:	<scrolllist.h=>scrolllist_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ScrollList_IconSelection 0x00000002
+#Indent
+{F}
+#Wrap On

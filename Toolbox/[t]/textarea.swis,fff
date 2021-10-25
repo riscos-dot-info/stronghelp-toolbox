@@ -1,27 +1,15 @@
-TextArea Class
+Text area gadget
 #Parent !Root
 #include Style
-#Align centre
-{/}These functions allow manipulation of the TextArea Gadgets{/}
-
 #Align left
-#Wrap on
-Ref:	TextArea.h
-#Wrap off
-#Line
-<TextArea SWI names=>textarea_swi_listing>
 <Flags=>textarea_flags>
 
+{/}Text area methods{/}
 #Table Columns 2
-<TextArea_GetState>
-<TextArea_SetState>
-<TextArea_SetText>
-<TextArea_GetText>
-<TextArea_InsertText>
-<TextArea_ReplaceText>
-<TextArea_GetSelection>
-<TextArea_SetSelection>
-<TextArea_SetFont>
-<TextArea_SetColour>
-<TextArea_GetColour>
+#include textarea_methods
 #EndTable
+
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Text area events{/}
+<TextArea_DataLoaded>

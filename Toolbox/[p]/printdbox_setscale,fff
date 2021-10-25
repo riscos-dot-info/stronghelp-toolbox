@@ -8,7 +8,7 @@ Syntax:	PrintDbox_SetScale
 Veneer:	<printdbox_set_scale>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = PrintDbox object ID

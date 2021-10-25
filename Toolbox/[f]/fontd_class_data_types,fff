@@ -1,9 +1,9 @@
-Font Dialogue Data Types
+Font Dialogue data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Font Dialogue Data Types{/}
+{/}Font Dialogue data types{/}
 #Align left
 
 <FontDboxTemplate>

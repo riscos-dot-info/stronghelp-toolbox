@@ -1,0 +1,10 @@
+TextArea_KeyNotify
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_KeyNotify 0x00000100
+#Indent
+{F}
+#Wrap On

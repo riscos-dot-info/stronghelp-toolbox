@@ -1,7 +1,7 @@
-MenuTemplateEntry Data Type
+MenuTemplateEntry data type
 #include Style
 #Background wimp 1
-Defined In:	<menu.h=>menu_class>
+Defined in:	<menu.h=>menu_class>
 #Line
 #Wrap off
 Syntax:	

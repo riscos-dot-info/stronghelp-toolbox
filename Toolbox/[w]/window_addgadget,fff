@@ -8,7 +8,7 @@ Syntax:	Window_AddGadget
 Veneer:	<window_add_gadget=>window_add_gadget>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object ID
@@ -16,7 +16,7 @@ r2 = 1
 r3 = pointer to description block for gadget
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r0 = component ID
 r1-r9 preserved.

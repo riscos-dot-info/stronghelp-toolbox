@@ -1,4 +1,4 @@
-Draggable Gadget SWIs
+Draggable gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,13 +8,11 @@ Ref:	Page 358 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>draggable_flags>
 
-<Draggable_GetState>
-<Draggable_GetSprite>
-<Draggable_GetText>
-<Draggable_SetState>
-<Draggable_SetSprite>
-<Draggable_SetText>
+{/}Draggable methods{/}
+#include draggable_methods
 
-{/}Draggable Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Draggable events{/}
 <Draggable_DragStarted>
 <Draggable_DragEnded>

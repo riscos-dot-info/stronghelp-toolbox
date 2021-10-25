@@ -1,0 +1,14 @@
+00 - <PrintDbox_GetWindowID>
+01 - <PrintDbox_SetPageRange>
+02 - <PrintDbox_GetPageRange>
+03 - <PrintDbox_SetCopies>
+04 - <PrintDbox_GetCopies>
+05 - <PrintDbox_SetScale>
+06 - <PrintDbox_GetScale>
+07 - <PrintDbox_SetOrientation>
+08 - <PrintDbox_GetOrientation>
+09 - <PrintDbox_GetTitle>
+10 - <PrintDbox_SetDraft>
+11 - <PrintDbox_GetDraft>
+12 - <PrintDbox_SetPageLimit>
+13 - <PrintDbox_GetPageLimit>

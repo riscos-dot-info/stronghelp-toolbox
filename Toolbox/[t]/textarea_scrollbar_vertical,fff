@@ -1,10 +1,10 @@
 TextArea_Scrollbar_Vertical
 #Wrap Off
-Defined in:	<gadget.h=>gadgets>
+Defined in:	<textarea.h=>textarea_gadget>
 #Line
 Syntax:
 #Indent 6
-{FCode}\#define TextArea_Scrollbar_Vertical (1<<0)
+{FCode}\#define TextArea_Scrollbar_Vertical 0x00000001
 #Indent
 {F}
 #Wrap On

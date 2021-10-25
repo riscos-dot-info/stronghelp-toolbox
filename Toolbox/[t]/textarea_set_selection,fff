@@ -2,7 +2,7 @@ textarea_set_selection
 #include Style
 #Background wimp 1
 #Parent textarea
-Header:	<TextArea.H=>textarea>
+Header:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,13 +10,13 @@ Syntax:
 {FCode}extern <_kernel_oserror> *textarea_set_selection
 (
   unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
-  unsigned int  index_start,
-  unsigned int  index_end
+  <ObjectId>      window, 
+  <ComponentId>   textarea,
+  unsigned int  <index_start=>textarea_special_index_values>,
+  unsigned int  <index_end=>textarea_special_index_values>
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	Function highlights the text between {/}index_start{/} and {/}index_end{/}.
+Purpose:	Function selects (highlights) the text between positions {/}index_start{/} and {/}index_end{/} within a text area.

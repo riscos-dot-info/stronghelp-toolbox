@@ -1,0 +1,20 @@
+TextArea_DataLoaded 0x140180
+#include Style
+#Background wimp 1
+Header:	<textarea.h=>textarea_gadget>
+#Line
+#Wrap off
+Syntax:	TextArea_DataLoaded 0x140180
+
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  unsigned int       index_start;
+  unsigned int       index_end;
+} TextAreaDataLoadedEvent;
+{F}
+#indent
+#Wrap
+Purpose:	Event is raised when text has been imported into a text area by the user (requires <TextGadgets=>TextGadgets/m> 0.38). Future versions of TextGadgets will include the start & end index of the imported text and set flags bit 0 to indicate paste from clipboard (not implemented as of version 0.92). Note the proposed data structure has changed since early versions of the C header.

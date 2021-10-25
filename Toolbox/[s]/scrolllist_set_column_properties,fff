@@ -1,0 +1,21 @@
+scrolllist_set_column_properties
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<scrolllist.h=>scrolllist_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_set_column_properties
+(
+  unsigned int   <flags=>scrolllist_set_column_properties_flags>,
+  <ObjectId>       window,
+  <ComponentId>    scrolllist,
+  int            number_of_columns,
+  unsigned long *data_list
+);              
+{F}
+#indent
+#Wrap
+Purpose:	Function sets properties for columns in the scroll list (requires <TextGadgets=>textgadgets/m> 0.54). Currently only property 0 (column widths) can be altered.

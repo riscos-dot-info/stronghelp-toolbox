@@ -1,14 +1,14 @@
 ToolAction_GetIdent 
 #include Style
 #Background wimp 1
-Module:	<Window=>window/m>
+Module:	<ToolAction=>toolaction/m>
 #Line
 #Wrap off
 Veneer:	<toolaction_get_ident>
 Syntax:	ToolAction_GetIdent
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object Id

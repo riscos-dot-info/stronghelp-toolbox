@@ -1,4 +1,4 @@
-Button Gadget SWIs
+Button gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,14 +8,11 @@ Ref:	Page 348 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>buttons_flags>
 
-<Button_GetFlags>
-<Button_GetValidation>
-<Button_GetValue>
-<Button_SetFlags>
-<Button_SetFont>
-<Button_SetValidation>
-<Button_SetValue>
+{/}Button methods{/}
+#include button_methods
 
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Button events{/}
 #Wrap On
-{/}Button Events{/}
-Buttons do not have Toolbox events.  All clicks are returned as Wimp Events with the appropriate <IDBlock>.
+Buttons do not have Toolbox events.  All clicks are returned as Wimp events with the appropriate <IDBlock>.

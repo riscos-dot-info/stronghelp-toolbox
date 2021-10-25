@@ -1,21 +1,22 @@
-Print Dialogue Class
+Print Dialogue class
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Printer Dialogues{/}
+{/}A Print Dialogue object allows the user to set various options (e.g. number of pages, copies etc) and then request that a document be printed.{/}
 
 #Align left
 #Wrap on
 Ref:	Page 201 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>print_class_data_types>
+<Data types=>print_class_data_types>
 <Flags=>print_class_flags>
 
 #Table Columns 2
 <printdbox_get_copies=>printdbox_get_copies>
 <printdbox_get_draft=>printdbox_get_draft>
 <printdbox_get_orientation=>printdbox_get_orientation>
+<printdbox_get_page_limit=>printdbox_get_page_limit>
 <printdbox_get_page_range=>printdbox_get_page_range>
 <printdbox_get_scale=>printdbox_get_scale>
 <printdbox_get_title=>printdbox_get_title>
@@ -23,11 +24,12 @@ Ref:	Page 201 of the {/}User Interface Toolbox{/} manual.
 <printdbox_set_copies=>printdbox_set_copies>
 <printdbox_set_draft=>printdbox_set_draft>
 <printdbox_set_orientation=>printdbox_set_orientation>
+<printdbox_set_page_limit=>printdbox_set_page_limit>
 <printdbox_set_page_range=>printdbox_set_page_range>
 <printdbox_set_scale=>printdbox_set_scale>
 #EndTable
 
-{/}Print Dialogue Events{/}
+{/}Print Dialogue events{/}
 <PrintDbox_AboutToBeShown=>PrintDbox_AboutToBeShown>
 <PrintDbox_DialogueCompleted=>PrintDbox_DialogueCompleted>
 <PrintDbox_Print=>PrintDbox_Print>
@@ -35,4 +37,4 @@ Ref:	Page 201 of the {/}User Interface Toolbox{/} manual.
 <PrintDbox_Setup=>PrintDbox_Setup>
 <PrintDbox_SetupAboutToBeShown=>PrintDbox_SetupAboutToBeShown>
 #Line
-Defined in PrintDbox_.H
+Defined in "printdbox.h"

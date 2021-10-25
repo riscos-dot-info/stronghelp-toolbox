@@ -1,9 +1,9 @@
-Button Data Types
+Button data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Button Data Types{/}
+{/}Button data types{/}
 #Align left
 
 <Button>

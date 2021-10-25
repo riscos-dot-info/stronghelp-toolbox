@@ -8,7 +8,7 @@ Syntax:	Menu_GetTick
 Veneer:	<menu_get_tick>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Menu object ID

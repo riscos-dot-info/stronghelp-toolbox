@@ -1,0 +1,14 @@
+scrolllist_deselect_item flags
+#include Style
+#Background wimp 1
+C veneer:	<scrolllist_deselect_item>, <scrolllist_select_item>
+SWI:		<ScrollList_DeselectItem>, <ScrollList_SelectItem>
+
+#Line
+#Wrap off
+Bits:	0	- Send <ScrollList_Selection> event when complete.	(TextGadgets 0.19)
+	1	- Operate on all items in the list.	(ditto)
+
+Constants:
+	<ScrollList_SelectionChangingMethod_SendEvent>
+	<ScrollList_SelectionChangingMethod_OnAll>

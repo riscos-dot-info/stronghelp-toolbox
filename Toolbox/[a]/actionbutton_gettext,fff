@@ -8,7 +8,7 @@ Veneer:	<actionbutton_get_text>
 Syntax:	ActionButton_GetText
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object Id

@@ -8,7 +8,7 @@ Syntax:	Menu_SetSubMenuShow
 Veneer:	<menu_set_sub_menu_show>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Menu object ID

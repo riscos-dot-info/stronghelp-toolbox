@@ -1,20 +1,20 @@
 TextArea_SetState
 #include Style
 #Background wimp 1
-Module:	<Window=>window/m>
+Module:	<TextGadgets=>textgadgets/m>
 #Line
 #Wrap off
 Veneer:	<textarea_set_state>
 Syntax:	TextArea_SetState
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object Id
 r2 = 0x4018 + 1 (16409)
 r3 = gadget component Id
-r4 = state
+r4 = <new state=>textarea_flags>
 {f}
 #indent
 On exit:
@@ -23,4 +23,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:	Method sets the state of the TextArea.
+Purpose:	Method updates the flags controlling a text area to the new value in R4. This is distinct from the flags word accessible by method <Gadget_SetFlags>.

@@ -8,7 +8,7 @@ Syntax:
 Veneer:	mem_extent (GLib)
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r1 = 6 (MemExtent)
 r2-> memory

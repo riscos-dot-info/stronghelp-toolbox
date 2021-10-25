@@ -1,9 +1,9 @@
-ProgInfo Data Types
+ProgInfo data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}ProgInfo Data Types{/}
+{/}ProgInfo data types{/}
 #Align left
 
 <ProgInfoTemplate>

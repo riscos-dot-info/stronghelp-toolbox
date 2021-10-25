@@ -8,7 +8,7 @@ Syntax:	Toolbox_ShowObject
 Veneer:	<toolbox_show_object>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      bit 0 - set means use semantics of
@@ -22,7 +22,7 @@ r4 = parent object Id
 r5 = parent component Id
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved.
 {f}

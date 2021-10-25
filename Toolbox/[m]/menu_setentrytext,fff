@@ -8,7 +8,7 @@ Syntax:	Menu_SetEntryText
 Veneer:	<menu_set_entry_text>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Menu object ID

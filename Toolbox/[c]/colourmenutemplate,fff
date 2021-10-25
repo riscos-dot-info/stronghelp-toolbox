@@ -1,7 +1,7 @@
-ColourMenuTemplate Data Type
+ColourMenuTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<colourmenu.h=>col-m_class>
+Defined in:	<colourmenu.h=>col-m_class>
 #Line
 #Wrap off
 Syntax:	

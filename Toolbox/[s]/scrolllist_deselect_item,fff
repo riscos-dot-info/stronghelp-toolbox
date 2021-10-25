@@ -2,20 +2,20 @@ scrolllist_deselect_item
 #include Style
 #Background wimp 1
 #Parent scrolllist
-Header:	<ScrollList.H=>scrolllist>
+Header:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
 Syntax:	
 #indent 6
 {FCode}extern <_kernel_oserror> *scrolllist_deselect_item
 (
-  unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
-  int           index
+  unsigned int  <flags=>scrolllist_deselect_item_flags>,
+  <ObjectId>      window, 
+  <ComponentId>   scrolllist,
+  unsigned int  index
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	Function will deselect the item in the ScrollList specified by index.
+Purpose:	Function deselects the item at the position specified by {/}index{/} in a scroll list, or all items if {/}flags{/} bit 1 is set. If {/}flags{/} bit 0 is set then a <ScrollList_Selection> event will be raised upon completion; the event data will include 0 as the item number if deselecting all.

@@ -1,8 +1,8 @@
-toolbox_o Data Type
+toolbox_o data type
 #Parent toolaction
 #include Style
 #Background wimp 1
-Defined In:	Toolbox.H
+Defined in:	Toolbox.H
 #Line
 #Wrap off
 Syntax:	

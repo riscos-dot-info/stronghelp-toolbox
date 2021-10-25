@@ -1,9 +1,9 @@
-DCS Data Types
+DCS data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}DCS Data Types{/}
+{/}DCS data types{/}
 #Align left
 
 <DCSTemplate>

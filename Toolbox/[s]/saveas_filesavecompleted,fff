@@ -8,7 +8,7 @@ Syntax:	SaveAs_FileSaveCompleted
 Veneer:	<saveas_file_save_completed>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = SaveAs object ID

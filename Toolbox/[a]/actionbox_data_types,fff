@@ -1,9 +1,9 @@
-ActionButton Data Types
+ActionButton data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}ActionButton Data Types{/}
+{/}ActionButton data types{/}
 #Align left
 
 <ActionButton>

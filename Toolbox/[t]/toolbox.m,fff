@@ -2,11 +2,15 @@ Toolbox module
 #Parent !Root
 #include Style
 #Align centre
-{/}These SWIs make up the Toolbox module of the Toolbox{/}
+{/}This module is the central hub of the Toolbox system{/}
 
 #Align left
+#Wrap on
+Ref:	Page 1 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
 #Line
 
+{/}Toolbox SWIs{/}
 #Table Columns 2
 <Toolbox_CreateObject>
 <Toolbox_DeleteObject>
@@ -30,9 +34,8 @@ Toolbox module
 <Toolbox_RegisterPreFilter>
 <Toolbox_RegisterPostFilter>
 #EnDTable
-#Line
 
-{/}{*}Toolbox Events{*}{/}
+{/}Toolbox events{/}
 <Toolbox_Error>
 <Toolbox_ObjectAutoCreated>
 <Toolbox_ObjectDeleted>

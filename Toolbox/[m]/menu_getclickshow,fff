@@ -8,7 +8,7 @@ Syntax:	Menu_GetClickShow
 Veneer:	<menu_get_click_show>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Menu object ID

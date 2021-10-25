@@ -1,0 +1,10 @@
+TextArea_BgAlignH_Mask
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_BgAlignH_Mask (3<<10)
+#Indent
+{F}
+#Wrap On

@@ -11,14 +11,14 @@ Wimp.H & WimpLib.H
 
 Ref:	{/}Wimp.H{/} & {/}WimpLib.H{/} header files.
 #Line
-<Data Types=>wimp_data_types>
-<#Define Statements=>wimp_defines>
-<Wimp Message Numbers=>wimp_message_numbers>
-<Wimp Event Codes=>wimp_poll_event_codes>
+<Data types=>wimp_data_types>
+<#Define statements=>wimp_defines>
+<Wimp message numbers=>wimp_message_numbers>
+<Wimp event codes=>wimp_poll_event_codes>
 
 #Line
 #Align Centre
-{/}{*}C SWI Veneers{*}{/}
+{/}{*}C SWI veneers{*}{/}
 #Align Left
 
 #Table Columns 4

@@ -8,7 +8,7 @@ Syntax:	Gadget_SetHelpMessage
 Veneer:	<gadget_set_help_message>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object Id

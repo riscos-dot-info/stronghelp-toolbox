@@ -2,7 +2,7 @@ textarea_get_state
 #include Style
 #Background wimp 1
 #Parent textarea
-Header:	<TextArea.H=>textarea>
+Header:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,12 +10,12 @@ Syntax:
 {FCode}extern <_kernel_oserror> *textarea_get_state
 (
   unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
+  <ObjectId>      window,
+  <ComponentId>   textarea,
   unsigned int <*state=>textarea_flags>
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	Function gets the state of the specified TextArea gadget.
+Purpose:	Function gets various flags controlling a text area, which are written to {/}state{/}. This is distinct from the flags word accessible by method <gadget_get_flags>.

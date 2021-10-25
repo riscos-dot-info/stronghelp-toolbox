@@ -8,7 +8,7 @@ Syntax:	FileInfo_GetFileName
 Veneer:	<fileinfo_get_file_name>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = FileInfo object ID

@@ -1,7 +1,7 @@
-SrollListSelectionEvent
+ScrollListSelectionEvent data type
 #include Style
 #Background wimp 1
-Defined In:	<scrolllist.h=>scrolllist_gadget>
+Defined in:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -9,8 +9,11 @@ Syntax:
 {fcode}typedef struct
 \{
     <ToolboxEventHeader> hdr;
-    unsigned int       <flags;=>scrolllist_selection_flags>
-    int                item;
+    unsigned int       <flags=>scrolllist_selection_flags>;
+    unsigned int       item;
+    unsigned int       column;
+    int                mouse_x;
+    int                mouse_y;
 } ScrollListSelectionEvent;
 {f}
 #indent

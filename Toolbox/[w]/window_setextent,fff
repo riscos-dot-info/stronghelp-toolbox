@@ -8,7 +8,7 @@ Syntax:	Window_SetExtent
 Veneer:	<window_set_extent=>window_set_extent>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object ID

@@ -2,21 +2,21 @@ scrolllist_get_selected
 #include Style
 #Background wimp 1
 #Parent scrolllist
-Header:	<ScrollList.H=>scrolllist>
+Header:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
 Syntax:	
 #indent 6
 {FCode}extern <_kernel_oserror> *scrolllist_get_selected
 (
-  unsigned int flags,
-  <ObjectId> object_id, 
-  <ComponentId> component_id,
-  int offset, 
-  int *new_offset
+  unsigned int   flags,
+  <ObjectId>       window,
+  <ComponentId>    scrolllist,
+  unsigned int   index,
+  unsigned int  *new_index
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	Function will return in new_offset the currently selected item in the ScrollList.  Set offset to -1 to search from the beginning of the ScrollList.
+Purpose:	Function writes to {/}new_index{/} the position of the next selected item in the scroll list after position {/}index{/}. To search from the beginning of the list call with {/}index{/} == <UINT_MAX>. When there are no more selected items the value <UINT_MAX> will be written to {/}new_index{/}. By calling this function iteratively it is possible to enumerate all selected items in a list.

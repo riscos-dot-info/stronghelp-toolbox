@@ -8,7 +8,7 @@ Syntax:	ColourDbox_GetColour
 Veneer:	<colourdbox_get_colour>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      bit 0: select None option.

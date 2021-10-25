@@ -1,0 +1,21 @@
+scrolllist_set_item_text
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<scrolllist.h=>scrolllist_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_set_item_text
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   scrolllist,
+  const char   *new_text,
+  unsigned int  index
+);              
+{F}
+#indent
+#Wrap
+Purpose:	Function sets the text of the scroll list item specified by {/}index{/} to the string pointed to by {/}new_text{/} (which must be NUL terminated). Requires <TextGadgets=>textgadgets/m> 0.19. Since version 0.26 the text of a list item may contain tab characters as field separators for a columned display.

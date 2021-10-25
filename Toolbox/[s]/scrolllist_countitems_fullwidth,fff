@@ -1,0 +1,10 @@
+ScrollList_CountItems_FullWidth
+#Wrap Off
+Defined in:	<scrolllist.h=>scrolllist_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ScrollList_CountItems_FullWidth (2)
+#Indent
+{F}
+#Wrap On

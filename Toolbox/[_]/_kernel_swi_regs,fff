@@ -1,7 +1,7 @@
 _kernel_swi_regs
 #include Style
 #Background wimp 1
-Defined In:	<kernel.h=>C:kernel>
+Defined in:	<kernel.h=>C-Version5:kernel>
 #Line
 
 Syntax:	

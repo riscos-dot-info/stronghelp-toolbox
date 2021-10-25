@@ -1,0 +1,27 @@
+ScrollList_SetColumnProperties
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<scrolllist_set_column_properties>
+Syntax:	ScrollList_SetColumnProperties
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = <flags=>scrolllist_set_column_properties_flags>
+r1 = window object Id
+r2 = 0x401a + 20 (16430)
+r3 = gadget id
+r4 = number of columns
+r5 = pointer to data
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:	Method sets properties for columns in the scroll list (requires TextGadgets 0.54). Currently only property 0 (column widths) can be altered.

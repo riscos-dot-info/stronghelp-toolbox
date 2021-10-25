@@ -1,8 +1,8 @@
-Transform Data Type
+Transform data type
 #Parent wimp_lib
 #include Style
 #Background wimp 1
-Defined In:	<drawfile.h=>drawfile_lib>
+Defined in:	<drawfile.h=>drawfile_lib>
 #Line
 #Wrap off
 Syntax:	

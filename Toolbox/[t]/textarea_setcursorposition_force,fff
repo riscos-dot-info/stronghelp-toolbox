@@ -1,0 +1,10 @@
+TextArea_SetCursorPosition_Force
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_SetCursorPosition_Force (1<<0)
+#Indent
+{F}
+#Wrap On

@@ -2,7 +2,7 @@ ToolboxMsgEvent
 #Parent tbox_lib
 #include Style
 #Background wimp 1
-Defined In:	<toolbox.h=>tbox_lib>
+Defined in:	<toolbox.h=>tbox_lib>
 #Line
 #Wrap off
 Syntax:	

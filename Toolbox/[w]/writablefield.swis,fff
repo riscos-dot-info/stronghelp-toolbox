@@ -1,4 +1,4 @@
-WritableField Gadget SWIs
+Writable field gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,10 +8,10 @@ Ref:	Page 395 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>writables_flags>
 
-<WritableField_GetValue>
-<WritableField_SetAllowable>
-<WritableField_SetFont>
-<WritableField_SetValue>
+{/}Writable field methods{/}
+#include writablefield_methods
 
-{/}Writable Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Writable field events{/}
 <WritableField_ValueChanged>

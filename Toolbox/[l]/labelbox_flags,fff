@@ -1,4 +1,4 @@
-Labelled Flags
+Labelled flags
 #include Style
 #Background wimp 1
 Gadget:	<Labelled Box=>labelbox>

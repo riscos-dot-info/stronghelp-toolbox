@@ -1,0 +1,14 @@
+scrolllist_set_colour flags
+#include Style
+#Background wimp 1
+C veneer:	<scrolllist_set_colour>
+SWI:		<ScrollList_SetColour>
+
+#Line
+#Wrap off
+Bits:	0	- Use Wimp colours (0-15) instead of palette entries.	 
+	1	- Set colours of heading rather than list body.	(TextGadgets 0.29)
+
+Constants:
+	<ScrollList_DesktopColours>
+	<ScrollList_HeadingColours>

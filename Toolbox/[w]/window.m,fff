@@ -2,53 +2,53 @@ Window module
 #Parent !Root
 #include Style
 #Align centre
-{/}These SWIs make up the Window module of the Toolbox{/}
+{/}This module provides the Window class and many built-in gadget types{/}
 
 #Align left
-<Window SWI names=>window_swi_listing>
-<Gadgets=>gadgets/m>
+#Wrap on
+Ref:	Page 287 of the {/}User Interface Toolbox{/} manual.
+#Wrap off
 #Line
+<Flags=>window_class_flags>
 
+{/}Window SWIs{/}
 #Table Columns 2
-<Gadget_GetBBox>
-<Gadget_GetFlags>
-<Gadget_GetType>
-<Gadget_GetHelpMessage>
-<Gadget_GetIconList>
-<Gadget_SetFlags>
-<Gadget_SetFocus>
-<Gadget_SetHelpMessage>
-<Gadget_MoveGadget>
-<Window_EnumerateGadgets>
-<Window_GadgetGetIconList>
-<Window_AddGadget>
-<Window_RemoveGadget>
-<Window_SetMenu>
-<Window_GetMenu>
-<Window_SetPointer>
-<Window_GetPointer>
-<Window_SetHelpMessage>
-<Window_GetHelpMessage>
-<Window_AddKeyboardShortcuts>
-<Window_RemoveKeyboardShortcuts>
-<Window_SetTitle>
-<Window_GetTitle>
-<Window_SetDefaultFocus>
-<Window_GetDefaultFocus>
-<Window_SetExtent>
-<Window_GetExtent>
-<Window_ForceRedraw>
-<Window_SetToolBars>
-<Window_GettoolBars>
-<Window_GetPointerInfo>
-<Window_WimpToToolbox>
-<Window_ExtractGadgetInfo>
-<Window_RegisterExternal>
 <Window_DeregisterExternal>
-<Window_SupportExternal>
+<Window_EnumerateGadgets>
+<Window_ExtractGadgetInfo>
+<Window_GadgetGetIconList>
+<Window_GetPointerInfo>
 <Window_PlotGadget>
-#EnDTable
+<Window_RegisterExternal>
+<Window_SupportExternal>
+<Window_WimpToToolbox>
+#EndTable
 
-{*}Events:{*}
+{/}Window methods{/}
+#Table Columns 2
+#include window_methods
+#EndTable
+
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Window events{/}
 <Window_AboutToBeShown=>Window_AboutToBeShown>
 <Window_HasBeenHidden=>Window_HasBeenHidden>
+
+{/}Gadget types{/}
+#Table Columns 5
+<Action button=>actionbutton/swis>
+<Adjuster arrow=>adjuster/swis>
+<Button=>button/swis>
+<Display field=>displayfield/swis>
+<Draggable=>draggable/swis>
+<Label=>label/swis>
+<Labelled box=>labelledbox/swis>
+<Number range=>numberrange/swis>
+<Option button=>optionbutton/swis>
+<Pop-up menu=>popup/swis>
+<Radio button=>radiobutton/swis>
+<Slider=>slider/swis>
+<String set=>stringset/swis>
+<Writable field=>writablefield/swis>
+#EndTable

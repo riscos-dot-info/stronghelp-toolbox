@@ -1,0 +1,13 @@
+textarea_set_cursor_position flags
+#include Style
+#Background wimp 1
+C veneer:	<textarea_set_cursor_position>
+SWI:		<TextArea_SetCursorPosition>
+
+#Line
+#Wrap off
+Bits:	0	- If set, claim input focus for text area.
+	1	- If set, do not draw caret at new position.
+Constants:
+	<TextArea_SetCursorPosition_Force>
+	<TextArea_SetCursorPosition_Invisible>

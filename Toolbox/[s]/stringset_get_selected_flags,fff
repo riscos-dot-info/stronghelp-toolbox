@@ -1,4 +1,4 @@
-stringset_get_selected Flags
+stringset_get_selected flags
 #include Style
 #Background wimp 1
 Command:	<stringset_get_selected=>stringset_get_selected>

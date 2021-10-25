@@ -1,34 +1,24 @@
-Save As Class
+SaveAs module
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Save As Dialogues{/}
+{/}This module provides the SaveAs Dialogue class{/}
 
 #Align left
 #Wrap on
 Ref:	Page 245 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<SaveAs SWI names=>saveas_swi_listing>
 <Flags=>saveas_class_flags>
 
+{/}SaveAs Dialogue methods{/}
 #Table Columns 2
-<SaveAs_BufferFilled>
-<SaveAs_FileSaveCompleted>
-<SaveAs_GetFileName>
-<SaveAs_GetFileSize>
-<SaveAs_GetFileType>
-<SaveAs_GetTitle>
-<SaveAs_GetWindowID>
-<SaveAs_SelectionAvailable>
-<SaveAs_SetDataAddress>
-<SaveAs_SetFileName>
-<SaveAs_SetFileType>
-<SaveAs_SetFileSize>
-<SaveAs_SetTitle>
+#Include saveas_methods
 #EndTable
 
-{/}SaveAs Dialogue Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}SaveAs Dialogue events{/}
 <SaveAs_AboutToBeShown>
 <SaveAs_DialogueCompleted>
 <SaveAs_SaveToFile>

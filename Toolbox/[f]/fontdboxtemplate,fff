@@ -1,7 +1,7 @@
-FontDboxTemplate Data Type
+FontDboxTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<fontdbox.h=>fontd_class>
+Defined in:	<fontdbox.h=>fontd_class>
 #Line
 #Wrap off
 Syntax:	

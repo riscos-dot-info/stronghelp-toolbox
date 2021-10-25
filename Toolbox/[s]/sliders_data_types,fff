@@ -1,9 +1,9 @@
-Slider Data Types
+Slider data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Slider Data Types{/}
+{/}Slider data types{/}
 #Align left
 
 <Slider>

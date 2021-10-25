@@ -1,7 +1,7 @@
-ProgInfoTemplate Data Type
+ProgInfoTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<proginfo.h=>proginfo_class>
+Defined in:	<proginfo.h=>proginfo_class>
 #Line
 #Wrap off
 Syntax:	

@@ -11,7 +11,7 @@ Drawfile.H
 Ref:	{/}Drawfile.H{/} header file.
 #Line
 <Flags=>drawfile_flags>
-<Data Types=>drawfile_data_types>
+<Data types=>drawfile_data_types>
 
 #Line
 <drawfile_render>

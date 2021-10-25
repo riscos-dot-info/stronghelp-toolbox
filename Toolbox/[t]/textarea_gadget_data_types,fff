@@ -1,9 +1,10 @@
-TextArea Data Types
+Text area data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}TextArea Data Types{/}
+{/}Text area data types{/}
 #Align left
 
 <TextArea>
+<TextAreaDataLoadedEvent>

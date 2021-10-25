@@ -1,4 +1,4 @@
-Number Ranges Gadgets
+Number Ranges gadgets
 #Parent gadgets
 #include Style
 #Align centre
@@ -9,7 +9,7 @@ Number Ranges Gadgets
 Ref:	Page 368 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>numberrang_data_types>
+<Data types=>numberrang_data_types>
 <Flags=>numberrang_flags>
 
 <numberrange_get_bounds>
@@ -18,7 +18,7 @@ Ref:	Page 368 of the {/}User Interface Toolbox{/} manual.
 <numberrange_set_bounds>
 <numberrange_set_value>
 
-{/}NumberRange Events{/}
+{/}NumberRange events{/}
 <NumberRange_ValueChanged>
 #Line
 Defined in <Gadgets.H=>gadgets>

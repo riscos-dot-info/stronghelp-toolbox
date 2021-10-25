@@ -1,4 +1,4 @@
-Program Information Class
+Program Information class
 #Parent !Root
 #include Style
 #Align centre
@@ -9,7 +9,7 @@ Program Information Class
 Ref:	Page 221 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>proginfo_class_data_types>
+<Data types=>proginfo_class_data_types>
 <Flags=>proginfo_class_flags>
 
 #Table Columns 2
@@ -26,7 +26,7 @@ Ref:	Page 221 of the {/}User Interface Toolbox{/} manual.
 <proginfo_set_web_event>
 #EndTable
 
-{/}ProgramInfo Events{/}
+{/}ProgramInfo events{/}
 <ProgInfo_AboutToBeShown>
 <ProgInfo_DialogueCompleted>
 <ProgInfo_LaunchWebPage>

@@ -1,4 +1,4 @@
-scale_get_bounds Flags
+scale_get_bounds flags
 #include Style
 #Background wimp 1
 Command:	<scale_get_bounds>

@@ -8,7 +8,7 @@ Syntax:	ColourDbox_GetNoneAvailable
 Veneer:	<colourdbox_get_none_available>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = ColourDbox object ID

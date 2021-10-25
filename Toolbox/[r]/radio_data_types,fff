@@ -1,9 +1,9 @@
-RadioButton Data Types
+RadioButton data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}RadioButton Data Types{/}
+{/}RadioButton data types{/}
 #Align left
 
 <RadioButton>

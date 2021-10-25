@@ -1,7 +1,7 @@
-FontMenuTemplate Data Type
+FontMenuTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<FontMenu.h=>font_class>
+Defined in:	<FontMenu.h=>font_class>
 #Line
 #Wrap off
 Syntax:	

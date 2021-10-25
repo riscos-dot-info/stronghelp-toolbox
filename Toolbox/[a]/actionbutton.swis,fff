@@ -1,4 +1,4 @@
-ActionButton Gadget SWIs
+Action button gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,12 +8,10 @@ Ref:	Page 339 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>actionbox_flags>
 
-<ActionButton_GetClickShow>
-<ActionButton_GetEvent>
-<ActionButton_GetText>
-<ActionButton_SetClickShow>
-<ActionButton_SetEvent>
-<ActionButton_SetText>
+{/}Action button methods{/}
+#include actionbutton_methods
 
-{/}Action Button Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Action button events{/}
 <ActionButton_Selected=>actionbutton_selected>

@@ -9,7 +9,7 @@ String Sets
 Ref:	Page 403 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>stringsets_data_types>
+<Data types=>stringsets_data_types>
 <Flags=>stringset_flags>
 
 <stringset_get_components>
@@ -17,8 +17,9 @@ Ref:	Page 403 of the {/}User Interface Toolbox{/} manual.
 <stringset_set_allowable>
 <stringset_set_available>
 <stringset_set_selected>
+<stringset_set_font>
 
-{/}String Sets Events{/}
+{/}String Sets events{/}
 <StringSet_ValueChanged>
 <StringSet_AboutToBeShown>
 #Line

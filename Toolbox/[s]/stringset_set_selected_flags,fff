@@ -1,7 +1,7 @@
-stringset_set_selected Flags
+stringset_set_selected flags
 #include Style
 #Background wimp 1
-C Veneer:	<stringset_set_selected=>stringset_set_selected>
+C veneer:	<stringset_set_selected=>stringset_set_selected>
 SWI:		<StringSet_SetSelected>
 
 #Line

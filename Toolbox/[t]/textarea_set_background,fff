@@ -1,0 +1,28 @@
+textarea_set_background
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<textarea.h=>textarea_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *textarea_set_background
+(
+  unsigned int <flags=>textarea_set_background_flags>,
+  <ObjectId>     window, 
+  <ComponentId>  textarea,
+  void        *sprite_area,
+  void        *sprite,
+  int          x_off,
+  int          y_off
+);              
+
+{F}
+#indent
+#Wrap
+Purpose:	Function sets a sprite to be rendered as a background to the text (requires <TextGadgets=>textgadgets/m> 0.23). {/}x_off{/} and {/}y_off{/} are plot offsets in OS coordinates and allow the position of the sprite to be adjusted. Tiling and base alignment are controlled by the <gadget state=>textarea_flags>.
+	Various extensions require TextGadgets 0.77:
+	è	Sprites can be specified by name instead of pointer by setting {/}flags{/} bit 0.
+	è	Any background sprite is removed if {/}sprite_area{/} == 0.
+	è	Sprites from the Wimp pool (which must be referred to by name) can be used by specifying {/}sprite_area{/} == 1.

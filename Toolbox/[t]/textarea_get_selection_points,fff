@@ -2,7 +2,7 @@ textarea_get_selection_points
 #include Style
 #Background wimp 1
 #Parent textarea
-Header:	<TextArea.H=>textarea>
+Header:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,8 +10,8 @@ Syntax:
 {FCode}extern <_kernel_oserror> *textarea_get_selection_points
 (
   unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
+  <ObjectId>      window, 
+  <ComponentId>   textarea,
   unsigned int *index_start,
   unsigned int *index_end
 );
@@ -19,4 +19,4 @@ Syntax:
 {F}
 #indent
 #Wrap
-Purpose:	Function returns the start and end index points for any text highlighted in the TextArea.
+Purpose:	Function gets the start and end points of any selection within a text area, which are written to {/}index_start{/} and {/}index_end{/}. This is one of two C veneers for method <TextArea_GetSelection>.

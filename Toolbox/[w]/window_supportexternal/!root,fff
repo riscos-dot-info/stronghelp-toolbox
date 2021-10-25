@@ -8,7 +8,7 @@ Syntax:	Window_SupportExternal
 Veneer:
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 =  flags
 	(should be zero unless other information is provided)

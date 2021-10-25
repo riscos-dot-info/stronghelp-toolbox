@@ -1,4 +1,4 @@
-Draggable Gadgets
+Draggable gadgets
 #Parent gadgets
 #include Style
 #Align centre
@@ -9,7 +9,7 @@ Draggable Gadgets
 Ref:	Page 358 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>draggables_data_types>
+<Data types=>draggables_data_types>
 <Flags=>Draggable_flags>
 
 <draggable_set_sprite>
@@ -19,7 +19,7 @@ Ref:	Page 358 of the {/}User Interface Toolbox{/} manual.
 <draggable_set_state>
 <draggable_set_text>
 
-{/}Draggable Events{/}
+{/}Draggable events{/}
 <Draggable_DragStarted>
 <Draggable_DragEnded>
 #Line

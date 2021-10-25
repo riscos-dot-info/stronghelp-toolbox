@@ -1,7 +1,7 @@
-DCSTemplate Data Type
+DCSTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<dcs.h=>dcs_class>
+Defined in:	<dcs.h=>dcs_class>
 #Line
 #Wrap off
 Syntax:	

@@ -1,7 +1,7 @@
 KeyboardShortcut_ShowAsTransient
 #include Style
 #Background wimp 1
-Defined In:	<window.h=>window_class>
+Defined in:	<window.h=>window_class>
 #Line
 #Wrap off
 Syntax:	

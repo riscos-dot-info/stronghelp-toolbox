@@ -8,7 +8,7 @@ Syntax:	Toolbox_RaiseToolboxEvent
 Veneer:	<toolbox_raise_toolbox_event>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = object Id
@@ -16,7 +16,7 @@ r2 = component Id
 r3 = pointer to toolbox event block
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved
 {f}

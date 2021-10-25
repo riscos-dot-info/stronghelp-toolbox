@@ -1,4 +1,4 @@
-Discard/Cancel/Save Class Flags
+Discard/Cancel/Save class flags
 #include Style
 #Parent dcs_class
 #Background wimp 1

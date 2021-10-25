@@ -4,7 +4,7 @@ toolbox_show_object ShowType
 Command:	<toolbox_show_object>
 #Line
 #Wrap off
-show_type Flags:
+show_type flags:
 #indent 6
 {FCode}Toolbox_ShowObject_Default   0
 Toolbox_ShowObject_FullSpec  1

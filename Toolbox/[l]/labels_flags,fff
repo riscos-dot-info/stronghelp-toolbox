@@ -1,4 +1,4 @@
-Label Flags
+Label flags
 #include Style
 #Background wimp 1
 Gadget:	<Label=>labels>

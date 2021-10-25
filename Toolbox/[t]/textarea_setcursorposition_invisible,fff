@@ -1,0 +1,10 @@
+TextArea_SetCursorPosition_Invisible
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_SetCursorPosition_Invisible (1<<1)
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,12 @@
+textarea_set_colour flags
+#include Style
+#Background wimp 1
+C veneer:	<textarea_set_colour>
+SWI:		<TextArea_SetColour>
+
+#Line
+#Wrap off
+Bits:	0	- Use Wimp colours (0-15) instead of palette entries.
+
+Constants:
+	<TextArea_DesktopColours>

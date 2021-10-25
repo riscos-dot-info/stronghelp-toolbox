@@ -1,4 +1,4 @@
-DisplayField Gadget SWIs
+Display field gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,6 +8,7 @@ Ref:	Page 355 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>displayfld_flags>
 
-<DisplayField_GetValue>
-<DisplayField_SetFont>
-<DisplayField_SetValue>
+{/}Display field methods{/}
+#include displayfield_methods
+
+(To be used with SWI <Toolbox_ObjectMiscOp>.)

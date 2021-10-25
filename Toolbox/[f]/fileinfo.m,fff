@@ -1,33 +1,23 @@
-File Info Class
+FileInfo module
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the File Info Dialogues{/}
+{/}This module provides the File Info class{/}
 
 #Align left
 #Wrap on
 Ref:	Page 103 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<FileInfo SWI Names=>fileinfo_swi_listing>
 <Flags=>finfo_class_flags>
 
-#Table Columns 3
-<FileInfo_GetDate>
-<FileInfo_GetFileName>
-<FileInfo_GetFileSize>
-<FileInfo_GetFileType>
-<FileInfo_GetModified>
-<FileInfo_GetTitle>
-<FileInfo_GetWindowID>
-<FileInfo_SetDate>
-<FileInfo_SetFileName>
-<FileInfo_SetFileType>
-<FileInfo_SetFileSize>
-<FileInfo_SetModified>
-<FileInfo_SetTitle>
+{/}File Info methods{/}
+#Table Columns 2
+#include fileinfo_methods
 #EndTable
 
-{/}File Info Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}File Info events{/}
 <FileInfo_AboutToBeShown>
 <FileInfo_DialogueCompleted>

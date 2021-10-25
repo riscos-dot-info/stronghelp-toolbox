@@ -8,7 +8,7 @@ Syntax:
 Veneer:
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 	bit 0 set: create from object definition
@@ -22,4 +22,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:	This call creates a toolbox object and returns its ObjectId. The reason for using this as opposed to <toolbox_create_object> is that the Window module first checks for plotting rather than creation mode. If the Gadget provides a plot handler, then it may safely use <Toolbox_CreateObject> SWI in its add handler.
+Purpose:	This call creates a toolbox object and returns its ObjectId. The reason for using this as opposed to <toolbox_create_object> is that the Window module first checks for plotting rather than creation mode. If the gadget provides a plot handler, then it may safely use <Toolbox_CreateObject> SWI in its add handler.

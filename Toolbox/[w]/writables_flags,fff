@@ -1,4 +1,4 @@
-WritableField Flags
+WritableField flags
 #include Style
 #Background wimp 1
 Gadget:	<WritableField=>writables>
@@ -11,7 +11,7 @@ Bits:	0	- Inform client of changes using <WritableField_ValueChanged=>writablefi
 			1 - right.
 			2 - centred.
 #indent
-	4	- Do not display text, use '-' instead (Password Behaviour).
+	4	- Do not display text, use '-' instead (password behaviour).
 
 Constants:
 	<WritableField_GenerateUserValueChanged>

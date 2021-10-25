@@ -1,4 +1,4 @@
-actionbutton_get_click_show Flags
+actionbutton_get_click_show flags
 #include Style
 #Background wimp 1
 Command:	<actionbutton_get_click_show=>actionbutton_get_click_show>

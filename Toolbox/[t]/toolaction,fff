@@ -1,4 +1,4 @@
-ToolAction Gadget
+ToolAction gadget
 #Parent !root
 #include Style
 #Align centre
@@ -9,7 +9,7 @@ ToolAction Gadget
 Ref:	Renaissance Source Tree & Dylan.
 #Wrap off
 #Line
-<Toolaction Flags=>toolaction_flags>
+<Toolaction flags=>toolaction_flags>
 
 <toolaction_set_ident>
 <toolaction_get_ident>

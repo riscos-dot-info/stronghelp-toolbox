@@ -8,7 +8,7 @@ Veneer:	<numberrange_set_bounds>
 Syntax:	NumberRange_SetBounds
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      bit 0 - change lower bound

@@ -1,7 +1,7 @@
-ScaleTemplate Data Type
+ScaleTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<scale.h=>scale_class>
+Defined in:	<scale.h=>scale_class>
 #Line
 #Wrap off
 Syntax:	

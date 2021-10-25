@@ -1,0 +1,10 @@
+TextArea_AutoScroll
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_AutoScroll 0x00000080
+#Indent
+{F}
+#Wrap On

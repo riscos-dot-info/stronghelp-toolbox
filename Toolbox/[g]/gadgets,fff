@@ -9,11 +9,11 @@ gadgets in the window class of the Toolbox{/}
 
 Ref:	Page 325 of the {/}User Interface Toolbox{/} manual.
 #Line
-<Generic Flags=>gadget_generic_flags>
+<Generic flags=>gadget_generic_flags>
 <Gadget Constants=>gadgets_constants>
 
 #Align Centre
-{/}{*} Window Gadgets {*}{/}
+{/}{*} Window gadgets {*}{/}
 #Align Left
 
 #Table columns 2
@@ -37,7 +37,7 @@ Ref:	Page 325 of the {/}User Interface Toolbox{/} manual.
 #EndTable
 #Line
 #Align Centre
-{/}{*}Generic Gadget Methods{*}{/}
+{/}{*}Generic gadget methods{*}{/}
 #Align Left
 
 #Table columns 2

@@ -1,30 +1,34 @@
 TextArea_GetSelection
 #include Style
 #Background wimp 1
-Module:	<Window=>window/m>
+Module:	<TextGadgets=>textgadgets/m>
 #Line
 #Wrap off
-Veneer:	<textarea_get_selection_text>
+Veneer:	<textarea_get_selection_points>, <textarea_get_selection_text>
 Syntax:	TextArea_GetSelection
 #indent
 
-On Entry:
+On entry:
 #indent 6
-{FCode}r0 = flags
-     bit 0 set:   return text.
-     bit 0 unset: return indexes.
+{FCode}r0 = <flags=>textarea_get_selection_flags>
 r1 = window object Id
 r2 = 0x4018 + 6 (16414)
 r3 = gadget component Id
-r4 = pointer to buffer
+r4 = pointer to buffer, or 0 to read size
 r5 = size of buffer
 {f}
 #indent
-On exit:
+On exit (if reading text):
 #indent 6
 {FCode}r5 = size of buffer required (if r4=0)
-     else r4 points to text.
+     else r4 points to selected text
+     {f}
+#indent
+On exit (if reading indices):
+#indent 6
+{FCode}r4 = start index
+r5 = end index
 {f}
 #indent
 #Wrap
-Purpose:	Method gets the selected text in the TextArea.
+Purpose:	Method returns in R4 and R5 the start and end points of any selection within a text area. Alternatively, if bit 0 of R0 is set, it behaves similar to <TextArea_GetText> but only copies the selected text. The register usage varies considerably depending upon the mode of use, which is why there are two separate C veneers.

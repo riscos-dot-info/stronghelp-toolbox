@@ -1,4 +1,4 @@
-button_get_flags Flags
+button_get_flags flags
 #include Style
 #Background wimp 1
 Command:	<button_get_flags=>button_get_flags>

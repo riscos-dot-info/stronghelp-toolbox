@@ -1,0 +1,17 @@
+TextAreaDataLoadedEvent data type
+#include Style
+#Background wimp 1
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+#Wrap off
+Struct:	
+#indent 6
+{FCode}typedef struct
+\{
+  <ToolboxEventHeader> hdr;
+  unsigned int       index_start;
+  unsigned int       index_end;
+} TextAreaDataLoadedEvent;
+{F}
+#indent
+#Wrap

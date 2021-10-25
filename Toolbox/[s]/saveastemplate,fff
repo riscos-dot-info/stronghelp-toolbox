@@ -1,7 +1,7 @@
-SaveAsTemplate Data Type
+SaveAsTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<saveas.h=>saveas_class>
+Defined in:	<saveas.h=>saveas_class>
 #Line
 #Wrap off
 Syntax:	

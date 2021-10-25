@@ -2,7 +2,7 @@ scrolllist_make_visible
 #include Style
 #Background wimp 1
 #Parent scrolllist
-Header:	<ScrollList.H=>scrolllist>
+Header:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,12 +10,12 @@ Syntax:
 {FCode}extern <_kernel_oserror> *scrolllist_make_visible
 (
   unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
-  int           index, 
+  <ObjectId>      window, 
+  <ComponentId>   scrolllist,
+  unsigned int  index, 
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	If the item listed in index is outside the visible area of the ScrollList, then scrolllist_make_visible will display that item at the top of the visible area.
+Purpose:	Function ensures that the item at the position specified by {/}index{/} is within the visible area of a scroll list. Currently this is done by scrolling the list so the item is at the top, but this behaviour may improve in future versions of <TextGadgets=>textgadgets/m>.

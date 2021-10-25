@@ -1,0 +1,7 @@
+960 - <Button_GetFlags>
+961 - <Button_SetFlags>
+962 - <Button_SetValue>
+963 - <Button_GetValue>
+964 - <Button_SetValidation>
+965 - <Button_GetValidation>
+966 - <Button_SetFont>

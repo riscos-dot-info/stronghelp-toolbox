@@ -1,9 +1,9 @@
-PopupMenu Data Types
+PopupMenu data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}PopupMenu Data Types{/}
+{/}PopupMenu data types{/}
 #Align left
 
 <PopUp>

@@ -8,13 +8,13 @@ Syntax:	Toolbox_GetParent
 Veneer:	<toolbox_get_parent>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = object Id
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r0 = parent object Id
 r1 = parent component Id

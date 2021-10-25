@@ -1,0 +1,10 @@
+ScrollList_Selection_Flags_Set
+#Wrap Off
+Defined in:	<scrolllist.h=>scrolllist_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ScrollList_Selection_Flags_Set (1<<0)
+#Indent
+{F}
+#Wrap On

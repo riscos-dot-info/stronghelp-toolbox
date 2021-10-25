@@ -8,14 +8,14 @@ Syntax:	Toolbox_SetClientHandle
 Veneer:	<toolbox_set_client_handle>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = object Id
 r2 = client handle
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved.
 {f}

@@ -1,7 +1,7 @@
-bbox Data Type
+bbox data type
 #include Style
 #Background wimp 1
-Defined In:	<wimp.h=>wimp_lib>
+Defined in:	<wimp.h=>wimp_lib>
 #Line
 #Wrap off
 Syntax:	
@@ -17,4 +17,4 @@ Syntax:
 #indent
 
 #Wrap
-Purpose:	Type used by <Window Class=>window_class> for window sizing.
+Purpose:	Type used by <Window class=>window_class> for window sizing.

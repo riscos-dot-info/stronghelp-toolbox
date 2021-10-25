@@ -8,7 +8,7 @@ Syntax:	Window_GetPointerInfo
 Veneer:	<window_get_pointer_info=>window_get_pointer_info>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 {f}

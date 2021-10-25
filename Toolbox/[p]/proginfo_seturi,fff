@@ -8,7 +8,7 @@ Syntax:	ProgInfo_SetUri
 Veneer:	<proginfo_set_uri>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = ProgInfo object ID

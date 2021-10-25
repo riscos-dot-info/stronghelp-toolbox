@@ -8,7 +8,7 @@ Syntax:	SaveAs_SetFileName
 Veneer:	<saveas_set_file_name>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = SaveAs object ID
@@ -22,4 +22,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method sets the filename in the SaveAs Object.
+Purpose:		Method sets the filename in the SaveAs object.

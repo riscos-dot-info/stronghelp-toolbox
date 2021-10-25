@@ -8,7 +8,7 @@ Syntax:	Window_ExtractGadgetInfo
 Veneer:	<window_extract_gadget_info=>window_extract_gadget_info>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = pointer to window template

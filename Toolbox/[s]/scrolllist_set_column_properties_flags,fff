@@ -1,0 +1,14 @@
+scrolllist_set_column_properties flags
+#include Style
+#Background wimp 1
+C veneer:	<scrolllist_set_column_properties>
+SWI:		<ScrollList_SetColumnProperties>
+
+#Line
+#Wrap off
+Bits:	0-7	- Property of columns (value 0-255):
+	 	 	0 - column widths.
+
+Constants:
+	<ScrollList_ColumnProperties_TypeMask>
+	 	<ScrollList_ColumnProperties_Widths>

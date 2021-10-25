@@ -9,7 +9,7 @@ Radio Buttons
 Ref:	Page 387 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>radio_data_types>
+<Data types=>radio_data_types>
 <Flags=>radio_flags>
 
 <radiobutton_get_event>
@@ -20,7 +20,7 @@ Ref:	Page 387 of the {/}User Interface Toolbox{/} manual.
 <radiobutton_set_label>
 <radiobutton_set_state>
 
-{/}RadioButton Events{/}
+{/}RadioButton events{/}
 <RadioButton_StateChanged>
 #Line
 Defined in <Gadgets.H=>gadgets>

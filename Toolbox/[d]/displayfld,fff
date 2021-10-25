@@ -1,4 +1,4 @@
-DisplayField Gadget
+DisplayField gadget
 #include Style
 #Align centre
 {/}These functions allow manipulation of display fields{/}
@@ -8,7 +8,7 @@ DisplayField Gadget
 Ref:	Page 355 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>displayfld_data_types>
+<Data types=>displayfld_data_types>
 <Flags=>displayfld_flags>
 
 <displayfield_get_value>

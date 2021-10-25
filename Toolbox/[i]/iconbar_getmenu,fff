@@ -8,7 +8,7 @@ Syntax:	Iconbar_GetMenu
 Veneer:	<iconbar_get_menu>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Iconbar object ID
@@ -21,4 +21,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method gets the menu associated with the Iconbar Object.
+Purpose:		Method gets the menu associated with the Iconbar object.

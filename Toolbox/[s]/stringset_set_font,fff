@@ -1,0 +1,22 @@
+stringset_set_font
+#include Style
+#Background wimp 1
+Header:	<Gadgets.H=>gadgets>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *stringset_set_font 
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   string_set,
+  char         *font_name,
+  unsigned int  width,
+  unsigned int  height
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function makes the stringset use an anti-aliased font.  If the font_name is NULL then the system font is used.

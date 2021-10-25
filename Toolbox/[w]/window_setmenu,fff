@@ -8,7 +8,7 @@ Syntax:	Window_SetMenu
 Veneer:	<window_set_menu=>window_set_menu>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object ID

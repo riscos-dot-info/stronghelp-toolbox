@@ -8,7 +8,7 @@ Syntax:	Window_WimpToToolbox
 Veneer:	<window_wimp_to_toolbox=>window_wimp_to_toolbox>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = wimp window handle

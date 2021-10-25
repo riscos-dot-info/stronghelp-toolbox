@@ -17,5 +17,5 @@ Syntax:
 {F}
 #indent
 #Wrap
-Purpose:	Function sets the flags word for the given gadget.  To see what flags can be set for gadgets see the relevant gadget and select the Flags link.  There are two <generic flags=>gadget_generic_flags> for all gadgets.
+Purpose:	Function sets the flags word for the given gadget.  To see what flags can be set for gadgets see the relevant gadget and select the flags link.  There are two <generic flags=>gadget_generic_flags> for all gadgets.
 

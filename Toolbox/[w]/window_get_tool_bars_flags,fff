@@ -1,4 +1,4 @@
-window_get_tool_bars Flags
+window_get_tool_bars flags
 #include Style
 #Background wimp 1
 Command:	<window_get_tool_bars=>window_get_tool_bars>

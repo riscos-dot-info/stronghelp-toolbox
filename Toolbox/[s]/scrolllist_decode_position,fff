@@ -1,0 +1,25 @@
+scrolllist_decode_position
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<scrolllist.h=>scrolllist_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_decode_position
+(
+  unsigned int  flags,
+  <ObjectId>      window, 
+  <ComponentId>   scrolllist,
+  int           screen_x,
+  int           screen_y,
+  int          *relative_x,
+  int          *relative_y,
+  unsigned int *index,
+  unsigned int *column
+);              
+{F}
+#indent
+#Wrap
+Purpose:	Function takes a pair of coordinates {/}screen_x{/} and {/}screen_y{/} (for example from a mouse click) and calculates the corresponding coordinates {/}relative_x{/} and {/}relative_y{/} within a scroll list. Also writes out the {/}index{/} of the list item at that location (<UINT_MAX> if before first, <UINT_MAX>-1 if after last) and the {/}column{/} number (<UINT_MAX> if it cannot be determined). Requires <TextGadgets=>textgadgets/m> 0.89.

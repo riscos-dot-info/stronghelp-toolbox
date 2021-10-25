@@ -1,23 +1,24 @@
-Print Class Flags
+Print class flags
 #include Style
 #Parent print_class
 #Background wimp 1
 Class:	<Print=>print_class>
 #Line
 #Wrap off
-Bits:	0	- Set indicates that <PrintDbox_AboutToBeShown> should be raised before object is opened.
-	1	- Set indicates that <PrintDbox_DialogueCompleted> should be raised when the object is closed.
-	2	- Set indicates that <PrintDbox_SetupAboutToBeShown> should be raised before setup object is opened.
-	3	- When set dialogue has All/From/To page range options.
-	4	- When set dialogue has a Copies writable field.
-	5	- When set dialogue has a Scale writable field.
-	6	- When set dialogue has Orientation options.
-	7	- When set dialogue has a Save action button.
-	8	- When set dialogue has a Setup... action button.
-	9	- When set dialogue has a Draft action button.
-	10	- When set From/To values are set from All/From/To.
-	11	- When set Sideways is defaulted.
-	12	- When set Draft is defaulted.
+Bits:	0	- Deliver <PrintDbox_AboutToBeShown> event before showing object.	 
+	1	- Deliver <PrintDbox_DialogueCompleted> event after hiding object.	 
+	2	- Deliver <PrintDbox_SetupAboutToBeShown> event before showing 'Set up' object.	 
+	3	- Dialogue box allows user to specify a page range or 'all'.	 
+	4	- Dialogue box allows user to specify the number of copies.
+	5	- Dialogue box allows user to specify a percentage scale.
+	6	- Dialogue box allows user to specify the page orientation.	 
+	7	- Dialogue box includes 'Save' action button.
+	8	- Dialogue box includes 'Setup...' action button for further options.	 
+	9	- Dialogue box allows user to specify 'draft' print quality.	 
+	10	- Default is to specify a page range rather than 'all'.
+	11	- Default page orientation is 'sideways'.
+	12	- Default print quality is 'draft'.
+	13	- Components 5 & 6 of any alternative window are number range gadgets.	(PrintDbox 0.26)
 
 Constants:
 	<PrintDbox_GenerateShowEvent>
@@ -33,3 +34,4 @@ Constants:
 	<PrintDbox_SelectFromTo>
 	<PrintDbox_SelectSideways>
 	<PrintDbox_SelectDraft>
+	<PrintDbox_AltWinNumberRange>

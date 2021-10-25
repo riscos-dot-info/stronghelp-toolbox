@@ -1,9 +1,9 @@
-Colour Dialogue Data Types
+Colour Dialogue data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Colour Dialogue Data Types{/}
+{/}Colour Dialogue data types{/}
 #Align left
 
 <ColourDboxTemplate>

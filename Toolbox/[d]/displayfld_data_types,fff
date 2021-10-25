@@ -1,9 +1,9 @@
-DisplayField Data Types
+DisplayField data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}DisplayField Data Types{/}
+{/}DisplayField data types{/}
 #Align left
 
 <DisplayField>

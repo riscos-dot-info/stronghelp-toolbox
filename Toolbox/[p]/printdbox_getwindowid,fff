@@ -8,7 +8,7 @@ Syntax:	PrintDbox_GetWindowID
 Veneer:	<printdbox_get_window_id>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = PrintDbox object ID

@@ -8,7 +8,7 @@ Syntax:	Toolbox_RegisterPreFilter
 Veneer:	\<none\>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 	bit 0 set means no longer interested in being called
@@ -17,7 +17,7 @@ r1 = SWI number to be called by filter
 r2 = one-word value to be passed to the SWI (in R2).
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved.
 {f}

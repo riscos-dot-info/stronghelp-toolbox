@@ -1,0 +1,28 @@
+ScrollList_GetHeadingText
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<scrolllist_get_heading_text>
+Syntax:	ScrollList_GetHeadingText
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x401a + 14 (16424)
+r3 = gadget id
+r4 = pointer to buffer, or 0 to read size
+r5 = size of buffer
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r5 = size of buffer (if r4=0)
+     else r4 points to heading text.
+{f}
+#indent
+#Wrap
+Purpose:	Method copies any heading displayed at the top of a scroll list to a buffer provided by the client or, if R4 is 0, just returns the required buffer size in R5. The output string will be zero terminated and may contain tab characters as column separators. Requires TextGadgets 0.29.

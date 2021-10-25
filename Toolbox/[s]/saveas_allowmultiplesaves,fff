@@ -1,0 +1,10 @@
+SaveAs_AllowMultipleSaves
+#Wrap Off
+Defined in:	<saveas.h=>saveas_class>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define SaveAs_AllowMultipleSaves 0x00000020
+#Indent
+{F}
+#Wrap On

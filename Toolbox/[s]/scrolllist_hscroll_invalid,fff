@@ -1,0 +1,10 @@
+ScrollList_HScroll_Invalid
+#Wrap Off
+Defined in:	<scrolllist.h=>scrolllist_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ScrollList_HScroll_Invalid (3<<5)
+#Indent
+{F}
+#Wrap On

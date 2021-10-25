@@ -8,7 +8,7 @@ Syntax:	Iconbar_SetEvent
 Veneer:	<iconbar_set_event>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      Bit 0: set means raise event in r3 for select.
@@ -25,4 +25,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method sets the events associated with the Iconbar Object.
+Purpose:		Method sets the events associated with the Iconbar object.

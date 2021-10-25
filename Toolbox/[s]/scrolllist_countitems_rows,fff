@@ -1,0 +1,10 @@
+ScrollList_CountItems_Rows
+#Wrap Off
+Defined in:	<scrolllist.h=>scrolllist_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ScrollList_CountItems_Rows (0)
+#Indent
+{F}
+#Wrap On

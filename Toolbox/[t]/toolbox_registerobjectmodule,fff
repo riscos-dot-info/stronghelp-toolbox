@@ -8,16 +8,16 @@ Syntax:	Toolbox_RegisterObjectModule
 Veneer:	\<none\>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
-r1 = Object Class Number
-r2 = Class SWI number
+r1 = object class number
+r2 = class SWI number
 r3-> filename where module's resources file is held
 	(or 0 for none).
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved.
 {f}
@@ -25,11 +25,11 @@ On Exit:
 #Wrap
 Purpose:
 #indent 6
-This SWI is called by an Object module to declare that methods on Objects of the given Class, should be done by calling the specified "Class SWI".
+This SWI is called by an object module to declare that methods on objects of the given class, should be done by calling the specified "Class SWI".
 
 The resources held in the file whose name is pointed at by R3 are loaded by the Toolbox, and will be searched when the client makes Toolbox_CreateObject calls. This is primarily used by modules which implement a standard dialogue, and need to hold a Window template for creating the dialogue box itself.
 
-IMPORTANT NOTE:  In the current implementation, the Class SWI Number and the Object Class Number must be the same.
+IMPORTANT NOTE:  In the current implementation, the class SWI number and the object class number must be the same.
 #indent
 #Align Centre
 

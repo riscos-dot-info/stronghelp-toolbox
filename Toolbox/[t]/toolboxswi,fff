@@ -1,28 +1,26 @@
-Toolbox SWIs
+Toolbox modules
 #Include Style
-#Align centre
-{/}{*}Toolbox Modules{*}{/}
 #Align Left
-
 #Table Columns 3
 <ColourMenu=>colourmenu/m>
-<ColourPicker=>colourdbox/m>
+<ColourDbox=>colourdbox/m>
 <DCS=>dcs/m>
 <FileInfo=>fileinfo/m>
 <FontDbox=>fontdbox/m>
 <FontMenu=>fontmenu/m>
-<IconBar=>iconbar/m>
+<Iconbar=>iconbar/m>
 <Menu=>menu/m>
-<Print=>printdbox/m>
+<PrintDbox=>printdbox/m>
 <ProgInfo=>proginfo/m>
-<Quit=>quit/m>
 <SaveAs=>saveas/m>
 <Scale=>scale/m>
+<TextGadgets=>textgadgets/m>
+<ToolAction=>toolaction/m>
 <Toolbox=>toolbox/m>
 <Window=>window/m>
 #EndTable
 #Wrap
 
 #Line
-<Gadgets=>gadgets/m>
-<MiscOp Codes=>toolbox_objectmiscop_codes>
+<Gadget types=>gadgets/m>
+<Toolbox_ObjectMiscOp codes=>toolbox_objectmiscop_codes>

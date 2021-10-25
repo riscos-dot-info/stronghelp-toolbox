@@ -1,9 +1,9 @@
-IconBar Data Types
+IconBar data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Iconbar Data Types{/}
+{/}Iconbar data types{/}
 #Align left
 
 <IconbarTemplate>

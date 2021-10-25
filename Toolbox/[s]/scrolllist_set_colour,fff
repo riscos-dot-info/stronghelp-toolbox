@@ -2,16 +2,16 @@ scrolllist_set_colour
 #include Style
 #Background wimp 1
 #Parent scrolllist
-Header:	<ScrollList.H=>scrolllist>
+Header:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
 Syntax:	
 #indent 6
 {FCode}extern _kernel_oserror *scrolllist_set_colour
 (
-  unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
+  unsigned int  <flags=>scrolllist_set_colour_flags>,
+  <ObjectId>      window, 
+  <ComponentId>   scrolllist,
   unsigned int  foreground,
   unsigned int  background
 );
@@ -19,4 +19,5 @@ Syntax:
 {F}
 #indent
 #Wrap
-Purpose:	Function will set the foreground and background colours for the specified ScrollList.  Not Style-Guide compliant, for use with Java only ;-)
+Purpose:	Function sets the colours of a scroll list to those specified by {/}foreground{/} and {/}background{/}. These may be 24-bit palette entries (0xBBGGRR00) or, if {/}flags{/} bit 0 is set, Wimp colour numbers (0-15).
+	In <TextGadgets=>textgadgets/m> 0.29 (assumed) this method was extended to allow the heading colours to be changed by calling with {/}flags{/} bit 1 set.

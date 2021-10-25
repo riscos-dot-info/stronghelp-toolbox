@@ -1,4 +1,4 @@
-IconBar Class Flags
+IconBar class flags
 #include Style
 #Parent ibar_class
 #Background wimp 1

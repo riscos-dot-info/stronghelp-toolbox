@@ -1,4 +1,4 @@
-Pop-Up Menu Gadgets
+Pop-Up Menu gadgets
 #Parent gadgets
 #include Style
 #Align centre
@@ -9,13 +9,13 @@ Pop-Up Menu Gadgets
 Ref:	Page 383 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>popupmenu_data_types>
+<Data types=>popupmenu_data_types>
 <Flags=>popupmenu_flags>
 
 <popup_get_menu>
 <popup_set_menu>
 
-{/}PopupMenu Events{/}
+{/}PopupMenu events{/}
 <Popup_AboutToBeShown>
 #Line
 Defined in <Gadgets.H=>gadgets>

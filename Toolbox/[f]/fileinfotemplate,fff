@@ -1,7 +1,7 @@
-FileInfoTemplate Data Type
+FileInfoTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<fileinfo.h=>finfo_class>
+Defined in:	<fileinfo.h=>finfo_class>
 #Line
 #Wrap off
 Syntax:	

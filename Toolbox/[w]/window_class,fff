@@ -1,4 +1,4 @@
-Window Class C Veneers
+Window class C veneers
 #Parent !Root
 #include Style
 
@@ -7,10 +7,10 @@ Window Class C Veneers
 Ref:	Page 287 of the {/}User Interface Toolbox{/} manual.
 
 <Window SWIs=>window/m>
-<Window Gadgets=>gadgets>
+<Window gadgets=>gadgets>
 #Line
-<Window Data Types=>window_class_data_types>
-<Window Class Flags=>window_class_flags>
+<Window data types=>window_class_data_types>
+<Window class flags=>window_class_flags>
 
 #Align Centre
 {*}{/}Window SWIs{/}{*}
@@ -44,7 +44,7 @@ Ref:	Page 287 of the {/}User Interface Toolbox{/} manual.
 
 #Line
 #Align Centre
-{*}{/}Window Events{/}{*}
+{*}{/}Window events{/}{*}
 #Align Left
 
 #Wrap off

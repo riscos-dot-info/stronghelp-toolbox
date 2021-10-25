@@ -1,0 +1,22 @@
+scrolllist_get_heading_text
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<scrolllist.h=>scrolllist_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_get_heading_text
+(
+  unsigned int  flags,
+  <ObjectId>      window,
+  <ComponentId>   scrolllist,
+  char         *buffer,
+  int           size,
+  int          *nbytes
+);              
+{F}
+#indent
+#Wrap
+Purpose:	Function copies any heading displayed at the top of a scroll list to a {/}buffer{/} provided by the client or, if {/}buffer{/} is NULL, writes the required buffer size to {/}nbytes{/}. The output string will be NUL terminated and may contain tab characters as column separators. Requires <TextGadgets=>textgadgets/m> 0.29.

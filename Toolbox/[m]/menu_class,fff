@@ -1,13 +1,13 @@
-Menu Class
+Menu class
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of menus{/}
+{/}A Menu object allows the user to select from a list of choices, or open other menus and transient dialogue boxes as submenus.{/}
 
 #Align left
 Ref:	Page 165 of the {/}User Interface Toolbox{/} manual.
 #Line
-<Data Types=>menu_class_data_types>
+<Data types=>menu_class_data_types>
 <Flags=>menu_class_flags>
 
 #Wrap on
@@ -46,7 +46,7 @@ Ref:	Page 165 of the {/}User Interface Toolbox{/} manual.
 
 #Line
 #Align Centre
-{*}{/}Menu Events{/}{*}
+{*}{/}Menu events{/}{*}
 #Align Left
 
 #Wrap off

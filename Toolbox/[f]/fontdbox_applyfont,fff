@@ -13,7 +13,7 @@ Struct:
   <ToolboxEventHeader> hdr;
   unsigned int       height;
   unsigned int       aspect;
-  char               font[208];
+  char               font[204];
 } FontDboxApplyFontEvent;
 
 {F}

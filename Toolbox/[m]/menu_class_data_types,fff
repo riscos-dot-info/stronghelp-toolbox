@@ -1,9 +1,9 @@
-Menu Data Types
+Menu data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Menu Data Types{/}
+{/}Menu data types{/}
 #Align left
 
 <MenuTemplate>

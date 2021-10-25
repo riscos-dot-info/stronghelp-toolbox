@@ -1,21 +1,21 @@
 ScrollList_SetColour
 #include Style
 #Background wimp 1
-Module:	<Window=>window/m>
+Module:	<TextGadgets=>textgadgets/m>
 #Line
 #Wrap off
 Veneer:	<scrolllist_set_colour>
 Syntax:	ScrollList_SetColour
 #indent
 
-On Entry:
+On entry:
 #indent 6
-{FCode}r0 = flags
+{FCode}r0 = <flags=>scrolllist_set_colour_flags>
 r1 = window object Id
 r2 = 0x401a + 8 (16418)
 r3 = gadget component Id
-r4 = foreground
-r5 = background
+r4 = foreground colour
+r5 = background colour
 {f}
 #indent
 On exit:
@@ -24,4 +24,5 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:	Method sets the foreground & background colours of the scrolllist.
+Purpose:	Method sets the foreground and background colours of a scroll list to those specified in R4 and R5. The new colours may be 24-bit palette entries (&BBGGRR00) or, if bit 0 of R0 is set, Wimp colour numbers (0-15).
+	In TextGadgets 0.29 (assumed) this method was extended to allow the heading colours to be changed by calling with bit 1 of R0 set.

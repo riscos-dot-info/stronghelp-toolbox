@@ -1,0 +1,10 @@
+TextArea_BgAlignV_Default
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_BgAlignV_Default (0<<12)
+#Indent
+{F}
+#Wrap On

@@ -1,0 +1,10 @@
+ScrollList_ColumnProperties_Widths
+#Wrap Off
+Defined in:	<scrolllist.h=>scrolllist_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ScrollList_ColumnProperties_Widths (0)
+#Indent
+{F}
+#Wrap On

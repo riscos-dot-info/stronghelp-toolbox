@@ -1,4 +1,4 @@
-Colour Dialogue Class Flags
+Colour Dialogue class flags
 #include Style
 #Parent col-d_class
 #Background wimp 1

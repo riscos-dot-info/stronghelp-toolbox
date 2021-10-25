@@ -1,0 +1,9 @@
+64 - <Gadget_GetFlags>
+65 - <Gadget_SetFlags>
+66 - <Gadget_SetHelpMessage>
+67 - <Gadget_GetHelpMessage>
+68 - <Gadget_GetIconList>
+69 - <Gadget_SetFocus>
+70 - <Gadget_GetType>
+71 - <Gadget_MoveGadget>
+72 - <Gadget_GetBBox>

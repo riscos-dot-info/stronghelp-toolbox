@@ -1,4 +1,4 @@
-Button Flags
+Button flags
 #include Style
 #Background wimp 1
 Gadget:	<Button=>buttons>

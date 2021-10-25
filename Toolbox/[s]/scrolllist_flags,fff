@@ -1,11 +1,31 @@
-Scrolling List Gadget Flags
+Scroll list flags
 #include Style
 #Background wimp 1
-Gadget:	<ScrollList>
+Gadget:	<Scroll list=>scrolllist_gadget>
 #Line
 #Wrap off
 Bits:	0 	- Gadget can have multiple selected items when set.
-
+	1 	- Use icons to select, rather than highlights.	(TextGadgets 0.27)
+	2 	- Don't allow anything to be selected by the user.	(TextGadgets 0.27)
+	3 	- Force gadget to have vertical scroll bar.	(TextGadgets 0.56)
+	4	- Prevent gadget from having vertical scroll bar.	(ditto)
+	5 	- Force gadget to have horizontal scroll bar.	(ditto)
+	6	- Prevent gadget from having horizontal scroll bar.	(ditto)
 Constants:
 	<ScrollList_SingleSelections>
 	<ScrollList_MultipleSelections>
+	<ScrollList_IconSelection>
+	<ScrollList_NoUserSelection>
+	<ScrollList_VScroll_Mask>
+	 	<ScrollList_VScroll_Optional>
+	 	<ScrollList_VScroll_On>
+	 	<ScrollList_VScroll_Off>
+	 	<ScrollList_VScroll_Invalid>
+	<ScrollList_HScroll_Mask>
+	 	<ScrollList_HScroll_Optional>
+	 	<ScrollList_HScroll_On>
+	 	<ScrollList_HScroll_Off>
+	 	<ScrollList_HScroll_Invalid>
+#Line
+#Wrap on
+To be used with <ScrollList_SetState> & <ScrollList_GetState>. If the flags neither force nor prevent a scroll bar then the gadget will automatically gain one as necessary.

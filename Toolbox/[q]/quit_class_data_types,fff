@@ -1,9 +1,9 @@
-Quit Data Types
+Quit data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Quit Data Types{/}
+{/}Quit data types{/}
 #Align left
 
 <QuitTemplate>

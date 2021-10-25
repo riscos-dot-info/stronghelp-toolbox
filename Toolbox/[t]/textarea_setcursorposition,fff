@@ -1,0 +1,26 @@
+TextArea_SetCursorPosition
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<textarea_set_cursor_position>
+Syntax:	TextArea_SetCursorPosition
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = <flags=>textarea_set_cursor_position_flags>
+r1 = window object Id
+r2 = 0x4018 + 11 (16419)
+r3 = gadget component Id
+r4 = <new cursor index=>textarea_special_index_values>
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r4 = old cursor index
+{f}
+#indent
+#Wrap
+Purpose:	Method sets the cursor position within a text area and returns the old position (requires TextGadgets 0.22). If necessary the text is scrolled to reveal the new location. Flags bit 1 is of dubious value since the caret is automatically hidden in faded or display-only text areas.

@@ -1,4 +1,4 @@
-iconbar_set_show Flags
+iconbar_set_show flags
 #include Style
 #Background wimp 1
 Command:	<iconbar_set_show>

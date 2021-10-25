@@ -1,16 +1,12 @@
-TextArea Gadget
+Text area gadget
 #Parent !root
 #background wimp 1
 #include Style
 #Align centre
-{/}These functions allow manipulation of TextAreas.{/}
-
+{/}These functions allow manipulation of text area gadgets.{/}
 #Align left
-#Wrap on
-Ref:	Renaissance Source Tree.
-#Wrap off
 #Line
-<Data Types=>textarea_gadget_data_types>
+<Data types=>textarea_gadget_data_types>
 <Flags=>textarea_flags>
 
 <textarea_get_colour>
@@ -19,14 +15,18 @@ Ref:	Renaissance Source Tree.
 <textarea_get_selection_text>
 <textarea_get_state>
 <textarea_get_text>
+<textarea_get_window_id>
 <textarea_insert_text>
 <textarea_replace_text>
+<textarea_set_background>
 <textarea_set_colour>
 <textarea_set_cursor_position>
 <textarea_set_font>
 <textarea_set_selection>
 <textarea_set_state>
 <textarea_set_text>
-<textarea_set_text_border>
+
+{/}Text area events{/}
+<TextArea_DataLoaded>
 #Line
-Defined in <TextArea.H=>textarea>
+Defined in "textarea.h"

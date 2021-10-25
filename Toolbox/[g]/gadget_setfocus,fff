@@ -8,7 +8,7 @@ Syntax:	Gadget_SetFocus
 Veneer:	<gadget_set_focus=>gadget_set_focus>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object Id

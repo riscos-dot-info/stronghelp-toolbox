@@ -8,7 +8,7 @@ Veneer:	<stringset_get_components>
 Syntax:	StringSet_GetComponents
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      bit 0 - return the alphanumerical field

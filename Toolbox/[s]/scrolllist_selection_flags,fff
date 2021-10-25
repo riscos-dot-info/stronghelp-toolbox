@@ -1,9 +1,19 @@
-ScrollList_Selection Flags
+ScrollList_Selection event flags
 #include Style
 #Background wimp 1
 #Parent scrolllist_selection
-Header: <ScrollList.H=>scrolllist>
+Defined in:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
-\#define ScrollList_Selection_Flags_Set (1<<0)
-\#define ScrollList_Selection_Flags_DoubleClick	(1<<1)
+Bits:	0 	- Item(s) were selected (otherwise deselected).
+	1 	- Indicates mouse double-click by user.
+	2 	- Indicates mouse ADJUST-click by user.	(TextGadgets 0.11)
+	3 	- Event data includes column number and click coordinates.	(TextGadgets 0.78)
+Constants:
+	<ScrollList_Selection_Flags_Set>
+	<ScrollList_Selection_Flags_DoubleClick>
+	<ScrollList_Selection_Flags_AdjustClick>
+	<ScrollList_Selection_Flags_ClickData>
+#Line
+#Wrap on
+Flags returned in <ScrollList_Selection> event data.

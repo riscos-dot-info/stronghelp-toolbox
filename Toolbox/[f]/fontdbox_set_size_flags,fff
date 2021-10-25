@@ -1,4 +1,4 @@
-fontdbox_set_size Flags
+fontdbox_set_size flags
 #include Style
 #Background wimp 1
 Command:	<fontdbox_set_size>

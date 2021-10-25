@@ -1,23 +1,23 @@
-Font Menu Class
+Font Menu class
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Font Menus{/}
+{/}A Font Menu object is a menu which allows the user to select from a list of font names, with submenus for different styles and weights.{/}
 
 #Align left
 #Wrap on
 Ref:	Page 137 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>font_class_data_types>
+<Data types=>font_class_data_types>
 <Flags=>font_class_flags>
 
 <fontmenu_get_font>
 <fontmenu_set_font>
 
-{/}Font Menu Events{/}
+{/}Font Menu events{/}
 <FontMenu_AboutToBeShown>
 <FontMenu_Selection>
 <FontMenu_HasBeenHidden>
 #Line
-Defined in FontMenu.H
+Defined in "fontmenu.h"

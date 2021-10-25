@@ -1,4 +1,4 @@
-ToolAction Flags
+ToolAction flags
 #include Style
 #Background wimp 1
 Gadget:	<ToolAction>

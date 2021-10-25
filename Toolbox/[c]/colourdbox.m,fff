@@ -1,27 +1,24 @@
-Colour Dialogue Class
+ColourDbox module
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Colour Dialogues{/}
+{/}This module provides the Colour Dialogue class{/}
 
 #Align left
 #Wrap on
 Ref:	Page 65 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<ColourDbox SWI Names=>colourdbox_swi_listing>
 <Flags=>col-d_class_flags>
 
-<ColourDbox_GetColour>
-<ColourDbox_GetColourModel>
-<ColourDbox_GetDialogueHandle>
-<ColourDbox_GetNoneAvailable>
-<ColourDbox_GetWimpHandle>
-<ColourDbox_SetColour>
-<ColourDbox_SetColourModel>
-<ColourDbox_SetNoneAvailable>
+{/}Colour Dialogue methods{/}
+#Table Columns 2
+#include colourdbox_methods
+#EndTable
 
-{/}Colour Dialogue Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Colour Dialogue events{/}
 <ColourDbox_AboutToBeShown>
 <ColourDbox_ColourSelected>
 <ColourDbox_DialogueCompleted>

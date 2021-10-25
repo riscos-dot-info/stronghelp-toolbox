@@ -1,13 +1,26 @@
-scrolllist_add_item Flags
+scrolllist_add_item flags
 #include Style
 #Background wimp 1
-Gadget:	<ScrollList>
+C veneer:	<scrolllist_add_item>
+SWI:		<ScrollList_AddItem>
+
 #Line
 #Wrap off
-Bits:	0 & 1	- Behave similarly to <OS_SpriteOP=>OS:os_spriteop>.
+Bits:	0-1	- Interpreted similarly to R0 bits 8 & 9 for <OS_SpriteOp=>OS:os_spriteop>:
+	 	0 - Use sprite name (R6) and Wimp sprite pool.
+	 	1 - Use sprite name (R6) and sprite area pointer (R5).
+	 	2 - Use sprite pointer (R6) and sprite area pointer (R5).
+	 	3 - Invalid value	
+	2	- Plot sprite at half size.
+	3	- Ensure new item is visible by scrolling the list.	(TextGadgets 0.19)
+	4-7	- Left indent in steps of 32 OS units (value 0-15).	(TextGadgets 0.85)
 
-	0 0	- Use WimpSprite Pool, with sprite_name as pointer to sprite name.
-	0 1	- Pointer to sprite area, with sprite_name as pointer to sprite name.
-	1 0	- Pointer to sprite area, with sprite_name as pointer to sprite.
-#Line
-To be used with <scrolllist_add_item>
+Constants:
+	<ScrollList_AddItem_SpriteType_WimpPool>
+	<ScrollList_AddItem_SpriteType_UserPool>
+	<ScrollList_AddItem_SpriteType_Pointer>
+	<ScrollList_AddItem_SpriteType_Invalid>
+	<ScrollList_AddItem_SpriteHalfSize>
+	<ScrollList_AddItem_MakeVisible>
+	<ScrollList_AddItem_IndentMask>
+	<ScrollList_AddItem_IndentShift>

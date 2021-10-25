@@ -8,14 +8,14 @@ Syntax:	Toolbox_CreateObject
 Veneer:	<toolbox_create_object>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      bit 0 set = create from memory
 r1 = pointer to name of template
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r0 = ID of created object
 r1-r9 preserved.

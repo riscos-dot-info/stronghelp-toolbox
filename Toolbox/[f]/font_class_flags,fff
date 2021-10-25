@@ -1,4 +1,4 @@
-Font Menu Class Flags
+Font Menu class flags
 #include Style
 #Parent font_class
 #Background wimp 1

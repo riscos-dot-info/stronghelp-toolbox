@@ -1,4 +1,4 @@
-StringSet Gadget SWIs
+String set gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,12 +8,11 @@ Ref:	Page 403 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>stringset_flags>
 
-<StringSet_GetComponents>
-<StringSet_GetSelected>
-<StringSet_SetAllowable>
-<StringSet_SetAvailable>
-<StringSet_SetSelected>
+{/}String set methods{/}
+#include stringset_methods
 
-{/}String Sets Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}String set events{/}
 <StringSet_ValueChanged>
 <StringSet_AboutToBeShown>

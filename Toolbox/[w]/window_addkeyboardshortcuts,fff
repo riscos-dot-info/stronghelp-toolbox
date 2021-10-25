@@ -8,7 +8,7 @@ Syntax:	Window_AddKeyboardShortcuts
 Veneer:	<window_add_keyboard_shortcuts=>window_add_keyboard_shortcuts>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object ID
@@ -19,7 +19,7 @@ r4 = pointer to memory block containing an array of
      page 317 for more details.
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved.
 {f}

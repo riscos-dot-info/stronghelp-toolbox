@@ -1,15 +1,15 @@
-Scale Dialogue Class
+Scale Dialogue class
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Scale Dialogues{/}
+{/}A Scale Dialogue object allows the user to set a percentage scale for a view on a document, or choose from a number of pre-set scales.{/}
 
 #Align left
 #Wrap on
 Ref:	Page 271 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>scale_class_data_types>
+<Data types=>scale_class_data_types>
 <Flags=>scale_class_flags>
 
 #Table Columns 2
@@ -22,9 +22,9 @@ Ref:	Page 271 of the {/}User Interface Toolbox{/} manual.
 <scale_set_value=>scale_set_value>
 #EndTable
 
-{/}Scale Dialogue Events{/}
+{/}Scale Dialogue events{/}
 <Scale_AboutToBeShown=>Scale_AboutToBeShown>
 <Scale_ApplyFactor=>Scale_ApplyFactor>
 <Scale_DialogueCompleted=>Scale_DialogueCompleted>
 #Line
-Defined in Scale.H
+Defined in "scale.h"

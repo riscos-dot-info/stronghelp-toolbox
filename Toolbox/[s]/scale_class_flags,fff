@@ -1,4 +1,4 @@
-Scale Class Flags
+Scale class flags
 #include Style
 #Parent scale_class
 #Background wimp 1

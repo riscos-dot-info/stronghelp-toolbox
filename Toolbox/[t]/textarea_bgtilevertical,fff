@@ -1,0 +1,10 @@
+TextArea_BgTileVertical
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_BgTileVertical 0x00008000
+#Indent
+{F}
+#Wrap On

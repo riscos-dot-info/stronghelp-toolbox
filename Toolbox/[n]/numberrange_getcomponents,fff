@@ -8,7 +8,7 @@ Veneer:	<numberrange_get_components>
 Syntax:	NumberRange_GetComponents
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      bit 0 - return numerical field

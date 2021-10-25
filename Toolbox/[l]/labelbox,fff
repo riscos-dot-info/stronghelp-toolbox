@@ -1,4 +1,4 @@
-LabelledBox Gadgets
+LabelledBox gadgets
 #Parent gadgets
 #include Style
 #Align centre
@@ -9,7 +9,7 @@ LabelledBox Gadgets
 Ref:	Page 367 of the {/}User Interface Toolbox{/} manual.
 #Wrap on
 #Line
-<Data Types=>labelbox_data_types>
+<Data types=>labelbox_data_types>
 <Flags=>labelbox_flags>
 
 Labels can be used to surround related objects in a window.  There are no Toolbox commands for changing them during execution of a client program.

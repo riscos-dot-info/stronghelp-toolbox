@@ -1,21 +1,22 @@
-Font Menu Class
+FontMenu module
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Font Menus{/}
+{/}This module provides the Font Menu class{/}
 
 #Align left
 #Wrap on
 Ref:	Page 137 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<FontMenu SWI Names=>fontmenu_swi_listing>
 <Flags=>font_class_flags>
 
-<FontMenu_GetFont>
-<FontMenu_SetFont>
+{/}Font Menu methods{/}
+#Include fontmenu_methods
 
-{/}Font Menu Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Font Menu events{/}
 <FontMenu_AboutToBeShown>
 <FontMenu_Selection>
 <FontMenu_HasBeenHidden>

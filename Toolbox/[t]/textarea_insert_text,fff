@@ -2,7 +2,7 @@ textarea_insert_text
 #include Style
 #Background wimp 1
 #Parent textarea
-Header:	<TextArea.H=>textarea>
+Header:	<textarea.h=>textarea_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,13 +10,13 @@ Syntax:
 {FCode}extern <_kernel_oserror> *textarea_insert_text
 (
   unsigned int  flags,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
-  unsigned int  index,
+  <ObjectId>      window, 
+  <ComponentId>   textarea,
+  unsigned int  <index=>textarea_special_index_values>,
   const char   *text
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	Function inserts {/}text{/} at the position specified in {/}index{/}.
+Purpose:	Function inserts {/}text{/} into a text area at the position specified by {/}index{/}. The input string must be NUL terminated and may contain line feeds.

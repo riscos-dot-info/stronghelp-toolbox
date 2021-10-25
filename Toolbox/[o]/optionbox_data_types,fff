@@ -1,9 +1,9 @@
-OptionButton Data Types
+OptionButton data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}OptionButton Data Types{/}
+{/}OptionButton data types{/}
 #Align left
 
 <OptionButton>

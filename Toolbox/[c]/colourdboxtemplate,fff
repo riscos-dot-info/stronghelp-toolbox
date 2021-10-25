@@ -1,7 +1,7 @@
-ColourDboxTemplate Data Type
+ColourDboxTemplate data type
 #include Style
 #Background wimp 1
-Defined In:	<colourdbox.h=>col-d_class>
+Defined in:	<colourdbox.h=>col-d_class>
 #Line
 #Wrap off
 Syntax:	

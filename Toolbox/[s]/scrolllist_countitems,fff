@@ -1,0 +1,25 @@
+ScrollList_CountItems
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<scrolllist_count_items>
+Syntax:	ScrollList_CountItems
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = <flags=>scrolllist_count_items_flags>
+r1 = window object Id
+r2 = 0x401a + 12 (16422)
+r3 = gadget id
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = result value
+{f}
+#indent
+#Wrap
+Purpose:	Method returns in R0 a single informational value dependent on bits 0-7 of R0 on entry. Originally only the number of rows in a scroll list could be requested, but since TextGadgets 0.55 the gadget width and height necessary to make all rows/columns visible can also be read.

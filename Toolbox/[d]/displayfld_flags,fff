@@ -1,4 +1,4 @@
-DisplayField Flags
+DisplayField flags
 #include Style
 #Background wimp 1
 Gadget:	<DisplayField=>displayfld>

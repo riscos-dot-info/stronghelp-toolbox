@@ -1,0 +1,21 @@
+textarea_get_window_id
+#include Style
+#Background wimp 1
+#Parent textarea
+Header:	<textarea.h=>textarea_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *textarea_get_window_id
+(
+  unsigned int flags,
+  <ObjectId>     window, 
+  <ComponentId>  textarea,
+  <ObjectId>    *textarea_window
+);
+
+{F}
+#indent
+#Wrap
+Purpose:	Function gets the object id of the <Window=>window_class> used to implement a text area, which is written to {/}textarea_window{/}. Requires <TextGadgets=>textgadgets/m> 0.77 or later.

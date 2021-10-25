@@ -8,13 +8,13 @@ Syntax:	Toolbox_GetAncestor
 Veneer:	<toolbox_get_ancestor>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = object Id
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r0 = ancestor object Id
 r1 = ancestor component Id

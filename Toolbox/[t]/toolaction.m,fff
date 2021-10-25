@@ -1,0 +1,17 @@
+ToolAction module
+#Parent !Root
+#include Style
+#Align centre
+#Wrap On
+{/}This module provides the Tool action gadget{/}
+#Align left
+#Wrap off
+#Line
+<Flags=>toolaction_flags>
+
+{/}Tool action methods{/}
+#Table Columns 2
+#include toolaction_methods
+#EndTable
+
+(To be used with SWI <Toolbox_ObjectMiscOp>.)

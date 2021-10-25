@@ -1,0 +1,10 @@
+ScrollList_AddItem_SpriteType_Invalid
+#Wrap Off
+Defined in:	<scrolllist.h=>scrolllist_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define ScrollList_AddItem_SpriteType_Invalid (3u<<0)
+#Indent
+{F}
+#Wrap On

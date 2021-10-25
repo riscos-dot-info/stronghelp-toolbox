@@ -1,4 +1,4 @@
-File Info Class
+File Info class
 #Parent !Root
 #include Style
 #Align centre
@@ -9,7 +9,7 @@ File Info Class
 Ref:	Page 103 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>finfo_class_data_types>
+<Data types=>finfo_class_data_types>
 <Flags=>finfo_class_flags>
 
 #Table Columns 3
@@ -28,7 +28,7 @@ Ref:	Page 103 of the {/}User Interface Toolbox{/} manual.
 <fileinfo_set_title>
 #EndTable
 
-{/}File Info Events{/}
+{/}File Info events{/}
 <FileInfo_AboutToBeShown>
 <FileInfo_DialogueCompleted>
 #Line

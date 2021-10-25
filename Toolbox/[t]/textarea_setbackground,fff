@@ -1,0 +1,32 @@
+TextArea_SetBackground
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<textarea_set_background>
+Syntax:	TextArea_SetBackground
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = <flags=>textarea_set_background_flags>
+r1 = window object Id
+r2 = 0x4018 + 13 (16421)
+r3 = gadget component Id
+r4 = pointer to sprite area, or
+     0 to remove background sprite
+     1 to use sprite from Wimp pool
+r5 = pointer to sprite or sprite name
+r6 = X offset
+r7 = Y offset
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r1-r9 preserved
+{f}
+#indent
+#Wrap
+Purpose:	Method sets a sprite to be rendered as a background to the text (requires TextGadgets 0.23). The X and Y offsets are in OS coordinates and allow the position of the sprite to be adjusted. Tiling and basic alignment are controlled by the <gadget state=>textarea_flags>.
+	In TextGadgets 0.77 this method was extended to allow use of named sprites (R0 bit 0), sprites from the Wimp pool (which must be specified by name) and removal of any existing background sprite.

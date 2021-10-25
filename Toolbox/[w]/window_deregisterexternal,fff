@@ -8,11 +8,11 @@ Syntax:	Window_DeregisterExternal
 Veneer:	deregister_gadget_type (GLib)
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
-r1 = type of Gadget to deregister
-r2 = GadGet SWI number that handled it
+r1 = type of gadget to deregister
+r2 = Gadget SWI number that handled it
 {f}
 #indent
 On exit:

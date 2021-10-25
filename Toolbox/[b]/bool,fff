@@ -1,8 +1,8 @@
-bool Data Type
+bool data type
 #Parent toolaction
 #include Style
 #Background wimp 1
-Defined In:	<Types.H=>OSLib:types>
+Defined in:	<Types.H=>OSLib:types>
 #Line
 #Wrap off
 Syntax:	typedef int bool;

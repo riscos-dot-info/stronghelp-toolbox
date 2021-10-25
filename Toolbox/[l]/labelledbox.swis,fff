@@ -1,4 +1,4 @@
-Labelled Box Gadget SWIs
+Labelled box gadget
 #Parent !Root
 #include Style
 #Align left

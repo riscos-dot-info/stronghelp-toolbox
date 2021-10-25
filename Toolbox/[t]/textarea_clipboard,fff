@@ -1,0 +1,10 @@
+TextArea_Clipboard
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_Clipboard 0x00000040
+#Indent
+{F}
+#Wrap On

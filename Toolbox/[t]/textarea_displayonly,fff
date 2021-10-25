@@ -1,0 +1,10 @@
+TextArea_DisplayOnly
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_DisplayOnly 0x00000200
+#Indent
+{F}
+#Wrap On

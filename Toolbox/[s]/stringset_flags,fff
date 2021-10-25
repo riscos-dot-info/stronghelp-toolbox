@@ -1,4 +1,4 @@
-StringSet Flags
+StringSet flags
 #include Style
 #Background wimp 1
 Gadget:	<StringSet=>stringsets>

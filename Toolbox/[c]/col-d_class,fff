@@ -1,15 +1,15 @@
-Colour Dialogue Class
+Colour Dialogue class
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Colour Dialogues{/}
+{/}A Colour Dialogue object allows the user to choose one of 16 million colours using several different colour models (or an optional 'None' button).{/}
 
 #Align left
 #Wrap on
 Ref:	Page 65 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>col-d_class_data_types>
+<Data types=>col-d_class_data_types>
 <Flags=>col-d_class_flags>
 
 <colourdbox_get_colour>
@@ -21,9 +21,9 @@ Ref:	Page 65 of the {/}User Interface Toolbox{/} manual.
 <colourdbox_set_colour_model>
 <colourdbox_set_none_available>
 
-{/}Colour Dialogue Events{/}
+{/}Colour Dialogue events{/}
 <ColourDbox_AboutToBeShown>
 <ColourDbox_ColourSelected>
 <ColourDbox_DialogueCompleted>
 #Line
-Defined in ColourDbox.H
+Defined in "colourdbox.h"

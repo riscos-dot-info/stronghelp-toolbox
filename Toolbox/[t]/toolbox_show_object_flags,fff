@@ -1,4 +1,4 @@
-toolbox_show_object Flags
+toolbox_show_object flags
 #include Style
 #Background wimp 1
 Command:	<toolbox_show_object>

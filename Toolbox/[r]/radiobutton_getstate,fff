@@ -8,7 +8,7 @@ Veneer:	<radiobutton_get_state>
 Syntax:	RadioButton_GetState
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object Id

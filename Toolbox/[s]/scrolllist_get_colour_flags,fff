@@ -1,0 +1,13 @@
+scrolllist_get_colour flags
+#include Style
+#Background wimp 1
+C veneer:	<scrolllist_get_colour>
+SWI:		<ScrollList_GetColour>
+
+#Line
+#Wrap off
+Bits:	0	- Undefined.	 
+	1	- Get colours of heading rather than list body.	(TextGadgets 0.29)
+
+Constants:
+	<ScrollList_HeadingColours>

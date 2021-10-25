@@ -1,4 +1,4 @@
-Button Gadget
+Button gadget
 #Parent gadgets
 #include Style
 #Align centre
@@ -9,7 +9,7 @@ Button Gadget
 Ref:	Page 348 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>buttons_data_types>
+<Data types=>buttons_data_types>
 <Flags=>buttons_flags>
 
 <button_get_flags>
@@ -23,5 +23,5 @@ Ref:	Page 348 of the {/}User Interface Toolbox{/} manual.
 Defined in <Gadgets.H=>gadgets>
 
 #Wrap On
-{/}Button Events{/}
-Buttons do not have Toolbox events.  All clicks are returned as Wimp Events with the appropriate <IDBlock>.
+{/}Button events{/}
+Buttons do not have Toolbox events.  All clicks are returned as Wimp events with the appropriate <IDBlock>.

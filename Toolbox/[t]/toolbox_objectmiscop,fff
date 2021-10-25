@@ -4,11 +4,11 @@ Toolbox_ObjectMiscOp (0x44ec6)
 Module:	<Toolbox=>toolbox/m>
 #Line
 #Wrap off
+Veneer:	No veneer
 Syntax:	Toolbox_ObjectMiscOp
-Veneer:	no veneer.
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = object Id
@@ -16,10 +16,10 @@ r2 = <method code=>toolbox_objectmiscop_codes>
 r3-r9 contain method-specific data
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r1-r9 preserved
-
+{f}
 #indent
 #Wrap
 Purpose:	Method action depends on the class of object being manipulated, and on the reason code.

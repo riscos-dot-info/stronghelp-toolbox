@@ -8,7 +8,7 @@ Syntax:	Iconbar_SetSprite
 Veneer:	<iconbar_set_sprite>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Iconbar object ID
@@ -22,4 +22,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method sets the icon for the Iconbar Object.
+Purpose:		Method sets the icon for the Iconbar object.

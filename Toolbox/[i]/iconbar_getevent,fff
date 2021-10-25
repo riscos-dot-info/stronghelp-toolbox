@@ -8,7 +8,7 @@ Syntax:	Iconbar_GetEvent
 Veneer:	<iconbar_get_event>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      Bit 0: set means return event in r0 for select.
@@ -24,4 +24,4 @@ r1 = toolbox event code for adjust
 {f}
 #indent
 #Wrap
-Purpose:		Method gets the events associated with the Iconbar Object.
+Purpose:		Method gets the events associated with the Iconbar object.

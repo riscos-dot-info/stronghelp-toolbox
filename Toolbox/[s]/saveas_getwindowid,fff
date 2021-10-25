@@ -8,7 +8,7 @@ Syntax:	SaveAs_GetWindowID
 Veneer:	<saveas_get_window_id>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = SaveAs object ID
@@ -21,4 +21,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method gets underlying window object used in the SaveAs Object.
+Purpose:		Method gets underlying window object used in the SaveAs object.

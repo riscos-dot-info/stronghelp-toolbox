@@ -1,25 +1,22 @@
-Colour Menu Class
+ColourMenu module 
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Colour Menus{/}
+{/}This module provides the Colour Menu class{/}
 
 #Align left
 #Wrap on
 Ref:	Page 79 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<ColourMenu SWI Names=>colourmenu_swi_listing>
 <Flags=>col-m_class_flags>
 
-<ColourMenu_GetColour>
-<ColourMenu_GetTitle>
-<ColourMenu_GetNoneAvailable>
-<ColourMenu_SetColour>
-<ColourMenu_SetNoneAvailable>
-<ColourMenu_SetTitle>
+{/}Colour Menu methods{/}
+#include colourmenu_methods
 
-{/}Colour Dialogue Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Colour Menu events{/}
 <ColourMenu_AboutToBeShown>
 <ColourMenu_HasBeenHidden>
 <ColourMenu_Selection>

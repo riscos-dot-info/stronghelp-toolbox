@@ -1,7 +1,7 @@
-Button Data Type
+Button data type
 #include Style
 #Background wimp 1
-Defined In:	<gadgets.h=>gadgets>
+Defined in:	<gadgets.h=>gadgets>
 #Line
 #Wrap off
 Syntax:	

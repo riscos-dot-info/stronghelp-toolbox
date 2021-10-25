@@ -3,12 +3,12 @@ Event.H
 #include Style
 #Wrap off
 #Align centre
-{/}The sections below list functions available in the Event library{/}
+{/}The sections below list functions available in the event library{/}
 #Align left
 
 Ref:	Page 143 of the {/}Acorn C/C++{/} manual.
 #Line
-<Data Types=>event_lib_data_types>
+<Data types=>event_lib_data_types>
 
 #Align Centre
 {/}{*} Initialisation {*}{/}

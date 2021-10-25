@@ -1,31 +1,15 @@
-ScrollList Class
+Scroll list gadget
 #Parent !Root
 #include Style
-#Align centre
-{/}These functions allow manipulation of the ScrollList Gadgets{/}
-
 #Align left
-#Wrap on
-Ref:	ScrollList.h
-#Wrap off
-#Line
-<ScrollList SWI names=>scrolllist_swi_listing>
 <Flags=>scrolllist_flags>
 
+{/}Scroll list methods{/}
 #Table Columns 2
-<ScrollList_GetState>
-<ScrollList_SetState>
-<ScrollList_AddItem>
-<ScrollList_DeleteItems>
-<ScrollList_SelectItem>
-<ScrollList_DeselectItem>
-<ScrollList_GetSelected>
-<ScrollList_MakeVisible>
-<ScrollList_SetColour>
-<ScrollList_GetColour>
-<ScrollList_SetFont>
-<ScrollList_GetItemText>
+#include scrolllist_methods
 #EndTable
 
-{/}ScrollList Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Scroll list events{/}
 <ScrollList_Selection>

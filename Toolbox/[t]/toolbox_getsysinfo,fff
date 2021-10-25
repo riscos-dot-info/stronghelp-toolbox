@@ -8,7 +8,7 @@ Syntax:	Toolbox_GetSysInfo
 Veneer:	<toolbox_get_sys_info>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      bit 0 - return task name
@@ -21,7 +21,7 @@ On Entry:
 r1 + r2 depend on bits set in r0 (see below)
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r0: On Entry - On Exit
          0   - r2 holds size of buffer (if r1=0)

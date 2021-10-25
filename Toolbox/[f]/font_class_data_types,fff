@@ -1,9 +1,9 @@
-Font Menu Data Types
+Font Menu data types
 #Parent !root
 #include Style
 #Wrap off
 #Align centre
-{/}Font Menu Data Types{/}
+{/}Font Menu data types{/}
 #Align left
 
 <FontMenuTemplate>

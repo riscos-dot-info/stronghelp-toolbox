@@ -1,31 +1,34 @@
-Scrolling Lists
+Scroll list gadget
 #Parent !root
 #include Style
 #Align centre
-{/}These functions allow manipulation of Scrolling Lists.{/}
-
+{/}These functions allow manipulation of scroll list gadgets.{/}
 #Align left
-#Wrap on
-Ref:	Renaissance Source Tree.
-#Wrap off
 #Line
-<Data Types=>scrolllist_gadget_data_types>
+<Data types=>scrolllist_gadget_data_types>
 <Flags=>scrolllist_flags>
 
 <scrolllist_add_item>
+<scrolllist_count_items>
+<scrolllist_decode_position>
 <scrolllist_delete_items>
 <scrolllist_deselect_item>
 <scrolllist_get_colour>
+<scrolllist_get_font>
+<scrolllist_get_heading_text>
 <scrolllist_get_item_text>
 <scrolllist_get_selected>
 <scrolllist_get_state>
 <scrolllist_make_visible>
 <scrolllist_select_item>
-<scrolllist_set_font>
 <scrolllist_set_colour>
+<scrolllist_set_column_properties>
+<scrolllist_set_font>
+<scrolllist_set_heading_text>
+<scrolllist_set_item_text>
 <scrolllist_set_state>
 
-{/}ScrollList Events{/}
+{/}Scroll list events{/}
 <ScrollList_Selection>
 #Line
-Defined in <ScrollList.H=>scrolllist>
+Defined in "scrolllist.h"

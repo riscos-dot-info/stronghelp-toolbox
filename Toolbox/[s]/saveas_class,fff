@@ -1,15 +1,15 @@
-Save As Class
+SaveAs Dialogue class
 #Parent !Root
 #include Style
 #Align centre
-{/}These functions allow manipulation of the Save As Dialogues{/}
+{/}A SaveAs Dialogue object allows the user to save a file either by entering the full path name or by dragging an icon representing the file to its destination.{/}
 
 #Align left
 #Wrap on
 Ref:	Page 245 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>saveas_class_data_types>
+<Data types=>saveas_class_data_types>
 <Flags=>saveas_class_flags>
 
 #Table Columns 3
@@ -28,11 +28,11 @@ Ref:	Page 245 of the {/}User Interface Toolbox{/} manual.
 <saveas_set_title=>saveas_set_title>
 #EndTable
 
-{/}SaveAs Dialogue Events{/}
+{/}SaveAs Dialogue events{/}
 <SaveAs_AboutToBeShown=>saveas_abouttobeshown>
 <SaveAs_DialogueCompleted=>SaveAs_DialogueCompleted>
 <SaveAs_SaveToFile=>SaveAs_SaveToFile>
 <SaveAs_FillBuffer=>SaveAs_FillBuffer>
 <SaveAs_SaveCompleted=>SaveAs_SaveCompleted>
 #Line
-Defined in SaveAs.H
+Defined in "saveas.h"

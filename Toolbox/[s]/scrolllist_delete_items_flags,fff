@@ -1,0 +1,14 @@
+scrolllist_delete_items flags
+#include Style
+#Background wimp 1
+C veneer:	<scrolllist_delete_items>
+SWI:		<ScrollList_DeleteItems>
+
+#Line
+#Wrap off
+Bits:	0	- Send <ScrollList_Selection> event when complete.	(TextGadgets 0.19)
+	1	- Try to preserve vertical scroll position.	(ditto)
+
+Constants:
+	<ScrollList_SelectionChangingMethod_SendEvent>
+	<ScrollList_DeleteItems_DoNotJumpToTop>

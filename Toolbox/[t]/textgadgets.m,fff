@@ -1,0 +1,11 @@
+TextGadgets module
+#Parent !Root
+#include Style
+#Align centre
+#Wrap On
+{/}This module provides the Scroll bar, Scroll list and Text area gadgets{/}
+#Align left
+#Wrap off
+#Line
+<Scroll list gadget=>scrolllist/swis>
+<Text area gadget=>textarea/swis>

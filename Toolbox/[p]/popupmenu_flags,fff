@@ -1,4 +1,4 @@
-PopupMenu Flags
+PopupMenu flags
 #include Style
 #Background wimp 1
 Gadget:	<PopupMenu=>popupmenu>

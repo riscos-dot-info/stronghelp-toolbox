@@ -1,0 +1,30 @@
+ScrollList_DecodePosition
+#include Style
+#Background wimp 1
+Module:	<TextGadgets=>textgadgets/m>
+#Line
+#Wrap off
+Veneer:	<scrolllist_decode_position>
+Syntax:	ScrollList_DecodePosition
+#indent
+
+On entry:
+#indent 6
+{FCode}r0 = flags
+r1 = window object Id
+r2 = 0x401a + 22 (16432)
+r3 = gadget id
+r4 = screen X position
+r5 = screen Y position
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = X offset (from left of scroll list)
+r1 = Y offset (from top of scroll list)
+r2 = item number
+r3 = column number
+{f}
+#indent
+#Wrap
+Purpose:	Method decodes the screen coordinates passed in R4,R5 into relative coordinates, item and column number within a scroll list. Returns R2 = &FFFFFFFF if specified coordinates are before the first item or &FFFFFFFE if after the last item. Returns R3 = &FFFFFFFF if the column number cannot be determined. Requires TextGadgets 0.89.

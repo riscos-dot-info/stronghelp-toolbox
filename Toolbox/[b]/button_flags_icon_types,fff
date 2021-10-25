@@ -1,4 +1,4 @@
-Button Flags Bits 12-15 (Icon types)
+Button flags Bits 12-15 (Icon types)
 #include Style
 #Background wimp 1
 Command:	<button_get_flags=>button_get_flags>

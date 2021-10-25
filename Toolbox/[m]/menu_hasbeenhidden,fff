@@ -16,4 +16,4 @@ Struct:
 {F}
 #indent
 #Wrap
-Purpose:	Event is raised due to a call to <ToolBox HideObject=>toolbox_hide_object> on a menu.
+Purpose:	Event is raised due to a call to <Toolbox HideObject=>toolbox_hide_object> on a menu.

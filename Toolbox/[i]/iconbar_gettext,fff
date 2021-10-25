@@ -8,7 +8,7 @@ Syntax:	Iconbar_GetText
 Veneer:	<iconbar_get_text>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Iconbar object ID
@@ -24,4 +24,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method gets the below icon text for the Iconbar Object.
+Purpose:		Method gets the below icon text for the Iconbar object.

@@ -8,7 +8,7 @@ Syntax:	ColourMenu_GetColour
 Veneer:	<colourmenu_get_colour>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = ColourMenu object ID

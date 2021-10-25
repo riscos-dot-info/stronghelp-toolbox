@@ -8,7 +8,7 @@ Syntax:	Toolbox_Initialise
 Veneer:	<toolbox_initialise>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = last wimp version known to task
@@ -23,7 +23,7 @@ r6 = pointer to buffer to hold object Ids on
      return from Wimp Poll.
 {f}
 #indent
-On Exit:
+On exit:
 #indent 6
 {FCode}r0 = current wimp version number.
 r1 = wimp task handle for client.

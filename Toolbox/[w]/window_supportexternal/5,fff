@@ -8,7 +8,7 @@ Syntax:
 Veneer:	mem_free (GLib)
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r1 = 5 (MemFree)
 r2-> memory

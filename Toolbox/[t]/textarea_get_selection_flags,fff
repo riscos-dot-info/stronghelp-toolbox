@@ -1,0 +1,12 @@
+TextArea_GetSelection flags
+#include Style
+#Background wimp 1
+C veneer:	<textarea_get_selection_text>, <textarea_get_selection_points>
+SWI:		<TextArea_GetSelection>
+
+#Line
+#Wrap off
+Bits:	0	- If set, output selected text rather than start/end indices.
+
+Constants:
+	<TextArea_GetSelection_ReturnText>

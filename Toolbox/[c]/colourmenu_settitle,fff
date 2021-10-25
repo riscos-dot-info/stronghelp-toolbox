@@ -8,7 +8,7 @@ Syntax:	ColourMenu_SetTitle
 Veneer:	<colourmenu_set_title>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = ColourMenu object ID

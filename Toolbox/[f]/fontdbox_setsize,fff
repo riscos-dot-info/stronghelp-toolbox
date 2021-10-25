@@ -8,7 +8,7 @@ Syntax:	FontDbox_SetSize
 Veneer:	<fontdbox_set_size>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = FontDbox object ID

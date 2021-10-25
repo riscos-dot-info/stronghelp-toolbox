@@ -1,4 +1,4 @@
-NumberRange Gadget SWIs
+Number range gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,11 +8,10 @@ Ref:	Page 368 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>numberrang_flags>
 
-<NumberRange_GetBounds>
-<NumberRange_GetComponents>
-<NumberRange_GetValue>
-<NumberRange_SetBounds>
-<NumberRange_SetValue>
+{/}Number range methods{/}
+#include numberrange_methods
 
-{/}NumberRange Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Number range events{/}
 <NumberRange_ValueChanged>

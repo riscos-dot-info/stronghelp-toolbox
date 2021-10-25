@@ -8,7 +8,7 @@ Syntax:	FontDbox_GetTryString
 Veneer:	<fontdbox_get_try_string>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = FontDbox object ID

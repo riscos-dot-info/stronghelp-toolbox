@@ -18,4 +18,4 @@ Struct:
 {F}
 #indent
 #Wrap
-Purpose:	Event is raised due to a call to <ToolBox ShowObject=>toolbox_show_object> on a menu.
+Purpose:	Event is raised due to a call to <Toolbox ShowObject=>toolbox_show_object> on a menu.

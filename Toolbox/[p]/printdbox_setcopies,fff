@@ -8,7 +8,7 @@ Syntax:	PrintDbox_SetCopies
 Veneer:	<printdbox_set_copies>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = PrintDbox object ID

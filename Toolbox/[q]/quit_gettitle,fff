@@ -1,14 +1,14 @@
 Quit_GetTitle
 #include Style
 #Background wimp 1
-Module:	<Quit=>quit/m>
+Module:	<DCS=>DCS/m>
 #Line
 #Wrap off
 Syntax:	Quit_GetTitle
 Veneer:	<quit_get_title>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Quit object ID

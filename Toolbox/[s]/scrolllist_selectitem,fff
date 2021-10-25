@@ -1,16 +1,16 @@
 ScrollList_SelectItem
 #include Style
 #Background wimp 1
-Module:	<Window=>window/m>
+Module:	<TextGadgets=>textgadgets/m>
 #Line
 #Wrap off
 Veneer:	<scrolllist_select_item>
 Syntax:	ScrollList_SelectItem
 #indent
 
-On Entry:
+On entry:
 #indent 6
-{FCode}r0 = flags
+{FCode}r0 = <flags=>scrolllist_deselect_item_flags>
 r1 = window object Id
 r2 = 0x401a + 4 (16414)
 r3 = gadget component Id
@@ -23,4 +23,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:	Method selects an item in the scrolllist.
+Purpose:	Method selects the item at the position specified by R4 in a scroll list, or all items if bit 1 of R0 is set. If bit 0 of R0 is set then a <ScrollList_Selection> event will be raised upon completion; the event data will include 0 as the item number if selecting all.

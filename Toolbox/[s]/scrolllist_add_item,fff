@@ -2,7 +2,7 @@ scrolllist_add_item
 #include Style
 #Background wimp 1
 #Parent scrolllist
-Header:	<ScrollList.H=>scrolllist>
+Header:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
 Syntax:	
@@ -10,15 +10,15 @@ Syntax:
 {FCode}extern <_kernel_oserror> *scrolllist_add_item
 (
   unsigned int  <flags=>scrolllist_add_item_flags>,
-  <ObjectId>      object_id, 
-  <ComponentId>   component_id,
+  <ObjectId>      window, 
+  <ComponentId>   scrolllist,
   const char   *text, 
-  const char   *sprite_area,
-  const void   *sprite_name, 
-  int           index
+  const void   *sprite_area,
+  const char   *sprite_name, 
+  unsigned int  index
 );
 
 {F}
 #indent
 #Wrap
-Purpose:	Function returns the state of the specified ScrollList.  Bit 0 of state set indicates gadget can have multiple selected items.
+Purpose:	Function adds a new item to a scroll list at the position specified by {/}index{/}. The {/}text{/} string must be NUL terminated and since <TextGadgets=>textgadgets/m> 0.26 may contain tab characters as field separators for a columned display. The interpretation of {/}sprite_area{/} and {/}sprite_name{/} is dependent on the supplied {/}flags{/}, and may be unreliable prior to version 0.30.

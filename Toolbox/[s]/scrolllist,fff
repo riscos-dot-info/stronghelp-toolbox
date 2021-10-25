@@ -1,7 +1,7 @@
-ScrollList Data Type
+ScrollList data type
 #include Style
 #Background wimp 1
-Defined In:	<scrolllist.h=>scrolllist_gadget>
+Defined in:	<scrolllist.h=>scrolllist_gadget>
 #Line
 #Wrap off
 Syntax:	

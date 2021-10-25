@@ -1,7 +1,7 @@
 printdbox_get_title
 #include Style
 #Background wimp 1
-Class:	<Printer Dialogue=>print_class>
+Class:	<Print Dialogue=>print_class>
 #Line
 #Wrap off
 Syntax:	

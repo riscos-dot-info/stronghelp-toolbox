@@ -8,7 +8,7 @@ Syntax:	Iconbar_GetShow
 Veneer:	<iconbar_get_show>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
      Bit 0: set means return object in r0 for select.
@@ -24,4 +24,4 @@ r1 = object id for adjust.
 {f}
 #indent
 #Wrap
-Purpose:		Method gets the objects associated with the Iconbar Object.
+Purpose:		Method gets the objects associated with the Iconbar object.

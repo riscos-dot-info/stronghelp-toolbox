@@ -1,4 +1,4 @@
-OptionButton Gadget SWIs
+Option button gadget
 #Parent !Root
 #include Style
 #Align left
@@ -8,13 +8,10 @@ Ref:	Page 376 of the {/}User Interface Toolbox{/} manual.
 #Line
 <Flags=>optionbox_flags>
 
-<OptionButton_GetEvent>
-<OptionButton_GetLabel>
-<OptionButton_GetState>
-<OptionButton_SetEvent>
-<OptionButton_SetFont>
-<OptionButton_SetLabel>
-<OptionButton_SetState>
+{/}Option button methods{/}
+#include optionbutton_methods
 
-{/}Option Button Events{/}
+(To be used with SWI <Toolbox_ObjectMiscOp>.)
+
+{/}Option button events{/}
 <OptionButton_StateChanged>

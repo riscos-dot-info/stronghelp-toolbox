@@ -8,7 +8,7 @@ Syntax:	Iconbar_SetMenu
 Veneer:	<iconbar_set_menu>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = Iconbar object ID
@@ -22,4 +22,4 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:		Method sets the menu associated with the Iconbar Object.
+Purpose:		Method sets the menu associated with the Iconbar object.

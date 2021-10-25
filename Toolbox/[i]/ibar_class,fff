@@ -1,4 +1,4 @@
-Iconbar Icon Class
+Iconbar Icon class
 #Parent !Root
 #include Style
 #Align centre
@@ -9,7 +9,7 @@ Iconbar Icon Class
 Ref:	Page 145 of the {/}User Interface Toolbox{/} manual.
 #Wrap off
 #Line
-<Data Types=>ibar_class_data_types>
+<Data types=>ibar_class_data_types>
 <Flags=>ibar_class_flags>
 
 #Table Columns 2
@@ -28,7 +28,7 @@ Ref:	Page 145 of the {/}User Interface Toolbox{/} manual.
 <iconbar_set_text>
 #EndTable
 
-{/}Iconbar Icon Events{/}
+{/}Iconbar Icon events{/}
 <Iconbar_AdjustAboutToBeShown>
 <Iconbar_Clicked>
 <Iconbar_SelectAboutToBeShown>

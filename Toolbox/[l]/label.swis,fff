@@ -1,4 +1,4 @@
-Label Gadget SWIs
+Label gadget
 #Parent !Root
 #include Style
 #Align left

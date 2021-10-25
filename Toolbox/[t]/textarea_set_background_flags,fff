@@ -1,0 +1,12 @@
+textarea_set_background flags
+#include Style
+#Background wimp 1
+C veneer:	<textarea_set_background>
+SWI:		<TextArea_SetBackground>
+
+#Line
+#Wrap off
+Bits:	0	- If set, R5 points to a sprite name rather than a sprite.	(TextGadgets 0.77)
+
+Constants:
+	<TextArea_NamedSprite>

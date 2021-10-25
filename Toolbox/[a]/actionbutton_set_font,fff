@@ -12,8 +12,8 @@ Syntax:
   <ObjectId>      window,
   <ComponentId>   actionbutton,
   char         *font_name,
-  int           width,
-  int           height
+  unsigned int  width,
+  unsigned int  height
 );
 
 {F}

@@ -1,0 +1,20 @@
+scrolllist_count_items
+#include Style
+#Background wimp 1
+#Parent scrolllist
+Header:	<scrolllist.h=>scrolllist_gadget>
+#Line
+#Wrap off
+Syntax:	
+#indent 6
+{FCode}extern <_kernel_oserror> *scrolllist_count_items
+(
+  unsigned int  <flags=>scrolllist_count_items_flags>,
+  <ObjectId>      window, 
+  <ComponentId>   scrolllist,
+  unsigned int *items
+);              
+{F}
+#indent
+#Wrap
+Purpose:	Function writes to {/}items{/} a single informational value dependent on bits 0-7 of {/}flags{/}. Originally only the number of rows in a scroll list could be requested, but since <TextGadgets=>textgadgets/m> 0.55 the gadget width and height necessary to make all rows/columns visible can also be read.

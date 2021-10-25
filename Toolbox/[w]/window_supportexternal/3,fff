@@ -8,7 +8,7 @@ Syntax:
 Veneer:	create_gadget (GLib)
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r1 = 3 (CreateGadget)
 r2 = ObjectId (must be current ObjectId)
@@ -22,7 +22,7 @@ On exit:
 {f}
 #indent
 #Wrap
-Purpose:	This call, used for implementing composite gadgets, creates a gadget from the given template definition. The Window module generates a unique ComponentId for the gadget derived from the tag - It will be of the form 0x?????ttt. The use of a tag allows improved reaction to events on composite gadgets in that if a Composite Gadget creates all its Gadgets with tag 999, then its event routines can return immediately if the ComponentId's lower bits do not equal 999. In order to receive Toolbox events, a module must register an interest in them.
+Purpose:	This call, used for implementing composite gadgets, creates a gadget from the given template definition. The Window module generates a unique ComponentId for the gadget derived from the tag - It will be of the form 0x?????ttt. The use of a tag allows improved reaction to events on composite gadgets in that if a Composite Gadget creates all its gadgets with tag 999, then its event routines can return immediately if the ComponentId's lower bits do not equal 999. In order to receive Toolbox events, a module must register an interest in them.
 #Align Centre
 {*}This is described more detailed in application note 280. {*}
 

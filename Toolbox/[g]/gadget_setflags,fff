@@ -8,7 +8,7 @@ Syntax:	Gadget_SetFlags
 Veneer:	<gadget_set_flags=>gadget_set_flags>
 #indent
 
-On Entry:
+On entry:
 #indent 6
 {FCode}r0 = flags
 r1 = window object Id

@@ -1,0 +1,10 @@
+TextArea_AllowSelection
+#Wrap Off
+Defined in:	<textarea.h=>textarea_gadget>
+#Line
+Syntax:
+#Indent 6
+{FCode}\#define TextArea_AllowSelection 0x00000008
+#Indent
+{F}
+#Wrap On

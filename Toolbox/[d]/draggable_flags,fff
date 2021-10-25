@@ -1,4 +1,4 @@
-Draggable Flags
+Draggable flags
 #include Style
 #Background wimp 1
 Gadget:	<Draggable=>draggable>
