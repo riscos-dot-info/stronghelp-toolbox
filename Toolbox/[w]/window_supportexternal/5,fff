@@ -1,0 +1,23 @@
+MemFree (5)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:
+Veneer:	mem_free (GLib)
+#indent
+
+On Entry:
+#indent 6
+{FCode}r1 = 5 (MemFree)
+r2-> memory
+{f}
+#indent
+On exit:
+#indent 6
+All registers preserved
+#indent
+
+#Wrap
+Purpose:	This call frees memory that was previously allocated by the Window modules allocator.

@@ -1,0 +1,23 @@
+CreateIcon (0)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:
+Veneer:	glib_create_icon 
+#indent
+
+On Entry:
+#indent 6
+{FCode}r1 = 0 (CreateIcon)
+r2-> <Icon block=>Wimp:wimp_iconblock>
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = icon handle or -1 if failed to create
+{f}
+#indent
+#Wrap
+Purpose:	This call creates a wimp icon from the given definition except when the Window module is in 'plotting' mode.

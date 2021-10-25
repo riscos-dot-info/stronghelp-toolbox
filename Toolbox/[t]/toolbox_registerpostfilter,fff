@@ -1,0 +1,43 @@
+Toolbox_RegisterPostFilter (&44eff)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_RegisterPostFilter
+Veneer:	\<none\>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+	bit 0 set means no longer interested in being called by post-filter, for the
+	list of pairs pointed at by R4, and the given SWI number, and the
+	given R2 value.
+r1 = SWI number to be called by filter
+r2 = one-word value to be passed to the SWI (in R2).
+r3 = filter type
+	1 => Wimp Events
+	2 => Wimp Messages
+	3 => Toolbox Events
+r4 = list of pairs of either:
+	Wimp Event code + Object Class,
+	Wimp Message number + Object Class or
+	Toolbox Event code + Object Class
+	(depending on the value of R3.)  
+	The list is terminated by two words containing -1.
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:
+#indent 6
+This SWI is used to get Wimp Events, Wimp Messages or Toolbox Events delivered to an Object Module.  It is used by that module to get events before they are passed to the client application.
+#indent
+#Align Centre
+
+{*}For more information, please read Application Notes 281{*}

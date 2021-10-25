@@ -16,7 +16,6 @@ r2 = 16
 r3 = pointer to 4 word block to hold extent
 {f}
 #indent
-
 On exit:
 #indent 6
 {FCode}r3 = updated to:

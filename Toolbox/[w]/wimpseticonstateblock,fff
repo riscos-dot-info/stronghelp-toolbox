@@ -11,8 +11,8 @@ Syntax:
 \{  
   int window_handle;
   int icon_handle;
-  int EOR_word;
-  int clear_word;
+  int <EOR_word=>wimpiconblock_flags>;
+  int <clear_word=>wimpiconblock_flags>;
 } WimpSetIconStateBlock;
 {F}
 #indent

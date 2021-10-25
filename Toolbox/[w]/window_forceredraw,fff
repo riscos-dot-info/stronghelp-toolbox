@@ -20,7 +20,6 @@ r3 = pointer to area to redraw:
      +12 maximum y co-ordinate
 {f}
 #indent
-
 On exit:
 #indent 6
 {FCode}r1-r9 preserved

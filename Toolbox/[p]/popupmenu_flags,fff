@@ -4,7 +4,7 @@ PopupMenu Flags
 Gadget:	<PopupMenu=>popupmenu>
 #Line
 #Wrap off
-Bits:	0	- Set means issue an <Popup_AboutToBeShown> when user clicks.
+Bits:	0	- Set means issue an <PopUp_AboutToBeShown> when user clicks.
 
 Constants:
 	<PopUp_GenerateAboutToBeShown>

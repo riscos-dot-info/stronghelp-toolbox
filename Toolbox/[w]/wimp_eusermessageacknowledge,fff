@@ -8,4 +8,4 @@ Syntax:
 #Indent
 {F}
 #Wrap On
-Purpose:	C Declaration for <UserMessageAcknowledge=>Wimp:Wimp_Poll19>
+Purpose:	C Declaration for <UserMessageAcknowledge=>Wimp:Wimp_SendMessage2>

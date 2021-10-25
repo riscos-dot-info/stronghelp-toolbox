@@ -1,9 +1,0 @@
-A Note On Zap
-#Parent !Root
-#include Style
-#Wrap on
-Zap must be modified slightly to accomodate keyword lookup.  Ensure that you have the ZapMJE module in !Zap.3rdParty.Ebourne and then load the file !Zap.Keys and change the line starting F1.  The function to be carried out by the F1 key should be changed to:
-#Wrap off
-#Align centre
-{*}MJE_HELPCONTEXT{*}
-#Align left

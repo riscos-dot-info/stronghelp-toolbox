@@ -5,7 +5,7 @@ A Note On This Manual
 #Indent 10
 #Align centre
 
-This manual was produced by {/}Neil Bingham{/}
+This manual was created by {/}Neil Bingham{/}
 for {/}Acorn Computers Ltd{/}
 #Align Left
 #Below
@@ -13,20 +13,10 @@ for {/}Acorn Computers Ltd{/}
 #Line
 The manual provides keyword help on the {/}User Interface Toolbox{/} commands
 and libraries.  Also available is <C-Version 5=>C-Version5:!Root> which documents AcornC/C++ CLib 5.  
-The manual supports keyword lookup from <Zap=>zapnote> and StrongEd.
 #Line
-#Align Centre
-{/}Updates to this manual will be available from me on my HomePage{/}
+For comments, suggestions and submissions for these, please mail Christian Ludlam <christian@recoil.org=>#url mailto:christian@recoil.org> who is currently moderating the collection. This manual will continue to be available from <http://sudden.recoil.org/stronghelp/=>#url>.
 #Line
-#Align Left
-{*}Ways of contacting me:{*}
-        è <mailto:nbingham@acorn.com=>#url>
-        è <http://www.binghams.demon.co.uk/stronghelp/=>#url>
-#Align Centre
-(These links only work with Stronghelp 2.10b or later)
-#Align Left
-#Line
-{*}My Thanks To:{*}
+{*}Neil's thanks to:{*}
         è Alun Rogers of {/}Desktop Projects{/} for testing the SWI pages.
         è Piers for fixing the Toolbox and giving us ScrollList (and Java).
         è Dave Walker.
@@ -42,6 +32,5 @@ The manual supports keyword lookup from <Zap=>zapnote> and StrongEd.
         è Versions after 1.15 document C Constants for Wimp Messages.
 #Align Centre
 #Line
-Please Report Errors, Omissions and Broken Links To My Email Address
 {*}© Neil Bingham 1996, 97{*}.
 #Align Left

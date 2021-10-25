@@ -8,9 +8,9 @@ Syntax:
 #indent 6
 {FCode}extern <_kernel_oserror> *colourdbox_set_colour
 (
-  unsigned int  <flags,=>colourdbox_set_colour_flags>
+  unsigned int  <flags=>colourdbox_set_colour_flags>,
   <ObjectId>      colourdbox,
-  int          *colour_block
+  int          *<colour_block=>Wimp:ColourPicker_.descriptor>
 );
 
 {F}

@@ -12,9 +12,9 @@ On Entry:
 #indent 6
 {FCode}r0 = flags
      bit 0 - set means use semantics of
-             <Wimp_CreateMenu=>SWI:Wimp_CreateMenu>
+             <Wimp_CreateMenu=>Wimp:Wimp_CreateMenu>
      bit 1 - set means use semantics of
-             <Wimp_CreateSubMenu=>SWI:Wimp_CreateSubMenu>
+             <Wimp_CreateSubMenu=>Wimp:Wimp_CreateSubMenu>
 r1 = object Id
 r2 = show <type=>toolbox_show_object_type>
 r3 = 0

@@ -8,7 +8,7 @@ Syntax:
 #indent 6
 {FCode}extern <_kernel_oserror> *gadget_set_flags 
 (
-  unsigned int  <flags,=>gadget_generic_flags>
+  unsigned int  <flags=>gadget_generic_flags>,
   <ObjectId>      window,
   <ComponentId>   gadget,
   unsigned int  <new_flags_settings=>gadgets_constants>

@@ -4,4 +4,4 @@ colourdbox_set_colour Flags
 Command:	<colourdbox_set_colour>
 #Line
 #Wrap off
-Bits:	0	- Set means select the None option.
+Bits:	0	- Set means select the None option. (when bit 1 set)

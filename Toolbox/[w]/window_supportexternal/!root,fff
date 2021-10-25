@@ -1,0 +1,34 @@
+Window_SupportExternal (0x82887)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_SupportExternal
+Veneer:
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 =  flags
+	(should be zero unless other information is provided)
+r1 =  reason code
+#indent 10
+0 <CreateIcon=>window_supportexternal0>
+1 unknown
+2 <CreateObject=>window_supportexternal2>
+3 <CreateGadget=>window_supportexternal3>
+4 <MemAllocate=>window_supportexternal4>
+5 <MemFree=>window_supportexternal5>
+6 <MemExtent=>window_supportexternal6>
+#indent
+r2... code secific
+{f}
+#indent
+On exit:
+#indent 6
+Depends on reason code
+#indent
+#Wrap
+
+Purpose:	This SWI provides various function calls that are of use to extension modules.

@@ -6,5 +6,5 @@ PopupMenu Data Types
 {/}PopupMenu Data Types{/}
 #Align left
 
-<Popup>
-<PopupAboutToBeShownEvent>
+<PopUp>
+<PopUpAboutToBeShownEvent>

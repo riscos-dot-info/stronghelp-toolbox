@@ -10,7 +10,7 @@ Syntax:
 {FCode}typedef struct
 \{  
   <BBox=>bbox> bbox;
-  unsigned int flags;
+  unsigned int <flags=>wimpiconblock_flags>;
   <WimpIconData=>wimpicondata> data;
 } WimpIconBlock;
 {F}

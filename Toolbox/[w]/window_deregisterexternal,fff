@@ -1,0 +1,24 @@
+Window_DeregisterExternal (0x82886)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_DeregisterExternal
+Veneer:	deregister_gadget_type (GLib)
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 = type of Gadget to deregister
+r2 = GadGet SWI number that handled it
+{f}
+#indent
+On exit:
+#indent 6
+All registers preserved
+#indent
+#Wrap
+
+Purpose:	Method deregisters the gadget of the given type

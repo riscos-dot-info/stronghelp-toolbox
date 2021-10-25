@@ -8,8 +8,8 @@ Syntax:
 #indent 6
 {fcode}typedef struct
 \{
-  unsigned int    flags;
-  int             type;
+  unsigned int    <flags=>gadgetheader_flags>;
+  int             <type=>gadget_get_type_types>;
   <BBox>            box;
   <ComponentId>     component_id;
   char            *help_message;

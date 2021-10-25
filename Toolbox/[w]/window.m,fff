@@ -43,6 +43,10 @@ Window module
 <Window_GetPointerInfo>
 <Window_WimpToToolbox>
 <Window_ExtractGadgetInfo>
+<Window_RegisterExternal>
+<Window_DeregisterExternal>
+<Window_SupportExternal>
+<Window_PlotGadget>
 #EnDTable
 
 {*}Events:{*}

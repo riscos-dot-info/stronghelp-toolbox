@@ -8,7 +8,7 @@ Syntax:
 #indent 6
 {FCode}extern <_kernel_oserror> *event_set_mask
 (
-  unsigned int mask
+  unsigned int <mask=>Wimp:Wimp_.Poll.mask>
 );
 
 {F}

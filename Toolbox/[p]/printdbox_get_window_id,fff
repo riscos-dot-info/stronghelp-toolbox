@@ -16,4 +16,4 @@ Syntax:
 {F}
 #indent
 #Wrap
-Purpose:	Function returns the ID of the underlying Window object used for the ProgInfo object.
+Purpose:	Function returns the ID of the underlying Window object used for the PrintDbox object.

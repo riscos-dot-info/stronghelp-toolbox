@@ -16,21 +16,21 @@ Syntax:
    struct
     \{  
         char *buffer;
-        char *validation;
+        char *<validation=>Wimp:Wimp_.validationstring>;
         int   buffer_size;
     } it;
 
     struct
     \{  
-        void *sprite;
-        void *sprite_area;
+        void *<sprite=>OS:os_spriteop_ptr>;
+        void *<sprite_area=>OS:os_spriteop_area>;
         int   sprite_name_length;
     } is;
 
     struct
     \{  
         char *buffer;
-        char *validation;
+        char *<validation=>Wimp:Wimp_.validationstring>;
         int   buffer_size;
     } ist;
 

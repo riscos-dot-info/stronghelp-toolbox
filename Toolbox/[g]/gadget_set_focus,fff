@@ -16,4 +16,4 @@ Syntax:
 {F}
 #indent
 #Wrap
-Purpose:	Function sets the input focus to the given component in the window.  THIS MUST BE A WRITABLE FIELD.
+Purpose:	Function sets the input focus to the given component in the window.

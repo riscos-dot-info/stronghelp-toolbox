@@ -1,4 +1,4 @@
-Popup_AboutToBeShown 0x8288b
+PopUp_AboutToBeShown 0x8288b
 #include Style
 #Background wimp 1
 Header:	<Gadgets.H=>gadgets>

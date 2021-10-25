@@ -8,7 +8,7 @@ Syntax:
 #indent 6
 {FCode}<_kernel_oserror> *event_register_message_handler 
 (
-  int                 msg_no, 
+  int                 <msg_no=>Wimp:Msg_>, 
   <WimpMessageHandler> *handler, 
   void               *handle
 );

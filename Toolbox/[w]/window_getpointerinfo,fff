@@ -13,7 +13,6 @@ On Entry:
 {FCode}r0 = flags
 {f}
 #indent
-
 On exit:
 #indent 6
 {FCode}r0 = x position

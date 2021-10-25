@@ -1,14 +1,14 @@
 ColourDboxTemplate Data Type
 #include Style
 #Background wimp 1
-Defined In:	<colourdbox..h=>col-d_class>
+Defined In:	<colourdbox.h=>col-d_class>
 #Line
 #Wrap off
 Syntax:	
 #indent 6
 {fcode}typedef struct
 \{
-  unsigned int  flags;
+  unsigned int  <flags=>col-d_class_flags>;
   char          *title;
   int           max_title;
   unsigned int  colour;

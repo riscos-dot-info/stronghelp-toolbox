@@ -1,0 +1,30 @@
+Window_RegisterExternal (0x82885)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:	Window_RegisterExternal
+Veneer:	register_gadget_types (GLib)
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+r1 -> types
+#indent 10
++0	type
++4	valid flags
++8	features mask
++12n	-1 (terminator)
+#indent
+r2 = GadGet SWI number
+{f}
+#indent
+On exit:
+#indent 6
+{/}unknown at the moment{/}
+#indent
+#Wrap
+
+Purpose:	Method registers new gadgets provided in the list.

@@ -9,7 +9,7 @@ Syntax:	extern _kernel_oserror *gadget_get_type
 		unsigned int flags,
 		<ObjectId=>objectid> window,
 		<ComponentId=>componentid> gadget,
-		int <*type=>gadget_get_type_types>
+		int *<type=>gadget_get_type_types>
 		);
 
 #Wrap

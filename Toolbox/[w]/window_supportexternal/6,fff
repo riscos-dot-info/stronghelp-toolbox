@@ -1,0 +1,24 @@
+MemExtent (6)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:
+Veneer:	mem_extent (GLib)
+#indent
+
+On Entry:
+#indent 6
+{FCode}r1 = 6 (MemExtent)
+r2-> memory
+r3 = change in size
+{f}
+#indent
+On exit:
+#indent 6
+r0 = pointer to memory of NULL if extend failed
+#indent
+
+#Wrap
+Purpose:	This call reallocates memory that was previously allocated by the Window modules allocator. The change may be positive or negative to grow or shrink the block accordingly. Note that the pointer to the block may have to change and this is returned in R0.

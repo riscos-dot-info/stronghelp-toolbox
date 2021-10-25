@@ -15,7 +15,6 @@ r1 = window object ID
 r2 = 14
 {f}
 #indent
-
 On exit:
 #indent 6
 {FCode}r0 = component ID

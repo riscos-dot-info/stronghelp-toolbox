@@ -1,0 +1,23 @@
+MemAllocate (4)
+#include Style
+#Background wimp 1
+Module:	<Window=>window/m>
+#Line
+#Wrap off
+Syntax:
+Veneer:	mem_allocate (GLib)
+#indent
+
+On Entry:
+#indent 6
+{FCode}r1 = 4 (MemAllocate)
+r2 = amount
+{f}
+#indent
+On exit:
+#indent 6
+{FCode}r0 = pointer to memory or NULL if failed
+{f}
+#indent
+#Wrap
+Purpose:	This call allocates memory from the Window modules allocator.

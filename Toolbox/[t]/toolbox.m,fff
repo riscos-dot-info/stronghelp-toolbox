@@ -26,6 +26,9 @@ Toolbox module
 <Toolbox_SetClientHandle>
 <Toolbox_ShowObject>
 <Toolbox_TemplateLookup>
+<Toolbox_RegisterObjectModule>
+<Toolbox_RegisterPreFilter>
+<Toolbox_RegisterPostFilter>
 #EnDTable
 #Line
 

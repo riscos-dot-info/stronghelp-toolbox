@@ -1,0 +1,107 @@
+GadgetHeader flags
+#include Style
+#Background wimp 1
+#Wrap off
+bit:  	*Action buttons*
+#Line
+0	this is the Default action button
+1	this is the Cancel action button
+2	this is a local action button
+3	if set, then the 'click show' object will be shown transiently
+
+	*Adjuster arrows*
+#Line
+0	set => increment
+	clear => decrement
+1	set => one of an 'up/down/ pair
+	clear => one of a 'left/right' pair
+
+	*Buttons*
+#Line
+0	Use task's sprite area for sprite only buttons
+1	return menu clicks
+
+	*Display fields*
+#Line
+1-2	justification: 0 => left  1 => right  2 => centred
+
+	*Draggables*
+#Line
+0	Warn of drag start using <Draggable_DragStarted>
+1	draggable contains sprite
+2	draggable contains text
+3-5	Draggable type:
+	  0 => drag only
+	  1 => click, drag, doubleclick
+	  2 => click selected, doubleclick, drag
+6	deliver drag ended events as Toolbox id's (if possible)
+7	dragged object has a drop shadow (if solid)
+8	dragged object is not dithered (if solid)
+
+	*Labels*
+#Line
+0	omit bounding box
+1-2	justification: 0 => left  1 => right  2 => centred
+
+	*Labeled boxes*
+#Line
+0	labeled box has a sprite label
+1	if set, the icons is filled (if bit 0)
+
+	*Number ranges*
+#Line
+0	inform client of value changes using <NumberRange_ValueChanged>
+1	reserved
+2	set writable, clear read-only
+3	no display area
+4	has adjuster arrows
+5-7	slider type:
+	  0 => no slide
+	  1 => slider to the right of the display area
+	  2 => slider to the left of the display area
+8-9	justification: 0 => left  1 => right  2 => centred
+12-15	desktop colour of slider bar
+16-19	desktop colour of slider background
+
+	*Option buttons*
+#Line
+0	generate a <OptionButton_StateChanged> when user clicks
+1	reserved
+2	button is selected
+
+	*PopUp menus*
+#Line
+0	warn using <PopUp_AboutToBeShown>
+
+	*Radio buttons*
+#Line
+0	generate a <RadioButton_StateChanged> when user clicks
+1	reserved
+2	radio button is selected
+
+	*Sliders*
+#Line
+0	deliver value changes using <Slider_ValueChanged> when user clicks/drags
+1	deliver value changes using <Slider_ValueChanged> whilst dragging
+2	reserved
+3	slider is vertical
+4	bar is draggable/clickable
+5-11	reserved
+12-15	the desktop colour of the bar
+16-19	the desktop colour of the background
+
+	*String sets*
+#Line
+0	inform client of value changes using <StringSet_ValueChanged>
+1	writable
+2	reserved
+3	inform client before showing the menu using <StringSet_AboutToBeShown>
+4	does not have any display field or writable
+5-6	justification: 0 => left  1 => right  2 => centred
+
+	*Writable fields*
+#Line
+0	inform of value changes using <WritableField_ValueChanged>
+1	reserved
+2-3	justification: 0 => left  1 => right  2 => centred
+4	do not disply text (password support)

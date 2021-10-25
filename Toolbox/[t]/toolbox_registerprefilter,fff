@@ -1,0 +1,33 @@
+Toolbox_RegisterPreFilter (&44efe)
+#include Style
+#Background wimp 1
+Module:	<Toolbox=>toolbox/m>
+#Line
+#Wrap off
+Syntax:	Toolbox_RegisterPreFilter
+Veneer:	\<none\>
+#indent
+
+On Entry:
+#indent 6
+{FCode}r0 = flags
+	bit 0 set means no longer interested in being called
+	by pre-filter, for the given value in R2.
+r1 = SWI number to be called by filter
+r2 = one-word value to be passed to the SWI (in R2).
+{f}
+#indent
+On Exit:
+#indent 6
+{FCode}r1-r9 preserved.
+{f}
+#indent
+#Wrap
+Purpose:
+#indent 6
+This SWI is used indicate that a particular SWI is to be called before the
+Toolbox PreFilter allows SWI Wimp_Poll to continue.
+#indent
+#Align Centre
+
+{*}For more information, please read Application Notes 281{*}

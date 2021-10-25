@@ -10,7 +10,7 @@ Syntax:
 {FCode}int wimp_report_error
 (
   <_kernel_oserror> *er,
-  int              flags,
+  int              <flags=>Wimp:Wimp_ReportError0>,
   char            *name, 
   ...
 );
